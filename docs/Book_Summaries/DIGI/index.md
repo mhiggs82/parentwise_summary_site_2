@@ -1,39 +1,12 @@
-# Welcome to ParentWise Summaries
+# Digital Parenting (DIGI)
 
-**Empathetic • Focused • Expert-Backed**
+Browse our collection of curated summaries focused on **digital parenting**.
 
-Search hundreds of curated book summaries to find the specific guidance you need for your parenting journey.
+### Summaries in this Category
 
----
-
-### 🔍 Quick Start
-Use the search bar above or browse by category below to get started.
-
-<div class="grid cards" box-shadow>
-
--   **[Communication](Book_Summaries/COMM/index.md)**
-    [:material-chat: Efficient dialogue strategies.](Book_Summaries/COMM/index.md)
-
--   **[Foundational Skills](Book_Summaries/FOUND/index.md)**
-    [:material-brain: Core psychological principles.](Book_Summaries/FOUND/index.md)
-
--   **[Mental Health](Book_Summaries/MENT/index.md)**
-    [:material-heart-pulse: Resilience and emotional support.](Book_Summaries/MENT/index.md)
-
--   **[Teen Parenting](Book_Summaries/TEEN/index.md)**
-    [:material-account-group: Navigating the adolescent years.](Book_Summaries/TEEN/index.md)
-
-</div>
-
----
-
-### Recent Updates
-*Latest insights added to the library:*
-
-- **[Troublemakers by Carla Shalaby](Book_Summaries/SPEC/SPEC-014 - Troublemakers by Carla Shalaby.md)**
-- **[Reparenting the Child Who Hurts](Book_Summaries/SPEC/SPEC-013 - Reparenting the Child Who Hurts: A Guide to Healing Developmental Trauma and Attachments by Caroline Archer and Christine Gordon.md)**
-- **[After the Tears](Book_Summaries/MISC/MISC-001 - After the Tears by Jane Middelton-Moz.md)**
-
----
-
-*Need help? Contact our support or visit [getparentwise.com](https://getparentwise.com).*
+*   [Tech-Savvy Parenting: A Guide to Raising Safe Children in a Digital World by Nikki Bush and Arthur Goldstuck](DIGI-001 - Tech-Savvy Parenting: A Guide to Raising Safe Children in a Digital World by Nikki Bush and Arthur Goldstuck.md)
+*   [The Tech Diet for Your Child & Teen by Brad Marshall](DIGI-002 - The Tech Diet for Your Child & Teen by Brad Marshall.md)
+*   [Social Media Wellness: Helping Tweens and Teens Thrive in an Unbalanced Digital World by Ana Homayoun](DIGI-003 - Social Media Wellness: Helping Tweens and Teens Thrive in an Unbalanced Digital World by Ana Homayoun.md)
+*   [Unplug Your Kids from the Digital World by Iovana Yao](DIGI-004 - Unplug Your Kids from the Digital World by Iovana Yao.md)
+*   [Raising Humans in a Digital World by Michele Borba and Diana Graber](DIGI-005 - Raising Humans in a Digital World by Michele Borba and Diana Graber.md)
+*   [Anything But My Phone, Mom! by Roni Cohen-Sandler](DIGI-006 - Anything But My Phone, Mom! by Roni Cohen-Sandler.md)

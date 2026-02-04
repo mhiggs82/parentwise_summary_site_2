@@ -1,39 +1,23 @@
-# Welcome to ParentWise Summaries
+# Life Skills (LIFE)
 
-**Empathetic • Focused • Expert-Backed**
+Browse our collection of curated summaries focused on **life skills**.
 
-Search hundreds of curated book summaries to find the specific guidance you need for your parenting journey.
+### Summaries in this Category
 
----
-
-### 🔍 Quick Start
-Use the search bar above or browse by category below to get started.
-
-<div class="grid cards" box-shadow>
-
--   **[Communication](Book_Summaries/COMM/index.md)**
-    [:material-chat: Efficient dialogue strategies.](Book_Summaries/COMM/index.md)
-
--   **[Foundational Skills](Book_Summaries/FOUND/index.md)**
-    [:material-brain: Core psychological principles.](Book_Summaries/FOUND/index.md)
-
--   **[Mental Health](Book_Summaries/MENT/index.md)**
-    [:material-heart-pulse: Resilience and emotional support.](Book_Summaries/MENT/index.md)
-
--   **[Teen Parenting](Book_Summaries/TEEN/index.md)**
-    [:material-account-group: Navigating the adolescent years.](Book_Summaries/TEEN/index.md)
-
-</div>
-
----
-
-### Recent Updates
-*Latest insights added to the library:*
-
-- **[Troublemakers by Carla Shalaby](Book_Summaries/SPEC/SPEC-014 - Troublemakers by Carla Shalaby.md)**
-- **[Reparenting the Child Who Hurts](Book_Summaries/SPEC/SPEC-013 - Reparenting the Child Who Hurts: A Guide to Healing Developmental Trauma and Attachments by Caroline Archer and Christine Gordon.md)**
-- **[After the Tears](Book_Summaries/MISC/MISC-001 - After the Tears by Jane Middelton-Moz.md)**
-
----
-
-*Need help? Contact our support or visit [getparentwise.com](https://getparentwise.com).*
+*   [The Me, Me, Me Epidemic: A Step-by-Step Guide to Raising Capable, Grateful Kids in an Over-Entitled World by Amy McCready](LIFE-001 - The Me, Me, Me Epidemic: A Step-by-Step Guide to Raising Capable, Grateful Kids in an Over-Entitled World by Amy McCready.md)
+*   [The Entitlement Trap by Richard and Linda Eyre](LIFE-002 - The Entitlement Trap by Richard and Linda Eyre.md)
+*   [Raising Grateful Kids in an Entitled World: How One Family Learned That Saying No Can Lead to Life's Biggest Yes by Kristen Welch](LIFE-003 - Raising Grateful Kids in an Entitled World: How One Family Learned That Saying No Can Lead to Life's Biggest Yes by Kristen Welch.md)
+*   [Mind in the Making - The Seven Essential Life Skills Every Child Needs by Ellen Galinsky](LIFE-004 - Mind in the Making - The Seven Essential Life Skills Every Child Needs by Ellen Galinsky.md)
+*   [How Children Succeed: Grit, Curiosity, and the Hidden Power of Character by Paul Tough](LIFE-005 - How Children Succeed: Grit, Curiosity, and the Hidden Power of Character by Paul Tough.md)
+*   [Autonomy-Supportive Parenting by Emily Edlynn, PhD](LIFE-006 - Autonomy-Supportive Parenting by Emily Edlynn, PhD.md)
+*   [The Strength Switch: How the New Science of Strength-Based Parenting Can Help You and Your Child Flourish by Lea Waters, PhD](LIFE-007 - The Strength Switch: How the New Science of Strength-Based Parenting Can Help You and Your Child Flourish by Lea Waters, PhD.md)
+*   [Strengths Based Parenting: Developing the Talents of Every Child by Donald O. Clifton (with Tom Rath)](LIFE-008 - Strengths Based Parenting: Developing the Talents of Every Child by Donald O. Clifton (with Tom Rath).md)
+*   [The Gardener and the Carpenter by Alison Gopnik](LIFE-009 - The Gardener and the Carpenter by Alison Gopnik.md)
+*   [Teach Your Children Well by Madeline Levine](LIFE-010 - Teach Your Children Well by Madeline Levine.md)
+*   [The Path to Purpose by William Damon](LIFE-011 - The Path to Purpose by William Damon.md)
+*   [Passion-Driven Education by Connor Boyack](LIFE-012 - Passion-Driven Education by Connor Boyack.md)
+*   [How to Raise Entrepreneurial Kids](LIFE-013 - How to Raise Entrepreneurial Kids.md)
+*   [Raise a Genius by Laszlo Polgar](LIFE-014 - Raise a Genius by Laszlo Polgar.md)
+*   [How to Raise Successful People by Esther Wojcicki](LIFE-015 - How to Raise Successful People by Esther Wojcicki.md)
+*   [Raising Financially Fit Kids by Joline Godfrey and Kit Hinrichs](LIFE-016 - Raising Financially Fit Kids by Joline Godfrey and Kit Hinrichs.md)
+*   [Responsible and Resilient Teens by Unknown Author](LIFE-017 - Responsible and Resilient Teens by Unknown Author.md)

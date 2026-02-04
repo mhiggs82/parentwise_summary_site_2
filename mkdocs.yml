@@ -60,14 +60,14 @@ plugins:
 nav:
   - Home: index.md
   - Library:
-      - Communication: Book_Summaries/COMM/*.md
-      - Digital Parenting: Book_Summaries/DIGI/*.md
-      - Family & Relationships: Book_Summaries/FMLY/*.md
-      - Foundational Skills: Book_Summaries/FOUND/*.md
-      - Global Perspectives: Book_Summaries/GLOB/*.md
-      - Gender & Identity: Book_Summaries/GNDR/*.md
-      - Life Skills: Book_Summaries/LIFE/*.md
-      - Mental Health: Book_Summaries/MENT/*.md
-      - Special Needs: Book_Summaries/SPEC/*.md
-      - Teen Parenting: Book_Summaries/TEEN/*.md
-      - Miscellaneous: Book_Summaries/MISC/*.md
+      - Communication: Book_Summaries/COMM/
+      - Digital Parenting: Book_Summaries/DIGI/
+      - Family & Relationships: Book_Summaries/FMLY/
+      - Foundational Skills: Book_Summaries/FOUND/
+      - Global Perspectives: Book_Summaries/GLOB/
+      - Gender & Identity: Book_Summaries/GNDR/
+      - Life Skills: Book_Summaries/LIFE/
+      - Mental Health: Book_Summaries/MENT/
+      - Special Needs: Book_Summaries/SPEC/
+      - Teen Parenting: Book_Summaries/TEEN/
+      - Miscellaneous: Book_Summaries/MISC/

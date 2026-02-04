@@ -1,39 +1,19 @@
-# Welcome to ParentWise Summaries
+# Family & Relationships (FMLY)
 
-**Empathetic • Focused • Expert-Backed**
+Browse our collection of curated summaries focused on **family & relationships**.
 
-Search hundreds of curated book summaries to find the specific guidance you need for your parenting journey.
+### Summaries in this Category
 
----
-
-### 🔍 Quick Start
-Use the search bar above or browse by category below to get started.
-
-<div class="grid cards" box-shadow>
-
--   **[Communication](Book_Summaries/COMM/index.md)**
-    [:material-chat: Efficient dialogue strategies.](Book_Summaries/COMM/index.md)
-
--   **[Foundational Skills](Book_Summaries/FOUND/index.md)**
-    [:material-brain: Core psychological principles.](Book_Summaries/FOUND/index.md)
-
--   **[Mental Health](Book_Summaries/MENT/index.md)**
-    [:material-heart-pulse: Resilience and emotional support.](Book_Summaries/MENT/index.md)
-
--   **[Teen Parenting](Book_Summaries/TEEN/index.md)**
-    [:material-account-group: Navigating the adolescent years.](Book_Summaries/TEEN/index.md)
-
-</div>
-
----
-
-### Recent Updates
-*Latest insights added to the library:*
-
-- **[Troublemakers by Carla Shalaby](Book_Summaries/SPEC/SPEC-014 - Troublemakers by Carla Shalaby.md)**
-- **[Reparenting the Child Who Hurts](Book_Summaries/SPEC/SPEC-013 - Reparenting the Child Who Hurts: A Guide to Healing Developmental Trauma and Attachments by Caroline Archer and Christine Gordon.md)**
-- **[After the Tears](Book_Summaries/MISC/MISC-001 - After the Tears by Jane Middelton-Moz.md)**
-
----
-
-*Need help? Contact our support or visit [getparentwise.com](https://getparentwise.com).*
+*   [No Bad Kids by Janet Lansbury](FMLY-001 - No Bad Kids by Janet Lansbury.md)
+*   [Building Love Together in Blended Families by Gary Chapman and Ron L. Deal](FMLY-002 - Building Love Together in Blended Families by Gary Chapman and Ron L. Deal.md)
+*   [Co-Parenting from the Inside Out by Karen L. Kristjanson](FMLY-003 - Co-Parenting from the Inside Out by Karen L. Kristjanson.md)
+*   [Co-parenting with a Toxic Ex by Amy J. L. Baker and Paul R. Fine](FMLY-004 - Co-parenting with a Toxic Ex by Amy J. L. Baker and Paul R. Fine.md)
+*   [Love Out Loud by Terrell Joseph and Jarius Joseph](FMLY-005 - Love Out Loud by Terrell Joseph and Jarius Joseph.md)
+*   [Moms Moving On by Michelle Dempsey-Multack](FMLY-006 - Moms Moving On by Michelle Dempsey-Multack.md)
+*   [Preparing to Blend by Ron L. Deal](FMLY-007 - Preparing to Blend by Ron L. Deal.md)
+*   [Stepmonster by Wednesday Martin](FMLY-008 - Stepmonster by Wednesday Martin.md)
+*   [Surviving Parental Alienation by Amy J. L. Baker](FMLY-009 - Surviving Parental Alienation by Amy J. L. Baker.md)
+*   [The Family Dynamic by Susan Dominus](FMLY-010 - The Family Dynamic by Susan Dominus.md)
+*   [The Smart Stepfamily by Ron L. Deal](FMLY-011 - The Smart Stepfamily by Ron L. Deal.md)
+*   [Two Homes One Childhood by Robert E. Emery](FMLY-012 - Two Homes One Childhood by Robert E. Emery.md)
+*   [Your Place or Mine by Charlotte Schwartz](FMLY-013 - Your Place or Mine by Charlotte Schwartz.md)

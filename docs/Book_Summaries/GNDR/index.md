@@ -1,39 +1,19 @@
-# Welcome to ParentWise Summaries
+# Gender & Identity (GNDR)
 
-**Empathetic • Focused • Expert-Backed**
+Browse our collection of curated summaries focused on **gender & identity**.
 
-Search hundreds of curated book summaries to find the specific guidance you need for your parenting journey.
+### Summaries in this Category
 
----
-
-### 🔍 Quick Start
-Use the search bar above or browse by category below to get started.
-
-<div class="grid cards" box-shadow>
-
--   **[Communication](Book_Summaries/COMM/index.md)**
-    [:material-chat: Efficient dialogue strategies.](Book_Summaries/COMM/index.md)
-
--   **[Foundational Skills](Book_Summaries/FOUND/index.md)**
-    [:material-brain: Core psychological principles.](Book_Summaries/FOUND/index.md)
-
--   **[Mental Health](Book_Summaries/MENT/index.md)**
-    [:material-heart-pulse: Resilience and emotional support.](Book_Summaries/MENT/index.md)
-
--   **[Teen Parenting](Book_Summaries/TEEN/index.md)**
-    [:material-account-group: Navigating the adolescent years.](Book_Summaries/TEEN/index.md)
-
-</div>
-
----
-
-### Recent Updates
-*Latest insights added to the library:*
-
-- **[Troublemakers by Carla Shalaby](Book_Summaries/SPEC/SPEC-014 - Troublemakers by Carla Shalaby.md)**
-- **[Reparenting the Child Who Hurts](Book_Summaries/SPEC/SPEC-013 - Reparenting the Child Who Hurts: A Guide to Healing Developmental Trauma and Attachments by Caroline Archer and Christine Gordon.md)**
-- **[After the Tears](Book_Summaries/MISC/MISC-001 - After the Tears by Jane Middelton-Moz.md)**
-
----
-
-*Need help? Contact our support or visit [getparentwise.com](https://getparentwise.com).*
+*   [Raising Emotionally Strong Boys by David Thomas](GNDR-001 - Raising Emotionally Strong Boys by David Thomas.md)
+*   [Strong and Smart by David Scott Thomas](GNDR-002 - Strong and Smart by David Scott Thomas.md)
+*   [Better Dads Stronger Sons by Rick I Johnson](GNDR-003 - Better Dads Stronger Sons by Rick I Johnson.md)
+*   [Strong Fathers Strong Daughters by Meg Meeker](GNDR-004 - Strong Fathers Strong Daughters by Meg Meeker.md)
+*   [Strong Mothers Strong Sons by Meg Meeker](GNDR-005 - Strong Mothers Strong Sons by Meg Meeker.md)
+*   [Bringing Up Boys by James C. Dobson](GNDR-006 - Bringing Up Boys by James C. Dobson.md)
+*   [Raising Cain by Dan Kindlon and Michael Thompson](GNDR-007 - Raising Cain by Dan Kindlon and Michael Thompson.md)
+*   [The Boy Crisis by Warren Farrell and John Gray](GNDR-008 - The Boy Crisis by Warren Farrell and John Gray.md)
+*   [Boys and Girls Learn Differently!: A Guide for Teachers and Parents by Michael Gurian with Kathy Stevens, Patricia Henley, and Terry Trueman](GNDR-009 - Boys and Girls Learn Differently!: A Guide for Teachers and Parents by Michael Gurian with Kathy Stevens, Patricia Henley, and Terry Trueman.md)
+*   [The Conscious Parent's Guide to Raising Boys by Cheryl Erwin and Jennifer Costa](GNDR-010 - The Conscious Parent's Guide to Raising Boys by Cheryl Erwin and Jennifer Costa.md)
+*   [The Conscious Parent's Guide to Special Needs by Erika Shearin Karres and Rebecca Branstetter](GNDR-011 - The Conscious Parent's Guide to Special Needs by Erika Shearin Karres and Rebecca Branstetter.md)
+*   [Of Boys and Men by Richard V. Reeves](GNDR-012 - Of Boys and Men by Richard V. Reeves.md)
+*   [Notes on Being a Man by Scott Galloway](GNDR-013 - Notes on Being a Man by Scott Galloway.md)

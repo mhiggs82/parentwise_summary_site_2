@@ -1,39 +1,31 @@
-# Welcome to ParentWise Summaries
+# Foundational Skills (FOUND)
 
-**Empathetic • Focused • Expert-Backed**
+Browse our collection of curated summaries focused on **foundational skills**.
 
-Search hundreds of curated book summaries to find the specific guidance you need for your parenting journey.
+### Summaries in this Category
 
----
-
-### 🔍 Quick Start
-Use the search bar above or browse by category below to get started.
-
-<div class="grid cards" box-shadow>
-
--   **[Communication](Book_Summaries/COMM/index.md)**
-    [:material-chat: Efficient dialogue strategies.](Book_Summaries/COMM/index.md)
-
--   **[Foundational Skills](Book_Summaries/FOUND/index.md)**
-    [:material-brain: Core psychological principles.](Book_Summaries/FOUND/index.md)
-
--   **[Mental Health](Book_Summaries/MENT/index.md)**
-    [:material-heart-pulse: Resilience and emotional support.](Book_Summaries/MENT/index.md)
-
--   **[Teen Parenting](Book_Summaries/TEEN/index.md)**
-    [:material-account-group: Navigating the adolescent years.](Book_Summaries/TEEN/index.md)
-
-</div>
-
----
-
-### Recent Updates
-*Latest insights added to the library:*
-
-- **[Troublemakers by Carla Shalaby](Book_Summaries/SPEC/SPEC-014 - Troublemakers by Carla Shalaby.md)**
-- **[Reparenting the Child Who Hurts](Book_Summaries/SPEC/SPEC-013 - Reparenting the Child Who Hurts: A Guide to Healing Developmental Trauma and Attachments by Caroline Archer and Christine Gordon.md)**
-- **[After the Tears](Book_Summaries/MISC/MISC-001 - After the Tears by Jane Middelton-Moz.md)**
-
----
-
-*Need help? Contact our support or visit [getparentwise.com](https://getparentwise.com).*
+*   [Good Inside by Becky Kennedy](FOUND-001 - Good Inside by Becky Kennedy.md)
+*   [The Power of Showing Up by Daniel Siegel and Tina Payne Bryson](FOUND-002 - The Power of Showing Up by Daniel Siegel and Tina Payne Bryson.md)
+*   [The Whole-Brain Child by Daniel Siegel and Tina Payne Bryson](FOUND-003 - The Whole-Brain Child by Daniel Siegel and Tina Payne Bryson.md)
+*   [No-Drama Discipline by Daniel Siegel and Tina Payne Bryson](FOUND-004 - No-Drama Discipline by Daniel Siegel and Tina Payne Bryson.md)
+*   [Parenting from the Inside Out by Mary Hartzell and Daniel Siegel](FOUND-005 - Parenting from the Inside Out by Mary Hartzell and Daniel Siegel.md)
+*   [Peaceful Parent Happy Kids by Laura Markham](FOUND-006 - Peaceful Parent Happy Kids by Laura Markham.md)
+*   [Peaceful Parent Happy Siblings by Laura Markham](FOUND-007 - Peaceful Parent Happy Siblings by Laura Markham.md)
+*   [Hold On to Your Kids by Gordon Neufeld and Gabor Mate](FOUND-008 - Hold On to Your Kids by Gordon Neufeld and Gabor Mate.md)
+*   [How to Raise Kids Who Aren't Assholes by Melinda Wenner Moyer](FOUND-009 - How to Raise Kids Who Aren't Assholes by Melinda Wenner Moyer.md)
+*   [Brain-Body Parenting by Mona Delahooke](FOUND-010 - Brain-Body Parenting by Mona Delahooke.md)
+*   [Simplicity Parenting by Kim John Payne and Lisa M. Ross](FOUND-011 - Simplicity Parenting by Kim John Payne and Lisa M. Ross.md)
+*   [The Soul of Discipline by Kim John Payne](FOUND-012 - The Soul of Discipline by Kim John Payne.md)
+*   [Raising Happiness by Christine Carter](FOUND-013 - Raising Happiness by Christine Carter.md)
+*   [Raising Human Beings by Ross Greene](FOUND-014 - Raising Human Beings by Ross Greene.md)
+*   [The Explosive Child by Ross Greene](FOUND-015 - The Explosive Child by Ross Greene.md)
+*   [Playful Parenting by Lawrence Cohen](FOUND-016 - Playful Parenting by Lawrence Cohen.md)
+*   [Parent Effectiveness Training by Thomas Gordon](FOUND-017 - Parent Effectiveness Training by Thomas Gordon.md)
+*   [The Book You Wish Your Parents Had Read by Philippa Perry (2)](FOUND-018 - The Book You Wish Your Parents Had Read by Philippa Perry (2).md)
+*   [Parenting with Presence by Susan Stiffelman](FOUND-019 - Parenting with Presence by Susan Stiffelman.md)
+*   [How to Be a Happier Parent by KJ DellAntonia](FOUND-020 - How to Be a Happier Parent by KJ DellAntonia.md)
+*   [The Parents We Mean to Be by Richard Weissbourd](FOUND-021 - The Parents We Mean to Be by Richard Weissbourd.md)
+*   [Parenting with a Story by Paul Smith](FOUND-022 - Parenting with a Story by Paul Smith.md)
+*   [Unconditional Parenting by Alfie Kohn](FOUND-023 - Unconditional Parenting by Alfie Kohn.md)
+*   [The Myth of the Spoiled Child by Alfie Kohn](FOUND-024 - The Myth of the Spoiled Child by Alfie Kohn.md)
+*   [It Starts with You by Nicole Schwarz](FOUND-025 - It Starts with You by Nicole Schwarz.md)

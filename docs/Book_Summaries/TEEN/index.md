@@ -1,39 +1,29 @@
-# Welcome to ParentWise Summaries
+# Teen Parenting (TEEN)
 
-**Empathetic • Focused • Expert-Backed**
+Browse our collection of curated summaries focused on **teen parenting**.
 
-Search hundreds of curated book summaries to find the specific guidance you need for your parenting journey.
+### Summaries in this Category
 
----
-
-### 🔍 Quick Start
-Use the search bar above or browse by category below to get started.
-
-<div class="grid cards" box-shadow>
-
--   **[Communication](Book_Summaries/COMM/index.md)**
-    [:material-chat: Efficient dialogue strategies.](Book_Summaries/COMM/index.md)
-
--   **[Foundational Skills](Book_Summaries/FOUND/index.md)**
-    [:material-brain: Core psychological principles.](Book_Summaries/FOUND/index.md)
-
--   **[Mental Health](Book_Summaries/MENT/index.md)**
-    [:material-heart-pulse: Resilience and emotional support.](Book_Summaries/MENT/index.md)
-
--   **[Teen Parenting](Book_Summaries/TEEN/index.md)**
-    [:material-account-group: Navigating the adolescent years.](Book_Summaries/TEEN/index.md)
-
-</div>
-
----
-
-### Recent Updates
-*Latest insights added to the library:*
-
-- **[Troublemakers by Carla Shalaby](Book_Summaries/SPEC/SPEC-014 - Troublemakers by Carla Shalaby.md)**
-- **[Reparenting the Child Who Hurts](Book_Summaries/SPEC/SPEC-013 - Reparenting the Child Who Hurts: A Guide to Healing Developmental Trauma and Attachments by Caroline Archer and Christine Gordon.md)**
-- **[After the Tears](Book_Summaries/MISC/MISC-001 - After the Tears by Jane Middelton-Moz.md)**
-
----
-
-*Need help? Contact our support or visit [getparentwise.com](https://getparentwise.com).*
+*   [The Emotional Lives of Teenagers by Lisa Damour](TEEN-001 - The Emotional Lives of Teenagers by Lisa Damour.md)
+*   [Untangled by Lisa Damour](TEEN-002 - Untangled by Lisa Damour.md)
+*   [The Grown-Up's Guide to Teenage Humans by Josh Shipp](TEEN-003 - The Grown-Up's Guide to Teenage Humans by Josh Shipp.md)
+*   [Middle School Makeover by Michelle Icard](TEEN-004 - Middle School Makeover by Michelle Icard.md)
+*   [Staying Connected to Your Teenager by Michael Riera](TEEN-005 - Staying Connected to Your Teenager by Michael Riera.md)
+*   [Parenting Teens With Love and Logic by Foster Cline and Jim Fay](TEEN-006 - Parenting Teens With Love and Logic by Foster Cline and Jim Fay.md)
+*   [Parenting the New Teen in the Age of Anxiety by John Duffy](TEEN-007 - Parenting the New Teen in the Age of Anxiety by John Duffy.md)
+*   [Ready or Not by Madeline Levine](TEEN-008 - Ready or Not by Madeline Levine.md)
+*   [Congrats-You're Having a Teen by Kenneth Ginsburg](TEEN-009 - Congrats-You're Having a Teen by Kenneth Ginsburg.md)
+*   [Brainstorm by Daniel Siegel](TEEN-010 - Brainstorm by Daniel Siegel.md)
+*   [The Teenage Brain by Frances Jensen and Amy Ellis Nutt](TEEN-011 - The Teenage Brain by Frances Jensen and Amy Ellis Nutt.md)
+*   [Inventing Ourselves by Sarah-Jayne Blakemore](TEEN-012 - Inventing Ourselves by Sarah-Jayne Blakemore.md)
+*   [The Anxious Generation by Jonathan Haidt](TEEN-013 - The Anxious Generation by Jonathan Haidt.md)
+*   [The Disengaged Teen by Jenny Anderson and Rebecca Winthrop](TEEN-014 - The Disengaged Teen by Jenny Anderson and Rebecca Winthrop.md)
+*   [Who Are You and What Have You Done with My Kid by Amanda Craig](TEEN-015 - Who Are You and What Have You Done with My Kid by Amanda Craig.md)
+*   [What's My Teenager Thinking by Tanith Carey](TEEN-016 - What's My Teenager Thinking by Tanith Carey.md)
+*   [Masterminds and Wingmen by Rosalind Wiseman](TEEN-017 - Masterminds and Wingmen by Rosalind Wiseman.md)
+*   [Positive Discipline for Teenagers by Jane Nelsen and Lynn Lott](TEEN-018 - Positive Discipline for Teenagers by Jane Nelsen and Lynn Lott.md)
+*   [The Breakthrough Years by Ellen Galinsky](TEEN-019 - The Breakthrough Years by Ellen Galinsky.md)
+*   [10 to 25 by David Yeager](TEEN-020 - 10 to 25 by David Yeager.md)
+*   [Grown and Flown by Lisa Heffernan and Lisa Endlich and Mary Dell Harrington](TEEN-021 - Grown and Flown by Lisa Heffernan and Lisa Endlich and Mary Dell Harrington.md)
+*   [Parenting Gen Z by Jason Jimenez](TEEN-022 - Parenting Gen Z by Jason Jimenez.md)
+*   [Emotionally Resilient Tweens and Teens by Kim John Payne](TEEN-023 - Emotionally Resilient Tweens and Teens by Kim John Payne.md)

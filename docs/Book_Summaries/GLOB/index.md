@@ -1,39 +1,28 @@
-# Welcome to ParentWise Summaries
+# Global Perspectives (GLOB)
 
-**Empathetic • Focused • Expert-Backed**
+Browse our collection of curated summaries focused on **global perspectives**.
 
-Search hundreds of curated book summaries to find the specific guidance you need for your parenting journey.
+### Summaries in this Category
 
----
-
-### 🔍 Quick Start
-Use the search bar above or browse by category below to get started.
-
-<div class="grid cards" box-shadow>
-
--   **[Communication](Book_Summaries/COMM/index.md)**
-    [:material-chat: Efficient dialogue strategies.](Book_Summaries/COMM/index.md)
-
--   **[Foundational Skills](Book_Summaries/FOUND/index.md)**
-    [:material-brain: Core psychological principles.](Book_Summaries/FOUND/index.md)
-
--   **[Mental Health](Book_Summaries/MENT/index.md)**
-    [:material-heart-pulse: Resilience and emotional support.](Book_Summaries/MENT/index.md)
-
--   **[Teen Parenting](Book_Summaries/TEEN/index.md)**
-    [:material-account-group: Navigating the adolescent years.](Book_Summaries/TEEN/index.md)
-
-</div>
-
----
-
-### Recent Updates
-*Latest insights added to the library:*
-
-- **[Troublemakers by Carla Shalaby](Book_Summaries/SPEC/SPEC-014 - Troublemakers by Carla Shalaby.md)**
-- **[Reparenting the Child Who Hurts](Book_Summaries/SPEC/SPEC-013 - Reparenting the Child Who Hurts: A Guide to Healing Developmental Trauma and Attachments by Caroline Archer and Christine Gordon.md)**
-- **[After the Tears](Book_Summaries/MISC/MISC-001 - After the Tears by Jane Middelton-Moz.md)**
-
----
-
-*Need help? Contact our support or visit [getparentwise.com](https://getparentwise.com).*
+*   [Raising Up a Generation of Healthy Third Culture Kids by Lauren Wells](GLOB-001 - Raising Up a Generation of Healthy Third Culture Kids by Lauren Wells.md)
+*   [The Third Culture Teen by Jiwon Lee](GLOB-002 - The Third Culture Teen by Jiwon Lee.md)
+*   [Raising Multiracial Children by Farzana Nayani](GLOB-003 - Raising Multiracial Children by Farzana Nayani.md)
+*   [Raising Confident Black Kids by M.J. Fievre](GLOB-004 - Raising Confident Black Kids by M.J. Fievre.md)
+*   [The Spirit Catches You and You Fall Down by Anne Fadiman](GLOB-005 - The Spirit Catches You and You Fall Down by Anne Fadiman.md)
+*   [The Science of Raising Confident, Capable Kids by Michaeleen Doucleff](GLOB-006 - The Science of Raising Confident, Capable Kids by Michaeleen Doucleff.md)
+*   [Beyond the Tiger Mom by Maya Thiagarajan](GLOB-007 - Beyond the Tiger Mom by Maya Thiagarajan.md)
+*   [Top of the Class by Soo Kim Abboud](GLOB-008 - Top of the Class by Soo Kim Abboud.md)
+*   [Feed Your Child Right by Lynn Alexander and Yeong Boon Yee](GLOB-009 - Feed Your Child Right by Lynn Alexander and Yeong Boon Yee.md)
+*   [The Scattered Family by Cati Coe](GLOB-010 - The Scattered Family by Cati Coe.md)
+*   [Positive Psychology and Positive Education in Asia by Ronnel B. King et al](GLOB-011 - Positive Psychology and Positive Education in Asia by Ronnel B. King et al.md)
+*   [A Longitudinal Study of Authoritative Parenting by Ruoshan Xiong et al](GLOB-012 - A Longitudinal Study of Authoritative Parenting by Ruoshan Xiong et al.md)
+*   [Distinction Exclusivity and Whiteness by Pere Ayling](GLOB-013 - Distinction Exclusivity and Whiteness by Pere Ayling.md)
+*   [Emotional Resilience and the Expat Child by Julia Simens](GLOB-014 - Emotional Resilience and the Expat Child by Julia Simens.md)
+*   [Parenting Tips for Indian Parents by Deepa Chaudhury](GLOB-015 - Parenting Tips for Indian Parents by Deepa Chaudhury.md)
+*   [Parenting style coping efficacy and risk-taking by Ju et al](GLOB-016 - Parenting style coping efficacy and risk-taking by Ju et al.md)
+*   [Race Class Parenting and Childrens Leisure by Utsa Mukherjee](GLOB-017 - Race Class Parenting and Childrens Leisure by Utsa Mukherjee.md)
+*   [Safe Passage by Douglas W Ota](GLOB-018 - Safe Passage by Douglas W Ota.md)
+*   [Third Culture Kids by Ruth E Van Reken](GLOB-019 - Third Culture Kids by Ruth E Van Reken.md)
+*   [Translation and Validation of Parental Self-Efficacy by Cheng et al](GLOB-020 - Translation and Validation of Parental Self-Efficacy by Cheng et al.md)
+*   [What White Parents Should Know about Transracial Adoption by Melissa Guida-Richards](GLOB-021 - What White Parents Should Know about Transracial Adoption by Melissa Guida-Richards.md)
+*   [Parental Migration and Chinese Adolescents Friendship Networks by Li et al](GLOB-022 - Parental Migration and Chinese Adolescents Friendship Networks by Li et al.md)

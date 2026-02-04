@@ -1,39 +1,21 @@
-# Welcome to ParentWise Summaries
+# Special Needs (SPEC)
 
-**Empathetic • Focused • Expert-Backed**
+Browse our collection of curated summaries focused on **special needs**.
 
-Search hundreds of curated book summaries to find the specific guidance you need for your parenting journey.
+### Summaries in this Category
 
----
-
-### 🔍 Quick Start
-Use the search bar above or browse by category below to get started.
-
-<div class="grid cards" box-shadow>
-
--   **[Communication](Book_Summaries/COMM/index.md)**
-    [:material-chat: Efficient dialogue strategies.](Book_Summaries/COMM/index.md)
-
--   **[Foundational Skills](Book_Summaries/FOUND/index.md)**
-    [:material-brain: Core psychological principles.](Book_Summaries/FOUND/index.md)
-
--   **[Mental Health](Book_Summaries/MENT/index.md)**
-    [:material-heart-pulse: Resilience and emotional support.](Book_Summaries/MENT/index.md)
-
--   **[Teen Parenting](Book_Summaries/TEEN/index.md)**
-    [:material-account-group: Navigating the adolescent years.](Book_Summaries/TEEN/index.md)
-
-</div>
-
----
-
-### Recent Updates
-*Latest insights added to the library:*
-
-- **[Troublemakers by Carla Shalaby](Book_Summaries/SPEC/SPEC-014 - Troublemakers by Carla Shalaby.md)**
-- **[Reparenting the Child Who Hurts](Book_Summaries/SPEC/SPEC-013 - Reparenting the Child Who Hurts: A Guide to Healing Developmental Trauma and Attachments by Caroline Archer and Christine Gordon.md)**
-- **[After the Tears](Book_Summaries/MISC/MISC-001 - After the Tears by Jane Middelton-Moz.md)**
-
----
-
-*Need help? Contact our support or visit [getparentwise.com](https://getparentwise.com).*
+*   [Smart but Scattered by Peg Dawson and Richard Guare](SPEC-001 - Smart but Scattered by Peg Dawson and Richard Guare.md)
+*   [The Conscious Parent's Guide to ADHD by Rebecca Branstetter](SPEC-002 - The Conscious Parent's Guide to ADHD by Rebecca Branstetter.md)
+*   [The Conscious Parent's Guide to Asperger's Syndrome by William Stillman](SPEC-003 - The Conscious Parent's Guide to Asperger's Syndrome by William Stillman.md)
+*   [The Conscious Parent's Guide to Autism by Marci Lebowitz](SPEC-004 - The Conscious Parent's Guide to Autism by Marci Lebowitz.md)
+*   [Ausome Journey by Natalie Loveson](SPEC-005 - Ausome Journey by Natalie Loveson.md)
+*   [Dyslexia Solutions by Gregory Allan](SPEC-006 - Dyslexia Solutions by Gregory Allan.md)
+*   [Growth Mindset Workbook for Kids (Workbook)](SPEC-007 - Growth Mindset Workbook for Kids (Workbook).md)
+*   [Mindfulness Workbook for Kids (Workbook)](SPEC-008 - Mindfulness Workbook for Kids (Workbook).md)
+*   [Therapy Games (Workbook)](SPEC-009 - Therapy Games (Workbook).md)
+*   [Therapy Games for Teens (Workbook)](SPEC-010 - Therapy Games for Teens (Workbook).md)
+*   [Thriving with ADHD Workbook for Kids (Workbook)](SPEC-011 - Thriving with ADHD Workbook for Kids (Workbook).md)
+*   [7 Vital Parenting Skills for Teaching Kids With ADHD](SPEC-012 - 7 Vital Parenting Skills for Teaching Kids With ADHD.md)
+*   [Reparenting the Child Who Hurts: A Guide to Healing Developmental Trauma and Attachments by Caroline Archer and Christine Gordon](SPEC-013 - Reparenting the Child Who Hurts: A Guide to Healing Developmental Trauma and Attachments by Caroline Archer and Christine Gordon.md)
+*   [Troublemakers by Carla Shalaby](SPEC-014 - Troublemakers by Carla Shalaby.md)
+*   [Transition Planning: Voices of Chinese and Vietnamese Parents of Youth With Autism and Intellectual Disabilities by Lusa Lo, EdD and Oanh Bui, MHA, MA](SPEC-015 - Transition Planning: Voices of Chinese and Vietnamese Parents of Youth With Autism and Intellectual Disabilities by Lusa Lo, EdD and Oanh Bui, MHA, MA.md)
