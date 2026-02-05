@@ -20,8 +20,9 @@ export default function BookSummary({ data }) {
                 boxShadow: '0 10px 30px rgba(0, 0, 0, 0.2)',
                 position: 'relative',
                 overflow: 'hidden',
-                scrollMarginTop: '100px'
+                scrollMarginTop: '25vh'
             }}>
+
                 {/* Glow background effect */}
                 <div style={{
                     position: 'absolute',
@@ -117,8 +118,9 @@ export default function BookSummary({ data }) {
                 backgroundColor: 'rgba(124, 91, 255, 0.05)',
                 borderRadius: '20px',
                 border: '1px dashed var(--pw-purple-glow)',
-                scrollMarginTop: '100px'
+                scrollMarginTop: '25vh'
             }}>
+
                 <div style={{ display: 'flex', gap: '20px', alignItems: 'start' }}>
                     <div style={{
                         width: '48px',
@@ -143,7 +145,8 @@ export default function BookSummary({ data }) {
             </section>
 
             {/* Analysis & Insights Section */}
-            <section id="analysis" style={{ marginBottom: '80px', scrollMarginTop: '100px' }}>
+            <section id="analysis" style={{ marginBottom: '80px', scrollMarginTop: '25vh' }}>
+
                 <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '40px' }}>
                     <h2 style={{ fontSize: '32px', fontWeight: '800', margin: 0 }}>Analysis & Insights</h2>
                     <div style={{ flex: 1, height: '1px', background: 'linear-gradient(to right, var(--pw-border), transparent)' }}></div>
@@ -157,8 +160,9 @@ export default function BookSummary({ data }) {
                             padding: '40px',
                             border: '1px solid var(--pw-border)',
                             boxShadow: '0 4px 20px rgba(0, 0, 0, 0.15)',
-                            scrollMarginTop: '100px'
+                            scrollMarginTop: '25vh'
                         }}>
+
                             <h2 id={slugify(item.heading)} style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: 'var(--pw-text-main)' }}>
                                 {item.heading}
                             </h2>
@@ -220,7 +224,8 @@ export default function BookSummary({ data }) {
             </section>
 
             {/* Actionable Framework Section */}
-            <section id="actions" style={{ marginBottom: '80px', scrollMarginTop: '100px' }}>
+            <section id="actions" style={{ marginBottom: '80px', scrollMarginTop: '25vh' }}>
+
                 <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '40px' }}>
                     <h2 style={{ fontSize: '32px', fontWeight: '800', margin: 0, color: 'var(--pw-success)' }}>Actionable Framework</h2>
                     <div style={{ flex: 1, height: '1px', background: 'linear-gradient(to right, var(--pw-success), transparent)', opacity: 0.3 }}></div>
@@ -234,8 +239,9 @@ export default function BookSummary({ data }) {
                             padding: '40px',
                             border: '1px solid var(--pw-border)',
                             boxShadow: '0 4px 20px rgba(0, 0, 0, 0.15)',
-                            scrollMarginTop: '100px'
+                            scrollMarginTop: '25vh'
                         }}>
+
                             <h3 id={slugify(item.title)} style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: 'var(--pw-success)' }}>
                                 {item.title}
                             </h3>
