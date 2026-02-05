@@ -1,11 +1,36 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import { useLocation } from '@docusaurus/router';
 
 export default function BookSummary({ data }) {
+    const location = useLocation();
+    const [activeTab, setActiveTab] = useState('analysis');
+
+    useEffect(() => {
+        const hash = location.hash.replace('#', '');
+        if (!hash) return;
+
+        if (hash === 'actions' || hash.startsWith('action-')) {
+            setActiveTab('actions');
+        } else if (hash === 'analysis' || hash === 'summary-overview' || hash === 'why-it-matters') {
+            // Keep current or switch to analysis if it's the broad heading
+            if (hash === 'analysis') setActiveTab('analysis');
+        } else {
+            // Check if it's an analysis heading
+            const isAnalysisHeading = data.tabs.analysis.some(item => slugify(item.heading) === hash);
+            if (isAnalysisHeading) {
+                setActiveTab('analysis');
+            }
+        }
+    }, [location.hash, data.tabs.analysis]);
+
     if (!data) return null;
 
     const { meta, hero, why_matters, tabs } = data;
+
+    // Helper to slugify text for IDs
+    const slugify = (text) => text.toLowerCase().replace(/[^\w\s-]/g, '').replace(/[\s_]+/g, '-').trim();
 
     return (
         <div className="book-summary-container" style={{ color: 'var(--pw-text-main)' }}>
@@ -52,9 +77,15 @@ export default function BookSummary({ data }) {
                     <h1 style={{ fontSize: '36px', fontWeight: '800', lineHeight: '1.2', marginBottom: '16px', color: 'var(--pw-text-main)' }}>
                         {meta.title}
                     </h1>
-                    <p style={{ fontSize: '18px', color: 'var(--pw-text-secondary)', marginBottom: '24px', maxWidth: '800px' }}>
+                    <p style={{ fontSize: '18px', color: 'var(--pw-text-secondary)', marginBottom: '12px', maxWidth: '800px' }}>
                         {meta.subtitle}
                     </p>
+
+                    {meta.authors && (
+                        <p style={{ fontSize: '16px', color: 'var(--pw-text-tertiary)', marginBottom: '24px', fontWeight: '500' }}>
+                            By {meta.authors.join(', ')}
+                        </p>
+                    )}
 
                     <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', marginBottom: '32px' }}>
                         {meta.tags.map((tag, idx) => (
@@ -134,12 +165,12 @@ export default function BookSummary({ data }) {
             </section>
 
             {/* Main Content Tabs */}
-            <Tabs className="pw-tabs">
+            <Tabs className="pw-tabs" value={activeTab} onChange={({ value }) => setActiveTab(value)}>
                 <TabItem value="analysis" label="Analysis & Insights">
                     <div id="analysis" style={{ display: 'flex', flexDirection: 'column', gap: '40px', paddingTop: '20px' }}>
                         {tabs.analysis.map((item, idx) => (
                             <div key={idx} className="analysis-item">
-                                <h2 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: 'var(--pw-text-main)' }}>
+                                <h2 id={slugify(item.heading)} style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: 'var(--pw-text-main)' }}>
                                     {item.heading}
                                 </h2>
                                 <p style={{ fontSize: '16px', lineHeight: '1.7', color: 'var(--pw-text-secondary)', marginBottom: '24px' }}>
@@ -179,7 +210,7 @@ export default function BookSummary({ data }) {
                                 padding: '32px',
                                 border: '1px solid var(--pw-border)'
                             }}>
-                                <h3 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: 'var(--pw-success)' }}>
+                                <h3 id={`action-${idx}`} style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: 'var(--pw-success)' }}>
                                     {item.title}
                                 </h3>
                                 <p style={{ fontSize: '15px', color: 'var(--pw-text-secondary)', marginBottom: '24px' }}>
