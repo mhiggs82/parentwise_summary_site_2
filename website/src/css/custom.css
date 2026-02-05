@@ -255,13 +255,22 @@ h3 {
 .table-of-contents__link {
   color: var(--pw-text-secondary) !important;
   font-size: 13px !important;
-  transition: all var(--transition-fast);
+  border-left: 2px solid transparent;
+  padding-left: 12px !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  display: block;
 }
 
-.table-of-contents__link:hover,
+.table-of-contents__link:hover {
+  color: var(--pw-purple) !important;
+  text-decoration: none !important;
+}
+
 .table-of-contents__link--active {
   color: var(--pw-purple) !important;
-  background: transparent !important;
+  font-weight: 600 !important;
+  border-left-color: var(--pw-purple) !important;
+  background: rgba(124, 91, 255, 0.05) !important;
 }
 
 /* Ensure the TOC container doesn't have its usual background if any */
