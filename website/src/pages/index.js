@@ -8,11 +8,24 @@ import CategoryCard from '@site/src/components/ParentWise/CategoryCard';
 import BookCard from '@site/src/components/ParentWise/BookCard';
 import HomeSearch from '@site/src/components/ParentWise/HomeSearch';
 
+// Icon mapping for categories
+const getCategoryIcon = (badge) => {
+  const icons = {
+    'FOUND': '👨‍👩‍👧‍👦',
+    'COMM': '💬',
+    'SPEC': '🌟',
+    'DIGI': '📱',
+    'DEV': '🌱',
+    'EI': '❤️'
+  };
+  return icons[badge] || '📚';
+};
+
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
 
   const categories = [
-    { badge: 'PRTG', name: 'Parenting', count: 40, description: 'General strategies, philosophies, and foundational advice for raising children.', to: '/docs/parenting' },
+    { badge: 'FOUND', name: 'Foundational', count: 40, description: 'General strategies, philosophies, and foundational advice for raising children.', to: '/docs/foundational' },
     { badge: 'COMM', name: 'Communication', count: 14, description: 'Mastering dialogue, active listening, and conflict resolution with kids.', to: '/docs/communication' },
     { badge: 'SPEC', name: 'Special Needs', count: 15, description: 'Expert guidance for ADHD, Autism, sensory processing, and unique challenges.', to: '/docs/special-needs' },
     { badge: 'DIGI', name: 'Digital', count: 6, description: 'Positive reinforcement, boundaries, and behavioral correction techniques.', to: '/docs/digital' },
@@ -36,7 +49,7 @@ export default function Home() {
 
         {/* Hero Section */}
         <section style={{ textAlign: 'center', marginBottom: '80px' }}>
-          <SophiaLogo />
+          <SophiaLogo size={120} />
           <Heading as="h1" style={{ fontSize: '48px', marginBottom: '16px' }}>
             ParentWise Actionable Summary Guides
           </Heading>
@@ -64,7 +77,7 @@ export default function Home() {
             gap: '24px'
           }}>
             {categories.map((cat, i) => (
-              <CategoryCard key={i} {...cat} />
+              <CategoryCard key={i} {...cat} icon={getCategoryIcon(cat.badge)} />
             ))}
           </div>
         </section>

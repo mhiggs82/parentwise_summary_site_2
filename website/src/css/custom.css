@@ -169,3 +169,14 @@ h3 {
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
+
+/* Hover Effects for Cards */
+.pw-card-hover {
+  transition: all 0.3s ease !important;
+}
+
+.pw-card-hover:hover {
+  transform: translateY(-4px) !important;
+  border-color: var(--pw-purple) !important;
+  box-shadow: 0 8px 20px rgba(124, 91, 255, 0.3) !important;
+}
