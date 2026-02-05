@@ -59,6 +59,10 @@
 
 /* --- Global Layout --- */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--ifm-font-family-base);
   line-height: var(--pw-line-height-body);
