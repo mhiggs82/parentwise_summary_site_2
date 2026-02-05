@@ -180,3 +180,60 @@ h3 {
   border-color: var(--pw-purple) !important;
   box-shadow: 0 8px 20px rgba(124, 91, 255, 0.3) !important;
 }
+
+/* --- Sidebar Navigation Hierarchy --- */
+
+/* Category Headers (Folders) */
+.menu__link--sublist {
+  color: var(--pw-text-main) !important;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-top: 16px !important;
+  padding-bottom: 8px !important;
+  opacity: 0.9;
+}
+
+/* Indent items within a category and add vertical guide line */
+.menu__list .menu__list {
+  margin-top: 4px;
+  border-left: 1px solid var(--pw-border);
+  margin-left: 0.75rem;
+  padding-left: 0;
+}
+
+/* Individual Book Links */
+.theme-doc-sidebar-item-link .menu__link {
+  color: var(--pw-text-secondary);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px 12px 8px 16px !important;
+  border-radius: 0 8px 8px 0;
+  transition: all var(--transition-fast);
+}
+
+.theme-doc-sidebar-item-link .menu__link:hover {
+  color: var(--pw-text-main);
+  background: rgba(124, 91, 255, 0.1) !important;
+}
+
+/* Active Book Link */
+.theme-doc-sidebar-item-link .menu__link--active {
+  color: var(--pw-purple) !important;
+  background: rgba(124, 91, 255, 0.05) !important;
+  font-weight: 600 !important;
+  border-left: 2px solid var(--pw-purple);
+  margin-left: -1px; /* Overlap the vertical guide line */
+}
+
+/* Category Toggle Arrow */
+.menu__caret:before {
+  background: var(--pw-text-tertiary);
+}
+
+.menu__link--sublist:hover {
+  background: transparent !important;
+  color: var(--pw-purple) !important;
+}
+
