@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ParentWise - Page Not Found</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#7c5cff",
+                        "background-light": "#f6f5f8",
+                        "background-dark": "#0f1116",
+                        "card-dark": "#1a1d2e",
+                        "accent-glow": "rgba(124, 91, 255, 0.15)"
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "2xl": "2rem", "full": "9999px" },
+                    boxShadow: {
+                        'glow': '0 0 40px -10px rgba(124, 91, 255, 0.3)',
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Lexend', sans-serif;
+        }
+        .leaf-glow {
+            filter: drop-shadow(0 0 20px rgba(124, 92, 255, 0.4));
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark min-h-screen flex flex-col font-display text-slate-900 dark:text-white">
+<!-- Header (Based on TopNavBar component) -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200 dark:border-[#29204b] px-6 lg:px-10 py-4 bg-white dark:bg-[#130f24]">
+<div class="flex items-center gap-4">
+<div class="size-8 text-primary">
+<span class="material-symbols-outlined text-[32px] !leading-none">local_library</span>
+</div>
+<h2 class="text-slate-900 dark:text-white text-xl font-bold leading-tight tracking-[-0.015em]">ParentWise</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-slate-600 dark:text-slate-200 hover:text-primary dark:hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Home</a>
+<a class="text-slate-600 dark:text-slate-200 hover:text-primary dark:hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Summaries</a>
+<a class="text-slate-600 dark:text-slate-200 hover:text-primary dark:hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Community</a>
+<a class="text-slate-600 dark:text-slate-200 hover:text-primary dark:hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Pricing</a>
+</div>
+<div class="bg-center bg-no-repeat bg-cover rounded-full size-10 ring-2 ring-primary/20" data-alt="User profile picture placeholder" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCvhb8L-sFOLh8m5b-ZyeD7ti1Xu-8prn1ZPjc_z5d14LIHpyiXPfppWRHlhe9RHOyqlyNpMI6cuSIEylRygDZvyE47CGFmT4rfVS1lktE67VemHnoOh0HiyXzssXRJ-nFT4KfaX87Gok26qWiLs9AqKZ3tqdfckTsHEvZDhPhC15DNFjimCu_3oZ1ChoSTwsT79Wbtpw0FP9aZJDUJ50f-RI79AJa5_SKuy6bnQaUEEtK_DbTWOgq7rTXe2NYcSx-Wb2_e63pnT7E");'></div>
+</div>
+<!-- Mobile Menu Icon -->
+<div class="md:hidden text-slate-900 dark:text-white">
+<span class="material-symbols-outlined">menu</span>
+</div>
+</header>
+<!-- Main 404 Content -->
+<main class="flex-grow flex flex-col items-center justify-center p-4 sm:p-8 relative overflow-hidden">
+<!-- Background Ambient Glow -->
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/5 rounded-full blur-[100px] -z-10 pointer-events-none"></div>
+<div class="max-w-[800px] w-full flex flex-col items-center text-center gap-8 z-10">
+<!-- Icon Section -->
+<div class="relative group">
+<div class="absolute inset-0 bg-primary/20 rounded-full blur-xl group-hover:bg-primary/30 transition-all duration-700"></div>
+<span class="material-symbols-outlined text-primary text-[80px] sm:text-[100px] relative z-10 leaf-glow opacity-90">spa</span>
+</div>
+<!-- Text Content -->
+<div class="space-y-4 max-w-xl">
+<h1 class="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 dark:text-white leading-tight">
+                    Oops! This page is lost in translation.
+                </h1>
+<p class="text-slate-600 dark:text-[#9a8dce] text-base sm:text-lg font-light leading-relaxed">
+                    Even the best parents get turned around sometimes. Let's get you back on track to finding the wisdom you need.
+                </p>
+</div>
+<!-- Recovery Grid -->
+<div class="w-full bg-white dark:bg-card-dark rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl shadow-slate-200/50 dark:shadow-none border border-slate-100 dark:border-white/5 mt-4">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+<!-- Column 1: Top Categories -->
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-2 text-primary font-semibold text-sm uppercase tracking-wider">
+<span class="material-symbols-outlined text-lg">category</span>
+                            Top Categories
+                        </div>
+<nav class="flex flex-col gap-3">
+<a class="text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-primary transition-colors text-sm flex items-center justify-between group" href="#">
+                                Newborn Care
+                                <span class="material-symbols-outlined text-[16px] opacity-0 group-hover:opacity-100 transition-opacity -translate-x-2 group-hover:translate-x-0">chevron_right</span>
+</a>
+<a class="text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-primary transition-colors text-sm flex items-center justify-between group" href="#">
+                                Toddler Discipline
+                                <span class="material-symbols-outlined text-[16px] opacity-0 group-hover:opacity-100 transition-opacity -translate-x-2 group-hover:translate-x-0">chevron_right</span>
+</a>
+<a class="text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-primary transition-colors text-sm flex items-center justify-between group" href="#">
+                                Teen Psychology
+                                <span class="material-symbols-outlined text-[16px] opacity-0 group-hover:opacity-100 transition-opacity -translate-x-2 group-hover:translate-x-0">chevron_right</span>
+</a>
+<a class="text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-primary transition-colors text-sm flex items-center justify-between group" href="#">
+                                Parental Self-Care
+                                <span class="material-symbols-outlined text-[16px] opacity-0 group-hover:opacity-100 transition-opacity -translate-x-2 group-hover:translate-x-0">chevron_right</span>
+</a>
+</nav>
+</div>
+<!-- Column 2: Quick Search -->
+<div class="flex flex-col gap-4 md:border-x md:border-slate-100 md:dark:border-white/5 md:px-6">
+<div class="flex items-center gap-2 text-primary font-semibold text-sm uppercase tracking-wider">
+<span class="material-symbols-outlined text-lg">search</span>
+                            Quick Search
+                        </div>
+<p class="text-xs text-slate-500 dark:text-slate-400">Looking for a specific book or topic?</p>
+<label class="relative w-full group cursor-text">
+<div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-slate-400 group-focus-within:text-primary transition-colors">
+<span class="material-symbols-outlined">search</span>
+</div>
+<input class="w-full bg-slate-50 dark:bg-[#130f24] text-slate-900 dark:text-white border border-slate-200 dark:border-[#29204b] text-sm rounded-lg block w-full pl-10 p-3 focus:ring-2 focus:ring-primary focus:border-primary placeholder-slate-400 dark:placeholder-slate-500 transition-all outline-none" placeholder="Find a book..." required="" type="text"/>
+</label>
+<button class="w-full mt-2 bg-slate-100 dark:bg-white/5 hover:bg-slate-200 dark:hover:bg-white/10 text-slate-700 dark:text-slate-200 text-xs font-medium py-2 px-4 rounded-lg transition-colors">
+                            Search Library
+                        </button>
+</div>
+<!-- Column 3: Popular Summaries -->
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-2 text-primary font-semibold text-sm uppercase tracking-wider">
+<span class="material-symbols-outlined text-lg">trending_up</span>
+                            Popular Now
+                        </div>
+<nav class="flex flex-col gap-3">
+<a class="group flex items-start gap-3 hover:bg-slate-50 dark:hover:bg-white/5 p-2 rounded-lg -ml-2 transition-colors" href="#">
+<div class="w-8 h-10 bg-slate-200 dark:bg-slate-700 rounded-sm flex-shrink-0 bg-cover bg-center shadow-sm" data-alt="Book cover abstract placeholder" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAyXsJruMxZ3XOnD2nQ9EaILeLgO6RpqxOqrrFD-nXNvOoA9ee_UHQJtZ_CxSy9rXcBQ0x2bO6TQBy_LWuIOBP-HdZiTO-7f6rI2NC7mcGITFoE8HawR8GCM-lilwMTd-cgavbDqqNpTkIGQFUBSexyMK0abWzkXsNaEL2yJF9ixjp47kRYVW_wAMjxQczrw9ij5L0C0DnzEklikNq6Kst4xgqDjJGmlzN1nSHn58-jTSk4REMeYY9zocMmycq9MU1Tsa96JF5MLNE')"></div>
+<div class="flex flex-col">
+<span class="text-sm font-medium text-slate-800 dark:text-slate-200 group-hover:text-primary transition-colors">The Whole-Brain Child</span>
+<span class="text-xs text-slate-500 dark:text-slate-400">Daniel J. Siegel</span>
+</div>
+</a>
+<a class="group flex items-start gap-3 hover:bg-slate-50 dark:hover:bg-white/5 p-2 rounded-lg -ml-2 transition-colors" href="#">
+<div class="w-8 h-10 bg-slate-200 dark:bg-slate-700 rounded-sm flex-shrink-0 bg-cover bg-center shadow-sm" data-alt="Book cover abstract placeholder" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAxjf32JHe6ijQ_0kj28RF6OUWMwgFW-n9zqv6gVhVLFLu4POQInCVwILd558gnA944viar3VfO2koOcwcGEPcjS83Y1PJpie2C4hQoX14LF_KYl0yD7FnlkEye95FAts2YjxO021LZSAMskVnZr7OgyjLL4hhQHEpKu1jpbwQpeqnSTdLDieZw7ki8YICUdyBwNMXP0GcQEV8ZQ8e0Y-Mmtlu-tRXK48eo7u1xoG2KNtq1--APrsTqSesx4hNljEXZ_nVgIEItI5U')"></div>
+<div class="flex flex-col">
+<span class="text-sm font-medium text-slate-800 dark:text-slate-200 group-hover:text-primary transition-colors">Hunt, Gather, Parent</span>
+<span class="text-xs text-slate-500 dark:text-slate-400">Michaeleen Doucleff</span>
+</div>
+</a>
+</nav>
+</div>
+</div>
+</div>
+<!-- CTA -->
+<div class="mt-4">
+<a class="inline-flex items-center justify-center gap-2 bg-primary hover:bg-[#6a4ce6] text-white font-semibold py-4 px-8 rounded-lg shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-all duration-300 transform hover:-translate-y-0.5" href="#">
+<span class="material-symbols-outlined">home</span>
+                    Back to Homepage
+                </a>
+</div>
+</div>
+</main>
+<!-- Simple Footer -->
+<footer class="py-6 text-center border-t border-slate-200 dark:border-[#29204b] bg-white dark:bg-[#130f24] text-slate-500 dark:text-slate-400 text-sm">
+<p>© 2024 ParentWise. All rights reserved.</p>
+</footer>
+</body></html>

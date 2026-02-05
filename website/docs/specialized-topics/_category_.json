@@ -1,0 +1,9 @@
+{
+    "label": "Specialized Topics",
+    "position": 12,
+    "link": {
+        "type": "generated-index",
+        "slug": "/specialized-topics",
+        "description": "Actionable summaries for Specialized Topics"
+    }
+}

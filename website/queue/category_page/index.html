@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Parenting Category - BookSummaryLib</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#7c5bff",
+                        "primary-dark": "#6a4ce0",
+                        "background-light": "#f6f5f8",
+                        "background-dark": "#0f1116",
+                        "card-dark": "#1a1d2e",
+                        "accent-glow": "rgba(124, 91, 255, 0.5)",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .icon-fill {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        /* Custom scrollbar for sidebar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1a1d2e; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #2f354a; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #7c5bff; 
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark min-h-screen flex flex-col font-display text-slate-900 dark:text-slate-100 overflow-x-hidden transition-colors duration-300">
+<!-- Navbar -->
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200 dark:border-[#2f354a] bg-white dark:bg-card-dark px-6 py-3 lg:px-10 shadow-sm">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-3 text-slate-900 dark:text-white cursor-pointer group">
+<span class="material-symbols-outlined text-primary text-3xl group-hover:scale-110 transition-transform">menu_book</span>
+<h2 class="text-xl font-bold leading-tight tracking-[-0.015em]">BookSummaryLib</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8 ml-4">
+<a class="text-slate-500 dark:text-slate-300 hover:text-primary dark:hover:text-primary text-sm font-medium transition-colors" href="#">Home</a>
+<a class="text-primary text-sm font-medium relative after:content-[''] after:absolute after:bottom-[-20px] after:left-0 after:w-full after:h-[2px] after:bg-primary" href="#">Categories</a>
+<a class="text-slate-500 dark:text-slate-300 hover:text-primary dark:hover:text-primary text-sm font-medium transition-colors" href="#">My Library</a>
+<a class="text-slate-500 dark:text-slate-300 hover:text-primary dark:hover:text-primary text-sm font-medium transition-colors" href="#">Pricing</a>
+</nav>
+</div>
+<div class="flex flex-1 justify-end gap-6 items-center">
+<label class="hidden md:flex flex-col min-w-40 w-full max-w-[280px]">
+<div class="relative flex w-full items-center rounded-xl bg-slate-100 dark:bg-[#0f1116] border border-transparent focus-within:border-primary/50 transition-all">
+<span class="material-symbols-outlined absolute left-3 text-slate-400">search</span>
+<input class="w-full bg-transparent py-2.5 pl-10 pr-4 text-sm text-slate-900 dark:text-white placeholder:text-slate-400 focus:outline-none border-none focus:ring-0 rounded-xl" placeholder="Search titles, authors..."/>
+</div>
+</label>
+<button class="hidden sm:flex min-w-[100px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-5 bg-primary hover:bg-primary-dark text-white text-sm font-bold shadow-[0_0_15px_rgba(124,91,255,0.3)] transition-all transform hover:translate-y-[-1px]">
+<span>Sign In</span>
+</button>
+<button class="md:hidden text-slate-900 dark:text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<!-- Main Content -->
+<main class="flex-grow w-full max-w-[1280px] mx-auto px-4 sm:px-6 py-8">
+<!-- Breadcrumbs & Header -->
+<div class="mb-8">
+<div class="flex flex-wrap items-center gap-2 mb-4 text-sm">
+<a class="text-slate-500 dark:text-[#9a8dce] hover:text-primary transition-colors" href="#">Home</a>
+<span class="text-slate-400 dark:text-[#564e76]">/</span>
+<a class="text-slate-500 dark:text-[#9a8dce] hover:text-primary transition-colors" href="#">Categories</a>
+<span class="text-slate-400 dark:text-[#564e76]">/</span>
+<span class="text-slate-900 dark:text-white font-medium">Parenting</span>
+</div>
+<div class="flex flex-wrap justify-between items-end gap-6">
+<div class="flex flex-col gap-2">
+<h1 class="text-slate-900 dark:text-white text-3xl md:text-4xl font-black tracking-tight">Parenting (PRTG)</h1>
+<p class="text-slate-500 dark:text-[#9a8dce]">Explore 45 expert summaries to navigate the journey of raising children.</p>
+</div>
+<div class="flex items-center gap-3 px-4 py-2 rounded-xl bg-primary/10 border border-primary/20 shadow-[0_0_15px_rgba(124,91,255,0.15)]">
+<span class="material-symbols-outlined text-primary icon-fill text-lg">verified</span>
+<p class="text-primary text-sm font-bold tracking-wide">PRTG BADGE</p>
+</div>
+</div>
+</div>
+<!-- Layout Grid -->
+<div class="flex flex-col lg:flex-row gap-8 items-start">
+<!-- Sidebar Filters -->
+<aside class="w-full lg:w-[280px] shrink-0 flex flex-col gap-6 sticky top-24">
+<!-- Filter Group: Topics -->
+<div class="bg-white dark:bg-card-dark rounded-xl p-5 border border-slate-200 dark:border-[#2f354a] shadow-sm">
+<div class="flex items-center gap-2 mb-4">
+<span class="material-symbols-outlined text-primary">label</span>
+<h3 class="text-slate-900 dark:text-white font-bold text-lg">Topic Tags</h3>
+</div>
+<div class="space-y-2">
+<label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 dark:hover:bg-[#252a41] cursor-pointer transition-colors group">
+<input checked="" class="w-5 h-5 rounded border-slate-300 dark:border-slate-600 text-primary focus:ring-offset-0 focus:ring-0 bg-transparent" type="checkbox"/>
+<span class="text-slate-600 dark:text-slate-300 text-sm group-hover:text-primary transition-colors">Newborns</span>
+<span class="ml-auto text-xs text-slate-400">12</span>
+</label>
+<label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 dark:hover:bg-[#252a41] cursor-pointer transition-colors group">
+<input class="w-5 h-5 rounded border-slate-300 dark:border-slate-600 text-primary focus:ring-offset-0 focus:ring-0 bg-transparent" type="checkbox"/>
+<span class="text-slate-600 dark:text-slate-300 text-sm group-hover:text-primary transition-colors">Toddlers</span>
+<span class="ml-auto text-xs text-slate-400">8</span>
+</label>
+<label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 dark:hover:bg-[#252a41] cursor-pointer transition-colors group">
+<input class="w-5 h-5 rounded border-slate-300 dark:border-slate-600 text-primary focus:ring-offset-0 focus:ring-0 bg-transparent" type="checkbox"/>
+<span class="text-slate-600 dark:text-slate-300 text-sm group-hover:text-primary transition-colors">School Age</span>
+<span class="ml-auto text-xs text-slate-400">15</span>
+</label>
+<label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 dark:hover:bg-[#252a41] cursor-pointer transition-colors group">
+<input class="w-5 h-5 rounded border-slate-300 dark:border-slate-600 text-primary focus:ring-offset-0 focus:ring-0 bg-transparent" type="checkbox"/>
+<span class="text-slate-600 dark:text-slate-300 text-sm group-hover:text-primary transition-colors">Teenagers</span>
+<span class="ml-auto text-xs text-slate-400">6</span>
+</label>
+<label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 dark:hover:bg-[#252a41] cursor-pointer transition-colors group">
+<input class="w-5 h-5 rounded border-slate-300 dark:border-slate-600 text-primary focus:ring-offset-0 focus:ring-0 bg-transparent" type="checkbox"/>
+<span class="text-slate-600 dark:text-slate-300 text-sm group-hover:text-primary transition-colors">Sleep</span>
+<span class="ml-auto text-xs text-slate-400">4</span>
+</label>
+</div>
+</div>
+<!-- Filter Group: Sort -->
+<div class="bg-white dark:bg-card-dark rounded-xl p-5 border border-slate-200 dark:border-[#2f354a] shadow-sm">
+<div class="flex items-center gap-2 mb-4">
+<span class="material-symbols-outlined text-primary">sort</span>
+<h3 class="text-slate-900 dark:text-white font-bold text-lg">Sort By</h3>
+</div>
+<div class="space-y-1">
+<label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 dark:hover:bg-[#252a41] cursor-pointer transition-colors">
+<input checked="" class="w-4 h-4 border-slate-300 dark:border-slate-600 text-primary focus:ring-offset-0 focus:ring-0 bg-transparent" name="sort" type="radio"/>
+<span class="text-slate-600 dark:text-slate-300 text-sm">Most Recently Added</span>
+</label>
+<label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 dark:hover:bg-[#252a41] cursor-pointer transition-colors">
+<input class="w-4 h-4 border-slate-300 dark:border-slate-600 text-primary focus:ring-offset-0 focus:ring-0 bg-transparent" name="sort" type="radio"/>
+<span class="text-slate-600 dark:text-slate-300 text-sm">Alphabetical (A-Z)</span>
+</label>
+<label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 dark:hover:bg-[#252a41] cursor-pointer transition-colors">
+<input class="w-4 h-4 border-slate-300 dark:border-slate-600 text-primary focus:ring-offset-0 focus:ring-0 bg-transparent" name="sort" type="radio"/>
+<span class="text-slate-600 dark:text-slate-300 text-sm">Most Popular</span>
+</label>
+</div>
+</div>
+</aside>
+<!-- Book Grid -->
+<div class="flex-1 w-full">
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+<!-- Card 1 -->
+<div class="group flex flex-col h-full bg-white dark:bg-card-dark rounded-xl overflow-hidden border border-slate-200 dark:border-[#2f354a] hover:border-primary/50 dark:hover:border-primary/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(124,91,255,0.15)]">
+<div class="h-40 w-full bg-slate-200 dark:bg-slate-800 relative overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Abstract colorful parenting book cover art with shapes" src="https://lh3.googleusercontent.com/aida-public/AB6AXuATG5NDypMrNoy8M2sXKhmeJrdNQ8dOVbiZNmykfW1AYC9owd2VipNQ7--YXdEhPlae03QkgQPihmDKFIYP-bi0WoF8Gg_TGCIji4bFnk0_Wnx-pU5MSlbyt2vB0PTp3fsIFGwSp5gmAx4R62S6xL7KG0JJ2J4v8sstabIZtdyioEzaYu3v2U8x_o9zC9s96r7tXjgQPsfOTFAjz9YsZQovbrLQRBk15YJwqFLtRouugZPvqKlDv6J7dojTMw_SCH1-GgxLSEY5f2o"/>
+<div class="absolute top-2 right-2 bg-black/60 backdrop-blur-sm text-white text-xs font-bold px-2 py-1 rounded">PRTG</div>
+</div>
+<div class="p-5 flex flex-col flex-1">
+<h3 class="text-slate-900 dark:text-white text-lg font-bold leading-snug mb-1 line-clamp-2">The Whole-Brain Child</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-medium mb-3">Daniel J. Siegel</p>
+<p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-4 line-clamp-3">Strategies to nurture your child's developing mind and help your family thrive.</p>
+<div class="mt-auto pt-4 border-t border-slate-100 dark:border-slate-800/50 flex items-center justify-between gap-4 mb-4">
+<div class="flex items-center gap-1.5 text-slate-500 dark:text-slate-400" title="Key Insights">
+<span class="material-symbols-outlined text-primary text-lg">lightbulb</span>
+<span class="text-xs font-semibold">12 Insights</span>
+</div>
+<div class="flex items-center gap-1.5 text-slate-500 dark:text-slate-400" title="Actionable Steps">
+<span class="material-symbols-outlined text-amber-400 text-lg icon-fill">bolt</span>
+<span class="text-xs font-semibold">8 Actions</span>
+</div>
+</div>
+<button class="w-full bg-slate-100 dark:bg-[#252a41] hover:bg-primary dark:hover:bg-primary text-slate-900 dark:text-white text-sm font-bold py-2.5 rounded-lg transition-colors flex items-center justify-center gap-2 group-hover:shadow-lg">
+                                View Summary
+                                <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="group flex flex-col h-full bg-white dark:bg-card-dark rounded-xl overflow-hidden border border-slate-200 dark:border-[#2f354a] hover:border-primary/50 dark:hover:border-primary/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(124,91,255,0.15)]">
+<div class="h-40 w-full bg-slate-200 dark:bg-slate-800 relative overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Minimalist book cover design with soft focus background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAs9QgWBTCYCv2IoyAVvgvOdnfiXtMbD6wUuU4ad2D0ksA2wwixRUJjgv4GQ82VktMwBznTg-VkAdbCG1riaeLg336mNjY3HeytGnSgimCtVr2W-ksKWtRzHePCxAJMj-d3atGGXFT2eNZ0_64tDdFLPa2ljefF_tQ_diiYW8UXstt3k0sQuNDbGdBQnIbHzPGwA016XxDQvjjmLWrq4sV5EZxWXdMWF0H6_N-_FB8HwaDbDKPmW6Hsw0yt_cyWnPep7m7O2ce35YE"/>
+<div class="absolute top-2 right-2 bg-black/60 backdrop-blur-sm text-white text-xs font-bold px-2 py-1 rounded">PRTG</div>
+</div>
+<div class="p-5 flex flex-col flex-1">
+<h3 class="text-slate-900 dark:text-white text-lg font-bold leading-snug mb-1 line-clamp-2">How to Talk So Kids Will Listen</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-medium mb-3">Adele Faber &amp; Elaine Mazlish</p>
+<p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-4 line-clamp-3">A practical guide to improving communication and resolving conflicts with children.</p>
+<div class="mt-auto pt-4 border-t border-slate-100 dark:border-slate-800/50 flex items-center justify-between gap-4 mb-4">
+<div class="flex items-center gap-1.5 text-slate-500 dark:text-slate-400">
+<span class="material-symbols-outlined text-primary text-lg">lightbulb</span>
+<span class="text-xs font-semibold">15 Insights</span>
+</div>
+<div class="flex items-center gap-1.5 text-slate-500 dark:text-slate-400">
+<span class="material-symbols-outlined text-amber-400 text-lg icon-fill">bolt</span>
+<span class="text-xs font-semibold">10 Actions</span>
+</div>
+</div>
+<button class="w-full bg-slate-100 dark:bg-[#252a41] hover:bg-primary dark:hover:bg-primary text-slate-900 dark:text-white text-sm font-bold py-2.5 rounded-lg transition-colors flex items-center justify-center gap-2 group-hover:shadow-lg">
+                                View Summary
+                                <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="group flex flex-col h-full bg-white dark:bg-card-dark rounded-xl overflow-hidden border border-slate-200 dark:border-[#2f354a] hover:border-primary/50 dark:hover:border-primary/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(124,91,255,0.15)]">
+<div class="h-40 w-full bg-slate-200 dark:bg-slate-800 relative overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Learning concept image with blocks and soft lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBS-JocWX_WAxeYTdQhCeH2qZBXgeWdn4acpYMTXUk87jKfej679kQ6pyTtVxs4BFGAPl5EkSGOAno0FiHfFuzNvYbtIL9uiCX5o1VXZXoGe72UTomls6XEYl6CS4_-PTBq4d2V8Rlu-7K3cCAKEwLTXpRMUVoxObeZwJhwAmCofaqBVvdf1DmOtI-EnH75F_wPBrm2IXE94lN_lPuVB63GwpAoz1_tf6iuQfV6tVtMcgDFsZ9wIM411tOSSh-Q9R7EjKlNTcIAVJU"/>
+<div class="absolute top-2 right-2 bg-black/60 backdrop-blur-sm text-white text-xs font-bold px-2 py-1 rounded">PRTG</div>
+</div>
+<div class="p-5 flex flex-col flex-1">
+<h3 class="text-slate-900 dark:text-white text-lg font-bold leading-snug mb-1 line-clamp-2">Simplicity Parenting</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-medium mb-3">Kim John Payne</p>
+<p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-4 line-clamp-3">Using the extraordinary power of less to raise calmer, happier, and more secure kids.</p>
+<div class="mt-auto pt-4 border-t border-slate-100 dark:border-slate-800/50 flex items-center justify-between gap-4 mb-4">
+<div class="flex items-center gap-1.5 text-slate-500 dark:text-slate-400">
+<span class="material-symbols-outlined text-primary text-lg">lightbulb</span>
+<span class="text-xs font-semibold">9 Insights</span>
+</div>
+<div class="flex items-center gap-1.5 text-slate-500 dark:text-slate-400">
+<span class="material-symbols-outlined text-amber-400 text-lg icon-fill">bolt</span>
+<span class="text-xs font-semibold">5 Actions</span>
+</div>
+</div>
+<button class="w-full bg-slate-100 dark:bg-[#252a41] hover:bg-primary dark:hover:bg-primary text-slate-900 dark:text-white text-sm font-bold py-2.5 rounded-lg transition-colors flex items-center justify-center gap-2 group-hover:shadow-lg">
+                                View Summary
+                                <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="group flex flex-col h-full bg-white dark:bg-card-dark rounded-xl overflow-hidden border border-slate-200 dark:border-[#2f354a] hover:border-primary/50 dark:hover:border-primary/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(124,91,255,0.15)]">
+<div class="h-40 w-full bg-slate-200 dark:bg-slate-800 relative overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Close up of baby toys in a neat arrangement" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmBp0lzhI-M89lihW7CFujtvcH9WSOvlOT6HSttcM3TMSuQ6D_JSfKclZuDg7t4x-ikIFdK1KIxAQB_9ntEpNj04M7iGj53a6kupHiju4tLCXeqlV5Tdd4T11lUN-mLd3HkTtOuWYELpyuWB2CCr7Q7_UTdboXgP5_vIP96881_na2HwbnKLo7jCgcDYZO2s6uu1cUu1RMBfGvCKCeGCUrZ_yBOfGy3K0JoneT0LsoPh-QhZBGOiCtHf_Y9UX3Oeyv5S2HyuFuGrc"/>
+<div class="absolute top-2 right-2 bg-black/60 backdrop-blur-sm text-white text-xs font-bold px-2 py-1 rounded">PRTG</div>
+</div>
+<div class="p-5 flex flex-col flex-1">
+<h3 class="text-slate-900 dark:text-white text-lg font-bold leading-snug mb-1 line-clamp-2">The Montessori Toddler</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-medium mb-3">Simone Davies</p>
+<p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-4 line-clamp-3">Turn your home into a Montessori home—and become a more mindful, attentive, and easygoing parent.</p>
+<div class="mt-auto pt-4 border-t border-slate-100 dark:border-slate-800/50 flex items-center justify-between gap-4 mb-4">
+<div class="flex items-center gap-1.5 text-slate-500 dark:text-slate-400">
+<span class="material-symbols-outlined text-primary text-lg">lightbulb</span>
+<span class="text-xs font-semibold">14 Insights</span>
+</div>
+<div class="flex items-center gap-1.5 text-slate-500 dark:text-slate-400">
+<span class="material-symbols-outlined text-amber-400 text-lg icon-fill">bolt</span>
+<span class="text-xs font-semibold">7 Actions</span>
+</div>
+</div>
+<button class="w-full bg-slate-100 dark:bg-[#252a41] hover:bg-primary dark:hover:bg-primary text-slate-900 dark:text-white text-sm font-bold py-2.5 rounded-lg transition-colors flex items-center justify-center gap-2 group-hover:shadow-lg">
+                                View Summary
+                                <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Card 5 -->
+<div class="group flex flex-col h-full bg-white dark:bg-card-dark rounded-xl overflow-hidden border border-slate-200 dark:border-[#2f354a] hover:border-primary/50 dark:hover:border-primary/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(124,91,255,0.15)]">
+<div class="h-40 w-full bg-slate-200 dark:bg-slate-800 relative overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Teenagers talking in a group study session" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBg0Dj_kx20bpaZovz9S2r7nGmuZ38r2VUrDpPCZZp9FLdJ_tzbJVR9Pgtx_1O9OWa4WyYSMtRh6MuFGNbESZDnvwJOZZjUbUo_bdsesapxheeNg0H921i9_ctfPxRFMH3F3c_HFLhF49rws5Bo-zSl4YD-2ghKyeOu_-6Lzrd3-s_1FHgL9gVPIz1x2Ma_26EP5vn6jknZ1AatLStLqaCCehRTx_ZFyGfPIoShT-vbzPK0XnZ5Eq0hIWEDgX5CwdqbqZJGpiR_HD4"/>
+<div class="absolute top-2 right-2 bg-black/60 backdrop-blur-sm text-white text-xs font-bold px-2 py-1 rounded">PRTG</div>
+</div>
+<div class="p-5 flex flex-col flex-1">
+<h3 class="text-slate-900 dark:text-white text-lg font-bold leading-snug mb-1 line-clamp-2">Untangled</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-medium mb-3">Lisa Damour</p>
+<p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-4 line-clamp-3">Guiding teenage girls through the seven transitions into adulthood.</p>
+<div class="mt-auto pt-4 border-t border-slate-100 dark:border-slate-800/50 flex items-center justify-between gap-4 mb-4">
+<div class="flex items-center gap-1.5 text-slate-500 dark:text-slate-400">
+<span class="material-symbols-outlined text-primary text-lg">lightbulb</span>
+<span class="text-xs font-semibold">10 Insights</span>
+</div>
+<div class="flex items-center gap-1.5 text-slate-500 dark:text-slate-400">
+<span class="material-symbols-outlined text-amber-400 text-lg icon-fill">bolt</span>
+<span class="text-xs font-semibold">6 Actions</span>
+</div>
+</div>
+<button class="w-full bg-slate-100 dark:bg-[#252a41] hover:bg-primary dark:hover:bg-primary text-slate-900 dark:text-white text-sm font-bold py-2.5 rounded-lg transition-colors flex items-center justify-center gap-2 group-hover:shadow-lg">
+                                View Summary
+                                <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Card 6 -->
+<div class="group flex flex-col h-full bg-white dark:bg-card-dark rounded-xl overflow-hidden border border-slate-200 dark:border-[#2f354a] hover:border-primary/50 dark:hover:border-primary/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(124,91,255,0.15)]">
+<div class="h-40 w-full bg-slate-200 dark:bg-slate-800 relative overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Cozy reading nook with books and warm light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3b9qC2TzBIcMe0RCA5P_dHJgb3izPdGdrZ0qFCVKalBNxotUBZOuo04iPgRPTWHUqloz6GPyHwD7AJ4zbDDn5O2bZ4ye7IZE2lQN9I3wWI9IKbCMy29coy8IGAh0xpnrQ_T7M7ki7tlxBrmGIf-zVOA1ooQRvpdGlaSyMGvPHwiFl5rVumMozUK0UKM7GOtIQsYJPRlY6q_JHAvFSb2zkfs-sAO6RrN8vlm6n-Q_ja6Zs2GSdvt84LmnqZKWCqeyzTWDE05Ra_FM"/>
+<div class="absolute top-2 right-2 bg-black/60 backdrop-blur-sm text-white text-xs font-bold px-2 py-1 rounded">PRTG</div>
+</div>
+<div class="p-5 flex flex-col flex-1">
+<h3 class="text-slate-900 dark:text-white text-lg font-bold leading-snug mb-1 line-clamp-2">Good Inside</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-medium mb-3">Dr. Becky Kennedy</p>
+<p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-4 line-clamp-3">A guide to becoming the parent you want to be, focused on connecting with your kids.</p>
+<div class="mt-auto pt-4 border-t border-slate-100 dark:border-slate-800/50 flex items-center justify-between gap-4 mb-4">
+<div class="flex items-center gap-1.5 text-slate-500 dark:text-slate-400">
+<span class="material-symbols-outlined text-primary text-lg">lightbulb</span>
+<span class="text-xs font-semibold">11 Insights</span>
+</div>
+<div class="flex items-center gap-1.5 text-slate-500 dark:text-slate-400">
+<span class="material-symbols-outlined text-amber-400 text-lg icon-fill">bolt</span>
+<span class="text-xs font-semibold">8 Actions</span>
+</div>
+</div>
+<button class="w-full bg-slate-100 dark:bg-[#252a41] hover:bg-primary dark:hover:bg-primary text-slate-900 dark:text-white text-sm font-bold py-2.5 rounded-lg transition-colors flex items-center justify-center gap-2 group-hover:shadow-lg">
+                                View Summary
+                                <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Footer / Load More -->
+<div class="mt-12 flex justify-center">
+<button class="px-8 py-3 bg-white dark:bg-card-dark text-slate-900 dark:text-white font-bold rounded-xl border border-slate-200 dark:border-[#2f354a] hover:bg-slate-50 dark:hover:bg-[#252a41] transition-colors flex items-center gap-2">
+                        Load More Summaries
+                        <span class="material-symbols-outlined">expand_more</span>
+</button>
+</div>
+</div>
+</div>
+</main>
+<footer class="mt-auto py-8 border-t border-slate-200 dark:border-[#2f354a] bg-white dark:bg-card-dark">
+<div class="max-w-[1280px] mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-slate-500 dark:text-slate-400 text-sm">© 2024 BookSummaryLib. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="text-slate-500 dark:text-slate-400 hover:text-primary text-sm" href="#">Privacy</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-primary text-sm" href="#">Terms</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-primary text-sm" href="#">Help</a>
+</div>
+</div>
+</footer>
+</body></html>

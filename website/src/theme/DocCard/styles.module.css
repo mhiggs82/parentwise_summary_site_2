@@ -1,0 +1,13 @@
+/* ParentWise Custom DocCard Styles */
+
+.cardContainer {
+  transition: all 0.3s ease;
+  border: 1px solid var(--pw-border);
+  background-color: var(--pw-bg-card);
+}
+
+.cardContainer:hover {
+  transform: translateY(-4px);
+  border-color: var(--pw-purple);
+  box-shadow: 0 8px 32px var(--pw-purple-glow);
+}

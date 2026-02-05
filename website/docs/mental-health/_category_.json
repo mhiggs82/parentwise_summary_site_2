@@ -1,0 +1,9 @@
+{
+    "label": "Mental Health",
+    "position": 4,
+    "link": {
+        "type": "generated-index",
+        "slug": "/mental-health",
+        "description": "Actionable summaries for Mental Health"
+    }
+}

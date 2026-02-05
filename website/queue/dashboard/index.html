@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ParentWise - My Library Dashboard</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Theme Config -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#7c5cff",
+                        "accent-teal": "#00d9b8",
+                        "background-light": "#f6f5f8",
+                        "background-dark": "#0f1116",
+                        "card-dark": "#1a1d2e",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "2xl": "2rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-white overflow-x-hidden antialiased">
+<div class="flex min-h-screen w-full">
+<!-- Sidebar Navigation -->
+<aside class="hidden lg:flex w-64 flex-col fixed inset-y-0 z-50 bg-card-dark border-r border-white/5">
+<div class="flex items-center gap-3 px-6 py-8">
+<div class="size-10 bg-gradient-to-br from-primary to-accent-teal rounded-xl flex items-center justify-center shadow-lg shadow-primary/20">
+<span class="material-symbols-outlined text-white text-2xl">local_library</span>
+</div>
+<h1 class="text-xl font-bold tracking-tight">ParentWise</h1>
+</div>
+<nav class="flex-1 px-4 space-y-2">
+<a class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:text-white hover:bg-white/5 rounded-xl transition-colors group" href="#">
+<span class="material-symbols-outlined group-hover:scale-110 transition-transform">home</span>
+<span class="font-medium">Home</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 bg-primary/20 text-white rounded-xl transition-colors shadow-inner shadow-primary/5" href="#">
+<span class="material-symbols-outlined text-primary fill-1">book_2</span>
+<span class="font-medium text-primary">My Library</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:text-white hover:bg-white/5 rounded-xl transition-colors group" href="#">
+<span class="material-symbols-outlined group-hover:scale-110 transition-transform">explore</span>
+<span class="font-medium">Explore</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:text-white hover:bg-white/5 rounded-xl transition-colors group" href="#">
+<span class="material-symbols-outlined group-hover:scale-110 transition-transform">diversity_3</span>
+<span class="font-medium">Community</span>
+</a>
+<div class="pt-4 mt-4 border-t border-white/5">
+<p class="px-4 text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">My Lists</p>
+<a class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:text-white hover:bg-white/5 rounded-xl transition-colors group" href="#">
+<span class="material-symbols-outlined text-accent-teal group-hover:scale-110 transition-transform">bookmark</span>
+<span class="font-medium">Favorites</span>
+</a>
+</div>
+</nav>
+<div class="p-4 border-t border-white/5">
+<div class="flex items-center gap-3 px-4 py-3 rounded-xl bg-white/5 hover:bg-white/10 cursor-pointer transition-colors">
+<div class="size-8 rounded-full bg-cover bg-center" data-alt="User profile avatar" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCuHift6q2MpGO0NyYKUYa3GUx9YKfzAJ9pCDM6V_ii4PvRBcpOOUKQwD8ADZoPDwJW8M_eFv-4-gczoQ3LHHn81OEjdzOeaiS2BgLLLQ-8dCuzsEiRyFoGxXp2-6GDF4_5ZUwnrz9GNlkYYiHkPQCwutyJr1yFOHeg8aa74A6HfG_yUpo896u3SU05a9Pvf-DVIa-OcKwCBoV9VApE60dxYegLNr7-ZoRJfFpcHNoPuxYiO70u_mC8wbq4a53dYseM4QzeQAYjdBM')"></div>
+<div class="flex-1 min-w-0">
+<p class="text-sm font-medium text-white truncate">Sarah Parent</p>
+<p class="text-xs text-gray-400 truncate">Pro Member</p>
+</div>
+<span class="material-symbols-outlined text-gray-400 text-sm">expand_more</span>
+</div>
+</div>
+</aside>
+<!-- Main Content Area -->
+<main class="flex-1 lg:pl-64 flex flex-col min-h-screen">
+<!-- Top Header (Mobile/Tablet Friendly) -->
+<header class="sticky top-0 z-40 bg-background-dark/80 backdrop-blur-md border-b border-white/5 px-6 py-4 flex items-center justify-between gap-4">
+<div class="flex items-center gap-4 lg:hidden">
+<button class="p-2 -ml-2 text-gray-400 hover:text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+<span class="text-lg font-bold">My Library</span>
+</div>
+<!-- Search Bar -->
+<div class="flex-1 max-w-xl mx-auto hidden md:block">
+<div class="relative group">
+<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-gray-500 group-focus-within:text-primary transition-colors">search</span>
+</div>
+<input class="block w-full pl-10 pr-3 py-2.5 border-none rounded-xl leading-5 bg-card-dark text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary/50 sm:text-sm transition-all shadow-sm" placeholder="Search for books, authors, or topics..." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 text-gray-400 hover:text-white rounded-lg hover:bg-white/5 transition-colors relative">
+<span class="material-symbols-outlined">notifications</span>
+<span class="absolute top-2 right-2 size-2 bg-accent-teal rounded-full animate-pulse"></span>
+</button>
+<button class="p-2 text-gray-400 hover:text-white rounded-lg hover:bg-white/5 transition-colors">
+<span class="material-symbols-outlined">settings</span>
+</button>
+</div>
+</header>
+<div class="p-6 md:p-8 lg:p-10 max-w-[1600px] mx-auto w-full space-y-10">
+<!-- Page Heading -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+<div>
+<h2 class="text-3xl md:text-4xl font-bold text-white mb-2">My Library</h2>
+<p class="text-gray-400 text-lg">Your growing toolkit for raising happy humans.</p>
+</div>
+<div class="flex items-center gap-3 bg-card-dark px-4 py-2 rounded-full border border-white/5 shadow-sm">
+<span class="text-sm text-gray-300">Welcome back, Parent!</span>
+</div>
+</div>
+<!-- Stats Overview -->
+<section class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="relative group overflow-hidden rounded-2xl bg-card-dark p-6 border border-white/5 shadow-lg hover:shadow-primary/10 transition-all duration-300 hover:-translate-y-1">
+<div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<div class="absolute -right-6 -top-6 size-24 bg-primary/20 blur-2xl rounded-full"></div>
+<div class="relative flex flex-col">
+<div class="flex items-center justify-between mb-4">
+<span class="text-gray-400 font-medium">Summaries Read</span>
+<span class="material-symbols-outlined text-primary bg-primary/10 p-2 rounded-lg">menu_book</span>
+</div>
+<div class="flex items-baseline gap-2">
+<span class="text-4xl font-bold text-white">14</span>
+<span class="text-sm text-accent-teal font-medium flex items-center gap-0.5">
+<span class="material-symbols-outlined text-sm">trending_up</span> +2 this week
+                                </span>
+</div>
+</div>
+</div>
+<div class="relative group overflow-hidden rounded-2xl bg-card-dark p-6 border border-white/5 shadow-lg hover:shadow-accent-teal/10 transition-all duration-300 hover:-translate-y-1">
+<div class="absolute inset-0 bg-gradient-to-br from-accent-teal/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<div class="absolute -right-6 -top-6 size-24 bg-accent-teal/20 blur-2xl rounded-full"></div>
+<div class="relative flex flex-col">
+<div class="flex items-center justify-between mb-4">
+<span class="text-gray-400 font-medium">Action Items</span>
+<span class="material-symbols-outlined text-accent-teal bg-accent-teal/10 p-2 rounded-lg">check_circle</span>
+</div>
+<div class="flex items-baseline gap-2">
+<span class="text-4xl font-bold text-white">28</span>
+<span class="text-sm text-gray-500 font-medium">completed</span>
+</div>
+</div>
+</div>
+<div class="relative group overflow-hidden rounded-2xl bg-card-dark p-6 border border-white/5 shadow-lg hover:shadow-purple-500/10 transition-all duration-300 hover:-translate-y-1">
+<div class="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<div class="absolute -right-6 -top-6 size-24 bg-purple-500/20 blur-2xl rounded-full"></div>
+<div class="relative flex flex-col">
+<div class="flex items-center justify-between mb-4">
+<span class="text-gray-400 font-medium">Saved for Later</span>
+<span class="material-symbols-outlined text-purple-400 bg-purple-500/10 p-2 rounded-lg">bookmark</span>
+</div>
+<div class="flex items-baseline gap-2">
+<span class="text-4xl font-bold text-white">5</span>
+<span class="text-sm text-gray-500 font-medium">books</span>
+</div>
+</div>
+</div>
+</section>
+<div class="flex flex-col lg:flex-row gap-8">
+<!-- Main Content Column -->
+<div class="flex-1 space-y-10 min-w-0">
+<!-- Continue Reading Section -->
+<section>
+<div class="flex items-center justify-between mb-6">
+<h3 class="text-xl font-bold text-white">Continue Reading</h3>
+<button class="text-sm text-primary hover:text-primary/80 font-medium flex items-center gap-1">
+                                    View All <span class="material-symbols-outlined text-base">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Book Card 1 -->
+<div class="bg-card-dark rounded-2xl p-4 flex gap-5 border border-white/5 hover:border-primary/30 transition-all hover:shadow-xl hover:shadow-primary/5 group cursor-pointer">
+<div class="w-24 h-36 shrink-0 rounded-lg bg-gray-700 shadow-md overflow-hidden relative">
+<img alt="The Whole-Brain Child Book Cover" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqvl5PLY5uxIfS0YgaJ4ni_GU24WKE15pLgcC3wgDw54kt4GTUSoy4P2O7w1EVgc9_YeuBY3ImTrwslLleBcjMcavqxWhdYOd9q5f6JqOd4lZVi6iWW6KoJzd0uA4Lgu-fk8h-opYjHMj-ISbSaWqnDv3JV6yaXb9F4MsZe92LzYjXyUQBSE2Fp-xs-fSd8afSgmqEi2PmXnoCIrcVupkq8EuK4urZf24TOQrE4ZFdyGf1lha3Mhw9-Nj3Y9vQxaf33C0v6o2IduA"/>
+<div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity backdrop-blur-sm">
+<span class="material-symbols-outlined text-white text-3xl">play_circle</span>
+</div>
+</div>
+<div class="flex flex-col flex-1 justify-between py-1">
+<div>
+<h4 class="text-lg font-bold text-white line-clamp-1 group-hover:text-primary transition-colors">The Whole-Brain Child</h4>
+<p class="text-gray-400 text-sm mb-3">Daniel J. Siegel &amp; Tina Payne Bryson</p>
+</div>
+<div class="space-y-2">
+<div class="flex justify-between text-xs font-medium">
+<span class="text-accent-teal">65% Complete</span>
+<span class="text-gray-500">12m left</span>
+</div>
+<div class="w-full bg-gray-700 rounded-full h-2 overflow-hidden">
+<div class="bg-accent-teal h-2 rounded-full" style="width: 65%"></div>
+</div>
+<div class="pt-2 flex gap-3">
+<button class="text-xs font-semibold text-white bg-white/10 hover:bg-white/20 px-3 py-1.5 rounded-lg transition-colors flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">resume</span> Resume
+                                                 </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Book Card 2 -->
+<div class="bg-card-dark rounded-2xl p-4 flex gap-5 border border-white/5 hover:border-primary/30 transition-all hover:shadow-xl hover:shadow-primary/5 group cursor-pointer">
+<div class="w-24 h-36 shrink-0 rounded-lg bg-gray-700 shadow-md overflow-hidden relative">
+<img alt="Hunt Gather Parent Book Cover" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAB_Lp8qZSsAUwln1yYzdXxplu2-s5gWeln6PsuoEkqOzEIUBV8UDkb9pARnqTQhyROXFXuwziifecZonC1knzjt7-rfCUxYr701qoVejlSz0QG4NPDxcYs01JkihF-Mrdiyb9wKsHUiY4K3oenLWdsaq-TiSUaGAYjDAhHRbp3BG-YmzHtcLsnMDmsn6njwMGqBz6MLG2F-GWsLF19TFkruFxA7JdVg5pH3kOydTqbILz4KTHP6Yw4jIknDJzuyhPDBnMV9e-z9Q"/>
+<div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity backdrop-blur-sm">
+<span class="material-symbols-outlined text-white text-3xl">play_circle</span>
+</div>
+</div>
+<div class="flex flex-col flex-1 justify-between py-1">
+<div>
+<h4 class="text-lg font-bold text-white line-clamp-1 group-hover:text-primary transition-colors">Hunt, Gather, Parent</h4>
+<p class="text-gray-400 text-sm mb-3">Michaeleen Doucleff</p>
+</div>
+<div class="space-y-2">
+<div class="flex justify-between text-xs font-medium">
+<span class="text-accent-teal">30% Complete</span>
+<span class="text-gray-500">45m left</span>
+</div>
+<div class="w-full bg-gray-700 rounded-full h-2 overflow-hidden">
+<div class="bg-accent-teal h-2 rounded-full" style="width: 30%"></div>
+</div>
+<div class="pt-2 flex gap-3">
+<button class="text-xs font-semibold text-white bg-white/10 hover:bg-white/20 px-3 py-1.5 rounded-lg transition-colors flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">resume</span> Resume
+                                                 </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Saved For Later Section -->
+<section>
+<div class="flex items-center justify-between mb-6">
+<h3 class="text-xl font-bold text-white">Saved for Later</h3>
+<div class="flex gap-2">
+<button class="size-8 flex items-center justify-center rounded-lg bg-card-dark hover:bg-white/10 text-gray-400 hover:text-white transition-colors">
+<span class="material-symbols-outlined text-lg">grid_view</span>
+</button>
+<button class="size-8 flex items-center justify-center rounded-lg bg-transparent hover:bg-white/10 text-gray-500 hover:text-white transition-colors">
+<span class="material-symbols-outlined text-lg">list</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-6">
+<!-- Saved Card 1 -->
+<div class="group flex flex-col gap-3">
+<div class="aspect-[2/3] w-full rounded-xl overflow-hidden relative shadow-lg">
+<img alt="How to Talk So Kids Will Listen book cover" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2CMNCSTHqEAcyI7sgTnwGuEqDOeT26mbPnsGoSCLhFny9SNrMri1-mH_12orHMDQoF0qQz0WMGonDvzEQ1zZhCcw96CHIcortz2Iz3bNuiNYiW22WcnBrcBSpn4QMmaGcjZePfCfRAp9hBvHMdZmo57FAOrv9gge6EIFd-P9WySAKQczzF9BBN4ExIwiti_bnjtoNFeFYK-YFr-TZrY4B1IxkroG0P6eGghQmT1QX4atBvHg0ktqzakh5cEf6dLdsE20A5jj6Bdk"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-3">
+<div class="flex gap-2 justify-center">
+<button class="size-9 rounded-full bg-white text-black hover:bg-accent-teal hover:text-white flex items-center justify-center transition-colors" title="Start Reading">
+<span class="material-symbols-outlined">play_arrow</span>
+</button>
+<button class="size-9 rounded-full bg-white/20 backdrop-blur-md text-white hover:bg-red-500/80 flex items-center justify-center transition-colors" title="Remove from Library">
+<span class="material-symbols-outlined text-lg">delete</span>
+</button>
+</div>
+</div>
+</div>
+<div>
+<h5 class="font-semibold text-white text-sm leading-tight mb-1 group-hover:text-primary transition-colors">How to Talk So Kids Will Listen</h5>
+<p class="text-xs text-gray-500">Adele Faber</p>
+</div>
+</div>
+<!-- Saved Card 2 -->
+<div class="group flex flex-col gap-3">
+<div class="aspect-[2/3] w-full rounded-xl overflow-hidden relative shadow-lg">
+<img alt="Good Inside book cover" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBK527Tj3QNqmHOu5aknY6cKli7s6kE6608Ieg48SQRkN-2M61W1oYiQz8LMkNMmMrtOv5s8_sbJCPorsuzQmCz-8dPdqVXZQHBp2xMOkzZptMOlAF-_TTnqdE3wvWf9imvCjR1BM_4luwZkFJKBZicYdROuXNqqBsWb0gFsYglpsjH6L7g999QPrio0ds05m5tbsBCFbP-8roiISh3nSYREMyKlv9F1woB_mHUva5JpYPfvU345wovW3lXqRg_IoVEVrxxXEz5QkQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-3">
+<div class="flex gap-2 justify-center">
+<button class="size-9 rounded-full bg-white text-black hover:bg-accent-teal hover:text-white flex items-center justify-center transition-colors" title="Start Reading">
+<span class="material-symbols-outlined">play_arrow</span>
+</button>
+<button class="size-9 rounded-full bg-white/20 backdrop-blur-md text-white hover:bg-red-500/80 flex items-center justify-center transition-colors" title="Remove from Library">
+<span class="material-symbols-outlined text-lg">delete</span>
+</button>
+</div>
+</div>
+</div>
+<div>
+<h5 class="font-semibold text-white text-sm leading-tight mb-1 group-hover:text-primary transition-colors">Good Inside</h5>
+<p class="text-xs text-gray-500">Dr. Becky Kennedy</p>
+</div>
+</div>
+<!-- Saved Card 3 -->
+<div class="group flex flex-col gap-3">
+<div class="aspect-[2/3] w-full rounded-xl overflow-hidden relative shadow-lg">
+<img alt="Siblings Without Rivalry book cover" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUGwa108WtfCWm2Bf1XoivZUfcGdon5A4SNKR40EvTQMFRY1iVG20ehwtbwDbQqQ1gbya1vpm-FDyDCCmMrzfVmbMHXy5HOG0z_A54SvtPJqc4eLL5EVP9yGqANp1ZZfTRXqAhDjS1buBq6dbyhpWkXwRubmWKPTgoheUHclxYnia_Ue-oTJ1n3NngVpVShJzWC3z6Wzdf2mulyvOVWFoUa7TWyTpH-MANCcdFzFJAIMYkyTtATmOXWlCl7zKrYpNHp9GypCHGSvQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-3">
+<div class="flex gap-2 justify-center">
+<button class="size-9 rounded-full bg-white text-black hover:bg-accent-teal hover:text-white flex items-center justify-center transition-colors" title="Start Reading">
+<span class="material-symbols-outlined">play_arrow</span>
+</button>
+<button class="size-9 rounded-full bg-white/20 backdrop-blur-md text-white hover:bg-red-500/80 flex items-center justify-center transition-colors" title="Remove from Library">
+<span class="material-symbols-outlined text-lg">delete</span>
+</button>
+</div>
+</div>
+</div>
+<div>
+<h5 class="font-semibold text-white text-sm leading-tight mb-1 group-hover:text-primary transition-colors">Siblings Without Rivalry</h5>
+<p class="text-xs text-gray-500">Adele Faber</p>
+</div>
+</div>
+<!-- Saved Card 4 -->
+<div class="group flex flex-col gap-3">
+<div class="aspect-[2/3] w-full rounded-xl overflow-hidden relative shadow-lg bg-card-dark flex items-center justify-center border border-white/5 border-dashed hover:border-primary/50 cursor-pointer transition-colors">
+<div class="flex flex-col items-center gap-2 text-gray-500 group-hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-4xl">add_circle</span>
+<span class="text-xs font-medium">Explore More</span>
+</div>
+</div>
+<div>
+<h5 class="font-semibold text-white text-sm leading-tight mb-1 opacity-0">Add New</h5>
+<p class="text-xs text-gray-500 opacity-0">Action</p>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- Right Sidebar: Recent Insights -->
+<aside class="w-full lg:w-80 shrink-0 space-y-6">
+<div class="bg-card-dark rounded-2xl border border-white/5 overflow-hidden sticky top-28">
+<div class="p-5 border-b border-white/5 flex items-center justify-between">
+<h3 class="font-bold text-lg text-white flex items-center gap-2">
+<span class="material-symbols-outlined text-yellow-400">lightbulb</span> 
+                                    Recent Insights
+                                </h3>
+</div>
+<div class="p-5 space-y-5">
+<!-- Insight 1 -->
+<div class="group">
+<div class="relative pl-4 border-l-2 border-primary/30 group-hover:border-primary transition-colors">
+<p class="text-gray-300 italic text-sm mb-2 group-hover:text-white transition-colors">"Connect before you correct. Address the feelings before the behavior."</p>
+<div class="flex items-center gap-2">
+<span class="size-5 rounded-full bg-gray-600 bg-cover bg-center" data-alt="Small cover of The Whole-Brain Child" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAC1HsuhI9RLGW8pm5sBbhPmTGhvtMmysxEXhKjZ4w887YSkJLSTOYDOU_-8XV2egEuuKuQ5le2N1ocJ906b5hjYyK5YE-38kJQgYO3E96FEjPbb6As6p2dv-_jsICpxbVnnthanHK8upWJr-mAdCFaB4JnX0hkF_DO3XOsxcyeACrU1hiAHIfyqDv2ISDHGr0Oev96wSTvikFbddAo5jxsNit1jIi1-C3YhjtK0gHCnqlloU0zJHzSunp5sYhI4ZdGbug5mkb7D-0')"></span>
+<span class="text-xs text-primary font-medium">The Whole-Brain Child</span>
+</div>
+</div>
+</div>
+<!-- Insight 2 -->
+<div class="group">
+<div class="relative pl-4 border-l-2 border-primary/30 group-hover:border-primary transition-colors">
+<p class="text-gray-300 italic text-sm mb-2 group-hover:text-white transition-colors">"All feelings are permissible; not all behavior is acceptable."</p>
+<div class="flex items-center gap-2">
+<span class="size-5 rounded-full bg-gray-600 bg-cover bg-center" data-alt="Small cover of How to Talk So Kids Will Listen" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDO5sriUATjVDJYHngZGDdbs0K0ZilNUwHMWnC9cZx3vxtYU4Ptbf8O7qkkx83CBKU__BTFWZ8Uz-0tjnFrQ75l0Y0Z3piFP71LdhAU1uSKkWA5anJfkeDGvSi_Ok6eyyaqs_ZGEdefn63__8fNNXtaF0VJ307Aerf6UO6HeeoM-K23LzFWMeD8Tko8p59V3XC8nnOIbHHU5i8Xy3gsR1zqCgEJ452TezDPIyBC7MFfl-F4OzmaWusZSaNlUwHuYTIKu4aYnEW6a7k')"></span>
+<span class="text-xs text-primary font-medium">How to Talk...</span>
+</div>
+</div>
+</div>
+<!-- Insight 3 -->
+<div class="group">
+<div class="relative pl-4 border-l-2 border-primary/30 group-hover:border-primary transition-colors">
+<p class="text-gray-300 italic text-sm mb-2 group-hover:text-white transition-colors">"Children need to know they are good inside, even when things go bad."</p>
+<div class="flex items-center gap-2">
+<span class="size-5 rounded-full bg-gray-600 bg-cover bg-center" data-alt="Small cover of Good Inside" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD1NcgejIlrh_jhdUbnk2tLX-LIiespQSLtApcdHAIttIPPPTju5eXP_7iKSV5TbWP-gDC2ZIso-8ecS3w6Wj-bHEU5uqjYd7yyQxFx6G7s7tytsGNFH3Q87ncduo_RBH3sTW_fZsLew4fsjtso7pCfw2CFBbpWETzyOvnGDNLAAWefH5hCK8RtUhPch7jdODMbAx9mM7m-9qSOaJGpNWLhD4qf4Dy6jC5EJfRx-BGw8g6k5Vu1CuNCmDsbMGRjO3bAkLhqv2Ghpzg')"></span>
+<span class="text-xs text-primary font-medium">Good Inside</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-4 bg-white/5 text-center">
+<a class="text-xs text-gray-400 hover:text-white font-medium uppercase tracking-wider transition-colors" href="#">View All Insights</a>
+</div>
+</div>
+<!-- Promo Card -->
+<div class="bg-gradient-to-br from-primary/20 to-card-dark rounded-2xl border border-primary/20 p-6 text-center">
+<div class="size-12 rounded-full bg-primary/20 text-primary flex items-center justify-center mx-auto mb-3">
+<span class="material-symbols-outlined">workspace_premium</span>
+</div>
+<h4 class="font-bold text-white mb-2">Unlock Premium</h4>
+<p class="text-xs text-gray-400 mb-4">Get unlimited access to audio summaries and expert Q&amp;A.</p>
+<button class="w-full bg-white text-black font-bold text-sm py-2.5 rounded-xl hover:bg-gray-100 transition-colors">
+                                Upgrade Now
+                            </button>
+</div>
+</aside>
+</div>
+</div>
+</main>
+</div>
+</body></html>

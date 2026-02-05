@@ -1,0 +1,171 @@
+/**
+ * ParentWise: Sophisticated Dark Sanctuary Theme
+ * Based on high-fidelity Stitch mockups.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+
+:root {
+  /* Brand Colors */
+  --pw-purple: #7c5bff;
+  --pw-purple-glow: rgba(124, 91, 255, 0.4);
+  --pw-bg-canvas: #0f1116;
+  --pw-bg-card: #1a1d2e;
+  --pw-bg-elevated: #252836;
+  --pw-text-main: #ffffff;
+  --pw-text-secondary: #b4b9c8;
+  --pw-text-tertiary: #6b7280;
+  --pw-border: #2d3142;
+
+  /* Semantic Colors */
+  --pw-success: #00d9b8;
+  --pw-insight: #00e5a0;
+  --pw-warning: #ff9f43;
+
+  /* Docusaurus/Infima Overrides */
+  --ifm-font-family-base: 'Lexend', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --ifm-color-primary: var(--pw-purple);
+  --ifm-color-primary-dark: #6a4de6;
+  --ifm-color-primary-darker: #5b42c7;
+  --ifm-color-primary-darkest: #4b37a8;
+  --ifm-color-primary-light: #8e73ff;
+  --ifm-color-primary-lighter: #a08cff;
+  --ifm-color-primary-lightest: #b2a4ff;
+
+  --ifm-background-color: var(--pw-bg-canvas);
+  --ifm-navbar-background-color: rgba(15, 17, 22, 0.8);
+  --ifm-card-background-color: var(--pw-bg-card);
+  --ifm-footer-background-color: var(--pw-bg-card);
+
+  --ifm-list-item-margin-bottom: 0.5rem;
+  --ifm-pre-line-height: 1.75;
+  --pw-line-height-body: 1.75;
+
+  /* Spacing & Borders */
+  --pw-radius: 16px;
+  --pw-spacing-base: 8px;
+  --pw-container-width: 1280px;
+}
+
+/* Force Dark Mode defaults since it's a 'Dark Sanctuary' */
+[data-theme='light'],
+[data-theme='dark'] {
+  --ifm-background-color: var(--pw-bg-canvas);
+  --ifm-color-content: var(--pw-text-main);
+  --ifm-color-content-secondary: var(--pw-text-secondary);
+  --ifm-heading-color: var(--pw-text-main);
+}
+
+/* --- Global Layout --- */
+
+body {
+  font-family: var(--ifm-font-family-base);
+  line-height: var(--pw-line-height-body);
+  background-color: var(--pw-bg-canvas);
+  color: var(--pw-text-main);
+}
+
+/* Glassmorphism Navbar */
+.navbar {
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--pw-border);
+  position: sticky;
+  top: 0;
+  z-index: var(--ifm-z-index-fixed);
+}
+
+/* Custom Card Class */
+.pw-card {
+  background-color: var(--pw-bg-card);
+  border: 1px solid var(--pw-border);
+  border-radius: var(--pw-radius);
+  padding: 24px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pw-card:hover {
+  border-color: var(--pw-purple);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(124, 91, 255, 0.15);
+}
+
+/* Custom Glow Button */
+.pw-button {
+  background-color: var(--pw-purple);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pw-button:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 0 15px var(--pw-purple-glow);
+}
+
+/* Insight/Action Badges */
+.pw-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: rgba(124, 91, 255, 0.1);
+  color: var(--pw-purple);
+  border: 1px solid var(--pw-purple);
+}
+
+/* Typography Enhancements */
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.text-secondary {
+  color: var(--pw-text-secondary);
+}
+
+.text-tertiary {
+  color: var(--pw-text-tertiary);
+}
+
+/* Material Symbols Support */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined' !important;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  font-feature-settings: 'liga';
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}

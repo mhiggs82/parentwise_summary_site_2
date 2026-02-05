@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ParentWise - Contact &amp; Support</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&amp;family=Noto+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#7c5cff",
+              "background-light": "#f6f5f8",
+              "background-dark": "#0f1116", 
+              "card-dark": "#1a1d2e",
+              "border-dark": "#2d3142",
+              "text-secondary": "#9a8dce",
+            },
+            fontFamily: {
+              "display": ["Lexend", "sans-serif"],
+              "body": ["Noto Sans", "sans-serif"]
+            },
+            borderRadius: {
+              "DEFAULT": "0.5rem",
+              "lg": "1rem", 
+              "xl": "1.5rem",
+              "2xl": "1rem", // 16px as requested
+            },
+            boxShadow: {
+                "glow": "0 0 20px -5px rgba(124, 92, 255, 0.5)",
+                "glow-sm": "0 0 10px -2px rgba(124, 92, 255, 0.3)",
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            background-color: #0f1116; /* Sophisticated Dark Sanctuary canvas */
+            color: white;
+            font-family: 'Lexend', sans-serif;
+        }
+        
+        /* Custom scrollbar for textarea */
+        textarea::-webkit-scrollbar {
+            width: 8px;
+        }
+        textarea::-webkit-scrollbar-track {
+            background: #1a1d2e; 
+            border-radius: 4px;
+        }
+        textarea::-webkit-scrollbar-thumb {
+            background: #2d3142; 
+            border-radius: 4px;
+        }
+        textarea::-webkit-scrollbar-thumb:hover {
+            background: #7c5cff; 
+        }
+
+        details > summary {
+            list-style: none;
+        }
+        details > summary::-webkit-details-marker {
+            display: none;
+        }
+        
+        .glow-purple {
+            box-shadow: 0 4px 25px rgba(124, 92, 255, 0.25);
+        }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col overflow-x-hidden bg-[#0f1116]">
+<!-- Top Navbar -->
+<div class="w-full border-b border-[#29204b] bg-[#0f1116]/80 backdrop-blur-md sticky top-0 z-50">
+<div class="max-w-[1200px] mx-auto px-4 md:px-10 py-4 flex items-center justify-between">
+<div class="flex items-center gap-3 text-white">
+<div class="size-8 flex items-center justify-center bg-primary/20 rounded-lg text-primary">
+<span class="material-symbols-outlined text-2xl">family_star</span>
+</div>
+<h2 class="text-white text-xl font-bold tracking-tight">ParentWise</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-end items-center gap-8">
+<nav class="flex items-center gap-8">
+<a class="text-gray-300 hover:text-white transition-colors text-sm font-medium" href="#">Research</a>
+<a class="text-gray-300 hover:text-white transition-colors text-sm font-medium" href="#">Library</a>
+<a class="text-gray-300 hover:text-white transition-colors text-sm font-medium" href="#">About</a>
+</nav>
+<button class="flex items-center justify-center rounded-xl h-10 px-5 bg-[#7c5cff] hover:bg-[#6b4ce6] transition-all text-white text-sm font-bold shadow-glow-sm">
+<span>Login</span>
+</button>
+</div>
+<!-- Mobile Menu Icon -->
+<button class="md:hidden text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+<!-- Main Content -->
+<main class="flex-grow w-full max-w-[1200px] mx-auto px-4 md:px-10 py-12">
+<!-- Header Section -->
+<div class="mb-12">
+<h1 class="text-4xl md:text-5xl font-bold text-white mb-3 tracking-tight">Contact &amp; Support</h1>
+<p class="text-[#9a8dce] text-lg max-w-2xl">
+                We are here to help you navigate your parenting journey. Reach out to our research team or browse common questions below.
+            </p>
+</div>
+<!-- Two-Column Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 xl:gap-12">
+<!-- LEFT COLUMN: Contact Form (60%) -->
+<div class="lg:col-span-7 flex flex-col gap-6">
+<div class="bg-[#1a1d2e] border border-[#2d3142] rounded-2xl p-6 md:p-8 shadow-xl">
+<h2 class="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">mail</span>
+                        Send us a Message
+                    </h2>
+<form class="flex flex-col gap-5">
+<!-- Row 1: Name -->
+<div class="flex flex-col gap-2">
+<label class="text-white text-sm font-medium ml-1">Your Name</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-[#9a8dce]">person</span>
+<input class="w-full bg-[#131520] border border-[#2d3142] rounded-2xl h-14 pl-12 pr-4 text-white placeholder-[#585d72] focus:border-[#7c5cff] focus:ring-1 focus:ring-[#7c5cff] transition-all outline-none" placeholder="Jane Doe" type="text"/>
+</div>
+</div>
+<!-- Row 2: Email -->
+<div class="flex flex-col gap-2">
+<label class="text-white text-sm font-medium ml-1">Email Address</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-[#9a8dce]">alternate_email</span>
+<input class="w-full bg-[#131520] border border-[#2d3142] rounded-2xl h-14 pl-12 pr-4 text-white placeholder-[#585d72] focus:border-[#7c5cff] focus:ring-1 focus:ring-[#7c5cff] transition-all outline-none" placeholder="jane@example.com" type="email"/>
+</div>
+</div>
+<!-- Row 3: Subject Dropdown -->
+<div class="flex flex-col gap-2">
+<label class="text-white text-sm font-medium ml-1">Topic</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-[#9a8dce]">topic</span>
+<select class="w-full bg-[#131520] border border-[#2d3142] rounded-2xl h-14 pl-12 pr-10 text-white placeholder-[#585d72] focus:border-[#7c5cff] focus:ring-1 focus:ring-[#7c5cff] transition-all outline-none appearance-none cursor-pointer">
+<option disabled="" selected="" value="">Select a subject</option>
+<option value="general">General Inquiry</option>
+<option value="book">Suggest a Book</option>
+<option value="support">Technical Support</option>
+<option value="press">Press &amp; Media</option>
+</select>
+<span class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-[#9a8dce] pointer-events-none">expand_more</span>
+</div>
+</div>
+<!-- Row 4: Message -->
+<div class="flex flex-col gap-2">
+<label class="text-white text-sm font-medium ml-1">Message</label>
+<textarea class="w-full bg-[#131520] border border-[#2d3142] rounded-2xl p-4 text-white placeholder-[#585d72] focus:border-[#7c5cff] focus:ring-1 focus:ring-[#7c5cff] transition-all outline-none resize-none min-h-[160px]" placeholder="How can we help you today?"></textarea>
+</div>
+<!-- Submit Button -->
+<button class="mt-2 w-full md:w-auto self-start bg-[#7c5cff] hover:bg-[#6b4ce6] text-white font-bold py-4 px-8 rounded-2xl transition-all shadow-glow flex items-center justify-center gap-2 group" type="button">
+<span>Submit Message</span>
+<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">send</span>
+</button>
+</form>
+</div>
+</div>
+<!-- RIGHT COLUMN: Sidebar (40%) -->
+<div class="lg:col-span-5 flex flex-col gap-6">
+<!-- "Suggest a Book" Banner -->
+<div class="relative overflow-hidden bg-gradient-to-br from-[#29204b] to-[#1a1d2e] rounded-2xl p-1 border border-[#7c5cff]/40 shadow-glow">
+<div class="absolute top-0 right-0 w-32 h-32 bg-[#7c5cff] opacity-20 blur-[60px] rounded-full pointer-events-none"></div>
+<div class="relative bg-[#1a1d2e]/50 backdrop-blur-sm rounded-xl p-6 h-full flex flex-col items-start gap-4">
+<div class="size-12 rounded-full bg-[#7c5cff]/20 flex items-center justify-center text-[#7c5cff] mb-2">
+<span class="material-symbols-outlined text-2xl">auto_stories</span>
+</div>
+<div>
+<h3 class="text-xl font-bold text-white mb-1">Have a book in mind?</h3>
+<p class="text-[#9a8dce] text-sm leading-relaxed">
+                                Help us grow our library of parenting wisdom. Suggest a title and our researchers will dive in.
+                            </p>
+</div>
+<button class="text-white text-sm font-semibold flex items-center gap-2 mt-2 hover:gap-3 transition-all">
+                            Suggest a Book <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- FAQ Accordion -->
+<div class="bg-[#1a1d2e] border border-[#2d3142] rounded-2xl p-6 md:p-8 h-fit">
+<h3 class="text-xl font-bold text-white mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">help</span>
+                        Common Questions
+                    </h3>
+<div class="flex flex-col gap-4">
+<!-- FAQ Item 1 -->
+<details class="group bg-[#131520] rounded-xl border border-[#2d3142] open:border-[#7c5cff]/50 transition-colors duration-300">
+<summary class="flex items-center justify-between p-4 cursor-pointer select-none">
+<span class="font-medium text-white group-hover:text-primary transition-colors">How do I suggest a book?</span>
+<span class="material-symbols-outlined text-[#9a8dce] transition-transform duration-300 group-open:rotate-180">expand_more</span>
+</summary>
+<div class="px-4 pb-4 pt-0 text-[#9a8dce] text-sm leading-relaxed border-t border-[#2d3142]/50 mt-2 pt-3">
+                                You can use the "Suggest a Book" form in your dashboard or select "Suggest a Book" from the dropdown in the contact form on this page.
+                            </div>
+</details>
+<!-- FAQ Item 2 -->
+<details class="group bg-[#131520] rounded-xl border border-[#2d3142] open:border-[#7c5cff]/50 transition-colors duration-300">
+<summary class="flex items-center justify-between p-4 cursor-pointer select-none">
+<span class="font-medium text-white group-hover:text-primary transition-colors">What is the distillation process?</span>
+<span class="material-symbols-outlined text-[#9a8dce] transition-transform duration-300 group-open:rotate-180">expand_more</span>
+</summary>
+<div class="px-4 pb-4 pt-0 text-[#9a8dce] text-sm leading-relaxed border-t border-[#2d3142]/50 mt-2 pt-3">
+                                Our team of PhD researchers reads every book cover-to-cover, extracting core methodologies and cross-referencing them with current developmental psychology standards.
+                            </div>
+</details>
+<!-- FAQ Item 3 -->
+<details class="group bg-[#131520] rounded-xl border border-[#2d3142] open:border-[#7c5cff]/50 transition-colors duration-300">
+<summary class="flex items-center justify-between p-4 cursor-pointer select-none">
+<span class="font-medium text-white group-hover:text-primary transition-colors">Are insights research-backed?</span>
+<span class="material-symbols-outlined text-[#9a8dce] transition-transform duration-300 group-open:rotate-180">expand_more</span>
+</summary>
+<div class="px-4 pb-4 pt-0 text-[#9a8dce] text-sm leading-relaxed border-t border-[#2d3142]/50 mt-2 pt-3">
+                                Yes. We prioritize books grounded in scientific research. Where anecdotal advice is given, we clearly label it as such within our summaries.
+                            </div>
+</details>
+</div>
+</div>
+<!-- Support Hours Mini Card -->
+<div class="bg-[#1a1d2e] border border-[#2d3142] rounded-2xl p-6 flex items-start gap-4">
+<div class="mt-1 text-[#9a8dce]">
+<span class="material-symbols-outlined">schedule</span>
+</div>
+<div>
+<p class="text-white font-medium text-sm">Response Time</p>
+<p class="text-[#9a8dce] text-sm mt-1">We typically respond to all inquiries within 24-48 hours, Monday through Friday.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer Note -->
+<div class="mt-16 text-center border-t border-[#2d3142] pt-8 max-w-3xl mx-auto">
+<div class="flex items-center justify-center gap-2 text-[#9a8dce] mb-2">
+<span class="material-symbols-outlined text-sm">lock</span>
+<span class="text-xs uppercase tracking-widest font-semibold">Safety &amp; Privacy Note</span>
+</div>
+<p class="text-[#585d72] text-sm">
+                Your parenting journey is personal. ParentWise is a data sanctuary; we do not sell your data. All communications are encrypted and stored securely solely for the purpose of providing support.
+            </p>
+</div>
+</main>
+</body></html>

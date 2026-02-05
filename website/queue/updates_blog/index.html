@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ParentWise - Library Updates</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Theme Config -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#7c5cff",
+                        "primary-glow": "rgba(124, 92, 255, 0.4)",
+                        "background-dark": "#0f1116",
+                        "card-dark": "#1a1d2e",
+                        "text-secondary": "#94a3b8", // Slate-400
+                        "text-muted": "#64748b", // Slate-500
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "2xl": "1rem", // Mapping 16px to 2xl roughly or use specific class
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Lexend', sans-serif;
+        }
+        .glow-effect {
+            box-shadow: 0 0 20px -5px var(--tw-colors-primary-glow);
+        }
+    </style>
+</head>
+<body class="bg-background-dark text-white min-h-screen flex flex-col font-display antialiased selection:bg-primary selection:text-white overflow-x-hidden">
+<!-- Top Navbar -->
+<header class="sticky top-0 z-50 w-full border-b border-[#29204b] bg-[#0f1116]/95 backdrop-blur-sm px-6 py-4">
+<div class="mx-auto flex max-w-7xl items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-white">
+<span class="material-symbols-outlined">menu_book</span>
+</div>
+<h2 class="text-xl font-bold tracking-tight text-white">ParentWise</h2>
+</div>
+<nav class="hidden items-center gap-8 md:flex">
+<a class="text-sm font-medium text-gray-300 hover:text-white transition-colors" href="#">Library</a>
+<a class="text-sm font-medium text-white transition-colors" href="#">Updates</a>
+<a class="text-sm font-medium text-gray-300 hover:text-white transition-colors" href="#">Community</a>
+<a class="text-sm font-medium text-gray-300 hover:text-white transition-colors" href="#">Profile</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="md:hidden text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+<div class="h-10 w-10 overflow-hidden rounded-full border border-[#29204b] bg-cover bg-center" data-alt="User profile picture" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC68JT0v2DGx2WH9wgJC43BehHusZyQs-Mg9MdSDp6pIHkDtuaeQSF5BlLnJK4zR70XLiTK8BUZ1kOxUw5J5ixK-Ejyd0HifXDIfatRLi4I0UZvQu7yHpmX_P4WaX3CkjGtcJp-xmnHTvyu94CRyizV_Zb3-3pTfP5W7fZIjLgfxb9-TrWPhYX9hrm3uFZmb7abWhTkb85pUG0XmnNk2IYch6kZJA6X8cG-GHWfB_vUuKhoyI2rZv27Hu_s6YXZuKbNU9LES3P3MtA");'>
+</div>
+</div>
+</div>
+</header>
+<!-- Main Content -->
+<main class="flex-grow w-full max-w-7xl mx-auto px-6 py-10">
+<!-- Page Header -->
+<div class="mb-12 text-center">
+<h1 class="text-4xl md:text-5xl font-extrabold text-white mb-4 tracking-tight">Library Updates</h1>
+<p class="text-lg text-text-secondary max-w-2xl mx-auto font-light">
+                Fresh insights, new summaries, and the latest research for your parenting journey.
+            </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+<!-- Left Column: Featured & Feed (8 cols) -->
+<div class="lg:col-span-8 flex flex-col gap-12">
+<!-- Featured Post -->
+<article class="group relative flex flex-col md:flex-row overflow-hidden rounded-2xl bg-card-dark border border-[#29204b] shadow-xl hover:shadow-2xl hover:border-primary/30 transition-all duration-300">
+<div class="md:w-5/12 h-64 md:h-auto relative overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Abstract representation of child brain development with colorful shapes" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAu3L22IGEikuuh3wdyPUMKTwatPSxHf2hDvdiUVenaUH45E4MhZcMmuGs7BE0rPkUohtTjoFcVWY__c2410lobu0dHhgbM4-BDNNRa5Bj-VrmFfQtQKyzVUCeiN5x2eWcdrypblMmQnme1Qmi1ec8may9878WgFP8O_NJ4th-Li6eNxKjmxg3rhKWNX_dx50Q5bEXPCROXPubjHjGneBC6QmKmD6tDqW-c87KBcMBJgozZLadPIW0aN30xvxJUej2su6iD_rpVfEE");'>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-card-dark via-transparent to-transparent md:bg-gradient-to-r md:from-transparent md:to-card-dark opacity-60"></div>
+</div>
+<div class="flex flex-col justify-center p-8 md:w-7/12">
+<div class="flex items-center gap-3 mb-4">
+<span class="inline-flex items-center rounded-full bg-primary/20 px-3 py-1 text-xs font-semibold text-[#a38aff]">New Summary</span>
+<span class="text-xs text-text-secondary font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">calendar_today</span> Feb 4
+                            </span>
+</div>
+<h2 class="text-2xl md:text-3xl font-bold text-white mb-3 leading-tight group-hover:text-primary transition-colors">
+                            Now Added: The Whole-Brain Child Actionable Summary
+                        </h2>
+<p class="text-text-secondary mb-6 leading-relaxed line-clamp-3">
+                            Discover the 12 revolutionary strategies to nurture your child's developing mind. This summary breaks down complex neuroscience into practical steps for everyday parenting moments.
+                        </p>
+<button class="w-fit flex items-center gap-2 rounded-xl bg-primary px-5 py-2.5 text-sm font-medium text-white shadow-lg shadow-primary/25 hover:bg-[#6b4df5] active:scale-95 transition-all">
+                            Read More
+                            <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</article>
+<!-- Latest Posts List -->
+<div class="flex flex-col gap-12">
+<div class="flex items-center justify-between border-b border-[#29204b] pb-4">
+<h3 class="text-xl font-bold text-white">Latest Additions</h3>
+<div class="flex gap-2">
+<button class="p-2 text-text-secondary hover:text-white rounded-lg hover:bg-[#29204b] transition-colors" title="Grid View">
+<span class="material-symbols-outlined">grid_view</span>
+</button>
+<button class="p-2 text-white bg-[#29204b] rounded-lg" title="List View">
+<span class="material-symbols-outlined">view_list</span>
+</button>
+</div>
+</div>
+<!-- Post 1 -->
+<article class="group flex flex-col sm:flex-row gap-6 items-start">
+<div class="shrink-0 w-full sm:w-48 h-32 rounded-xl overflow-hidden bg-[#29204b]">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Parent and child holding hands in a park representing connection" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCFGO0gzw49PtmtqbsOnB0-eWeLnwXVJduhf3nr3KZ1HekmTY0myzjCseQITBcaQB5fPZ2WXTykOtJTgjcQFLuKZ8GddPtplHPx1j2D3SHK7u7iBZ5eUhp0K4cjp_RmtigwlO0OXaiD05k4k3WLtOknCm-EAvMeR_TvYrv2jFWGb8GGNyN5ch1IGpTuQlNO-QoOYUhk5NWOGqlsscOUcxO6_lHfQQ6xZdXkMOKdIF8o-xekUQeT_YJdBKzSBgioC3vHLd5Gst2TqlU");'>
+</div>
+</div>
+<div class="flex flex-col flex-1">
+<div class="flex items-center gap-3 text-xs text-primary font-medium mb-2">
+<span>Research</span>
+<span class="text-text-muted">•</span>
+<span class="text-text-secondary">Feb 4</span>
+<span class="text-text-muted">•</span>
+<span class="text-text-secondary">5 min read</span>
+</div>
+<h3 class="text-xl md:text-2xl font-bold text-white mb-2 group-hover:text-primary transition-colors cursor-pointer">
+                                The Science of Co-regulation
+                            </h3>
+<p class="text-text-secondary leading-relaxed mb-3 line-clamp-2">
+                                Breaking down recent findings on emotional connection. Why self-soothing is a myth for toddlers and how your calm becomes their calm.
+                            </p>
+<a class="inline-flex items-center text-sm font-medium text-primary hover:text-white transition-colors gap-1" href="#">
+                                Read article <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</article>
+<!-- Post 2 -->
+<article class="group flex flex-col sm:flex-row gap-6 items-start">
+<div class="shrink-0 w-full sm:w-48 h-32 rounded-xl overflow-hidden bg-[#29204b]">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Stack of colorful books on a dark wooden table" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAq1Cvl7Yo9IlknAbbaIOQSmzGSpjkGxEAPwGMChsHIoZNgP69Bm3eIDO0FCeuTIsxj37NvToaMeAXv0ELxaUbznCA9vrn5jDPEDURd5-cMomMqB6wBcsVrfSq6_fHOuLW2zU7CGEIZdoVQJ7lkT-OOEjWw00mELA1mKaZOATJinF-W5T4R8mecJ8uu22Wl4xcBH1zPN99xLLe7BDZxugsUckfv0w5tkuwLDHcwj9RrujeL1Ijx7dmx7ZdkmQmW0FjR6EZh1iW7TsA");'>
+</div>
+</div>
+<div class="flex flex-col flex-1">
+<div class="flex items-center gap-3 text-xs text-primary font-medium mb-2">
+<span>Library Update</span>
+<span class="text-text-muted">•</span>
+<span class="text-text-secondary">Feb 3</span>
+<span class="text-text-muted">•</span>
+<span class="text-text-secondary">3 min read</span>
+</div>
+<h3 class="text-xl md:text-2xl font-bold text-white mb-2 group-hover:text-primary transition-colors cursor-pointer">
+                                New SPEC Books Added
+                            </h3>
+<p class="text-text-secondary leading-relaxed mb-3 line-clamp-2">
+                                Expanding our Special Needs section with new titles focusing on ADHD, Autism Spectrum, and Sensory Processing Differences.
+                            </p>
+<a class="inline-flex items-center text-sm font-medium text-primary hover:text-white transition-colors gap-1" href="#">
+                                View collection <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</article>
+<!-- Post 3 -->
+<article class="group flex flex-col sm:flex-row gap-6 items-start">
+<div class="shrink-0 w-full sm:w-48 h-32 rounded-xl overflow-hidden bg-[#29204b]">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Team working together in a modern office meeting room" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAgKVoPGwAN9K3D2PT-vpq36zDYjrU5zLFKOvEcRAMuamuTgk_QdG9ac9qaisg50icqLHkQKCkSmo2qrHj2tqL7DAmSYyv28yrR_HlBX3EH7eHxAnibB_xPzV-6Rjc-dGKUBtdoXO0UBMT1_K7czcov93eQD5FUWH-1dM93JZefbS8Tk7jGvnTBKxBqCzwkEDPFALi8ebzeVf_mBzHm4aXryrfHav0mnRvrKRwBhV5_-IPprL1nWT0NY1aepHTZ35te2FTMH0PhcwQ");'>
+</div>
+</div>
+<div class="flex flex-col flex-1">
+<div class="flex items-center gap-3 text-xs text-primary font-medium mb-2">
+<span>Platform</span>
+<span class="text-text-muted">•</span>
+<span class="text-text-secondary">Jan 28</span>
+<span class="text-text-muted">•</span>
+<span class="text-text-secondary">6 min read</span>
+</div>
+<h3 class="text-xl md:text-2xl font-bold text-white mb-2 group-hover:text-primary transition-colors cursor-pointer">
+                                Behind the Scenes: Verifying Experts
+                            </h3>
+<p class="text-text-secondary leading-relaxed mb-3 line-clamp-2">
+                                How we ensure every summary on ParentWise is vetted by clinical psychologists and child development specialists before it reaches you.
+                            </p>
+<a class="inline-flex items-center text-sm font-medium text-primary hover:text-white transition-colors gap-1" href="#">
+                                Read story <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</article>
+</div>
+<!-- Pagination -->
+<div class="flex items-center justify-between pt-8 border-t border-[#29204b]">
+<button class="flex items-center gap-2 px-4 py-2 rounded-lg text-text-secondary hover:text-white hover:bg-[#29204b] transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+<span class="material-symbols-outlined text-sm">arrow_back</span>
+                        Previous
+                    </button>
+<div class="flex items-center gap-1">
+<button class="h-8 w-8 rounded-lg flex items-center justify-center bg-primary text-white text-sm font-medium">1</button>
+<button class="h-8 w-8 rounded-lg flex items-center justify-center text-text-secondary hover:bg-[#29204b] hover:text-white text-sm font-medium transition-colors">2</button>
+<button class="h-8 w-8 rounded-lg flex items-center justify-center text-text-secondary hover:bg-[#29204b] hover:text-white text-sm font-medium transition-colors">3</button>
+<span class="text-text-secondary px-1">...</span>
+<button class="h-8 w-8 rounded-lg flex items-center justify-center text-text-secondary hover:bg-[#29204b] hover:text-white text-sm font-medium transition-colors">8</button>
+</div>
+<button class="flex items-center gap-2 px-4 py-2 rounded-lg text-text-secondary hover:text-white hover:bg-[#29204b] transition-colors">
+                        Next
+                        <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Sidebar (4 cols) -->
+<aside class="lg:col-span-4 flex flex-col gap-8">
+<!-- Search -->
+<div class="relative group">
+<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-text-muted group-focus-within:text-primary transition-colors">search</span>
+</div>
+<input class="block w-full pl-10 pr-3 py-3 border border-[#29204b] rounded-xl leading-5 bg-card-dark text-white placeholder-text-muted focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary sm:text-sm transition-all shadow-sm" placeholder="Search updates..." type="text"/>
+</div>
+<!-- Categories -->
+<div class="bg-card-dark rounded-2xl p-6 border border-[#29204b]">
+<h4 class="text-lg font-bold text-white mb-4">Categories</h4>
+<nav class="flex flex-col gap-2">
+<a class="flex items-center justify-between px-3 py-2 rounded-lg text-text-secondary hover:bg-[#29204b] hover:text-white transition-colors group" href="#">
+<span class="text-sm font-medium">All Updates</span>
+<span class="bg-[#29204b] text-text-muted text-xs py-0.5 px-2 rounded-full group-hover:bg-[#342a5c] group-hover:text-white">42</span>
+</a>
+<a class="flex items-center justify-between px-3 py-2 rounded-lg text-text-secondary hover:bg-[#29204b] hover:text-white transition-colors group" href="#">
+<span class="text-sm font-medium">New Summaries</span>
+<span class="bg-[#29204b] text-text-muted text-xs py-0.5 px-2 rounded-full group-hover:bg-[#342a5c] group-hover:text-white">15</span>
+</a>
+<a class="flex items-center justify-between px-3 py-2 rounded-lg text-text-secondary hover:bg-[#29204b] hover:text-white transition-colors group" href="#">
+<span class="text-sm font-medium">Research Tips</span>
+<span class="bg-[#29204b] text-text-muted text-xs py-0.5 px-2 rounded-full group-hover:bg-[#342a5c] group-hover:text-white">8</span>
+</a>
+<a class="flex items-center justify-between px-3 py-2 rounded-lg text-text-secondary hover:bg-[#29204b] hover:text-white transition-colors group" href="#">
+<span class="text-sm font-medium">News</span>
+<span class="bg-[#29204b] text-text-muted text-xs py-0.5 px-2 rounded-full group-hover:bg-[#342a5c] group-hover:text-white">12</span>
+</a>
+</nav>
+</div>
+<!-- Newsletter -->
+<div class="relative overflow-hidden rounded-2xl bg-card-dark border border-primary/20 p-6 shadow-[0_0_25px_-5px_rgba(124,92,255,0.15)]">
+<!-- Decorative glow -->
+<div class="absolute -top-10 -right-10 w-32 h-32 bg-primary/20 rounded-full blur-3xl pointer-events-none"></div>
+<div class="relative z-10">
+<div class="h-10 w-10 bg-primary/20 rounded-lg flex items-center justify-center mb-4 text-primary">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<h4 class="text-lg font-bold text-white mb-2">Weekly Wisdom</h4>
+<p class="text-sm text-text-secondary mb-4">
+                            Get the best parenting insights and summary highlights delivered to your inbox every Tuesday.
+                        </p>
+<form class="flex flex-col gap-3">
+<input class="w-full px-3 py-2 bg-[#0f1116] border border-[#29204b] rounded-lg text-sm text-white focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary placeholder-text-muted" placeholder="Your email address" type="email"/>
+<button class="w-full py-2 bg-primary hover:bg-[#6b4df5] text-white text-sm font-medium rounded-lg transition-colors shadow-lg shadow-primary/20" type="button">
+                                Subscribe
+                            </button>
+</form>
+<p class="text-[10px] text-text-muted mt-3 text-center">No spam, unsubscribe anytime.</p>
+</div>
+</div>
+<!-- Tags Cloud -->
+<div class="bg-card-dark rounded-2xl p-6 border border-[#29204b]">
+<h4 class="text-lg font-bold text-white mb-4">Popular Tags</h4>
+<div class="flex flex-wrap gap-2">
+<a class="px-3 py-1.5 rounded-lg bg-[#29204b] hover:bg-primary hover:text-white text-xs font-medium text-text-secondary transition-colors" href="#">#neuroscience</a>
+<a class="px-3 py-1.5 rounded-lg bg-[#29204b] hover:bg-primary hover:text-white text-xs font-medium text-text-secondary transition-colors" href="#">#toddlers</a>
+<a class="px-3 py-1.5 rounded-lg bg-[#29204b] hover:bg-primary hover:text-white text-xs font-medium text-text-secondary transition-colors" href="#">#sleep</a>
+<a class="px-3 py-1.5 rounded-lg bg-[#29204b] hover:bg-primary hover:text-white text-xs font-medium text-text-secondary transition-colors" href="#">#nutrition</a>
+<a class="px-3 py-1.5 rounded-lg bg-[#29204b] hover:bg-primary hover:text-white text-xs font-medium text-text-secondary transition-colors" href="#">#teens</a>
+<a class="px-3 py-1.5 rounded-lg bg-[#29204b] hover:bg-primary hover:text-white text-xs font-medium text-text-secondary transition-colors" href="#">#education</a>
+</div>
+</div>
+</aside>
+</div>
+</main>
+<!-- Simple Footer -->
+<footer class="mt-auto border-t border-[#29204b] bg-[#0f1116] py-8">
+<div class="mx-auto max-w-7xl px-6 flex flex-col md:flex-row items-center justify-between gap-4">
+<div class="flex items-center gap-2 text-text-muted">
+<span class="material-symbols-outlined text-lg">copyright</span>
+<span class="text-sm">2023 ParentWise. All rights reserved.</span>
+</div>
+<div class="flex gap-6 text-sm text-text-secondary">
+<a class="hover:text-white transition-colors" href="#">Privacy</a>
+<a class="hover:text-white transition-colors" href="#">Terms</a>
+<a class="hover:text-white transition-colors" href="#">Support</a>
+</div>
+</div>
+</footer>
+</body></html>

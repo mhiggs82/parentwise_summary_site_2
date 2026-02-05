@@ -1,0 +1,9 @@
+{
+    "label": "Communication",
+    "position": 2,
+    "link": {
+        "type": "generated-index",
+        "slug": "/communication",
+        "description": "Actionable summaries for Communication"
+    }
+}

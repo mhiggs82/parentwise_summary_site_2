@@ -1,0 +1,9 @@
+{
+    "label": "Foundational Books",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "slug": "/foundational",
+        "description": "Actionable summaries for Foundational Books"
+    }
+}

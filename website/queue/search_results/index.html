@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ParentWise Search Results</title>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#7c5cff",
+                        "background-light": "#f6f5f8",
+                        "background-dark": "#0f1116", /* Overridden to match specific request */
+                        "surface-dark": "#1a1d2e",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"],
+                        "sans": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "2xl": "16px", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+<style>
+        /* Custom scrollbar for sidebar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0f1116; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #29204b; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #7c5cff; 
+        }
+    </style>
+</head>
+<body class="bg-[#0f1116] text-slate-200 font-display antialiased min-h-screen flex flex-col">
+<!-- Header -->
+<header class="sticky top-0 z-50 bg-[#0f1116]/95 backdrop-blur-md border-b border-[#1a1d2e]">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-8">
+<!-- Logo -->
+<div class="flex items-center gap-3 shrink-0">
+<div class="size-8 text-primary">
+<span class="material-symbols-outlined text-4xl">local_library</span>
+</div>
+<h1 class="text-white text-xl font-bold tracking-tight">ParentWise</h1>
+</div>
+<!-- Search Bar (Centered) -->
+<div class="flex-1 max-w-[500px] hidden md:block">
+<div class="relative group">
+<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-[#7c5cff]">search</span>
+</div>
+<input class="block w-full pl-10 pr-3 py-2.5 border-none rounded-xl bg-[#1a1d2e] text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all shadow-sm" placeholder="Search books, authors, topics..." type="text" value="discipline for toddlers"/>
+<div class="absolute inset-y-0 right-0 pr-3 flex items-center cursor-pointer">
+<span class="material-symbols-outlined text-gray-500 hover:text-white transition-colors">close</span>
+</div>
+</div>
+</div>
+<!-- User Actions -->
+<div class="flex items-center gap-6 shrink-0">
+<button class="text-gray-400 hover:text-white transition-colors">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<div class="flex items-center gap-3">
+<div class="text-right hidden sm:block">
+<p class="text-sm font-medium text-white">Sarah Jenkins</p>
+<p class="text-xs text-gray-400">Premium Member</p>
+</div>
+<div class="size-10 rounded-full bg-cover bg-center border-2 border-[#1a1d2e]" data-alt="User profile picture of a smiling woman" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAojjHSJV_11HNiAL46Z37uS3G_8F3undECBBQXKC7i1Bv5BaZ8uW3qeo5o73F6wI04EKIMWvwf1ut-zCzn1TReZMCTZ85BoA5-5UYDRuFysex5VkACafI-iYaGIiMjQ48Rg0OOfbSe7sKxZoMVgvUt0PfJE5e6HqtsmjYzVfyBHN4z85ZOpAPaDO9iR6X4WCgR64Rwn165xb0W_0Xlb9UWsh7PdOYuYaHetcWw3gSIYluGWyxIwxDAMeZFZ860z3I6H4dFRkivoUY');"></div>
+</div>
+</div>
+</div>
+</header>
+<!-- Main Content Layout -->
+<div class="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-8 flex gap-8">
+<!-- Sidebar Filters -->
+<aside class="hidden lg:block w-[260px] shrink-0 space-y-8">
+<!-- Filter Group: Categories -->
+<div>
+<h3 class="text-white font-semibold mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm">category</span>
+                    Categories
+                </h3>
+<div class="space-y-3">
+<label class="flex items-center gap-3 group cursor-pointer">
+<input checked="" class="rounded border-[#29204b] bg-[#1a1d2e] text-primary focus:ring-0 focus:ring-offset-0 checked:bg-primary checked:border-primary transition-colors h-5 w-5" type="checkbox"/>
+<span class="text-gray-300 group-hover:text-white transition-colors">Parenting (PRTG)</span>
+</label>
+<label class="flex items-center gap-3 group cursor-pointer">
+<input class="rounded border-[#29204b] bg-[#1a1d2e] text-primary focus:ring-0 focus:ring-offset-0 checked:bg-primary checked:border-primary transition-colors h-5 w-5" type="checkbox"/>
+<span class="text-gray-300 group-hover:text-white transition-colors">Communication</span>
+</label>
+<label class="flex items-center gap-3 group cursor-pointer">
+<input class="rounded border-[#29204b] bg-[#1a1d2e] text-primary focus:ring-0 focus:ring-offset-0 checked:bg-primary checked:border-primary transition-colors h-5 w-5" type="checkbox"/>
+<span class="text-gray-300 group-hover:text-white transition-colors">Child Psychology</span>
+</label>
+<label class="flex items-center gap-3 group cursor-pointer">
+<input class="rounded border-[#29204b] bg-[#1a1d2e] text-primary focus:ring-0 focus:ring-offset-0 checked:bg-primary checked:border-primary transition-colors h-5 w-5" type="checkbox"/>
+<span class="text-gray-300 group-hover:text-white transition-colors">Health &amp; Wellness</span>
+</label>
+</div>
+</div>
+<hr class="border-[#1a1d2e]"/>
+<!-- Filter Group: Age -->
+<div>
+<h3 class="text-white font-semibold mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm">child_care</span>
+                    Child Age
+                </h3>
+<div class="flex flex-wrap gap-2">
+<label class="cursor-pointer">
+<input class="peer sr-only" type="checkbox"/>
+<div class="px-3 py-1.5 rounded-lg bg-[#1a1d2e] border border-[#29204b] text-gray-400 peer-checked:bg-primary/20 peer-checked:text-primary peer-checked:border-primary/50 hover:bg-[#23273a] transition-all text-sm">
+                            0-2 yrs
+                        </div>
+</label>
+<label class="cursor-pointer">
+<input checked="" class="peer sr-only" type="checkbox"/>
+<div class="px-3 py-1.5 rounded-lg bg-[#1a1d2e] border border-[#29204b] text-gray-400 peer-checked:bg-primary/20 peer-checked:text-primary peer-checked:border-primary/50 hover:bg-[#23273a] transition-all text-sm">
+                            3-5 yrs
+                        </div>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" type="checkbox"/>
+<div class="px-3 py-1.5 rounded-lg bg-[#1a1d2e] border border-[#29204b] text-gray-400 peer-checked:bg-primary/20 peer-checked:text-primary peer-checked:border-primary/50 hover:bg-[#23273a] transition-all text-sm">
+                            6-12 yrs
+                        </div>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" type="checkbox"/>
+<div class="px-3 py-1.5 rounded-lg bg-[#1a1d2e] border border-[#29204b] text-gray-400 peer-checked:bg-primary/20 peer-checked:text-primary peer-checked:border-primary/50 hover:bg-[#23273a] transition-all text-sm">
+                            Teens
+                        </div>
+</label>
+</div>
+</div>
+<hr class="border-[#1a1d2e]"/>
+<!-- Filter Group: Reading Time -->
+<div>
+<h3 class="text-white font-semibold mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm">schedule</span>
+                    Reading Time
+                </h3>
+<div class="space-y-3">
+<label class="flex items-center gap-3 group cursor-pointer">
+<input class="h-5 w-5 border-[#29204b] bg-[#1a1d2e] text-primary focus:ring-0 checked:bg-primary checked:border-primary" name="time" type="radio"/>
+<span class="text-gray-300 group-hover:text-white transition-colors">&lt; 5 mins</span>
+</label>
+<label class="flex items-center gap-3 group cursor-pointer">
+<input checked="" class="h-5 w-5 border-[#29204b] bg-[#1a1d2e] text-primary focus:ring-0 checked:bg-primary checked:border-primary" name="time" type="radio"/>
+<span class="text-gray-300 group-hover:text-white transition-colors">5 - 10 mins</span>
+</label>
+<label class="flex items-center gap-3 group cursor-pointer">
+<input class="h-5 w-5 border-[#29204b] bg-[#1a1d2e] text-primary focus:ring-0 checked:bg-primary checked:border-primary" name="time" type="radio"/>
+<span class="text-gray-300 group-hover:text-white transition-colors">10+ mins</span>
+</label>
+</div>
+</div>
+</aside>
+<!-- Main Results Area -->
+<main class="flex-1 min-w-0">
+<!-- Breadcrumbs & Stats -->
+<div class="mb-6">
+<nav class="flex items-center gap-2 text-sm text-gray-500 mb-2">
+<a class="hover:text-primary transition-colors" href="#">Home</a>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+<span class="text-white">Search Results</span>
+</nav>
+<div class="flex items-end justify-between">
+<h2 class="text-2xl font-bold text-white">Showing 12 results for '<span class="text-primary italic">discipline for toddlers</span>'</h2>
+<div class="flex items-center gap-2 text-sm text-gray-400">
+<span>Sort by:</span>
+<select class="bg-[#1a1d2e] border-none text-white text-sm rounded-lg focus:ring-1 focus:ring-primary py-1 pr-8 pl-3 cursor-pointer">
+<option>Relevance</option>
+<option>Newest</option>
+<option>Highest Rated</option>
+</select>
+</div>
+</div>
+</div>
+<!-- Results List -->
+<div class="space-y-4">
+<!-- Result Item 1 -->
+<article class="bg-[#1a1d2e] rounded-2xl p-6 flex flex-col sm:flex-row gap-6 hover:bg-[#23273a] transition-all duration-300 group border border-transparent hover:border-primary/20 shadow-lg">
+<!-- Book Cover -->
+<div class="shrink-0 w-full sm:w-28">
+<div class="aspect-[2/3] rounded-lg bg-gray-700 bg-cover bg-center shadow-md group-hover:shadow-primary/20 transition-all" data-alt="Cover of book titled No-Drama Discipline showing an abstract calming blue pattern" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDKAW62X7TqztTAc3FxjMH_Nyk2svuJUUg0e8ZOwcw8ZyHeMSC9IXrCez1U_JMRP9GbyExlr0--6tlk_oGfYqxNDuPr2PIWQUE5Tat5dDLMhaSZO7irY_1KRu4I4BGmo9naMemrSWaC6w1FcqG7eOmVHztf6ZIajW4Avewn1WP-rFEOBf_bJo2WlDMFuphzqszL8H2SDnRBrLhmHFMm_G7D62yGCVlDI3nh--8tg5x4kZ394KjZc7YlHLi1htNivi6G406Kg2V7xeo');"></div>
+</div>
+<!-- Content -->
+<div class="flex-1 flex flex-col">
+<div class="flex justify-between items-start mb-2">
+<span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/20">
+                                Parenting
+                            </span>
+<button class="text-gray-500 hover:text-primary transition-colors">
+<span class="material-symbols-outlined">bookmark_add</span>
+</button>
+</div>
+<h3 class="text-xl font-bold text-white mb-1 group-hover:text-primary transition-colors cursor-pointer">No-Drama Discipline</h3>
+<p class="text-sm text-gray-400 mb-4">by Daniel J. Siegel &amp; Tina Payne Bryson</p>
+<div class="bg-[#0f1116]/50 p-4 rounded-xl border border-white/5 mb-4">
+<p class="text-sm text-gray-300 leading-relaxed">
+                                ...approaches to <span class="text-primary font-bold bg-primary/10 px-1 rounded">discipline</span> that focus on connecting with your <span class="text-primary font-bold bg-primary/10 px-1 rounded">toddler</span> before redirecting their behavior. Learn how to turn a tantrum into a teachable moment...
+                            </p>
+</div>
+<div class="mt-auto flex items-center gap-4 text-xs text-gray-500 font-medium">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">schedule</span> 8 min read</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-yellow-500">star</span> 4.8 (1.2k)</span>
+</div>
+</div>
+</article>
+<!-- Result Item 2 -->
+<article class="bg-[#1a1d2e] rounded-2xl p-6 flex flex-col sm:flex-row gap-6 hover:bg-[#23273a] transition-all duration-300 group border border-transparent hover:border-primary/20 shadow-lg">
+<!-- Book Cover -->
+<div class="shrink-0 w-full sm:w-28">
+<div class="aspect-[2/3] rounded-lg bg-gray-700 bg-cover bg-center shadow-md group-hover:shadow-primary/20 transition-all" data-alt="Cover of book showing children playing with blocks" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAjGWVWKUCB06bag8J5vFn6mh1jqvuC1iE183ywwmgtJcJkq39pRmVRcZJ23__HxPviu8Eebj-KmNXbs4Yor7tkmCUcM0x8fDANcNfgFjIwTebbUrRA6UPA8N7R2i3w8PJSDXwM_wuanJRZMLhPi5a2n2ZiKAU7glGK9_szjK54Xs7wIdij86sl1IHX5PMHECXUT1krf8CqTxeHhyvRrcUqR1_JgknPZMwKvHL1yIoGX1o-2och7CIOoq-d0TDtgyClEronqWWaPhk');"></div>
+</div>
+<!-- Content -->
+<div class="flex-1 flex flex-col">
+<div class="flex justify-between items-start mb-2">
+<span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/20">
+                                Communication
+                            </span>
+<button class="text-gray-500 hover:text-primary transition-colors">
+<span class="material-symbols-outlined">bookmark_add</span>
+</button>
+</div>
+<h3 class="text-xl font-bold text-white mb-1 group-hover:text-primary transition-colors cursor-pointer">How to Talk So Little Kids Will Listen</h3>
+<p class="text-sm text-gray-400 mb-4">by Joanna Faber &amp; Julie King</p>
+<div class="bg-[#0f1116]/50 p-4 rounded-xl border border-white/5 mb-4">
+<p class="text-sm text-gray-300 leading-relaxed">
+                                ...practical tools to handle tantrums and <span class="text-primary font-bold bg-primary/10 px-1 rounded">discipline</span> issues specifically for <span class="text-primary font-bold bg-primary/10 px-1 rounded">toddlers</span> and preschoolers. Discover strategies that encourage cooperation without threats...
+                            </p>
+</div>
+<div class="mt-auto flex items-center gap-4 text-xs text-gray-500 font-medium">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">schedule</span> 12 min read</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-yellow-500">star</span> 4.9 (850)</span>
+</div>
+</div>
+</article>
+<!-- Result Item 3 -->
+<article class="bg-[#1a1d2e] rounded-2xl p-6 flex flex-col sm:flex-row gap-6 hover:bg-[#23273a] transition-all duration-300 group border border-transparent hover:border-primary/20 shadow-lg">
+<!-- Book Cover -->
+<div class="shrink-0 w-full sm:w-28">
+<div class="aspect-[2/3] rounded-lg bg-gray-700 bg-cover bg-center shadow-md group-hover:shadow-primary/20 transition-all" data-alt="Cover of book showing a brain illustration concept" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDsOFq8h9axtbtfe6ceR7l5s4Gw7N5mJMa1iP8cASHwFAJhq2GioiJlHl5YJvLJkS0060Ei3JUZnZmaww_Zgr24kngjMFwEdZxCp_0N5s8tUm4KbwEfU9Tv4xnJq5hRL6bDsQH8p3Rw4qoUcVYYXBQv559bVMBmbIo-1pxikhtfAWCZZTdtH1O8tbPau8dCtrdMfRj7HaWwpeRnT5zgmShtS56sUKnsrOATPMdDPbovuReeqFJ0R3d0-ThIjR7jn7x90OjjAmTnqxo');"></div>
+</div>
+<!-- Content -->
+<div class="flex-1 flex flex-col">
+<div class="flex justify-between items-start mb-2">
+<span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/20">
+                                Psychology
+                            </span>
+<button class="text-gray-500 hover:text-primary transition-colors">
+<span class="material-symbols-outlined">bookmark_add</span>
+</button>
+</div>
+<h3 class="text-xl font-bold text-white mb-1 group-hover:text-primary transition-colors cursor-pointer">The Whole-Brain Child</h3>
+<p class="text-sm text-gray-400 mb-4">by Daniel J. Siegel</p>
+<div class="bg-[#0f1116]/50 p-4 rounded-xl border border-white/5 mb-4">
+<p class="text-sm text-gray-300 leading-relaxed">
+                                ...integrating brain development into your daily <span class="text-primary font-bold bg-primary/10 px-1 rounded">discipline</span> strategies. Understanding the "upstairs" and "downstairs" brain can transform how you react to your child...
+                            </p>
+</div>
+<div class="mt-auto flex items-center gap-4 text-xs text-gray-500 font-medium">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">schedule</span> 10 min read</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-yellow-500">star</span> 4.7 (3.1k)</span>
+</div>
+</div>
+</article>
+<!-- Result Item 4 -->
+<article class="bg-[#1a1d2e] rounded-2xl p-6 flex flex-col sm:flex-row gap-6 hover:bg-[#23273a] transition-all duration-300 group border border-transparent hover:border-primary/20 shadow-lg">
+<!-- Book Cover -->
+<div class="shrink-0 w-full sm:w-28">
+<div class="aspect-[2/3] rounded-lg bg-gray-700 bg-cover bg-center shadow-md group-hover:shadow-primary/20 transition-all" data-alt="Cover of book depicting a mother holding a child's hand" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAelA4oUW0eUqg8UVpIMmaiydyYSIcN89aiY5m1Onl9mixWw9UW4IgCVCJJ_mX48MRTi8Pv23cgU66zwGoN7GRmc9qpWMV7L34SY5pqlAjRSYmsZoeGFicP1pBz8t0Ztv386KdfvEHw8lWE26o7KS9Q20Th8Gfg2iAG8NnOB9nnrDNS1wCGRfIzsUfYULu47fdEAkPZG8AuFEclveGkIsbPRY_25QoR6jLml96hsXlP3p-4KS_r5bR6rjWIuVs9q9STbT1HmFb1890');"></div>
+</div>
+<!-- Content -->
+<div class="flex-1 flex flex-col">
+<div class="flex justify-between items-start mb-2">
+<span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/20">
+                                Parenting
+                            </span>
+<button class="text-gray-500 hover:text-primary transition-colors">
+<span class="material-symbols-outlined">bookmark_add</span>
+</button>
+</div>
+<h3 class="text-xl font-bold text-white mb-1 group-hover:text-primary transition-colors cursor-pointer">Positive Discipline: The First Three Years</h3>
+<p class="text-sm text-gray-400 mb-4">by Jane Nelsen</p>
+<div class="bg-[#0f1116]/50 p-4 rounded-xl border border-white/5 mb-4">
+<p class="text-sm text-gray-300 leading-relaxed">
+                                ...essential guide to setting boundaries with love. This book explores why <span class="text-primary font-bold bg-primary/10 px-1 rounded">toddlers</span> misbehave and provides actionable <span class="text-primary font-bold bg-primary/10 px-1 rounded">discipline</span> techniques that respect the child...
+                            </p>
+</div>
+<div class="mt-auto flex items-center gap-4 text-xs text-gray-500 font-medium">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">schedule</span> 15 min read</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-yellow-500">star</span> 4.6 (500)</span>
+</div>
+</div>
+</article>
+</div>
+<!-- Pagination -->
+<div class="mt-12 flex justify-center">
+<nav class="flex items-center gap-2">
+<button class="size-10 flex items-center justify-center rounded-lg bg-[#1a1d2e] text-gray-400 hover:text-white hover:bg-primary/20 transition-colors">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<button class="size-10 flex items-center justify-center rounded-lg bg-primary text-white font-medium">1</button>
+<button class="size-10 flex items-center justify-center rounded-lg bg-[#1a1d2e] text-gray-400 hover:text-white hover:bg-primary/20 transition-colors">2</button>
+<button class="size-10 flex items-center justify-center rounded-lg bg-[#1a1d2e] text-gray-400 hover:text-white hover:bg-primary/20 transition-colors">3</button>
+<span class="text-gray-500 px-2">...</span>
+<button class="size-10 flex items-center justify-center rounded-lg bg-[#1a1d2e] text-gray-400 hover:text-white hover:bg-primary/20 transition-colors">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</nav>
+</div>
+</main>
+</div>
+<!-- Footer -->
+<footer class="bg-[#1a1d2e] border-t border-[#29204b] mt-auto">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+<div class="col-span-1">
+<div class="flex items-center gap-2 mb-4">
+<span class="material-symbols-outlined text-primary text-2xl">local_library</span>
+<span class="text-white text-lg font-bold">ParentWise</span>
+</div>
+<p class="text-gray-400 text-sm leading-relaxed">
+                        Empowering parents with bite-sized wisdom from the world's best parenting books.
+                    </p>
+</div>
+<div>
+<h4 class="text-white font-semibold mb-4">Discover</h4>
+<ul class="space-y-2 text-sm text-gray-400">
+<li><a class="hover:text-primary transition-colors" href="#">New Arrivals</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Popular</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Collections</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Authors</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-semibold mb-4">Community</h4>
+<ul class="space-y-2 text-sm text-gray-400">
+<li><a class="hover:text-primary transition-colors" href="#">Discussions</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Events</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Blog</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-semibold mb-4">Support</h4>
+<ul class="space-y-2 text-sm text-gray-400">
+<li><a class="hover:text-primary transition-colors" href="#">Help Center</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Terms of Service</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Privacy Policy</a></li>
+</ul>
+</div>
+</div>
+<div class="border-t border-[#29204b] pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-gray-500 text-sm">© 2024 ParentWise Inc. All rights reserved.</p>
+<div class="flex gap-4">
+<a class="text-gray-400 hover:text-white" href="#"><i class="material-symbols-outlined text-xl">public</i></a>
+<a class="text-gray-400 hover:text-white" href="#"><i class="material-symbols-outlined text-xl">mail</i></a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

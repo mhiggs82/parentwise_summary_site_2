@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ParentWise - Getting Started</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&amp;family=Noto+Sans:wght@300..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+            extend: {
+                colors: {
+                    "primary": "#6f5cff",
+                    "primary-light": "#7c5bff",
+                    "background-dark": "#0f1116",
+                    "card-dark": "#1a1d2e",
+                    "text-secondary": "#948dce",
+                },
+                fontFamily: {
+                    "display": ["Lexend", "sans-serif"],
+                    "body": ["Noto Sans", "sans-serif"],
+                },
+                boxShadow: {
+                    'glow': '0 0 20px rgba(111, 92, 255, 0.15)',
+                    'glow-hover': '0 0 30px rgba(111, 92, 255, 0.3)',
+                }
+            },
+        },
+    }
+    </script>
+<style>
+        body {
+            font-family: 'Lexend', sans-serif;
+            background-color: #0f1116;
+            color: white;
+        }
+        .sanctuary-gradient {
+            background: linear-gradient(180deg, rgba(111,92,255,0.05) 0%, rgba(15,17,22,0) 100%);
+        }
+    </style>
+</head>
+<body class="bg-background-dark min-h-screen text-white overflow-x-hidden selection:bg-primary selection:text-white">
+<!-- Top Navigation -->
+<header class="w-full border-b border-[#25204b] bg-[#0f1116]/80 backdrop-blur-md sticky top-0 z-50">
+<div class="px-6 md:px-10 lg:px-40 py-4 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="size-8 text-primary">
+<svg class="w-full h-full" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-white text-xl font-bold tracking-tight">ParentWise</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-gray-300 hover:text-white transition-colors text-sm font-medium" href="#">Home</a>
+<a class="text-gray-300 hover:text-white transition-colors text-sm font-medium" href="#">Library</a>
+<a class="text-gray-300 hover:text-white transition-colors text-sm font-medium" href="#">Community</a>
+<button class="bg-card-dark border border-[#352e6b] hover:border-primary text-white px-4 py-2 rounded-lg text-sm font-bold transition-all">
+                    My Profile
+                </button>
+</nav>
+</div>
+</header>
+<main class="flex flex-col items-center w-full sanctuary-gradient pb-20">
+<!-- Hero Heading -->
+<section class="w-full max-w-[960px] px-6 py-16 md:py-24 text-center">
+<h1 class="text-4xl md:text-5xl font-black text-white mb-6 tracking-tight leading-tight">
+                Getting Started
+            </h1>
+<p class="text-text-secondary text-lg md:text-xl font-light max-w-2xl mx-auto leading-relaxed">
+                Your journey to confident parenting begins here. Master the wisdom of experts in minutes with our focused summaries and action plans.
+            </p>
+</section>
+<!-- Quick Start Steps -->
+<section class="w-full max-w-[1080px] px-6 mb-24">
+<div class="text-center mb-12">
+<h2 class="text-2xl font-bold text-white mb-2">Quick Start Steps</h2>
+<div class="h-1 w-12 bg-primary rounded-full mx-auto"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
+<!-- Connecting Line (Desktop) -->
+<div class="hidden md:block absolute top-[40px] left-[16%] right-[16%] h-[2px] bg-gradient-to-r from-transparent via-[#352e6b] to-transparent -z-10"></div>
+<!-- Step 1 -->
+<div class="group flex flex-col items-center text-center">
+<div class="w-20 h-20 rounded-2xl bg-card-dark border border-[#352e6b] shadow-glow group-hover:shadow-glow-hover group-hover:border-primary transition-all duration-300 flex items-center justify-center mb-6 relative">
+<span class="absolute -top-3 -right-3 w-8 h-8 bg-primary rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg">1</span>
+<span class="material-symbols-outlined text-4xl text-white">explore</span>
+</div>
+<h3 class="text-xl font-bold text-white mb-2">Explore</h3>
+<p class="text-text-secondary text-sm leading-relaxed max-w-[240px]">
+                        Browse our curated library of top parenting bestsellers tailored to your needs.
+                    </p>
+</div>
+<!-- Step 2 -->
+<div class="group flex flex-col items-center text-center">
+<div class="w-20 h-20 rounded-2xl bg-card-dark border border-[#352e6b] shadow-glow group-hover:shadow-glow-hover group-hover:border-primary transition-all duration-300 flex items-center justify-center mb-6 relative">
+<span class="absolute -top-3 -right-3 w-8 h-8 bg-primary rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg">2</span>
+<span class="material-symbols-outlined text-4xl text-white">menu_book</span>
+</div>
+<h3 class="text-xl font-bold text-white mb-2">Read</h3>
+<p class="text-text-secondary text-sm leading-relaxed max-w-[240px]">
+                        Digest key insights and expert strategies in under 15 minutes per book.
+                    </p>
+</div>
+<!-- Step 3 -->
+<div class="group flex flex-col items-center text-center">
+<div class="w-20 h-20 rounded-2xl bg-card-dark border border-[#352e6b] shadow-glow group-hover:shadow-glow-hover group-hover:border-primary transition-all duration-300 flex items-center justify-center mb-6 relative">
+<span class="absolute -top-3 -right-3 w-8 h-8 bg-primary rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg">3</span>
+<span class="material-symbols-outlined text-4xl text-white">task_alt</span>
+</div>
+<h3 class="text-xl font-bold text-white mb-2">Apply</h3>
+<p class="text-text-secondary text-sm leading-relaxed max-w-[240px]">
+                        Use our 'Action' tabs to turn abstract advice into immediate daily habits.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Key Features Grid -->
+<section class="w-full max-w-[1080px] px-6 mb-24">
+<h2 class="text-2xl font-bold text-white mb-10 text-center">Platform Highlights</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Card 1 -->
+<div class="bg-card-dark border border-[#2a264a] hover:border-[#352e6b] rounded-xl p-8 transition-colors duration-300 flex flex-col h-full">
+<div class="mb-5 p-3 bg-[#25204b] w-fit rounded-lg text-primary-light">
+<span class="material-symbols-outlined text-3xl">search</span>
+</div>
+<h3 class="text-lg font-bold text-white mb-3">Smart Search</h3>
+<p class="text-text-secondary text-sm leading-relaxed flex-grow">
+                        Don't just search for titles. Search for problems like "tantrums" or "sleep regression" to find specific advice instantly.
+                    </p>
+</div>
+<!-- Card 2 -->
+<div class="bg-card-dark border border-[#2a264a] hover:border-[#352e6b] rounded-xl p-8 transition-colors duration-300 flex flex-col h-full">
+<div class="mb-5 p-3 bg-[#25204b] w-fit rounded-lg text-primary-light">
+<span class="material-symbols-outlined text-3xl">filter_list</span>
+</div>
+<h3 class="text-lg font-bold text-white mb-3">Category Filters</h3>
+<p class="text-text-secondary text-sm leading-relaxed flex-grow">
+                        Zero in on what matters. Filter content tailored specifically to Toddlers, Teens, Single Parents, and everyone in between.
+                    </p>
+</div>
+<!-- Card 3 -->
+<div class="bg-card-dark border border-[#2a264a] hover:border-[#352e6b] rounded-xl p-8 transition-colors duration-300 flex flex-col h-full">
+<div class="mb-5 p-3 bg-[#25204b] w-fit rounded-lg text-primary-light">
+<span class="material-symbols-outlined text-3xl">view_column</span>
+</div>
+<h3 class="text-lg font-bold text-white mb-3">Dual-Tab Cards</h3>
+<p class="text-text-secondary text-sm leading-relaxed flex-grow">
+                        Every summary has two modes: 'Deep Analysis' for understanding the <i>why</i>, and 'Action Plan' for executing the <i>how</i>.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Sanctuary Box (Tips) -->
+<section class="w-full max-w-[800px] px-6 mb-24">
+<div class="relative bg-[#1a1d2e] bg-opacity-60 border border-primary/30 rounded-xl p-8 md:p-10 flex flex-col md:flex-row gap-8 items-start shadow-glow">
+<div class="flex-shrink-0">
+<div class="w-14 h-14 bg-primary/20 rounded-full flex items-center justify-center text-primary-light border border-primary/30">
+<span class="material-symbols-outlined text-3xl">lightbulb</span>
+</div>
+</div>
+<div class="flex-grow">
+<h3 class="text-xl font-bold text-white mb-4">Sanctuary Tip: Choosing Your First Read</h3>
+<ul class="space-y-4">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-xl mt-0.5">check_circle</span>
+<span class="text-gray-300 text-sm leading-relaxed">
+<strong class="text-white">Urgent Fixes:</strong> Look for the "Immediate Action" tag if you are dealing with an acute behavioral issue right now.
+                            </span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-xl mt-0.5">check_circle</span>
+<span class="text-gray-300 text-sm leading-relaxed">
+<strong class="text-white">Long-term Growth:</strong> Select "Developmental Foundations" for books that build character and long-term resilience.
+                            </span>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- CTA Footer -->
+<section class="w-full max-w-[960px] px-6 text-center pb-12">
+<div class="flex flex-col items-center gap-6">
+<button class="bg-primary hover:bg-primary-light text-white text-lg font-bold py-4 px-12 rounded-xl shadow-lg hover:shadow-glow transition-all duration-300 transform hover:-translate-y-1">
+                    Go to Homepage
+                </button>
+<a class="text-text-secondary hover:text-white transition-colors text-sm font-medium underline decoration-primary/50 underline-offset-4 hover:decoration-primary" href="#">
+                    Or browse all categories
+                </a>
+</div>
+</section>
+</main>
+</body></html>

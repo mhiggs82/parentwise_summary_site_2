@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Parenting Research Glossary - ParentWise</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#7c5cff",
+                        "background-light": "#f6f5f8",
+                        "background-dark": "#130f23",
+                        "card-dark": "#1a1d2e",
+                        "accent-purple": "#9a8dce",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        /* Custom scrollbar hiding for horizontal scroll areas */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-white min-h-screen flex flex-col overflow-x-hidden selection:bg-primary selection:text-white">
+<!-- Header / Navbar -->
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-white/10 dark:border-[#29204b] bg-white/80 dark:bg-[#130f24]/90 backdrop-blur-md px-6 md:px-10 py-4">
+<div class="flex items-center gap-4 text-slate-900 dark:text-white">
+<div class="size-8 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl">child_care</span>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em]">ParentWise</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-8 items-center">
+<nav class="flex items-center gap-9">
+<a class="text-slate-600 dark:text-white text-sm font-medium hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-slate-600 dark:text-white text-sm font-medium hover:text-primary transition-colors" href="#">Summaries</a>
+<a class="text-slate-600 dark:text-white text-sm font-medium hover:text-primary transition-colors" href="#">Community</a>
+<a class="text-primary text-sm font-bold" href="#">Glossary</a>
+</nav>
+<button class="flex items-center justify-center rounded-xl h-10 px-6 bg-primary hover:bg-primary/90 transition-colors text-white text-sm font-bold tracking-[0.015em] shadow-lg shadow-primary/25">
+<span class="truncate">Sign In</span>
+</button>
+</div>
+<!-- Mobile Menu Icon -->
+<div class="md:hidden text-white">
+<span class="material-symbols-outlined">menu</span>
+</div>
+</header>
+<main class="flex-1 flex flex-col items-center w-full px-4 md:px-10 py-8">
+<div class="w-full max-w-[1200px] flex flex-col">
+<!-- Hero Section -->
+<div class="flex flex-col gap-4 py-6 md:py-10">
+<h1 class="text-4xl md:text-5xl font-black leading-tight tracking-[-0.033em] bg-clip-text text-transparent bg-gradient-to-r from-white to-white/70">
+                    Parenting Glossary
+                </h1>
+<p class="text-accent-purple text-lg md:text-xl font-normal max-w-2xl leading-relaxed">
+                    Decoding the science of raising humans with empathy and precision. Master the terminology of modern child psychology.
+                </p>
+</div>
+<!-- Search Bar -->
+<div class="mb-10 w-full max-w-2xl">
+<label class="relative flex w-full items-center">
+<div class="absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none text-accent-purple">
+<span class="material-symbols-outlined">search</span>
+</div>
+<input class="flex w-full h-14 pl-12 pr-4 rounded-xl bg-card-dark border border-[#29204b] text-white placeholder:text-accent-purple/60 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all shadow-lg" placeholder="Search terminology (e.g., 'Attachment style')..." type="text"/>
+</label>
+</div>
+<!-- Sticky Letter Navigation -->
+<div class="sticky top-[73px] z-40 bg-background-dark/95 backdrop-blur border-b border-[#29204b] -mx-4 md:-mx-10 px-4 md:px-10 py-4 mb-10 shadow-xl shadow-black/10">
+<div class="flex gap-2 overflow-x-auto no-scrollbar max-w-[1200px] mx-auto">
+<!-- Active/Filled States -->
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">A</button>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">B</button>
+<!-- Active C -->
+<a class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-primary text-white text-sm font-bold shadow-lg shadow-primary/30 hover:scale-105 transition-transform" href="#section-C">C</a>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">D</button>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">E</button>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">F</button>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">G</button>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">H</button>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">I</button>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">J</button>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">K</button>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">L</button>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">M</button>
+<!-- Active N -->
+<a class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark hover:bg-primary/20 text-white text-sm font-bold border border-primary/30 transition-colors" href="#section-N">N</a>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">O</button>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">P</button>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">Q</button>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">R</button>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">S</button>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">T</button>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">U</button>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">V</button>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">W</button>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">X</button>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">Y</button>
+<button class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-card-dark text-slate-500 cursor-not-allowed opacity-50 text-sm font-medium transition-colors">Z</button>
+</div>
+</div>
+<!-- Two Column Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
+<!-- Main Glossary Content (Left) -->
+<div class="lg:col-span-8 flex flex-col gap-12 pb-20">
+<!-- Section C -->
+<section class="scroll-mt-40" id="section-C">
+<div class="flex items-center gap-4 mb-6 border-b border-[#29204b] pb-4">
+<h2 class="text-4xl font-bold text-primary">C</h2>
+</div>
+<div class="flex flex-col gap-6">
+<!-- Card 1 -->
+<div class="bg-card-dark p-6 md:p-8 rounded-2xl border border-white/5 hover:border-primary/30 transition-colors group">
+<div class="flex justify-between items-start mb-3">
+<h3 class="text-2xl font-semibold text-white group-hover:text-primary transition-colors">Co-regulation</h3>
+<button class="text-accent-purple hover:text-white transition-colors">
+<span class="material-symbols-outlined">bookmark_add</span>
+</button>
+</div>
+<p class="text-slate-300 leading-relaxed mb-4">
+                                    An interactive process by which caring adults provide warm, responsive support that helps children develop the capacity to regulate their own emotions and behaviors. It acts as a scaffold for the developing brain.
+                                </p>
+<a class="inline-flex items-center gap-2 text-sm font-bold text-primary hover:text-primary/80 transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">menu_book</span>
+                                    Find books on this topic
+                                </a>
+</div>
+<!-- Card 2 -->
+<div class="bg-card-dark p-6 md:p-8 rounded-2xl border border-white/5 hover:border-primary/30 transition-colors group">
+<div class="flex justify-between items-start mb-3">
+<h3 class="text-2xl font-semibold text-white group-hover:text-primary transition-colors">Cognitive Load</h3>
+<button class="text-accent-purple hover:text-white transition-colors">
+<span class="material-symbols-outlined">bookmark_add</span>
+</button>
+</div>
+<p class="text-slate-300 leading-relaxed mb-4">
+                                    The total amount of mental effort being used in the working memory. In parenting, high cognitive load can reduce patience and emotional availability, often caused by "invisible labor" or multitasking.
+                                </p>
+<a class="inline-flex items-center gap-2 text-sm font-bold text-primary hover:text-primary/80 transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">menu_book</span>
+                                    Find books on this topic
+                                </a>
+</div>
+</div>
+</section>
+<!-- Section N -->
+<section class="scroll-mt-40" id="section-N">
+<div class="flex items-center gap-4 mb-6 border-b border-[#29204b] pb-4">
+<h2 class="text-4xl font-bold text-primary">N</h2>
+</div>
+<div class="flex flex-col gap-6">
+<!-- Card 3 -->
+<div class="bg-card-dark p-6 md:p-8 rounded-2xl border border-white/5 hover:border-primary/30 transition-colors group">
+<div class="flex justify-between items-start mb-3">
+<h3 class="text-2xl font-semibold text-white group-hover:text-primary transition-colors">Neuroplasticity</h3>
+<button class="text-accent-purple hover:text-white transition-colors">
+<span class="material-symbols-outlined">bookmark_add</span>
+</button>
+</div>
+<p class="text-slate-300 leading-relaxed mb-4">
+                                    The brain's ability to reorganize itself by forming new neural connections throughout life. This mechanism allows children to adapt to new situations and learn from their environment, underlining the importance of positive early experiences.
+                                </p>
+<a class="inline-flex items-center gap-2 text-sm font-bold text-primary hover:text-primary/80 transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">menu_book</span>
+                                    Find books on this topic
+                                </a>
+</div>
+</div>
+</section>
+</div>
+<!-- Sidebar (Right) -->
+<aside class="lg:col-span-4 flex flex-col gap-6">
+<!-- Why It Matters Card -->
+<div class="bg-gradient-to-br from-[#29204b] to-card-dark p-6 rounded-2xl border border-white/5 shadow-xl relative overflow-hidden">
+<!-- Decorative bg element -->
+<div class="absolute -top-10 -right-10 w-40 h-40 bg-primary/20 rounded-full blur-3xl pointer-events-none"></div>
+<div class="flex items-center gap-3 mb-4 text-white">
+<span class="material-symbols-outlined text-primary">psychology</span>
+<h3 class="text-lg font-bold">Why Terminology Matters</h3>
+</div>
+<p class="text-sm text-slate-300 leading-relaxed mb-4">
+                            Precise language helps us understand the mechanisms behind our children's behaviors. By naming concepts like "dysregulation" or "scaffolding," we move from reacting to responding with intention.
+                        </p>
+<div class="h-1 w-full bg-white/10 rounded-full mb-4 overflow-hidden">
+<div class="h-full w-1/3 bg-primary rounded-full"></div>
+</div>
+<p class="text-xs text-accent-purple font-medium">350+ terms curated by experts</p>
+</div>
+<!-- Suggest a Term Card -->
+<div class="bg-card-dark p-6 rounded-2xl border border-dashed border-white/10 flex flex-col items-center text-center gap-3">
+<div class="size-12 rounded-full bg-background-dark flex items-center justify-center mb-1">
+<span class="material-symbols-outlined text-primary">add_comment</span>
+</div>
+<h3 class="text-white font-bold">Missing a concept?</h3>
+<p class="text-sm text-slate-400 mb-2">Our glossary grows with our community. Suggest a term you'd like us to define.</p>
+<button class="w-full py-3 px-4 rounded-xl bg-white/5 hover:bg-white/10 text-white font-semibold text-sm transition-colors flex items-center justify-center gap-2 group">
+                            Suggest a Term
+                            <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+<!-- Featured Book Image Card (Visual filler) -->
+<div class="mt-4 rounded-2xl overflow-hidden relative aspect-[4/3] group">
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark via-transparent to-transparent z-10"></div>
+<img alt="A calm open book resting on a dark wooden table with warm ambient lighting, representing research and learning" class="w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-opacity duration-500" data-alt="A calm open book resting on a dark wooden table with warm ambient lighting, representing research and learning" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1gWaPbOIMKK3dISl1nPt7B4ZRHI0tHjVukEScypgFksJzTrUEC0OaHsLXI3hd4CX7OATJ5hgbJn3sF4zpu3O-Sd2UAa79YMc42kQzn91F4OdhUsgBuJHte18OQoVSFmS93LsWz0Td4win-tQbeIKEPKoau4iHzJpWAP-X7h2MVX33P9Nsu590zUez2uYO9gPcpQLLXLBUcDOPJGODa1pTspzfPSYXq_-sBk5rXe1OFrB3dQdEofxqV0W3ZEC0zAFSVXJlGabwtnY"/>
+<div class="absolute bottom-0 left-0 p-6 z-20">
+<span class="text-xs font-bold text-primary uppercase tracking-wider mb-1 block">Featured Collection</span>
+<h4 class="text-white font-bold text-lg leading-tight">Essential Neuroscience for Parents</h4>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</main>
+<!-- Simple Footer -->
+<footer class="border-t border-[#29204b] bg-background-dark py-10 px-6 md:px-10 text-center md:text-left">
+<div class="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-2 text-white/50">
+<span class="material-symbols-outlined text-xl">copyright</span>
+<span class="text-sm">2023 ParentWise Inc. All rights reserved.</span>
+</div>
+<div class="flex gap-6">
+<a class="text-sm text-accent-purple hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="text-sm text-accent-purple hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="text-sm text-accent-purple hover:text-primary transition-colors" href="#">Support</a>
+</div>
+</div>
+</footer>
+</body></html>

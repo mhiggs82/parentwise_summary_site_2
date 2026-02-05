@@ -1,0 +1,9 @@
+{
+    "label": "Teen Development",
+    "position": 3,
+    "link": {
+        "type": "generated-index",
+        "slug": "/teen-development",
+        "description": "Actionable summaries for Teen Development"
+    }
+}
