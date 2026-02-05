@@ -1,0 +1,227 @@
+import React from 'react';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+export default function BookSummary({ data }) {
+    if (!data) return null;
+
+    const { meta, hero, why_matters, tabs } = data;
+
+    return (
+        <div className="book-summary-container" style={{ color: 'var(--pw-text-main)' }}>
+            {/* Hero Section */}
+            <section style={{
+                backgroundColor: 'var(--pw-bg-secondary)',
+                borderRadius: '24px',
+                padding: '40px',
+                marginBottom: '40px',
+                border: '1px solid var(--pw-border)',
+                boxShadow: '0 10px 30px rgba(0, 0, 0, 0.2)',
+                position: 'relative',
+                overflow: 'hidden'
+            }}>
+                {/* Glow background effect */}
+                <div style={{
+                    position: 'absolute',
+                    top: '-100px',
+                    right: '-100px',
+                    width: '300px',
+                    height: '300px',
+                    background: 'radial-gradient(circle, var(--pw-purple-glow) 0%, transparent 70%)',
+                    zIndex: 0,
+                    pointerEvents: 'none'
+                }}></div>
+
+                <div style={{ position: 'relative', zIndex: 1 }}>
+                    <div style={{
+                        display: 'inline-block',
+                        padding: '6px 12px',
+                        borderRadius: '12px',
+                        backgroundColor: 'rgba(124, 91, 255, 0.15)',
+                        border: '1px solid rgba(124, 91, 255, 0.3)',
+                        fontSize: '12px',
+                        fontWeight: '600',
+                        color: 'var(--pw-purple)',
+                        textTransform: 'uppercase',
+                        letterSpacing: '0.05em',
+                        marginBottom: '20px'
+                    }}>
+                        {hero.badge}
+                    </div>
+
+                    <h1 style={{ fontSize: '36px', fontWeight: '800', lineHeight: '1.2', marginBottom: '16px', color: 'var(--pw-text-main)' }}>
+                        {meta.title}
+                    </h1>
+                    <p style={{ fontSize: '18px', color: 'var(--pw-text-secondary)', marginBottom: '24px', maxWidth: '800px' }}>
+                        {meta.subtitle}
+                    </p>
+
+                    <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', marginBottom: '32px' }}>
+                        {meta.tags.map((tag, idx) => (
+                            <span key={idx} style={{
+                                fontSize: '12px',
+                                padding: '4px 10px',
+                                borderRadius: '8px',
+                                backgroundColor: 'var(--pw-bg-tertiary)',
+                                color: 'var(--pw-text-secondary)',
+                                border: '1px solid var(--pw-border)'
+                            }}>
+                                {tag}
+                            </span>
+                        ))}
+                    </div>
+
+                    <div style={{
+                        display: 'flex',
+                        gap: '24px',
+                        paddingTop: '24px',
+                        borderTop: '1px solid var(--pw-border)'
+                    }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                            <span style={{ fontSize: '20px' }}>💡</span>
+                            <div>
+                                <div style={{ fontSize: '18px', fontWeight: '700', color: 'var(--pw-purple)' }}>{hero.insights_count}</div>
+                                <div style={{ fontSize: '11px', textTransform: 'uppercase', color: 'var(--pw-text-tertiary)' }}>Insights</div>
+                            </div>
+                        </div>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                            <span style={{ fontSize: '20px' }}>⚡</span>
+                            <div>
+                                <div style={{ fontSize: '18px', fontWeight: '700', color: 'var(--pw-success)' }}>{hero.actions_count}</div>
+                                <div style={{ fontSize: '11px', textTransform: 'uppercase', color: 'var(--pw-text-tertiary)' }}>Actions</div>
+                            </div>
+                        </div>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                            <span style={{ fontSize: '20px' }}>⏱️</span>
+                            <div>
+                                <div style={{ fontSize: '18px', fontWeight: '700', color: 'var(--pw-text-main)' }}>{hero.read_time}</div>
+                                <div style={{ fontSize: '11px', textTransform: 'uppercase', color: 'var(--pw-text-tertiary)' }}>Read Time</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Why It Matters */}
+            <section style={{
+                marginBottom: '60px',
+                padding: '32px',
+                backgroundColor: 'rgba(124, 91, 255, 0.05)',
+                borderRadius: '20px',
+                border: '1px dashed var(--pw-purple-glow)'
+            }}>
+                <div style={{ display: 'flex', gap: '20px', alignItems: 'start' }}>
+                    <div style={{
+                        width: '48px',
+                        height: '48px',
+                        borderRadius: '12px',
+                        backgroundColor: 'var(--pw-purple)',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        fontSize: '24px',
+                        shrink: 0
+                    }}>
+                        ❤️
+                    </div>
+                    <div>
+                        <h3 style={{ fontSize: '18px', fontWeight: '700', marginBottom: '8px', color: 'var(--pw-text-main)' }}>Why It Matters</h3>
+                        <p style={{ fontSize: '16px', lineHeight: '1.6', color: 'var(--pw-text-secondary)', margin: 0 }}>
+                            {why_matters.text}
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            {/* Main Content Tabs */}
+            <Tabs className="pw-tabs">
+                <TabItem value="analysis" label="Analysis & Insights">
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '40px', paddingTop: '20px' }}>
+                        {tabs.analysis.map((item, idx) => (
+                            <div key={idx} className="analysis-item">
+                                <h2 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: 'var(--pw-text-main)' }}>
+                                    {item.heading}
+                                </h2>
+                                <p style={{ fontSize: '16px', lineHeight: '1.7', color: 'var(--pw-text-secondary)', marginBottom: '24px' }}>
+                                    {item.intro_text}
+                                </p>
+
+                                {item.insight_card && (
+                                    <div style={{
+                                        padding: '24px',
+                                        backgroundColor: 'var(--pw-bg-tertiary)',
+                                        borderRadius: '16px',
+                                        borderLeft: '4px solid var(--pw-purple)',
+                                        boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
+                                    }}>
+                                        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '12px' }}>
+                                            <span style={{ fontSize: '18px' }}>💡</span>
+                                            <h4 style={{ margin: 0, fontSize: '16px', fontWeight: '700', color: 'var(--pw-purple)' }}>
+                                                {item.insight_card.title}
+                                            </h4>
+                                        </div>
+                                        <p style={{ margin: 0, fontSize: '15px', fontStyle: 'italic', lineHeight: '1.6', color: 'var(--pw-text-main)' }}>
+                                            "{item.insight_card.text}"
+                                        </p>
+                                    </div>
+                                )}
+                            </div>
+                        ))}
+                    </div>
+                </TabItem>
+
+                <TabItem value="actions" label="Actionable Framework">
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '40px', paddingTop: '20px' }}>
+                        {tabs.actions.map((item, idx) => (
+                            <div key={idx} className="action-process" style={{
+                                backgroundColor: 'var(--pw-bg-secondary)',
+                                borderRadius: '20px',
+                                padding: '32px',
+                                border: '1px solid var(--pw-border)'
+                            }}>
+                                <h3 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: 'var(--pw-success)' }}>
+                                    {item.title}
+                                </h3>
+                                <p style={{ fontSize: '15px', color: 'var(--pw-text-secondary)', marginBottom: '24px' }}>
+                                    {item.context}
+                                </p>
+
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                                    {item.steps.map((step, sIdx) => (
+                                        <div key={sIdx} style={{ display: 'flex', gap: '16px' }}>
+                                            <div style={{
+                                                width: '28px',
+                                                height: '28px',
+                                                borderRadius: '50%',
+                                                backgroundColor: 'var(--pw-success-bg)',
+                                                border: '1px solid var(--pw-success)',
+                                                color: 'var(--pw-success)',
+                                                display: 'flex',
+                                                alignItems: 'center',
+                                                justifyContent: 'center',
+                                                fontSize: '12px',
+                                                fontWeight: '800',
+                                                flexShrink: 0,
+                                                marginTop: '2px'
+                                            }}>
+                                                {sIdx + 1}
+                                            </div>
+                                            <div>
+                                                <span style={{ fontWeight: '700', color: 'var(--pw-text-main)', fontSize: '15px' }}>
+                                                    {step.bold_title}
+                                                </span>
+                                                <p style={{ margin: '4px 0 0 0', fontSize: '14px', color: 'var(--pw-text-secondary)', lineHeight: '1.5' }}>
+                                                    {step.description}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </TabItem>
+            </Tabs>
+        </div>
+    );
+}
