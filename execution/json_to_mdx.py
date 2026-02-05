@@ -12,6 +12,8 @@ OUTPUT_DIR = BASE_DIR / "execution" / "mdx_output"
 TEMPLATE = """---
 title: {title_formatted}
 sidebar_label: {short_title}
+subtitle: "{subtitle}"
+author: "{author}"
 hide_title: true
 hide_extra_header: true
 hide_table_of_contents: false
@@ -82,6 +84,8 @@ def generate_mdx(json_filepath, json_filename):
 
         # Extract metadata
         title = data['meta']['title']
+        subtitle = data['meta'].get('subtitle', '').replace('"', '\\"')
+        author = data['meta'].get('authors', ['ParentWise Summary'])[0].replace('"', '\\"')
 
         # Create short_title by splitting on : and taking first part
         short_title = title.split(':')[0].strip()
@@ -96,6 +100,8 @@ def generate_mdx(json_filepath, json_filename):
         mdx_content = TEMPLATE.format(
             title_formatted=title_formatted,
             short_title=short_title,
+            subtitle=subtitle,
+            author=author,
             json_filename=json_filename,
             toc_items=toc_items
         )

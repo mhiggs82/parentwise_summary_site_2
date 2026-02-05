@@ -131,9 +131,26 @@ function CardLink({ item }) {
         {item.label.includes(' - ') ? item.label.split(' - ').slice(1).join(' - ') : item.label}
       </Heading>
 
-      <div style={{ fontSize: '12px', color: 'var(--pw-text-tertiary)', marginBottom: '16px', fontWeight: '500' }}>
+      <div style={{ fontSize: '12px', color: 'var(--pw-text-tertiary)', marginBottom: '8px', fontWeight: '500' }}>
         {doc?.frontMatter?.author ? `By ${doc.frontMatter.author}` : 'ParentWise Summary'}
       </div>
+
+      {doc?.frontMatter?.subtitle && (
+        <div style={{
+          fontSize: '13px',
+          color: 'var(--pw-text-main)',
+          lineHeight: '1.4',
+          marginBottom: '12px',
+          fontWeight: '500',
+          fontStyle: 'italic',
+          display: '-webkit-box',
+          WebkitLineClamp: '2',
+          WebkitBoxOrient: 'vertical',
+          overflow: 'hidden'
+        }}>
+          {doc.frontMatter.subtitle}
+        </div>
+      )}
 
       <p style={{
         fontSize: '13px',
@@ -142,7 +159,7 @@ function CardLink({ item }) {
         flexGrow: 1,
         marginBottom: '24px',
         display: '-webkit-box',
-        WebkitLineClamp: '3',
+        WebkitLineClamp: '2',
         WebkitBoxOrient: 'vertical',
         overflow: 'hidden'
       }}>
