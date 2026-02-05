@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "title": "How to Talk So Teens Will Listen & Listen So Teens Will Talk",
+    "subtitle": "Communication methods that acknowledge feelings and engage cooperation through respect",
+    "authors": ["Adele Faber", "Elaine Mazlish"],
+    "tags": ["Communication", "Adolescence", "Family Relationships", "Conflict Resolution", "Respectful Communication", "Emotional Validation"]
+  },
+  "hero": {
+    "badge": "COMM Core Read",
+    "insights_count": 4,
+    "actions_count": 4,
+    "read_time": "12 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-comments",
+    "text": "This book bridges the gap between childhood parenting techniques and adult relationship skills by adapting communication principles specifically for the adolescent developmental stage. It recognizes teenagers as individuals in transition who need both autonomy and guidance, presenting practical alternatives to punishment that maintain connection while fostering responsibility."
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. From Control to Influence",
+        "intro_text": "The fundamental shift from 'making' teenagers behave to creating conditions where they choose responsible behavior. This reframes parental power from coercive to relational. Rather than demanding compliance through threats or rewards, parents learn to create environments and relationships where teens naturally want to cooperate.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-arrows-turn-to-dots",
+          "text": "True parental authority comes not from power over teens, but from influence built through respect and connection. When teens feel heard and valued, cooperation follows naturally."
+        }
+      },
+      {
+        "heading": "2. Punishment as Counterproductive",
+        "intro_text": "Challenges the deeply embedded cultural belief that punishment teaches responsibility. Instead, punishment prevents the internal work necessary for maturity by focusing attention on parental unfairness rather than personal accountability. When teens are punished, they spend energy resenting the punishment rather than reflecting on their choices.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-ban",
+          "text": "Alternatives to punishment—such as expressing feelings, stating expectations, and offering choices—keep teens focused on the impact of their behavior and their capacity to make amends, building genuine responsibility."
+        }
+      },
+      {
+        "heading": "3. Description Over Evaluation",
+        "intro_text": "Praising with description rather than evaluation allows teenagers to form their own positive self-assessments rather than depending on external validation or rejecting it as manipulative. Instead of 'You're so smart' (evaluation), say 'You worked through that difficult problem step by step' (description).",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-list-check",
+          "text": "Descriptive praise shows teens you notice their specific efforts and achievements, allowing them to internalize their own capabilities rather than relying on others' judgments."
+        }
+      },
+      {
+        "heading": "4. Feelings as Valid Data",
+        "intro_text": "Treating teenage emotions as legitimate information rather than problems to be solved or dismissed. This validates their internal experience while maintaining adult boundaries. When parents acknowledge feelings without immediately trying to change them, teens feel understood and are more able to process emotions and move forward.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-heart-pulse",
+          "text": "Acknowledging feelings doesn't mean agreeing with behavior or solving problems. It simply means recognizing the emotional reality teens are experiencing, which is the first step toward emotional regulation."
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "Process 1: Acknowledge Feelings When Your Teen Is Upset",
+        "context": "Help teenagers feel understood, reduce emotional intensity, and enable them to think more clearly about their situation.",
+        "steps": [
+          {
+            "bold_title": "Step 1: Stop",
+            "description": "Stop what you are doing and give full attention"
+          },
+          {
+            "bold_title": "Step 2: Observe",
+            "description": "Observe body language and tone to identify the emotion"
+          },
+          {
+            "bold_title": "Step 3: Listen",
+            "description": "Listen without interrupting until teen finishes speaking"
+          },
+          {
+            "bold_title": "Step 4: Name",
+            "description": "Name the feeling you hear: 'That sounds frustrating/disappointing/scary'"
+          },
+          {
+            "bold_title": "Step 5: Use Minimal Responses",
+            "description": "Use minimal responses to encourage more: 'Oh,' 'Mmm,' 'I see'"
+          },
+          {
+            "bold_title": "Step 6: Resist",
+            "description": "Resist the urge to question, advise, or dismiss"
+          },
+          {
+            "bold_title": "Step 7: Reflect",
+            "description": "Reflect back what you heard: 'So you're upset because...'"
+          },
+          {
+            "bold_title": "Step 8: Validate",
+            "description": "Validate that the feeling makes sense: 'I can understand why you'd feel that way'"
+          },
+          {
+            "bold_title": "Step 9: Wait",
+            "description": "Wait silently to see if teen continues or reaches their own conclusion"
+          },
+          {
+            "bold_title": "Step 10: Offer Fantasy",
+            "description": "Offer fantasy fulfillment if appropriate: 'I wish I could make that happen for you'"
+          }
+        ]
+      },
+      {
+        "title": "Process 2: Engage Cooperation Without Orders or Threats",
+        "context": "Gain teenage cooperation while preserving dignity and teaching problem-solving rather than compliance.",
+        "steps": [
+          {
+            "bold_title": "Step 1: Describe",
+            "description": "Describe the problem neutrally: 'The dishes are still in the sink'"
+          },
+          {
+            "bold_title": "Step 2: Give Information",
+            "description": "Give information without accusation: 'Dirty dishes attract insects'"
+          },
+          {
+            "bold_title": "Step 3: One Word",
+            "description": "Say it in one word as reminder: 'Dishes!'"
+          },
+          {
+            "bold_title": "Step 4: Describe Feelings",
+            "description": "Describe what you feel: 'I feel frustrated when...'"
+          },
+          {
+            "bold_title": "Step 5: Write a Note",
+            "description": "Write a note if verbal reminders fail (can be humorous)"
+          },
+          {
+            "bold_title": "Step 6: State Expectations",
+            "description": "State your expectations clearly: 'I expect dishes washed after meals'"
+          },
+          {
+            "bold_title": "Step 7: Offer Choice",
+            "description": "Offer a choice: 'You can wash them now or right after your show'"
+          },
+          {
+            "bold_title": "Step 8: Use Humor",
+            "description": "Use humor to lighten the mood: 'These dishes are planning a rebellion'"
+          },
+          {
+            "bold_title": "Step 9: Acknowledge",
+            "description": "Acknowledge when they do cooperate: 'Thanks for taking care of that'"
+          },
+          {
+            "bold_title": "Step 10: Problem-Solve",
+            "description": "Problem-solve together if resistance continues"
+          }
+        ]
+      },
+      {
+        "title": "Process 3: Address Misbehavior Without Punishment",
+        "context": "Hold teenagers accountable while maintaining relationship and teaching them to make amends rather than simply endure consequences.",
+        "steps": [
+          {
+            "bold_title": "Step 1: State Feelings",
+            "description": "State your feelings strongly: 'I am very upset about this'"
+          },
+          {
+            "bold_title": "Step 2: State Expectations",
+            "description": "State your expectations: 'I expect you to be honest with me'"
+          },
+          {
+            "bold_title": "Step 3: Describe Impact",
+            "description": "Describe the problem impact: 'When you took the car without asking, I worried about your safety'"
+          },
+          {
+            "bold_title": "Step 4: Show Amends",
+            "description": "Show how to make amends: 'You need to apologize and rebuild trust'"
+          },
+          {
+            "bold_title": "Step 5: Offer Choice",
+            "description": "Offer a choice for making it right: 'You can do X or Y to address this'"
+          },
+          {
+            "bold_title": "Step 6: Give Information",
+            "description": "Give information about consequences: 'When trust is broken, privileges are affected'"
+          },
+          {
+            "bold_title": "Step 7: Express Confidence",
+            "description": "Express confidence in their ability to do better: 'I know you can handle this responsibly'"
+          },
+          {
+            "bold_title": "Step 8: Take Action",
+            "description": "Take action if needed: 'Until this is resolved, the car keys stay with me'"
+          },
+          {
+            "bold_title": "Step 9: Revisit",
+            "description": "Revisit when calm to discuss what they learned"
+          },
+          {
+            "bold_title": "Step 10: Acknowledge Amends",
+            "description": "Acknowledge when they make amends: 'I appreciate you taking responsibility'"
+          }
+        ]
+      },
+      {
+        "title": "Process 4: Problem-Solve Conflicts Together (Five-Step Method)",
+        "context": "Resolve ongoing conflicts collaboratively, teaching negotiation skills while honoring both parent and teen needs.",
+        "steps": [
+          {
+            "bold_title": "Step 1: Invite Perspective",
+            "description": "Invite teen's perspective first: 'I'd like to hear how you see this situation'"
+          },
+          {
+            "bold_title": "Step 2: Listen",
+            "description": "Listen without interrupting and acknowledge their view: 'So from your perspective...'"
+          },
+          {
+            "bold_title": "Step 3: State Your View",
+            "description": "State your perspective: 'Here's how it is for me...'"
+          },
+          {
+            "bold_title": "Step 4: Invite Brainstorming",
+            "description": "Invite brainstorming: 'Let's think of ideas that might work for both of us'"
+          },
+          {
+            "bold_title": "Step 5: Write Down Ideas",
+            "description": "Write down all ideas without judging: Include silly and serious suggestions"
+          },
+          {
+            "bold_title": "Step 6: Review Together",
+            "description": "Review the list together"
+          },
+          {
+            "bold_title": "Step 7: Eliminate",
+            "description": "Eliminate ideas neither party can accept"
+          },
+          {
+            "bold_title": "Step 8: Discuss Options",
+            "description": "Discuss remaining options: 'How would this work?'"
+          },
+          {
+            "bold_title": "Step 9: Choose",
+            "description": "Choose one or more solutions to try"
+          },
+          {
+            "bold_title": "Step 10: Agree on Details",
+            "description": "Agree on implementation details: who does what, when"
+          },
+          {
+            "bold_title": "Step 11: Set Follow-Up",
+            "description": "Set a follow-up time to evaluate: 'Let's see how this works for a week'"
+          },
+          {
+            "bold_title": "Step 12: Adjust",
+            "description": "Adjust the solution if needed at follow-up"
+          }
+        ]
+      }
+    ]
+  }
+}
