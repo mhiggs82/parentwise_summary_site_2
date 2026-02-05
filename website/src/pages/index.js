@@ -34,10 +34,10 @@ export default function Home() {
   ];
 
   const recentBooks = [
-    { badge: 'FOUND', title: 'The Whole-Brain Child', author: 'Daniel Siegel, Tina Payne Bryson', insights: 12, actions: 3, to: '/docs/foundational/FOUND-003%20-%20The%20Whole-Brain%20Child%20by%20Daniel%20Siegel%20and%20Tina%20Payne%20Bryson' },
-    { badge: 'COMM', title: 'How to Talk So Kids Will Listen', author: 'Adele Faber, Elaine Mazlish', insights: 15, actions: 6, to: '/docs/communication/COMM-002%20-%20How%20to%20Talk%20So%20Kids%20Will%20Listen%20and%20Listen%20So%20Kids%20Will%20Talk%20by%20Adele%20Faber%20and%20Elaine%20Mazlish' },
-    { badge: 'MENT', title: 'Raising An Emotionally Intelligent Child', author: 'Dr. John Gottman, Joan Declaire', insights: 18, actions: 4, to: '/docs/mental-health/MENT-001%20-%20Raising%20An%20Emotionally%20Inteligent%20Child%20by%20Dr.%20John%20Gottman%20and%20Joan%20Declaire' },
-    { badge: 'SPEC', title: 'Troublemakers', author: 'Carla Shalaby', insights: 9, actions: 5, to: '/docs/special-needs/SPEC-014%20-%20Troublemakers%20by%20Carla%20Shalaby' },
+    { badge: 'Foundational', title: 'The Whole-Brain Child', author: 'Daniel Siegel, Tina Payne Bryson', insights: 12, actions: 3, to: '/docs/foundational/FOUND-003%20-%20The%20Whole-Brain%20Child%20by%20Daniel%20Siegel%20and%20Tina%20Payne%20Bryson' },
+    { badge: 'Communication', title: 'How to Talk So Kids Will Listen', author: 'Adele Faber, Elaine Mazlish', insights: 15, actions: 6, to: '/docs/communication/COMM-002%20-%20How%20to%20Talk%20So%20Kids%20Will%20Listen%20and%20Listen%20So%20Kids%20Will%20Talk%20by%20Adele%20Faber%20and%20Elaine%20Mazlish' },
+    { badge: 'Emotional Intelligence', title: 'Raising An Emotionally Intelligent Child', author: 'Dr. John Gottman, Joan Declaire', insights: 18, actions: 4, to: '/docs/mental-health/MENT-001%20-%20Raising%20An%20Emotionally%20Inteligent%20Child%20by%20Dr.%20John%20Gottman%20and%20Joan%20Declaire' },
+    { badge: 'Special Needs', title: 'Troublemakers', author: 'Carla Shalaby', insights: 9, actions: 5, to: '/docs/special-needs/SPEC-014%20-%20Troublemakers%20by%20Carla%20Shalaby' },
   ];
 
   return (
