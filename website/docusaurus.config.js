@@ -28,7 +28,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'mhiggs82', // Usually your GitHub org/user name.
-  projectName: 'parentwise_summary_site', // Usually your repo name.
+  projectName: 'parentwise_summary_site_2', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
