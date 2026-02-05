@@ -1,6 +1,42 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 export default function BookSummary({ data }) {
+    useEffect(() => {
+        const observerOptions = {
+            root: null,
+            rootMargin: '-25% 0px -70% 0px',
+            threshold: 0
+        };
+
+        const observerCallback = (entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.id;
+                    if (!id) return;
+
+                    // Remove active class from all TOC links
+                    document.querySelectorAll('.table-of-contents__link').forEach(link => {
+                        link.classList.remove('table-of-contents__link--active');
+                    });
+
+                    // Add active class to corresponding link
+                    const activeLink = document.querySelector(`.table-of-contents__link[href="#${id}"]`);
+                    if (activeLink) {
+                        activeLink.classList.add('table-of-contents__link--active');
+                    }
+                }
+            });
+        };
+
+        const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+        // Observe all sections and heading elements with IDs
+        const targets = document.querySelectorAll('section[id], h2[id], h3[id]');
+        targets.forEach(target => observer.observe(target));
+
+        return () => observer.disconnect();
+    }, [data]);
+
     if (!data) return null;
 
     const { meta, hero, why_matters, tabs } = data;

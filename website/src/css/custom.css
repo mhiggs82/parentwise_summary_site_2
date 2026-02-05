@@ -268,9 +268,10 @@ h3 {
 
 .table-of-contents__link--active {
   color: var(--pw-purple) !important;
-  font-weight: 600 !important;
+  font-weight: 700 !important;
   border-left-color: var(--pw-purple) !important;
-  background: rgba(124, 91, 255, 0.05) !important;
+  background: rgba(124, 91, 255, 0.12) !important;
+  box-shadow: inset 4px 0 10px -5px var(--pw-purple-glow);
 }
 
 /* Ensure the TOC container doesn't have its usual background if any */
