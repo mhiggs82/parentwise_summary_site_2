@@ -167,9 +167,15 @@ export default function BookSummary({ data }) {
             {/* Main Content Tabs */}
             <Tabs className="pw-tabs" value={activeTab} onChange={({ value }) => setActiveTab(value)}>
                 <TabItem value="analysis" label="Analysis & Insights">
-                    <div id="analysis" style={{ display: 'flex', flexDirection: 'column', gap: '40px', paddingTop: '20px' }}>
+                    <div id="analysis" style={{ display: 'flex', flexDirection: 'column', gap: '32px', paddingTop: '20px' }}>
                         {tabs.analysis.map((item, idx) => (
-                            <div key={idx} className="analysis-item">
+                            <div key={idx} className="analysis-item" style={{
+                                backgroundColor: 'var(--pw-bg-secondary)',
+                                borderRadius: '24px',
+                                padding: '32px',
+                                border: '1px solid var(--pw-border)',
+                                boxShadow: '0 4px 20px rgba(0, 0, 0, 0.15)'
+                            }}>
                                 <h2 id={slugify(item.heading)} style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: 'var(--pw-text-main)' }}>
                                     {item.heading}
                                 </h2>
@@ -202,17 +208,19 @@ export default function BookSummary({ data }) {
                 </TabItem>
 
                 <TabItem value="actions" label="Actionable Framework">
-                    <div id="actions" style={{ display: 'flex', flexDirection: 'column', gap: '40px', paddingTop: '20px' }}>
+                    <div id="actions" style={{ display: 'flex', flexDirection: 'column', gap: '32px', paddingTop: '20px' }}>
                         {tabs.actions.map((item, idx) => (
                             <div key={idx} className="action-process" style={{
                                 backgroundColor: 'var(--pw-bg-secondary)',
-                                borderRadius: '20px',
-                                padding: '32px',
-                                border: '1px solid var(--pw-border)'
+                                borderRadius: '24px',
+                                padding: '40px',
+                                border: '1px solid var(--pw-border)',
+                                boxShadow: '0 4px 20px rgba(0, 0, 0, 0.15)'
                             }}>
                                 <h3 id={`action-${idx}`} style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: 'var(--pw-success)' }}>
                                     {item.title}
                                 </h3>
+
                                 <p style={{ fontSize: '15px', color: 'var(--pw-text-secondary)', marginBottom: '24px' }}>
                                     {item.context}
                                 </p>

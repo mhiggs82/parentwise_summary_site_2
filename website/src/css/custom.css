@@ -224,7 +224,8 @@ h3 {
   background: rgba(124, 91, 255, 0.05) !important;
   font-weight: 600 !important;
   border-left: 2px solid var(--pw-purple);
-  margin-left: -1px; /* Overlap the vertical guide line */
+  margin-left: -1px;
+  /* Overlap the vertical guide line */
 }
 
 /* Category Toggle Arrow */
@@ -237,3 +238,45 @@ h3 {
   color: var(--pw-purple) !important;
 }
 
+/* --- Right Side Table of Contents (TOC) Boxed Style --- */
+.table-of-contents {
+  background-color: var(--pw-bg-card);
+  border: 1px solid var(--pw-border);
+  border-radius: var(--pw-radius);
+  padding: 20px !important;
+  margin-top: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.table-of-contents__link {
+  color: var(--pw-text-secondary) !important;
+  font-size: 13px !important;
+  transition: all var(--transition-fast);
+}
+
+.table-of-contents__link:hover,
+.table-of-contents__link--active {
+  color: var(--pw-purple) !important;
+  background: transparent !important;
+}
+
+/* Ensure the TOC container doesn't have its usual background if any */
+.theme-doc-sidebar-item-link .menu__link--active {
+  border-left: 2px solid var(--pw-purple);
+}
+
+/* --- Main Doc Boxed Effect --- */
+/* Target the main article container in Docusaurus */
+.theme-doc-markdown {
+  background-color: transparent;
+  /* Main canvas is black */
+}
+
+/* If we want the whole page content to be in a box, we can target the column */
+/* However, for MDX summaries, the components themselves handle most of the layout. */
+
+/* Specifically for MDX summaries, let's wrap the components in a slightly offset background if desired */
+.pw-doc-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
