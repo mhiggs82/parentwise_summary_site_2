@@ -1,27 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-import { useLocation } from '@docusaurus/router';
+import React from 'react';
 
 export default function BookSummary({ data }) {
-    const location = useLocation();
-    const [activeTab, setActiveTab] = useState('analysis');
-
-    useEffect(() => {
-        const hash = location.hash.replace('#', '');
-        if (!hash) return;
-
-        const analysisSlugs = data.tabs.analysis.map(item => slugify(item.heading));
-        const actionSlugs = data.tabs.actions.map(item => slugify(item.title));
-
-        if (hash === 'actions' || actionSlugs.includes(hash)) {
-            setActiveTab('actions');
-        } else if (hash === 'analysis' || hash === 'summary-overview' || hash === 'why-it-matters' || analysisSlugs.includes(hash)) {
-            setActiveTab('analysis');
-        }
-    }, [location.hash, data.tabs.analysis, data.tabs.actions]);
-
-
     if (!data) return null;
 
     const { meta, hero, why_matters, tabs } = data;
@@ -30,7 +9,7 @@ export default function BookSummary({ data }) {
     const slugify = (text) => text.toLowerCase().replace(/[^\w\s-]/g, '').replace(/[\s_]+/g, '-').trim();
 
     return (
-        <div className="book-summary-container" style={{ color: 'var(--pw-text-main)' }}>
+        <div className="book-summary-container" style={{ color: 'var(--pw-text-main)', maxWidth: '900px', margin: '0 auto' }}>
             {/* Hero Section */}
             <section id="summary-overview" style={{
                 backgroundColor: 'var(--pw-bg-secondary)',
@@ -40,7 +19,8 @@ export default function BookSummary({ data }) {
                 border: '1px solid var(--pw-border)',
                 boxShadow: '0 10px 30px rgba(0, 0, 0, 0.2)',
                 position: 'relative',
-                overflow: 'hidden'
+                overflow: 'hidden',
+                scrollMarginTop: '100px'
             }}>
                 {/* Glow background effect */}
                 <div style={{
@@ -132,14 +112,13 @@ export default function BookSummary({ data }) {
 
             {/* Why It Matters */}
             <section id="why-it-matters" style={{
-                marginBottom: '60px',
+                marginBottom: '80px',
                 padding: '32px',
                 backgroundColor: 'rgba(124, 91, 255, 0.05)',
                 borderRadius: '20px',
                 border: '1px dashed var(--pw-purple-glow)',
                 scrollMarginTop: '100px'
             }}>
-
                 <div style={{ display: 'flex', gap: '20px', alignItems: 'start' }}>
                     <div style={{
                         width: '48px',
@@ -150,7 +129,7 @@ export default function BookSummary({ data }) {
                         alignItems: 'center',
                         justifyContent: 'center',
                         fontSize: '24px',
-                        shrink: 0
+                        flexShrink: 0
                     }}>
                         ❤️
                     </div>
@@ -163,137 +142,143 @@ export default function BookSummary({ data }) {
                 </div>
             </section>
 
-            {/* Main Content Tabs */}
-            <Tabs className="pw-tabs" value={activeTab} onChange={({ value }) => setActiveTab(value)}>
-                <TabItem value="analysis" label="Analysis & Insights">
-                    <div id="analysis" style={{ display: 'flex', flexDirection: 'column', gap: '32px', paddingTop: '20px' }}>
-                        {tabs.analysis.map((item, idx) => (
-                            <div key={idx} className="analysis-item" style={{
-                                backgroundColor: 'var(--pw-bg-secondary)',
-                                borderRadius: '24px',
-                                padding: '32px',
-                                border: '1px solid var(--pw-border)',
-                                boxShadow: '0 4px 20px rgba(0, 0, 0, 0.15)',
-                                scrollMarginTop: '100px'
-                            }}>
-                                <h2 id={slugify(item.heading)} style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: 'var(--pw-text-main)' }}>
-                                    {item.heading}
-                                </h2>
+            {/* Analysis & Insights Section */}
+            <section id="analysis" style={{ marginBottom: '80px', scrollMarginTop: '100px' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '40px' }}>
+                    <h2 style={{ fontSize: '32px', fontWeight: '800', margin: 0 }}>Analysis & Insights</h2>
+                    <div style={{ flex: 1, height: '1px', background: 'linear-gradient(to right, var(--pw-border), transparent)' }}></div>
+                </div>
 
-                                <p style={{ fontSize: '16px', lineHeight: '1.7', color: 'var(--pw-text-secondary)', marginBottom: '24px' }}>
-                                    {item.intro_text}
-                                </p>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '40px' }}>
+                    {tabs.analysis.map((item, idx) => (
+                        <div key={idx} className="analysis-item" style={{
+                            backgroundColor: 'var(--pw-bg-secondary)',
+                            borderRadius: '24px',
+                            padding: '40px',
+                            border: '1px solid var(--pw-border)',
+                            boxShadow: '0 4px 20px rgba(0, 0, 0, 0.15)',
+                            scrollMarginTop: '100px'
+                        }}>
+                            <h2 id={slugify(item.heading)} style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: 'var(--pw-text-main)' }}>
+                                {item.heading}
+                            </h2>
+                            <p style={{ fontSize: '16px', lineHeight: '1.7', color: 'var(--pw-text-secondary)', marginBottom: '24px' }}>
+                                {item.intro_text}
+                            </p>
 
-                                {item.insight_card && (
+                            {item.insight_card && (
+                                <div style={{
+                                    padding: '24px',
+                                    backgroundColor: 'rgba(0, 229, 160, 0.03)',
+                                    borderRadius: '16px',
+                                    border: '1px solid rgba(0, 229, 160, 0.1)',
+                                    borderLeft: '4px solid var(--pw-insight)',
+                                    boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
+                                    position: 'relative',
+                                    overflow: 'hidden'
+                                }}>
                                     <div style={{
-                                        padding: '24px',
-                                        backgroundColor: 'rgba(0, 229, 160, 0.03)',
-                                        borderRadius: '16px',
-                                        border: '1px solid rgba(0, 229, 160, 0.1)',
-                                        borderLeft: '4px solid var(--pw-insight)',
-                                        boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
-                                        position: 'relative',
-                                        overflow: 'hidden'
-                                    }}>
-                                        {/* Subtle corner glow */}
+                                        position: 'absolute',
+                                        top: 0,
+                                        right: 0,
+                                        width: '60px',
+                                        height: '60px',
+                                        background: 'radial-gradient(circle at top right, rgba(0, 229, 160, 0.1) 0%, transparent 70%)',
+                                        pointerEvents: 'none'
+                                    }}></div>
+
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '14px' }}>
                                         <div style={{
-                                            position: 'absolute',
-                                            top: 0,
-                                            right: 0,
-                                            width: '60px',
-                                            height: '60px',
-                                            background: 'radial-gradient(circle at top right, rgba(0, 229, 160, 0.1) 0%, transparent 70%)',
-                                            pointerEvents: 'none'
-                                        }}></div>
-
-                                        <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '14px' }}>
-                                            <div style={{
-                                                width: '32px',
-                                                height: '32px',
-                                                borderRadius: '8px',
-                                                backgroundColor: 'rgba(0, 229, 160, 0.1)',
-                                                display: 'flex',
-                                                alignItems: 'center',
-                                                justifyContent: 'center',
-                                                fontSize: '18px'
-                                            }}>💡</div>
-                                            <h4 style={{ margin: 0, fontSize: '16px', fontWeight: '700', color: 'var(--pw-insight)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                                                {item.insight_card.title}
-                                            </h4>
-                                        </div>
-                                        <p style={{
-                                            margin: 0,
-                                            fontSize: '15px',
-                                            fontStyle: 'italic',
-                                            lineHeight: '1.7',
-                                            color: 'var(--pw-text-main)',
-                                            paddingLeft: '4px'
-                                        }}>
-                                            "{item.insight_card.text}"
-                                        </p>
+                                            width: '32px',
+                                            height: '32px',
+                                            borderRadius: '8px',
+                                            backgroundColor: 'rgba(0, 229, 160, 0.1)',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            justifyContent: 'center',
+                                            fontSize: '18px'
+                                        }}>💡</div>
+                                        <h4 style={{ margin: 0, fontSize: '16px', fontWeight: '700', color: 'var(--pw-insight)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                                            {item.insight_card.title}
+                                        </h4>
                                     </div>
-                                )}
-                            </div>
-                        ))}
-                    </div>
-                </TabItem>
-
-                <TabItem value="actions" label="Actionable Framework">
-                    <div id="actions" style={{ display: 'flex', flexDirection: 'column', gap: '32px', paddingTop: '20px' }}>
-                        {tabs.actions.map((item, idx) => (
-                            <div key={idx} className="action-process" style={{
-                                backgroundColor: 'var(--pw-bg-secondary)',
-                                borderRadius: '24px',
-                                padding: '40px',
-                                border: '1px solid var(--pw-border)',
-                                boxShadow: '0 4px 20px rgba(0, 0, 0, 0.15)',
-                                scrollMarginTop: '100px'
-                            }}>
-                                <h3 id={slugify(item.title)} style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: 'var(--pw-success)' }}>
-                                    {item.title}
-                                </h3>
-
-
-                                <p style={{ fontSize: '15px', color: 'var(--pw-text-secondary)', marginBottom: '24px' }}>
-                                    {item.context}
-                                </p>
-
-                                <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-                                    {item.steps.map((step, sIdx) => (
-                                        <div key={sIdx} style={{ display: 'flex', gap: '16px' }}>
-                                            <div style={{
-                                                width: '28px',
-                                                height: '28px',
-                                                borderRadius: '50%',
-                                                backgroundColor: 'var(--pw-success-bg)',
-                                                border: '1px solid var(--pw-success)',
-                                                color: 'var(--pw-success)',
-                                                display: 'flex',
-                                                alignItems: 'center',
-                                                justifyContent: 'center',
-                                                fontSize: '12px',
-                                                fontWeight: '800',
-                                                flexShrink: 0,
-                                                marginTop: '2px'
-                                            }}>
-                                                {sIdx + 1}
-                                            </div>
-                                            <div>
-                                                <span style={{ fontWeight: '700', color: 'var(--pw-text-main)', fontSize: '15px' }}>
-                                                    {step.bold_title}
-                                                </span>
-                                                <p style={{ margin: '4px 0 0 0', fontSize: '14px', color: 'var(--pw-text-secondary)', lineHeight: '1.5' }}>
-                                                    {step.description}
-                                                </p>
-                                            </div>
-                                        </div>
-                                    ))}
+                                    <p style={{
+                                        margin: 0,
+                                        fontSize: '15px',
+                                        fontStyle: 'italic',
+                                        lineHeight: '1.7',
+                                        color: 'var(--pw-text-main)',
+                                        paddingLeft: '4px'
+                                    }}>
+                                        "{item.insight_card.text}"
+                                    </p>
                                 </div>
+                            )}
+                        </div>
+                    ))}
+                </div>
+            </section>
+
+            {/* Actionable Framework Section */}
+            <section id="actions" style={{ marginBottom: '80px', scrollMarginTop: '100px' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '40px' }}>
+                    <h2 style={{ fontSize: '32px', fontWeight: '800', margin: 0, color: 'var(--pw-success)' }}>Actionable Framework</h2>
+                    <div style={{ flex: 1, height: '1px', background: 'linear-gradient(to right, var(--pw-success), transparent)', opacity: 0.3 }}></div>
+                </div>
+
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '40px' }}>
+                    {tabs.actions.map((item, idx) => (
+                        <div key={idx} className="action-process" style={{
+                            backgroundColor: 'var(--pw-bg-secondary)',
+                            borderRadius: '24px',
+                            padding: '40px',
+                            border: '1px solid var(--pw-border)',
+                            boxShadow: '0 4px 20px rgba(0, 0, 0, 0.15)',
+                            scrollMarginTop: '100px'
+                        }}>
+                            <h3 id={slugify(item.title)} style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: 'var(--pw-success)' }}>
+                                {item.title}
+                            </h3>
+
+                            <p style={{ fontSize: '15px', color: 'var(--pw-text-secondary)', marginBottom: '24px' }}>
+                                {item.context}
+                            </p>
+
+                            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                                {item.steps.map((step, sIdx) => (
+                                    <div key={sIdx} style={{ display: 'flex', gap: '16px' }}>
+                                        <div style={{
+                                            width: '28px',
+                                            height: '28px',
+                                            borderRadius: '50%',
+                                            backgroundColor: 'var(--pw-success-bg)',
+                                            border: '1px solid var(--pw-success)',
+                                            color: 'var(--pw-success)',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            justifyContent: 'center',
+                                            fontSize: '12px',
+                                            fontWeight: '800',
+                                            flexShrink: 0,
+                                            marginTop: '2px'
+                                        }}>
+                                            {sIdx + 1}
+                                        </div>
+                                        <div>
+                                            <span style={{ fontWeight: '700', color: 'var(--pw-text-main)', fontSize: '15px' }}>
+                                                {step.bold_title}
+                                            </span>
+                                            <p style={{ margin: '4px 0 0 0', fontSize: '14px', color: 'var(--pw-text-secondary)', lineHeight: '1.5' }}>
+                                                {step.description}
+                                            </p>
+                                        </div>
+                                    </div>
+                                ))}
                             </div>
-                        ))}
-                    </div>
-                </TabItem>
-            </Tabs>
+                        </div>
+                    ))}
+                </div>
+            </section>
         </div>
     );
 }
