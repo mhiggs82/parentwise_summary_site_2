@@ -1,10 +1,20 @@
 ---
 title: The Emotional Lives of Teenagers - Raising Connected, Capable, and Compassionate Adolescents
 sidebar_label: The Emotional Lives of Teenagers
-hide_table_of_contents: true
+hide_title: true
+hide_extra_header: true
+hide_table_of_contents: false
 ---
 
 import BookSummary from '@site/src/components/BookSummary';
 import bookData from '@site/static/data/books/TEEN-001 - The Emotional Lives of Teenagers by Lisa Damour.json';
 
+export const toc = [
+  { value: 'Summary Overview', id: 'summary-overview', level: 2 },
+  { value: 'Why It Matters', id: 'why-it-matters', level: 2 },
+  { value: 'Analysis & Insights', id: 'analysis', level: 2 },
+  { value: 'Actionable Framework', id: 'actions', level: 2 },
+];
+
 <BookSummary data={bookData} />
+

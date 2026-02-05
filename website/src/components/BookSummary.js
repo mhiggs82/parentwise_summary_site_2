@@ -10,7 +10,7 @@ export default function BookSummary({ data }) {
     return (
         <div className="book-summary-container" style={{ color: 'var(--pw-text-main)' }}>
             {/* Hero Section */}
-            <section style={{
+            <section id="summary-overview" style={{
                 backgroundColor: 'var(--pw-bg-secondary)',
                 borderRadius: '24px',
                 padding: '40px',
@@ -103,7 +103,7 @@ export default function BookSummary({ data }) {
             </section>
 
             {/* Why It Matters */}
-            <section style={{
+            <section id="why-it-matters" style={{
                 marginBottom: '60px',
                 padding: '32px',
                 backgroundColor: 'rgba(124, 91, 255, 0.05)',
@@ -136,7 +136,7 @@ export default function BookSummary({ data }) {
             {/* Main Content Tabs */}
             <Tabs className="pw-tabs">
                 <TabItem value="analysis" label="Analysis & Insights">
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '40px', paddingTop: '20px' }}>
+                    <div id="analysis" style={{ display: 'flex', flexDirection: 'column', gap: '40px', paddingTop: '20px' }}>
                         {tabs.analysis.map((item, idx) => (
                             <div key={idx} className="analysis-item">
                                 <h2 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: 'var(--pw-text-main)' }}>
@@ -171,7 +171,7 @@ export default function BookSummary({ data }) {
                 </TabItem>
 
                 <TabItem value="actions" label="Actionable Framework">
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '40px', paddingTop: '20px' }}>
+                    <div id="actions" style={{ display: 'flex', flexDirection: 'column', gap: '40px', paddingTop: '20px' }}>
                         {tabs.actions.map((item, idx) => (
                             <div key={idx} className="action-process" style={{
                                 backgroundColor: 'var(--pw-bg-secondary)',
