@@ -12,7 +12,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'ParentWise Actionable Summary Guides',
   tagline: 'Actionable summaries for modern parents',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/sophia-logo-white.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -94,7 +94,7 @@ const config = {
         title: 'ParentWise',
         logo: {
           alt: 'ParentWise Logo',
-          src: 'img/sophia-logo.svg',
+          src: 'img/sophia-logo-white.svg',
         },
         items: [
           {
