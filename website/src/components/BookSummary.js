@@ -1,10 +1,12 @@
 import React, { useEffect } from 'react';
 
 export default function BookSummary({ data }) {
+    const lastActiveId = React.useRef(null);
+
     useEffect(() => {
         const observerOptions = {
             root: null,
-            rootMargin: '-25% 0px -70% 0px',
+            rootMargin: '-15% 0px -70% 0px',
             threshold: 0
         };
 
@@ -14,15 +16,17 @@ export default function BookSummary({ data }) {
                     const id = entry.target.id;
                     if (!id) return;
 
+                    lastActiveId.current = id;
+
                     // Remove active class from all TOC links
                     document.querySelectorAll('.table-of-contents__link').forEach(link => {
-                        link.classList.remove('table-of-contents__link--active');
+                        link.classList.remove('pw-toc-active');
                     });
 
                     // Add active class to corresponding link
                     const activeLink = document.querySelector(`.table-of-contents__link[href="#${id}"]`);
                     if (activeLink) {
-                        activeLink.classList.add('table-of-contents__link--active');
+                        activeLink.classList.add('pw-toc-active');
                     }
                 }
             });
@@ -58,7 +62,6 @@ export default function BookSummary({ data }) {
                 overflow: 'hidden',
                 scrollMarginTop: '25vh'
             }}>
-
                 {/* Glow background effect */}
                 <div style={{
                     position: 'absolute',
@@ -156,7 +159,6 @@ export default function BookSummary({ data }) {
                 border: '1px dashed var(--pw-purple-glow)',
                 scrollMarginTop: '25vh'
             }}>
-
                 <div style={{ display: 'flex', gap: '20px', alignItems: 'start' }}>
                     <div style={{
                         width: '48px',
@@ -182,7 +184,6 @@ export default function BookSummary({ data }) {
 
             {/* Analysis & Insights Section */}
             <section id="analysis" style={{ marginBottom: '80px', scrollMarginTop: '25vh' }}>
-
                 <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '40px' }}>
                     <h2 style={{ fontSize: '32px', fontWeight: '800', margin: 0 }}>Analysis & Insights</h2>
                     <div style={{ flex: 1, height: '1px', background: 'linear-gradient(to right, var(--pw-border), transparent)' }}></div>
@@ -198,7 +199,6 @@ export default function BookSummary({ data }) {
                             boxShadow: '0 4px 20px rgba(0, 0, 0, 0.15)',
                             scrollMarginTop: '25vh'
                         }}>
-
                             <h2 id={slugify(item.heading)} style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: 'var(--pw-text-main)' }}>
                                 {item.heading}
                             </h2>
@@ -261,7 +261,6 @@ export default function BookSummary({ data }) {
 
             {/* Actionable Framework Section */}
             <section id="actions" style={{ marginBottom: '80px', scrollMarginTop: '25vh' }}>
-
                 <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '40px' }}>
                     <h2 style={{ fontSize: '32px', fontWeight: '800', margin: 0, color: 'var(--pw-success)' }}>Actionable Framework</h2>
                     <div style={{ flex: 1, height: '1px', background: 'linear-gradient(to right, var(--pw-success), transparent)', opacity: 0.3 }}></div>
@@ -277,7 +276,6 @@ export default function BookSummary({ data }) {
                             boxShadow: '0 4px 20px rgba(0, 0, 0, 0.15)',
                             scrollMarginTop: '25vh'
                         }}>
-
                             <h3 id={slugify(item.title)} style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: 'var(--pw-success)' }}>
                                 {item.title}
                             </h3>

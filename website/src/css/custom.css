@@ -266,7 +266,8 @@ h3 {
   text-decoration: none !important;
 }
 
-.table-of-contents__link--active {
+.table-of-contents__link--active,
+.pw-toc-active {
   color: var(--pw-purple) !important;
   font-weight: 700 !important;
   border-left-color: var(--pw-purple) !important;
