@@ -59,8 +59,15 @@ def generate_toc_items(data):
                 val = heading.replace("'", "\\'").replace('"', '\\"')
                 items.append(f"  {{ value: '{val}', id: '{slug}', level: 3 }},")
     
-    # Add Actionable Framework (H2)
+    # Add Actionable Framework (H2) and sub-items (H3)
     items.append("  { value: 'Actionable Framework', id: 'actions', level: 2 },")
+    if 'tabs' in data and 'actions' in data['tabs']:
+        for item in data['tabs']['actions']:
+            title = item.get('title', '')
+            if title:
+                slug = slugify(title)
+                val = title.replace("'", "\\'").replace('"', '\\"')
+                items.append(f"  {{ value: '{val}', id: '{slug}', level: 3 }},")
     
     return "\n".join(items)
 

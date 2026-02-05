@@ -11,19 +11,16 @@ export default function BookSummary({ data }) {
         const hash = location.hash.replace('#', '');
         if (!hash) return;
 
-        if (hash === 'actions' || hash.startsWith('action-')) {
+        const analysisSlugs = data.tabs.analysis.map(item => slugify(item.heading));
+        const actionSlugs = data.tabs.actions.map(item => slugify(item.title));
+
+        if (hash === 'actions' || actionSlugs.includes(hash)) {
             setActiveTab('actions');
-        } else if (hash === 'analysis' || hash === 'summary-overview' || hash === 'why-it-matters') {
-            // Keep current or switch to analysis if it's the broad heading
-            if (hash === 'analysis') setActiveTab('analysis');
-        } else {
-            // Check if it's an analysis heading
-            const isAnalysisHeading = data.tabs.analysis.some(item => slugify(item.heading) === hash);
-            if (isAnalysisHeading) {
-                setActiveTab('analysis');
-            }
+        } else if (hash === 'analysis' || hash === 'summary-overview' || hash === 'why-it-matters' || analysisSlugs.includes(hash)) {
+            setActiveTab('analysis');
         }
-    }, [location.hash, data.tabs.analysis]);
+    }, [location.hash, data.tabs.analysis, data.tabs.actions]);
+
 
     if (!data) return null;
 
@@ -139,8 +136,10 @@ export default function BookSummary({ data }) {
                 padding: '32px',
                 backgroundColor: 'rgba(124, 91, 255, 0.05)',
                 borderRadius: '20px',
-                border: '1px dashed var(--pw-purple-glow)'
+                border: '1px dashed var(--pw-purple-glow)',
+                scrollMarginTop: '100px'
             }}>
+
                 <div style={{ display: 'flex', gap: '20px', alignItems: 'start' }}>
                     <div style={{
                         width: '48px',
@@ -174,11 +173,13 @@ export default function BookSummary({ data }) {
                                 borderRadius: '24px',
                                 padding: '32px',
                                 border: '1px solid var(--pw-border)',
-                                boxShadow: '0 4px 20px rgba(0, 0, 0, 0.15)'
+                                boxShadow: '0 4px 20px rgba(0, 0, 0, 0.15)',
+                                scrollMarginTop: '100px'
                             }}>
                                 <h2 id={slugify(item.heading)} style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: 'var(--pw-text-main)' }}>
                                     {item.heading}
                                 </h2>
+
                                 <p style={{ fontSize: '16px', lineHeight: '1.7', color: 'var(--pw-text-secondary)', marginBottom: '24px' }}>
                                     {item.intro_text}
                                 </p>
@@ -245,11 +246,13 @@ export default function BookSummary({ data }) {
                                 borderRadius: '24px',
                                 padding: '40px',
                                 border: '1px solid var(--pw-border)',
-                                boxShadow: '0 4px 20px rgba(0, 0, 0, 0.15)'
+                                boxShadow: '0 4px 20px rgba(0, 0, 0, 0.15)',
+                                scrollMarginTop: '100px'
                             }}>
-                                <h3 id={`action-${idx}`} style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: 'var(--pw-success)' }}>
+                                <h3 id={slugify(item.title)} style={{ fontSize: '20px', fontWeight: '700', marginBottom: '12px', color: 'var(--pw-success)' }}>
                                     {item.title}
                                 </h3>
+
 
                                 <p style={{ fontSize: '15px', color: 'var(--pw-text-secondary)', marginBottom: '24px' }}>
                                     {item.context}
