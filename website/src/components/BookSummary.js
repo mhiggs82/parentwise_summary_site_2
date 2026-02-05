@@ -186,18 +186,48 @@ export default function BookSummary({ data }) {
                                 {item.insight_card && (
                                     <div style={{
                                         padding: '24px',
-                                        backgroundColor: 'var(--pw-bg-tertiary)',
+                                        backgroundColor: 'rgba(0, 229, 160, 0.03)',
                                         borderRadius: '16px',
-                                        borderLeft: '4px solid var(--pw-purple)',
-                                        boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
+                                        border: '1px solid rgba(0, 229, 160, 0.1)',
+                                        borderLeft: '4px solid var(--pw-insight)',
+                                        boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
+                                        position: 'relative',
+                                        overflow: 'hidden'
                                     }}>
-                                        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '12px' }}>
-                                            <span style={{ fontSize: '18px' }}>💡</span>
-                                            <h4 style={{ margin: 0, fontSize: '16px', fontWeight: '700', color: 'var(--pw-purple)' }}>
+                                        {/* Subtle corner glow */}
+                                        <div style={{
+                                            position: 'absolute',
+                                            top: 0,
+                                            right: 0,
+                                            width: '60px',
+                                            height: '60px',
+                                            background: 'radial-gradient(circle at top right, rgba(0, 229, 160, 0.1) 0%, transparent 70%)',
+                                            pointerEvents: 'none'
+                                        }}></div>
+
+                                        <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '14px' }}>
+                                            <div style={{
+                                                width: '32px',
+                                                height: '32px',
+                                                borderRadius: '8px',
+                                                backgroundColor: 'rgba(0, 229, 160, 0.1)',
+                                                display: 'flex',
+                                                alignItems: 'center',
+                                                justifyContent: 'center',
+                                                fontSize: '18px'
+                                            }}>💡</div>
+                                            <h4 style={{ margin: 0, fontSize: '16px', fontWeight: '700', color: 'var(--pw-insight)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
                                                 {item.insight_card.title}
                                             </h4>
                                         </div>
-                                        <p style={{ margin: 0, fontSize: '15px', fontStyle: 'italic', lineHeight: '1.6', color: 'var(--pw-text-main)' }}>
+                                        <p style={{
+                                            margin: 0,
+                                            fontSize: '15px',
+                                            fontStyle: 'italic',
+                                            lineHeight: '1.7',
+                                            color: 'var(--pw-text-main)',
+                                            paddingLeft: '4px'
+                                        }}>
                                             "{item.insight_card.text}"
                                         </p>
                                     </div>
