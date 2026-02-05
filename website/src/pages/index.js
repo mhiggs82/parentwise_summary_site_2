@@ -51,7 +51,7 @@ export default function Home() {
         <section style={{ textAlign: 'center', marginBottom: '80px' }}>
           <SophiaLogo size={120} />
           <Heading as="h1" style={{ fontSize: '48px', marginBottom: '16px' }}>
-            ParentWise Actionable Summary Guides
+            ParentWise Actionable Insight Guides
           </Heading>
           <p className="text-secondary" style={{
             fontSize: '18px',
@@ -103,9 +103,11 @@ export default function Home() {
             display: 'flex',
             gap: '24px',
             overflowX: 'auto',
+            paddingTop: '20px',
             paddingBottom: '20px',
             scrollSnapType: 'x mandatory'
           }}>
+
             {recentBooks.map((book, i) => (
               <BookCard key={i} {...book} />
             ))}
