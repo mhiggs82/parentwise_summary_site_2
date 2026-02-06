@@ -13,11 +13,12 @@
       "unconditional love",
       "discipline",
       "self-worth"
-    ]
+    ],
+    "category_code": "COMM"
   },
   "hero": {
     "badge": "COMM Core Read",
-    "insights_count": 3,
+    "insights_count": 4,
     "actions_count": 4,
     "read_time": "4 min read"
   },
@@ -52,6 +53,15 @@
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
           "text": "Rogers explicitly connects discipline with love. Since children cannot regulate themselves or keep themselves safe, providing boundaries is a profound act of care. Permissiveness is identified as a form of neglect; limits provide the security structure children crave."
+        }
+      },
+      {
+        "heading": "4. The \"Good Enough\" Parent",
+        "intro_text": "Rogers dismantles the \"perfect parent\" myth. He argues that a parent who makes mistakes, apologizes, and repairs is actually *better* for a child's development than a \"perfect\" facade, because it teaches the child how to be human, how to fail, and how to reconcile.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Rogers dismantles the \"perfect parent\" myth. He argues that a parent who makes mistakes, apologizes, and repairs is actually *better* for a child's development than a \"perfect\" facade, because it teaches the child how to be human, how to fail, and how to reconcile."
         }
       }
     ],
@@ -157,6 +167,22 @@
           {
             "bold_title": "Reconnect",
             "description": "Ask for a hug or offer reassurance."
+          },
+          {
+            "bold_title": "Permissiveness",
+            "description": "confusing \"unconditional love\" with \"no boundaries.\""
+          },
+          {
+            "bold_title": "Projection",
+            "description": "Assuming the child feels exactly what you felt at that age."
+          },
+          {
+            "bold_title": "The Perfection Trap",
+            "description": "Hiding mistakes from children instead of modeling repair."
+          },
+          {
+            "bold_title": "Dismissing Feelings",
+            "description": "Saying \"You're fine\" instead of \"I see you're sad.\""
           }
         ]
       }

@@ -13,11 +13,12 @@
       "empathy",
       "cooperation",
       "autonomy"
-    ]
+    ],
+    "category_code": "COMM"
   },
   "hero": {
     "badge": "COMM Core Read",
-    "insights_count": 3,
+    "insights_count": 4,
     "actions_count": 4,
     "read_time": "5 min read"
   },
@@ -52,6 +53,15 @@
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
           "text": "NVC allows for force, but only *protective* force. Punitive force intends to cause pain or teach a lesson (\"You need to learn\"). Protective force intends only to prevent injury or damage, with no desire to punish (\"I am holding you so you don't run into the street\"). The difference is in the parent's intention and energy."
+        }
+      },
+      {
+        "heading": "4. Moving Beyond Praise",
+        "intro_text": "Conventional praise (\"Good job!\") is a judgment—a \"positive\" judgment, but still a judgment. It fosters extrinsic motivation (doing it for the reward). Kashtan suggests \"Appreciation\": sharing how the child's action met your need (\"I felt relieved when you cleaned up because I value order\"). This fosters intrinsic motivation.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Conventional praise (\"Good job!\") is a judgment—a \"positive\" judgment, but still a judgment. It fosters extrinsic motivation (doing it for the reward). Kashtan suggests \"Appreciation\": sharing how the child's action met your need (\"I felt relieved when you cleaned up because I value order\"). This fosters intrinsic motivation."
         }
       }
     ],
@@ -165,6 +175,22 @@
           {
             "bold_title": "Result",
             "description": "The child feels seen and valued, not just evaluated."
+          },
+          {
+            "bold_title": "NVC as Manipulation",
+            "description": "Using the words to trick the child into obedience. (They will feel the demand underneath)."
+          },
+          {
+            "bold_title": "Skipping Self-Empathy",
+            "description": "Trying to \"NVC\" a child while you are seething with rage. (It won't work)."
+          },
+          {
+            "bold_title": "Confusing Needs/Strategies",
+            "description": "\"I need you to clean your room\" is a strategy. \"I need order\" is the need."
+          },
+          {
+            "bold_title": "Permissiveness",
+            "description": "Thinking NVC means the child always gets what they want. (No, the parent's needs matter equally)."
           }
         ]
       }

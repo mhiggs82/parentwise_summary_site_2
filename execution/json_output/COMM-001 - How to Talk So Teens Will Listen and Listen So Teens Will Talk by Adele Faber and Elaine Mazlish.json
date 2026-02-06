@@ -14,11 +14,12 @@
       "conflict resolution",
       "respectful communication",
       "emotional validation"
-    ]
+    ],
+    "category_code": "COMM"
   },
   "hero": {
     "badge": "COMM Core Read",
-    "insights_count": 3,
+    "insights_count": 4,
     "actions_count": 4,
     "read_time": "6 min read"
   },
@@ -54,12 +55,21 @@
           "icon": "fa-solid fa-lightbulb",
           "text": "Praising with description rather than evaluation allows teenagers to form their own positive self-assessments rather than depending on external validation or rejecting it as manipulative."
         }
+      },
+      {
+        "heading": "4. Feelings as Valid Data",
+        "intro_text": "Treating teenage emotions as legitimate information rather than problems to be solved or dismissed. This validates their internal experience while maintaining adult boundaries.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Treating teenage emotions as legitimate information rather than problems to be solved or dismissed. This validates their internal experience while maintaining adult boundaries."
+        }
       }
     ],
     "actions": [
       {
         "title": "Acknowledge Feelings When Your Teen Is Upset",
-        "context": "To help teenagers feel understood, reduce emotional intensity, and enable them to think more clearly about their situation.\n\n**Prerequisites**: \n- Relatively calm state for parent\n- Private setting or willingness to listen despite distractions\n- Commitment to listen without immediately solving",
+        "context": "To help teenagers feel understood, reduce emotional intensity, and enable them to think more clearly about their situation.",
         "steps": [
           {
             "bold_title": "Stop",
@@ -246,6 +256,18 @@
           {
             "bold_title": "Adjust",
             "description": "the solution if needed at follow-up"
+          },
+          {
+            "bold_title": "Jumping to Advice",
+            "description": "Offering solutions before a teen has felt \"heard\" usually leads to rejection or eye-rolling."
+          },
+          {
+            "bold_title": "Vague Directives",
+            "description": "Using \"You always\" or \"You never\" triggers defensive fight-or-flight responses rather than logical cooperation."
+          },
+          {
+            "bold_title": "Predetermined Brainstorming",
+            "description": "If a parent already has the \"correct\" answer in mind, the teen will sense the manipulation and disengage from the process."
           }
         ]
       }

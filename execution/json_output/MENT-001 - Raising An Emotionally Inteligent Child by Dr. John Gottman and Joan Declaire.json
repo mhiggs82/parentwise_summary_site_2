@@ -1,426 +1,473 @@
 {
   "meta": {
     "title": "Raising An Emotionally Intelligent Child: The Heart of Parenting",
-    "subtitle": "The science-based framework for developing emotional intelligence through Emotion Coaching",
-    "authors": ["Dr. John Gottman", "Joan DeClaire"],
-    "tags": ["Emotional Intelligence", "Emotion Coaching", "Child Development", "Meta-Emotion", "Parenting Strategies", "Family Dynamics"]
+    "subtitle": "A practical guide to parenting",
+    "authors": [
+      "John Gottman, PhD with Joan DeClaire"
+    ],
+    "tags": [],
+    "category_code": "MENT"
   },
   "hero": {
     "badge": "MENT Core Read",
-    "insights_count": 5,
+    "insights_count": 1,
     "actions_count": 8,
-    "read_time": "51 min read"
+    "read_time": "38 min read"
   },
   "why_matters": {
-    "icon": "fa-solid fa-brain",
-    "text": "Gottman grounds parenting advice in rigorous laboratory observation with physiological measurements and longitudinal tracking. Unlike theoretical frameworks, this approach emerged from watching real families navigate emotion, then following children for years to document outcomes. Children who receive Emotion Coaching show superior academic performance, peer relationships, physical health, and emotional regulation."
+    "icon": "fa-solid fa-heart",
+    "text": "**Thesis**: Emotional intelligence determines success and happiness more than IQ, and parents who practice \"Emotion Coaching\"â€\"being aware of children's feelings, empathizing, and guiding problem-solving during emotional momentsâ€\"raise children who regulate emotions better, achieve more academically, and build stronger relationships.\n\n**Unique Contribution**: Gottman grounds parenting advice in rigorous laboratory observation of actual parent-child interactions, identifying four distinct parenting styles through physiological measurements, behavioral coding, and longitudinal tracking. Unlike theoretical frameworks, this approach emerged from watching real families navigate emotion under controlled conditions, then following children for years to document outcomes. The book translates complex psychophysiology into accessible five-step methodology.\n\n**Target Outcome**: Parents will transform emotional outbursts from frustrating confrontations into opportunities for intimacy and teaching. Children will internalize capacity to recognize, articulate, and manage their own feelings while developing empathy for others. Long-term, Emotion-Coached children demonstrate superior academic performance, peer relationships, physical health, and reduced behavior problems compared to children from other parenting styles."
   },
   "tabs": {
     "analysis": [
       {
-        "heading": "1. Meta-Emotion as Parenting Foundation",
-        "intro_text": "Gottman introduces meta-emotion—awareness of emotions in oneself and others—as the fundamental capacity underlying effective parenting. This shifts focus from behavior management techniques to parental emotional self-awareness. Parents' beliefs about emotions (meta-emotion philosophy) predict how they respond to children's feelings, which shapes children's emotional development more than specific discipline techniques.",
+        "heading": "1. **Architecture**:",
+        "intro_text": "- **Chapter 1**: Establishes Emotion Coaching concept and contrasts with traditional approaches\n- **Chapter 2**: Self-assessment tool identifying four parenting styles with outcome data\n- **Chapter 3**: Five-step Emotion Coaching process with detailed methodology\n- **Chapter 4**: Advanced strategies, obstacles, and skill-building exercises\n- **Chapter 5**: Marriage quality's impact on children; Emotion Coaching as buffer\n- **Chapter 6**: Father's unique role in physical play and physiological regulation\n- **Chapter 7**: Stage-specific guidance from infancy through adolescence\n\n**Function**: The structure moves from theoretical foundation (what/why) to diagnostic (assessment) to tactical (how-to) to contextual (systems thinking) to developmental (adaptation). Each chapter builds upon previous concepts while remaining independently usable as reference material for specific situations.\n\n**Essentiality Assessment**:\n- **Core**: Chapters 1-3 (framework, assessment, five steps) are non-negotiable foundation\n- **High-Value**: Chapters 4-5 (strategies, marriage) address implementation challenges and systemic factors\n- **Specialized**: Chapters 6-7 (father's role, developmental stages) provide targeted depth\n- **Supplementary**: Appendix of children's books offers practical resources",
         "insight_card": {
           "title": "Key Insight",
-          "icon": "fa-solid fa-heart-pulse",
-          "text": "You cannot teach what you do not possess. Before parents can effectively coach their children's emotions, they must first develop awareness and acceptance of their own emotional experiences."
-        }
-      },
-      {
-        "heading": "2. Negative Emotions as Teaching Opportunities",
-        "intro_text": "Traditional parenting views sadness, anger, and fear as problems requiring elimination. Emotion Coaching reframes them as precious moments when children are most receptive to guidance because emotional arousal creates neurological windows for learning and memory consolidation. Rather than rushing to solve problems or eliminate discomfort, parents who follow structured steps build lasting emotional competencies.",
-        "insight_card": {
-          "title": "Key Insight",
-          "icon": "fa-solid fa-door-open",
-          "text": "Emotional moments create neurological windows when children are most receptive to learning. The goal is not to eliminate negative emotions but to use them as opportunities for intimacy and skill-building."
-        }
-      },
-      {
-        "heading": "3. The Four Parenting Styles and Their Outcomes",
-        "intro_text": "Gottman identified four distinct parenting styles through laboratory observations: Dismissing (views negative emotions as trivial or harmful), Disapproving (adds criticism and punishment for emotional expression), Laissez-Faire (accepts all emotional expression but fails to offer guidance), and Emotion Coach (accepts negative emotions, uses them as teaching opportunities, sets behavioral limits). Only Emotion-Coached children showed superior outcomes across academic, social, emotional, and physical health domains in longitudinal studies.",
-        "insight_card": {
-          "title": "Key Insight",
-          "icon": "fa-solid fa-users",
-          "text": "The other three parenting styles, despite parents' good intentions, predicted poorer child outcomes. Recognizing that accepting feelings differs from accepting all behaviors is crucial—neither dismissing feelings nor permitting all behavior supports development."
-        }
-      },
-      {
-        "heading": "4. Marriage as Child's Emotional Ecology",
-        "intro_text": "Rather than treating parenting as an isolated dyad, Gottman demonstrates that marital relationship quality creates atmospheric conditions affecting child's nervous system development. The quality of parents' emotional exchanges literally shapes children's physiological stress responses. Children from high-conflict marriages showed elevated stress hormones, more illness, poorer academic performance, and worse peer relationships regardless of whether parents stayed married.",
-        "insight_card": {
-          "title": "Key Insight",
-          "icon": "fa-solid fa-people-arrows",
-          "text": "Emotion Coaching provided the only proven buffer against harmful effects of marital conflict. The same skills used in coaching children apply to marital interactions—listening to understand, validating feelings, and avoiding criticism and contempt."
-        }
-      },
-      {
-        "heading": "5. Process Over Outcome in Emotional Development",
-        "intro_text": "The book distinguishes between solving the immediate problem (getting child to stop crying) and using the emotional moment to build lasting competencies—emotional awareness, verbal expression, problem-solving capacity. Short-term solutions often undermine long-term development. Scaffolding technique—breaking learning into incremental steps with specific praise—teaches children confidence, persistence, and internal motivation rather than dependence on external validation.",
-        "insight_card": {
-          "title": "Key Insight",
-          "icon": "fa-solid fa-stairs",
-          "text": "Rather than overwhelming children with complete solutions or taking over tasks, parents who scaffold provide minimal initial instruction, wait for small successes, offer specific praise, then add slightly more complexity. This builds genuine competence rather than compliance."
+          "icon": "fa-solid fa-lightbulb",
+          "text": "- **Chapter 1**: Establishes Emotion Coaching concept and contrasts with traditional approaches\n- **Chapter 2**: Self-assessment tool identifying four parenting styles with outcome data\n- **Chapter 3**: Five-step Emotion Coaching process with detailed methodology\n- **Chapter 4**: Advanced strategies, obstacles, and skill-building exercises\n- **Chapter 5**: Marriage quality's impact on children; Emotion Coaching as buffer\n- **Chapter 6**: Father's unique role in physical play and physiological regulation\n- **Chapter 7**: Stage-specific guidance from infancy through adolescence\n\n**Function**: The structure moves from theoretical foundation (what/why) to diagnostic (assessment) to tactical (how-to) to contextual (systems thinking) to developmental (adaptation). Each chapter builds upon previous concepts while remaining independently usable as reference material for specific situations.\n\n**Essentiality Assessment**:\n- **Core**: Chapters 1-3 (framework, assessment, five steps) are non-negotiable foundation\n- **High-Value**: Chapters 4-5 (strategies, marriage) address implementation challenges and systemic factors\n- **Specialized**: Chapters 6-7 (father's role, developmental stages) provide targeted depth\n- **Supplementary**: Appendix of children's books offers practical resources"
         }
       }
     ],
     "actions": [
       {
-        "title": "Process 1: Implementing the Five-Step Emotion Coaching Method",
+        "title": "Implementing the Five-Step Emotion Coaching Method",
         "context": "Transform emotional outbursts from frustrating confrontations into opportunities for building child's emotional intelligence and strengthening parent-child bond.",
         "steps": [
           {
-            "bold_title": "Step 1: Become Aware",
-            "description": "Notice your own physical sensations (tension, breathing changes, emotional reactivity) and pause before responding to ensure you are regulated. If you are dysregulated (above 6/10 emotional intensity), postpone coaching."
+            "bold_title": "BECOME aware",
+            "description": "of child's emotion in yourself first"
           },
           {
-            "bold_title": "Step 2: Observe",
-            "description": "Watch for child's facial expressions, body language, tone of voice. Notice physiological signs: breathing changes, flushing, tears, withdrawal. Pay attention to subtle cues before emotions escalate fully."
+            "bold_title": "OBSERVE",
+            "description": "child's emotional signals carefully"
           },
           {
-            "bold_title": "Step 3: Recognize",
-            "description": "Mentally reframe from 'problem to fix' to 'chance to connect.' Tell yourself: 'This is a teachable moment when child is receptive.' This cognitive shift is essential; without it, you'll default to problem-solving."
+            "bold_title": "RECOGNIZE",
+            "description": "this as opportunity for intimacy and teaching"
           },
           {
-            "bold_title": "Step 4: Listen",
-            "description": "Get down to child's physical level (kneel, sit together). Make gentle eye contact if child is comfortable. Use minimal encouragers: 'Mm-hmm,' 'I see,' 'Tell me more.' Remain silent and allow child to fill space."
+            "bold_title": "LISTEN",
+            "description": "empathetically without judgment"
           },
           {
-            "bold_title": "Step 5: Validate",
-            "description": "Say: 'It makes sense you feel that way' or 'I understand why you're upset.' Use calm, warm tone of voice. Avoid: 'You shouldn't feel...' 'It's not that bad...' 'You're overreacting.'"
+            "bold_title": "VALIDATE",
+            "description": "the feeling clearly"
           },
           {
-            "bold_title": "Step 6: Label",
-            "description": "Ask: 'Are you feeling sad? Angry? Frustrated? Disappointed?' Offer vocabulary for complex emotions: 'Sounds like you're feeling left out.' Labeling emotion activates prefrontal cortex and begins calming process."
+            "bold_title": "HELP",
+            "description": "child verbally label the emotion"
           },
           {
-            "bold_title": "Step 7: Set Limits",
-            "description": "Clearly distinguish: 'It's okay to feel angry. It's not okay to hit.' State boundaries calmly: 'I won't let you throw things.' Explain briefly why limit exists."
+            "bold_title": "SET limits",
+            "description": "on behavior while accepting feelings"
           },
           {
-            "bold_title": "Step 8: Guide Problem-Solving",
-            "description": "Ask: 'What could you do about this?' not 'Here's what you should do.' Let child generate options first before offering suggestions. Ask permission before advising: 'Would you like to hear what's worked for others?'"
+            "bold_title": "GUIDE",
+            "description": "child in problem-solving"
           },
           {
-            "bold_title": "Step 9: Follow Up",
-            "description": "Later, ask: 'How did that work out?' If solution failed: 'What would you try differently next time?' If successful: 'I'm proud of how you handled that.' Follow-up consolidates learning and shows ongoing interest."
+            "bold_title": "FOLLOW up",
+            "description": "after emotion has passed"
           }
         ]
       },
       {
-        "title": "Process 2: Identifying Your Parenting Style",
+        "title": "Identifying Your Parenting Style",
         "context": "Determine your current meta-emotion philosophy and parenting approach to establish baseline before attempting change.",
         "steps": [
           {
-            "bold_title": "Step 1: Complete Assessment",
-            "description": "Answer all 81 questions in Chapter 2 truthfully based on your actual behavior, not ideals. Consider multiple recent examples for each question. Take 30-45 minutes for accurate results."
+            "bold_title": "COMPLETE",
+            "description": "the self-assessment questionnaire in Chapter 2"
           },
           {
-            "bold_title": "Step 2: Score Responses",
-            "description": "Tally responses in each of four categories. Calculate your dominant parenting style. Note secondary patterns that also appear."
+            "bold_title": "SCORE",
+            "description": "your responses according to provided key"
           },
           {
-            "bold_title": "Step 3: Identify Philosophy",
-            "description": "Determine if you're Dismissing (negative emotions are harmful/weak), Disapproving (criticize/punish emotional expression), Laissez-Faire (accept all emotions but no guidance), or Emotion Coach (use emotions as teaching opportunities)."
+            "bold_title": "IDENTIFY",
+            "description": "your meta-emotion philosophy"
           },
           {
-            "bold_title": "Step 4: Examine Origins",
-            "description": "Reflect on how your parents responded to your childhood emotions. What messages did you receive about expressing sadness, anger, fear? What beliefs about emotions did you absorb from family culture?"
+            "bold_title": "Dismissing Style",
+            "description": "Do you believe negative emotions are harmful, weak, or should be quickly changed?"
           },
           {
-            "bold_title": "Step 5: Recognize Impact",
-            "description": "Understand how your style affects your child. Dismissing/Disapproving children learn emotions are bad and fail to develop regulation skills. Laissez-Faire children lack management skills. Emotion-Coached children develop emotional intelligence."
+            "bold_title": "Disapproving Style",
+            "description": "Do you criticize or punish children for emotional expression?"
           },
           {
-            "bold_title": "Step 6: Identify Triggers",
-            "description": "When does your child's emotion make you uncomfortable? Which feelings (sadness, anger, fear) do you struggle to accept? What behaviors push you toward dismissing or disapproving? List 3-5 scenarios where you consistently struggle."
+            "bold_title": "Laissez-Faire Style",
+            "description": "Do you accept all emotions but fail to set behavioral limits or offer guidance?"
           },
           {
-            "bold_title": "Step 7: Share with Co-Parent",
-            "description": "Discuss each person's parenting style assessment. Identify areas of alignment and conflict. Commit to supporting each other's growth toward Emotion Coaching without blame or defensiveness."
+            "bold_title": "Emotion Coach Style",
+            "description": "Do you view negative emotions as opportunities for teaching and intimacy?"
           },
           {
-            "bold_title": "Step 8: Commit to Changes",
-            "description": "Choose one situation where you'll practice Emotion Coaching this week. Identify triggers where you'll pause before reacting. Plan how you'll respond differently. Start small; attempting wholesale change often leads to failure."
+            "bold_title": "EXAMINE",
+            "description": "origins of your philosophy"
+          },
+          {
+            "bold_title": "RECOGNIZE",
+            "description": "how your style affects your child"
+          },
+          {
+            "bold_title": "Dismissing/Disapproving children",
+            "description": "Learn emotions are bad, fail to develop regulation skills, may have behavior problems"
+          },
+          {
+            "bold_title": "Laissez-Faire children",
+            "description": "Learn emotions are acceptable but lack skills to manage them or solve problems"
+          },
+          {
+            "bold_title": "Emotion-Coached children",
+            "description": "Develop emotional intelligence, better relationships, academic success"
+          },
+          {
+            "bold_title": "IDENTIFY",
+            "description": "specific situations triggering non-coaching responses"
+          },
+          {
+            "bold_title": "SHARE",
+            "description": "results with co-parent if applicable"
+          },
+          {
+            "bold_title": "COMMIT",
+            "description": "to specific changes"
           }
         ]
       },
       {
-        "title": "Process 3: Building Meta-Emotion Awareness in Yourself",
+        "title": "Building Meta-Emotion Awareness in Yourself",
         "context": "Develop capacity to recognize and regulate your own emotions before attempting to coach child, since you cannot teach what you do not possess.",
         "steps": [
           {
-            "bold_title": "Step 1: Daily Check-In",
-            "description": "Set alarm for same time each day. Pause and scan your body for physical sensations. Ask: 'What am I feeling right now?' Name the emotion specifically. Rate intensity on 1-10 scale."
+            "bold_title": "ESTABLISH",
+            "description": "daily emotional check-in practice"
           },
           {
-            "bold_title": "Step 2: Expand Vocabulary",
-            "description": "List all emotion words you currently use. Notice if vocabulary is limited (just mad, sad, glad). Expand repertoire: frustrated, disappointed, anxious, content, satisfied, irritated. Practice distinguishing nuanced emotions."
+            "bold_title": "IDENTIFY",
+            "description": "your emotional vocabulary"
           },
           {
-            "bold_title": "Step 3: Trace Sensations",
-            "description": "Where in body do you feel anger? (chest, face, hands?) How does sadness manifest? (heaviness, tears, fatigue?) What signals anxiety? (stomach, rapid heartbeat, tension?) Can you identify emotion by body sensation alone?"
+            "bold_title": "TRACE",
+            "description": "physical sensations associated with each emotion"
           },
           {
-            "bold_title": "Step 4: Examine Beliefs",
-            "description": "Are certain feelings 'good' while others are 'bad'? Which emotions make you uncomfortable? What messages did you receive about expressing feelings? Do you believe emotions should be controlled, expressed, or processed?"
+            "bold_title": "EXAMINE",
+            "description": "your beliefs about emotions"
           },
           {
-            "bold_title": "Step 5: Notice Reactions",
-            "description": "When child cries, what do you feel? (annoyed? anxious? sad?) When child is angry, what's your response? (angry? scared? dismissive?) When child is afraid, how do you react? Track patterns over one week."
+            "bold_title": "NOTICE",
+            "description": "your immediate reaction to child's emotions"
           },
           {
-            "bold_title": "Step 6: Practice Regulation",
-            "description": "Deep breathing: 4 counts in, 4 counts hold, 6 counts out. Progressive muscle relaxation. Mindfulness meditation (5-10 minutes daily). Physical exercise for emotional release. Can you calm yourself within 5 minutes when upset?"
+            "bold_title": "PRACTICE",
+            "description": "emotional regulation techniques"
           },
           {
-            "bold_title": "Step 7: Identify Dysregulation",
-            "description": "Which parenting moments trigger strong emotional reactions? What about child's behavior activates your distress? Note time of day, your stress level, topic/situation. Knowing triggers allows preventive strategies."
+            "bold_title": "IDENTIFY",
+            "description": "situations where you become dysregulated"
           },
           {
-            "bold_title": "Step 8: Develop Pause",
-            "description": "When child's emotion triggers yours, count to 5 before speaking. Take three deep breaths. Ask yourself: 'What is my child feeling right now?' (shifts focus from your emotion to theirs). If still dysregulated, say: 'I need a minute' and physically step away."
+            "bold_title": "DEVELOP",
+            "description": "pause practice before responding"
           },
           {
-            "bold_title": "Step 9: Seek Support",
-            "description": "If childhood trauma interferes with present parenting, if you experience frequent emotional flooding, if your emotions feel uncontrollable, or if you recognize patterns you want to change but cannot, seek professional support. Therapy is strength, not weakness."
+            "bold_title": "SEEK",
+            "description": "professional support if needed"
           }
         ]
       },
       {
-        "title": "Process 4: Using Scaffolding for Teaching and Problem-Solving",
+        "title": "Using Scaffolding for Teaching and Problem-Solving",
         "context": "Help child build competence incrementally through specific praise and gradual complexity rather than criticism or taking over tasks.",
         "steps": [
           {
-            "bold_title": "Step 1: Break Down Task",
-            "description": "Identify first step that child can successfully complete. Ensure initial step is achievable with current skill level. Starting too hard guarantees frustration and failure."
+            "bold_title": "BREAK",
+            "description": "task into smallest possible components"
           },
           {
-            "bold_title": "Step 2: Minimal Instruction",
-            "description": "Give only information needed for first step. Use slow, calm voice (think Mister Rogers, not rapid-fire commands). Demonstrate if needed, then have child try immediately."
+            "bold_title": "PROVIDE",
+            "description": "minimal initial instruction"
           },
           {
-            "bold_title": "Step 3: Wait",
-            "description": "Allow time for processing and trial-and-error. Resist urge to intervene when child struggles. Stay present but quiet. Waiting builds child's persistence and problem-solving."
+            "bold_title": "WAIT",
+            "description": "for child to do something correctly"
           },
           {
-            "bold_title": "Step 4: Specific Praise",
-            "description": "Name exactly what child did right: 'You held the pencil correctly.' Not global praise: 'Good job!' or 'You're so smart!' Use descriptive language: 'You pushed the button at exactly the right moment.'"
+            "bold_title": "OFFER",
+            "description": "specific praise immediately"
           },
           {
-            "bold_title": "Step 5: Add Complexity",
-            "description": "After praising success, introduce next small step. Build on what child just mastered. Keep information minimal. Are you adding too much complexity too quickly?"
+            "bold_title": "ADD",
+            "description": "one more piece of information"
           },
           {
-            "bold_title": "Step 6: Repeat Cycle",
-            "description": "Child attempts new step → specific praise → next increment. Continue until task is complete or child reaches frustration threshold. If child becomes frustrated, return to previous mastered step."
+            "bold_title": "REPEAT",
+            "description": "the cycle"
           },
           {
-            "bold_title": "Step 7: Maintain Pace",
-            "description": "Never rush the process. Allow child to set tempo. If child wants to repeat step, allow it. Hurrying creates anxiety and undermines learning."
+            "bold_title": "MAINTAIN",
+            "description": "slow pace throughout"
           },
           {
-            "bold_title": "Step 8: Resist Intrusion",
-            "description": "Do not push child's hands aside and do task yourself. Do not say 'No, that's wrong' or 'Here, let me show you.' Do not overwhelm with constant corrections. Intrusion communicates incompetence; scaffolding builds confidence."
+            "bold_title": "RESIST",
+            "description": "intrusion and criticism"
           },
           {
-            "bold_title": "Step 9: Celebrate Process",
-            "description": "Acknowledge effort: 'You kept trying even when it was hard.' Recognize strategy use: 'You figured out a different approach.' Note persistence: 'You didn't give up.' Praise behaviors (tried, practiced) not traits (smart, talented)."
+            "bold_title": "CELEBRATE",
+            "description": "process, not just outcome"
           },
           {
-            "bold_title": "Step 10: Reduce Support",
-            "description": "As child masters steps, provide less instruction. Allow more independent problem-solving. Maintain availability without hovering. Repeat this process across multiple learning situations."
+            "bold_title": "GRADUALLY",
+            "description": "reduce support as competence grows"
           }
         ]
       },
       {
-        "title": "Process 5: Protecting Children from Marital Conflict Effects",
+        "title": "Protecting Children from Marital Conflict Effects",
         "context": "Buffer children from harmful effects of parental discord through Emotion Coaching and managing how conflict occurs in their presence.",
         "steps": [
           {
-            "bold_title": "Step 1: Recognize Impact",
-            "description": "Watch for signs your marriage is affecting your child: increased aggression with peers, difficulty regulating emotions, more illnesses, declining academic performance, elevated stress hormones."
+            "bold_title": "RECOGNIZE",
+            "description": "signs your marriage is affecting your child"
           },
           {
-            "bold_title": "Step 2: Assess Conflict Style",
-            "description": "Do you use criticism, contempt, defensiveness, stonewalling (Gottman's 'Four Horsemen')? Do conflicts escalate to yelling, name-calling, threats? Do you maintain hostility for days? Do you involve children by complaining about partner to them?"
+            "bold_title": "ASSESS",
+            "description": "your conflict style"
           },
           {
-            "bold_title": "Step 3: Distinguish Healthy from Harmful",
-            "description": "Healthy: Respectful disagreement, both partners listen, working toward resolution. Harmful: Contempt, criticism, defensiveness, prolonged hostility. Children benefit from witnessing healthy conflict resolution but are harmed by ongoing hostility."
+            "bold_title": "DISTINGUISH",
+            "description": "healthy from harmful conflict"
           },
           {
-            "bold_title": "Step 4: Practice Emotion Coaching in Marriage",
-            "description": "Listen to understand partner's emotions before problem-solving. Validate partner's feelings even when disagreeing with position. Use 'I feel' statements rather than criticism. Take breaks when emotions escalate (return within agreed timeframe)."
+            "bold_title": "Healthy",
+            "description": "Respectful disagreement, both partners listen, working toward resolution"
           },
           {
-            "bold_title": "Step 5: Manage Conflicts Privately",
-            "description": "Have difficult conversations privately. Never use child as messenger, spy, or confidant about marital problems. If conflict occurs in child's presence, demonstrate respectful resolution."
+            "bold_title": "Harmful",
+            "description": "Contempt, criticism, defensiveness, prolonged hostility"
           },
           {
-            "bold_title": "Step 6: Repair Ruptures",
-            "description": "If child witnessed harmful conflict, acknowledge it. Say: 'You saw Mom/Dad and me fighting. We handled that poorly.' Explain: 'We're working on better ways to disagree.' Demonstrate apology and reconciliation."
+            "bold_title": "PRACTICE",
+            "description": "Emotion Coaching in your marriage"
           },
           {
-            "bold_title": "Step 7: Extra Emotion Coaching",
-            "description": "Check in more frequently with child's emotional state during marital stress. Actively listen and validate more than usual. Maintain routines and stability in child's daily life. Reassure child that marital problems are not their fault."
+            "bold_title": "MANAGE",
+            "description": "conflicts away from children when possible"
           },
           {
-            "bold_title": "Step 8: Seek Professional Help",
-            "description": "If conflicts are frequent, intense, and unresolved; if either partner uses contempt, criticism, or stonewalling regularly; if considering divorce; if domestic violence is present. Do not wait until crisis; early intervention is more effective."
+            "bold_title": "REPAIR",
+            "description": "relationship ruptures in child's presence"
           },
           {
-            "bold_title": "Step 9: Coordinate Parenting",
-            "description": "Discuss and align on Emotion Coaching principles. Present united front on behavioral expectations. Support each other's parenting in front of child. Address disagreements privately."
+            "bold_title": "PROVIDE",
+            "description": "extra Emotion Coaching during marital stress"
           },
           {
-            "bold_title": "Step 10: If Divorcing",
-            "description": "Manage hostility toward ex-spouse especially when child present. Never speak negatively about other parent to child. Maintain consistent Emotion Coaching across both households. Coordinate behavioral expectations and routines. Quality of post-divorce relationship matters more than divorce itself."
+            "bold_title": "SEEK",
+            "description": "professional help when needed"
+          },
+          {
+            "bold_title": "COORDINATE",
+            "description": "parenting approaches"
+          },
+          {
+            "bold_title": "IF DIVORCING",
+            "description": ", prioritize child's emotional ecology"
           }
         ]
       },
       {
-        "title": "Process 6: Leveraging Father's Physical Play for Emotional Regulation",
+        "title": "Leveraging Father's Physical Play for Emotional Regulation",
         "context": "Use father-child physical play to teach children how to cycle from high arousal to calm, building physiological self-regulation capacity.",
         "steps": [
           {
-            "bold_title": "Step 1: Initiate Physical Play",
-            "description": "Engage in chase games, roughhousing (within safety limits), tossing child in air and catching (age-appropriate), wrestling, tickling, playful physical challenges, games involving speed, height, or controlled risk. Ensure physical safety throughout."
+            "bold_title": "INITIATE",
+            "description": "physically arousing play"
           },
           {
-            "bold_title": "Step 2: Watch Arousal Signals",
-            "description": "Notice increased excitement: louder voice, faster movement, intense focus. Breathing changes: rapid breathing or holding breath. Facial expressions: wide eyes, big smile, or tension. Body language: increased energy or beginning to stiffen."
+            "bold_title": "WATCH",
+            "description": "for child's arousal signals"
           },
           {
-            "bold_title": "Step 3: Continue Monitoring",
-            "description": "Keep play exciting but not overwhelming. Maintain child in optimal arousal range (excited but not panicked). If child seems nervous or scared, modify intensity. If child is under-aroused, increase stimulation slightly."
+            "bold_title": "CONTINUE",
+            "description": "play while monitoring arousal level"
           },
           {
-            "bold_title": "Step 4: Recognize Peak",
-            "description": "Watch for child's excitement peaking before crossing into overstimulation. Voice may become shrill or breathless. Movements may become jerky or uncoordinated. Laughter may sound forced or transition to crying. This is the crucial moment for regulation teaching."
+            "bold_title": "RECOGNIZE",
+            "description": "when child reaches peak arousal"
           },
           {
-            "bold_title": "Step 5: Stop Activity",
-            "description": "Clearly signal end of active play: 'Okay, let's take a break.' Physically slow down movements. Lower voice volume and pace. Create clear transition from arousal to calm. Do not ignore signals and continue stimulating overstimulated child."
+            "bold_title": "STOP",
+            "description": "the stimulating activity"
           },
           {
-            "bold_title": "Step 6: Help Return to Calm",
-            "description": "Hold child gently if they want contact. Use slow, rhythmic movements (rocking, swaying). Speak in calm, quiet voice. Take deep breaths and encourage child to match. Wait patiently for child's system to downregulate. This downregulation is the essential learning experience."
+            "bold_title": "HELP",
+            "description": "child return to calm state"
           },
           {
-            "bold_title": "Step 7: Name the Process",
-            "description": "Say: 'We were playing really hard and you got very excited.' 'Now we're calming down. Can you feel your breathing slowing?' 'Your body is learning how to calm down after getting excited.' Help child develop awareness of arousal and regulation process."
+            "bold_title": "NAME",
+            "description": "what just happened"
           },
           {
-            "bold_title": "Step 8: Avoid Dismissing",
-            "description": "If child becomes frightened, stop immediately and comfort. Never mock child's fear: 'Don't be such a baby.' Never force continued play when child wants to stop. Never use physical play as punishment. Physical play with emotional dismissing teaches dysregulation, not regulation."
+            "bold_title": "AVOID",
+            "description": "emotional dismissing during physical play"
           },
           {
-            "bold_title": "Step 9: Practice Regularly",
-            "description": "Aim for 10-20 minutes of physical play several times weekly. Best timing: late afternoon/early evening (not before bed). Make it part of routine so child anticipates it. Repeat arousal-calm cycles multiple times during play session."
+            "bold_title": "PRACTICE",
+            "description": "regularly but not excessively"
           },
           {
-            "bold_title": "Step 10: Coordinate Styles",
-            "description": "Explain to mother that physical play serves regulatory function. Recognize mother's typically different play style is also valuable. Both styles contribute to child's emotional development. Avoid competing or criticizing each other's approach. Complementary parenting styles benefit children."
+            "bold_title": "COORDINATE",
+            "description": "with mother's different play style"
           }
         ]
       },
       {
-        "title": "Process 7: Emotion Coaching Across Developmental Stages",
-        "context": "Adapt Emotion Coaching approach to match child's cognitive, emotional, and language capabilities at each developmental stage from infancy through adolescence.",
+        "title": "Emotion Coaching Across Developmental Stages",
+        "context": "Adapt Emotion Coaching approach to match child's cognitive, emotional, and language capabilities at each developmental stage.",
         "steps": [
           {
-            "bold_title": "Infancy (0-12 months): Respond Promptly",
-            "description": "Pick up baby when crying (you cannot spoil infant with attention). Soothe through rocking, gentle movement, quiet voice. Try different techniques: swaddling, white noise, pacifier, nursing. Responsive care builds secure attachment foundation."
+            "bold_title": "RESPOND",
+            "description": "promptly to crying and distress"
           },
           {
-            "bold_title": "Infancy: Face-to-Face Play",
-            "description": "Make exaggerated facial expressions. Use 'motherese' (high-pitched, slow, repetitive speech). Take turns: baby makes expression, you mirror it. Does baby hold your gaze and respond?"
+            "bold_title": "ENGAGE",
+            "description": "in imitative face-to-face play"
           },
           {
-            "bold_title": "Infancy: Watch for Disengagement",
-            "description": "Baby looks away or becomes fussy during play signals need to downregulate from stimulation. Give quiet time without stimulation. Overstimulation when baby needs calm teaches dysregulation."
+            "bold_title": "WATCH",
+            "description": "for baby's need to cycle out of engagement"
           },
           {
-            "bold_title": "Toddlerhood (12-36 months): Simple Vocabulary",
-            "description": "Label feelings with basic words: mad, sad, glad, scared. Keep labels consistent so child learns them. Say: 'You're feeling frustrated' not complex explanations. Does toddler begin using emotion words?"
+            "bold_title": "MIRROR",
+            "description": "baby's emotional expressions"
           },
           {
-            "bold_title": "Toddlerhood: Validate with Limits",
-            "description": "Say: 'I know you're angry. Hitting is not okay.' 'You're sad we're leaving. We still need to go now.' Distinguish accepting emotion from accepting behavior. Toddlers need both empathy and boundaries."
+            "bold_title": "PROVIDE",
+            "description": "simple emotional vocabulary"
           },
           {
-            "bold_title": "Early Childhood (3-5 years): Expand Vocabulary",
-            "description": "Introduce nuanced words: frustrated, disappointed, proud, nervous. Distinguish between similar emotions: mad vs. annoyed, sad vs. lonely. Read books about emotions and discuss characters' feelings. Richer vocabulary enables more precise communication."
+            "bold_title": "VALIDATE",
+            "description": "feelings while setting behavioral limits"
           },
           {
-            "bold_title": "Early Childhood: Teach Calming",
-            "description": "Teach deep breathing exercises ('smell the flower, blow out the candle'), counting to 10, taking space in calm-down corner, using words instead of hitting. Can child use strategies with reminders?"
+            "bold_title": "OFFER",
+            "description": "limited choices within acceptable boundaries"
           },
           {
-            "bold_title": "Middle Childhood (6-12 years): Sophisticated Discussions",
-            "description": "Explore complex emotions: jealousy, guilt, embarrassment, pride. Discuss moral and ethical dimensions of situations. Help child understand that multiple feelings can co-exist. Can child articulate ambivalent feelings?"
+            "bold_title": "USE",
+            "description": "distraction strategically"
           },
           {
-            "bold_title": "Middle Childhood: Support Independence",
-            "description": "Allow child to solve problems with less parental guidance. Ask: 'What do you think you should do?' before offering solutions. Respect child's developing opinions and preferences while maintaining age-appropriate supervision."
+            "bold_title": "EXPAND",
+            "description": "emotional vocabulary"
           },
           {
-            "bold_title": "Adolescence (13-18 years): Respect Privacy",
-            "description": "Knock before entering room. Ask before sharing information about teen with others. Support appropriate decision-making independence. Privacy differs from secrecy; maintain awareness of safety issues."
+            "bold_title": "TEACH",
+            "description": "calming strategies"
           },
           {
-            "bold_title": "Adolescence: Indirect Conversations",
-            "description": "Use car rides (no eye contact reduces pressure), side-by-side activities (cooking, projects), late-night availability (teens often open up at night). Does teen initiate conversations with you?"
+            "bold_title": "PRACTICE",
+            "description": "perspective-taking"
           },
           {
-            "bold_title": "Adolescence: Listen Without Lecturing",
-            "description": "When teen shares problem, listen fully before responding. Ask: 'Do you want advice or just someone to listen?' Resist jumping to solutions or warnings. Lectures shut down communication; listening maintains connection."
+            "bold_title": "SET",
+            "description": "clear behavioral expectations"
+          },
+          {
+            "bold_title": "ENGAGE",
+            "description": "in sophisticated emotional discussions"
+          },
+          {
+            "bold_title": "SUPPORT",
+            "description": "growing independence"
+          },
+          {
+            "bold_title": "CREATE",
+            "description": "mental map of child's daily world"
+          },
+          {
+            "bold_title": "AVOID",
+            "description": "siding with authority figures"
+          },
+          {
+            "bold_title": "RESPECT",
+            "description": "need for increased privacy and autonomy"
+          },
+          {
+            "bold_title": "MAINTAIN",
+            "description": "connection despite normal distancing"
+          },
+          {
+            "bold_title": "USE",
+            "description": "indirect conversation opportunities"
+          },
+          {
+            "bold_title": "LISTEN",
+            "description": "without immediately lecturing or solving"
+          },
+          {
+            "bold_title": "ACKNOWLEDGE",
+            "description": "peer importance"
           }
         ]
       },
       {
-        "title": "Process 8: Preventing and Overcoming Emotion Coaching Obstacles",
+        "title": "Preventing and Overcoming Emotion Coaching Obstacles",
         "context": "Identify and address common barriers that prevent effective Emotion Coaching before they derail the process.",
         "steps": [
           {
-            "bold_title": "Step 1: Identify Obstacles",
-            "description": "Review situations where you struggled to remain calm. Notice which child emotions trigger your discomfort. Recognize when parental agenda interferes. List 3-5 recurring barriers you encounter. Are you honest about struggles or minimizing them?"
+            "bold_title": "IDENTIFY",
+            "description": "your specific Emotion Coaching obstacles"
           },
           {
-            "bold_title": "Step 2: Address Agenda Interference",
-            "description": "When you have strong opinion about situation, notice it. Pause and ask: 'Whose need am I serving? Mine or child's?' Postpone agenda topic until after emotional coaching. First validate feelings, then (much later) address values/lessons. Emotional moment is wrong time for character development lecture."
+            "bold_title": "ADDRESS",
+            "description": "parental agenda interference"
           },
           {
-            "bold_title": "Step 3: Avoid Criticism",
-            "description": "Notice tendency to correct, intrude, or criticize. Replace labels ('you're lazy') with specific behaviors ('homework isn't done'). Never mock child's emotional expression. Pause before making jokes at child's expense. Criticism destroys trust essential for Emotion Coaching."
+            "bold_title": "AVOID",
+            "description": "excessive criticism, mockery, and humiliation"
           },
           {
-            "bold_title": "Step 4: Manage Dysregulation",
-            "description": "When you feel anger rising during child's emotion, stop. Say: 'I need a minute' and physically leave. Use self-calming techniques: deep breathing, walking. Return when you can be present without anger. You cannot coach while dysregulated."
+            "bold_title": "MANAGE",
+            "description": "your own dysregulation"
           },
           {
-            "bold_title": "Step 5: Respect Defensiveness",
-            "description": "If child becomes defensive, back off. Do not force emotional conversation. Say: 'We can talk about this later when you're ready.' Respect child's right to process privately. Are you respecting child's pace or forcing your timeline?"
+            "bold_title": "SIDESTEP",
+            "description": "child's defensiveness"
           },
           {
-            "bold_title": "Step 6: Know When Not to Coach",
-            "description": "Don't coach when: child is in immediate physical danger (act first, coach later), either you or child is highly dysregulated (7+/10 intensity), child is manipulating to avoid consequences, time pressure makes quality interaction impossible, you are depleted and cannot be emotionally present. Poor-quality coaching worse than no coaching."
+            "bold_title": "DISTINGUISH",
+            "description": "when NOT to Emotion Coach"
           },
           {
-            "bold_title": "Step 7: Overcome Time Scarcity",
-            "description": "Recognize Emotion Coaching doesn't require hours. Five focused minutes more valuable than distracted hour. Prioritize presence during key transition times (morning, after school, bedtime). Eliminate distractions when child needs you. Quality of attention matters more than quantity."
+            "bold_title": "OVERCOME",
+            "description": "time scarcity"
           },
           {
-            "bold_title": "Step 8: Address Co-Parent Misalignment",
-            "description": "Share book and discuss Emotion Coaching approach. Attend parenting class or therapy together. Agree to support each other's coaching attempts. Don't undermine other parent in front of child. Can you describe approach using same language?"
+            "bold_title": "ADDRESS",
+            "description": "co-parent misalignment"
           },
           {
-            "bold_title": "Step 9: Seek Professional Help",
-            "description": "Seek therapy if: your childhood trauma interferes with present parenting, you recognize patterns but cannot change them, child's issues exceed your capacity, marital conflict prevents parenting collaboration. Therapy is investment in family health, not admission of failure."
+            "bold_title": "SEEK",
+            "description": "professional help when stuck"
           },
           {
-            "bold_title": "Step 10: Practice Self-Compassion",
-            "description": "Emotion Coaching is skill requiring practice, not instant mastery. You will make mistakes; repair them and continue. Notice improvements even if imperfect. Recognize effort matters as much as outcome. Self-criticism depletes energy needed for parenting."
+            "bold_title": "PRACTICE",
+            "description": "self-compassion"
+          },
+          {
+            "bold_title": "TRACK",
+            "description": "progress objectively"
+          },
+          {
+            "bold_title": "ADJUST",
+            "description": "approach based on feedback"
           }
         ]
       }

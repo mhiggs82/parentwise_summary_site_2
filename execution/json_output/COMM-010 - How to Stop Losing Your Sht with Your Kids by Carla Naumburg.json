@@ -13,11 +13,12 @@
       "mindfulness",
       "triggers",
       "nervous system"
-    ]
+    ],
+    "category_code": "COMM"
   },
   "hero": {
     "badge": "COMM Core Read",
-    "insights_count": 3,
+    "insights_count": 4,
     "actions_count": 4,
     "read_time": "4 min read"
   },
@@ -53,6 +54,15 @@
           "icon": "fa-solid fa-lightbulb",
           "text": "Self-compassion isn't fluffy; it's physics. Shame increases stress, which keeps the nervous system primed to explode. Compassion lowers stress, increasing the gap between trigger and reaction."
         }
+      },
+      {
+        "heading": "4. \"Literally Anything Else\"",
+        "intro_text": "The intervention strategy abandons the idea of doing the \"right\" parenting move in the heat of the moment. The goal is simply to *not make it worse*. Doing \"literally anything else\" (staring at the wall, drinking water, doing a jumping jack) breaks the neural pathway of the explosion.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "The intervention strategy abandons the idea of doing the \"right\" parenting move in the heat of the moment. The goal is simply to *not make it worse*. Doing \"literally anything else\" (staring at the wall, drinking water, doing a jumping jack) breaks the neural pathway of the explosion."
+        }
       }
     ],
     "actions": [
@@ -70,7 +80,7 @@
           },
           {
             "bold_title": "Do Literally Anything Else",
-            "description": ""
+            "description": "*   Drink a glass of water."
           },
           {
             "bold_title": "Wait",
@@ -153,6 +163,22 @@
           {
             "bold_title": "Move on",
             "description": "Don't over-explain or beg for forgiveness."
+          },
+          {
+            "bold_title": "Blaming the Pusher",
+            "description": "\"I wouldn't yell if you listened!\" (False—you yelled because you were triggered)."
+          },
+          {
+            "bold_title": "Skipping the Pause",
+            "description": "Trying to \"parent\" (teach/correct) while flooded."
+          },
+          {
+            "bold_title": "Shame Spirals",
+            "description": "Beating yourself up after yelling (which just primes the next explosion)."
+          },
+          {
+            "bold_title": "Neglecting Basics",
+            "description": "Ignoring sleep/food and expecting willpower to work."
           }
         ]
       }

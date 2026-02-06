@@ -14,17 +14,18 @@
       "emotional intelligence",
       "respectful communication",
       "problem-solving"
-    ]
+    ],
+    "category_code": "COMM"
   },
   "hero": {
     "badge": "COMM Core Read",
-    "insights_count": 3,
+    "insights_count": 4,
     "actions_count": 4,
     "read_time": "5 min read"
   },
   "why_matters": {
     "icon": "fa-solid fa-heart",
-    "text": "**Thesis**: Children's cooperation and emotional health depend fundamentally on adults' communication methods. When parents replace judgment, commands, and punishment with skills that acknowledge feelings, encourage autonomy, and invite problem-solving, they create relationships where children develop self-esteem, responsibility, and genuine cooperation.\n\n**Unique Contribution**: This work translates abstract psychological principles into concrete, repeatable communication techniques. Unlike theoretical parenting books, it provides specific verbal formulas, visual demonstrations through cartoons, and practice exercises. The revolutionary insight: children don't need perfect parents—they need parents who can describe rather than evaluate, who can accept feelings without fixing them, and who can engage cooperation without coercion.\n\n**Target Outcome**: Parents will internalize communication skills that reduce daily conflict, build children's self-reliance, create emotional safety, develo"
+    "text": "**Thesis**: Children's cooperation and emotional health depend fundamentally on adults' communication methods. When parents replace judgment, commands, and punishment with skills that acknowledge feelings, encourage autonomy, and invite problem-solving, they create relationships where children develop self-esteem, responsibility, and genuine cooperation.\n\n**Unique Contribution**: This work translates abstract psychological principles into concrete, repeatable communication techniques. Unlike theoretical parenting books, it provides specific verbal formulas, visual demonstrations through cartoons, and practice exercises. The revolutionary insight: children don't need perfect parents—they need parents who can describe rather than evaluate, who can accept feelings without fixing them, and who can engage cooperation without coercion.\n\n**Target Outcome**: Parents will internalize communication skills that reduce daily conflict, build children's self-reliance, create emotional safety, develop intrinsic motivation, and establish respectful communication patterns."
   },
   "tabs": {
     "analysis": [
@@ -53,6 +54,15 @@
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
           "text": "Evaluative praise (\"You're so smart\") creates dependency on external validation. Descriptive praise (\"You figured out the puzzle by trying different pieces\") gives children language for their own strengths and builds authentic self-esteem."
+        }
+      },
+      {
+        "heading": "4. Autonomy Requires Struggle",
+        "intro_text": "Rescuing children from struggle communicates a lack of confidence in their capability. Respecting their struggle while offering information (\"That jar can be hard to open\") communicates trust and builds self-efficacy.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Rescuing children from struggle communicates a lack of confidence in their capability. Respecting their struggle while offering information (\"That jar can be hard to open\") communicates trust and builds self-efficacy."
         }
       }
     ],
@@ -190,6 +200,22 @@
           {
             "bold_title": "AVOID",
             "description": "adding evaluation (\"Good boy/girl\")."
+          },
+          {
+            "bold_title": "Sarcastic Description",
+            "description": "\"Oh, I see SOMEONE left their bag out AGAIN.\""
+          },
+          {
+            "bold_title": "Disguised Threats",
+            "description": "Offering choices where one is a punishment."
+          },
+          {
+            "bold_title": "Predetermined Brainstorming",
+            "description": "Creating a \"solution\" before the child is heard."
+          },
+          {
+            "bold_title": "The \"But\" Eraser",
+            "description": "\"I know you're sad, BUT...\" (erases the validation)."
           }
         ]
       }

@@ -7,11 +7,29 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 INPUT_DIR = BASE_DIR / "execution" / "json_output"
 OUTPUT_DIR = BASE_DIR / "execution" / "mdx_output"
+DOCS_DIR = BASE_DIR / "website" / "docs"
+
+# Mapping for automated routing
+CATEGORY_MAP = {
+    "FOUND": "foundational",
+    "COMM": "communication",
+    "PRNT": "parent-self-work",
+    "MENT": "mental-health",
+    "TEEN": "teen-development",
+    "TECH": "digital-age-technology",
+    "SPEC": "specialized-topics",
+    "CHAR": "character-development",
+    "FAMI": "family-structure",
+    "GEND": "gender-specific",
+    "MULT": "multicultural",
+    "NEED": "special-needs"
+}
 
 # MDX Template
 TEMPLATE = """---
 title: {title_formatted}
 sidebar_label: {short_title}
+description: "{description}"
 subtitle: "{subtitle}"
 author: "{author}"
 hide_title: true
@@ -96,10 +114,18 @@ def generate_mdx(json_filepath, json_filename):
         # Generate TOC items
         toc_items = generate_toc_items(data)
 
+        # Extract WHY IT MATTERS for the SEO description
+        raw_description = data.get('why_matters', {}).get('text', '')
+        # Clean markdown bolding and quotes, then truncate
+        clean_description = re.sub(r'\*\*(.*?)\*\*', r'\1', raw_description).replace('"', "'").replace("\n", " ")[:240].strip()
+        if not clean_description:
+            clean_description = subtitle if subtitle else f"A summary of {title}."
+
         # Format MDX content
         mdx_content = TEMPLATE.format(
             title_formatted=title_formatted,
             short_title=short_title,
+            description=clean_description,
             subtitle=subtitle,
             author=author,
             json_filename=json_filename,
@@ -126,8 +152,8 @@ def main():
 
     all_files = sorted([f for f in os.listdir(INPUT_DIR) if f.endswith('.json')])
 
-    # Filter for all COMM books
-    json_files = [f for f in all_files if f.startswith('COMM-')]
+    # Process all JSON files in the output folder
+    json_files = all_files
     total = len(json_files)
 
     if total == 0:
@@ -144,13 +170,31 @@ def main():
 
             # Generate MDX content
             input_path = INPUT_DIR / filename
+            
+            # Load JSON data to check category
+            with open(input_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            
+            category = data.get('meta', {}).get('category_code', 'COMM')
             mdx_content = generate_mdx(input_path, filename)
 
-            # Save MDX output
+            # Determine destination folder
+            folder_name = CATEGORY_MAP.get(category, "specialized-topics")
+            dest_dir = DOCS_DIR / folder_name
+            dest_dir.mkdir(exist_ok=True, parents=True)
+
+            # Save MDX output directly to website/docs/...
             output_filename = filename.replace('.json', '.mdx')
-            output_path = OUTPUT_DIR / output_filename
+            output_path = dest_dir / output_filename
+
+            # Also save to local backup folder
+            OUTPUT_DIR.mkdir(exist_ok=True, parents=True)
+            backup_path = OUTPUT_DIR / output_filename
 
             with open(output_path, 'w', encoding='utf-8') as f:
+                f.write(mdx_content)
+            
+            with open(backup_path, 'w', encoding='utf-8') as f:
                 f.write(mdx_content)
 
             print(f"✓ Saved to {output_path}")

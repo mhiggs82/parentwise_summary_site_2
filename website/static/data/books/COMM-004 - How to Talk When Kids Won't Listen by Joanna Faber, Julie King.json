@@ -13,11 +13,12 @@
       "conflict resolution",
       "emotional intelligence",
       "problem-solving"
-    ]
+    ],
+    "category_code": "COMM"
   },
   "hero": {
     "badge": "COMM Core Read",
-    "insights_count": 3,
+    "insights_count": 4,
     "actions_count": 5,
     "read_time": "4 min read"
   },
@@ -52,6 +53,15 @@
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
           "text": "Punishment teaches resentment and avoidance. True responsibility comes from experiencing natural outcomes and making amends. The book distinguishes between \"saving\" a child (preventing learning) and \"punishing\" them (inflicting pain), guiding parents to the middle ground of support and accountability."
+        }
+      },
+      {
+        "heading": "4. The Praise Trap",
+        "intro_text": "Evaluative praise (\"You're so smart\") creates performance anxiety and a fixed mindset. Descriptive praise (\"You kept trying different ways\") builds resilience and intrinsic motivation.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Evaluative praise (\"You're so smart\") creates performance anxiety and a fixed mindset. Descriptive praise (\"You kept trying different ways\") builds resilience and intrinsic motivation."
         }
       }
     ],
@@ -219,6 +229,22 @@
           {
             "bold_title": "REVISIT",
             "description": "later to problem-solve."
+          },
+          {
+            "bold_title": "The \"But\" Eraser",
+            "description": "\"I know you're sad, BUT...\""
+          },
+          {
+            "bold_title": "Disguised Blame",
+            "description": "\"The problem is you never listen.\""
+          },
+          {
+            "bold_title": "Fake Choices",
+            "description": "\"Clean up or lose TV\" (That's a threat, not a choice)."
+          },
+          {
+            "bold_title": "Rushing Validation",
+            "description": "Skipped steps in Process 1 leads to failed Problem Solving in Process 3."
           }
         ]
       }

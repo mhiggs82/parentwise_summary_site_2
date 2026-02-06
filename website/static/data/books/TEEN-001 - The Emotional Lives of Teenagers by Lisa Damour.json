@@ -1,182 +1,193 @@
 {
   "meta": {
     "title": "The Emotional Lives of Teenagers: Raising Connected, Capable, and Compassionate Adolescents",
-    "subtitle": "Understanding emotion regulation as the balance between expression and control",
-    "authors": ["Lisa Damour, Ph.D."],
-    "tags": ["Adolescent Psychology", "Emotion Regulation", "Parenting Teenagers", "Mental Health", "Gender Differences", "Emotional Intelligence"]
+    "subtitle": "A practical guide to adolescent psychology",
+    "authors": [
+      "Lisa Damour, Ph.D."
+    ],
+    "tags": [
+      "adolescent psychology",
+      "emotion regulation",
+      "parenting teenagers",
+      "mental health",
+      "gender differences",
+      "developmental psychology",
+      "emotional intelligence"
+    ],
+    "category_code": "TEEN"
   },
   "hero": {
     "badge": "TEEN Core Read",
     "insights_count": 4,
     "actions_count": 3,
-    "read_time": "14 min read"
+    "read_time": "7 min read"
   },
   "why_matters": {
     "icon": "fa-solid fa-heart",
-    "text": "Damour reframes teenage emotionality from a problem to solve into a developmental feature to be understood and managed. She systematically dismantles myths about adolescent emotions and provides a neuroscience-grounded framework that positions intense feelings as sources of growth, connection, and capability rather than pathology."
+    "text": "**Thesis**: Adolescent mental health is not about feeling good, but about having the right feelings at the right time and being able to manage those feelings effectively through both expression and control.\n\n**Unique Contribution**: Damour reframes teenage emotionality from a problem to be solved into a developmental feature to be understood and managed. She systematically dismantles three pervasive myths: that emotion undermines reason, that difficult emotions harm teens, and that emotional intensity equals psychological fragility. The book provides a neuroscience-grounded, clinically-tested framework that positions intense adolescent emotions as sources of growth, connection, and capability rather than pathology.\n\n**Target Outcome**: Parents will develop knowledge and skills to recognize appropriate versus concerning emotional responses, support healthy emotional expression without dismissing or catastrophizing feelings, help teens develop adaptive emotion regulation strategies, distinguish normal developmental turbulence from clinical concerns requiring intervention, and raise emotionally literate, resilient, compassionate adolescents."
   },
   "tabs": {
     "analysis": [
       {
         "heading": "1. The Two-Part Emotion Regulation Framework",
-        "intro_text": "Healthy emotion management requires both expression (finding outlets for feelings) and control (reining in feelings when necessary), with expression always attempted first. This prevents both emotional suppression (trying to control without expressing) and emotional flooding (expressing without ever developing control). The framework provides a clear decision tree: when teens show distress, first facilitate expression through listening, empathy, and validation. Only move to control strategies if expression doesn't provide sufficient relief.",
+        "intro_text": "Healthy emotion management requires both expression (finding outlets for feelings) and control (reining in feelings when necessary), with expression always attempted first. This prevents both emotional suppression (trying to control without expressing) and emotional flooding (expressing without ever developing control). The framework provides a clear decision tree: when teens show distress, first facilitate expression through listening, empathy, and validation. Only move to control strategies if expression doesn't provide sufficient relief. Different situations call for different approaches—expression for grief, control for test anxiety.",
         "insight_card": {
           "title": "Key Insight",
-          "icon": "fa-solid fa-balance-scale",
-          "text": "Different situations call for different approaches—expression for grief, control for test anxiety. The key is recognizing which tool to use when."
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Healthy emotion management requires both expression (finding outlets for feelings) and control (reining in feelings when necessary), with expression always attempted first. This prevents both emotional suppression (trying to control without expressing) and emotional flooding (expressing without ever developing control). The framework provides a clear decision tree: when teens show distress, first facilitate expression through listening, empathy, and validation. Only move to control strategies if expression doesn't provide sufficient relief. Different situations call for different approaches—expression for grief, control for test anxiety."
         }
       },
       {
         "heading": "2. Emotional Granularity as Regulation Tool",
-        "intro_text": "The more precisely teens can name their feelings, the better they can regulate them. Moving from 'I feel bad' to 'I feel disappointed and somewhat resentful' enhances emotional management because specificity activates different neural pathways and provides clearer direction for response. 'Anxious' might call for breathing exercises, while 'frustrated' might call for problem-solving.",
+        "intro_text": "The more precisely teens can name their feelings, the better they can regulate them. Moving from \"I feel bad\" to \"I feel disappointed and somewhat resentful\" enhances emotional management because specificity activates different neural pathways and provides clearer direction for response. \"Anxious\" might call for breathing exercises, while \"frustrated\" might call for problem-solving. Parents should gently probe when teens use vague terms, offering more precise alternatives without correcting, and model emotional granularity in their own speech.",
         "insight_card": {
           "title": "Key Insight",
-          "icon": "fa-solid fa-magnifying-glass",
-          "text": "Parents should gently probe when teens use vague terms, offering more precise alternatives without correcting, and model emotional granularity in their own speech."
+          "icon": "fa-solid fa-lightbulb",
+          "text": "The more precisely teens can name their feelings, the better they can regulate them. Moving from \"I feel bad\" to \"I feel disappointed and somewhat resentful\" enhances emotional management because specificity activates different neural pathways and provides clearer direction for response. \"Anxious\" might call for breathing exercises, while \"frustrated\" might call for problem-solving. Parents should gently probe when teens use vague terms, offering more precise alternatives without correcting, and model emotional granularity in their own speech."
         }
       },
       {
-        "heading": "3. The 'Right Feeling at Right Time' Diagnostic",
-        "intro_text": "Mental health means having emotions that make sense given circumstances and managing them effectively—not feeling good all the time. This provides clear criteria for distinguishing normal adolescent turbulence from clinical concerns. Ask: Does this feeling make sense given what happened? Is the intensity proportional? Can they still function? Are they managing it adaptively?",
+        "heading": "3. The \"Right Feeling at Right Time\" Diagnostic",
+        "intro_text": "Mental health means having emotions that make sense given circumstances and managing them effectively—not feeling good all the time. This provides clear criteria for distinguishing normal adolescent turbulence from clinical concerns. Ask: Does this feeling make sense given what happened? Is the intensity proportional? Can they still function? Are they managing it adaptively? Confusing intensity with inappropriateness is common—very sad about an appropriate thing is still healthy.",
         "insight_card": {
           "title": "Key Insight",
-          "icon": "fa-solid fa-compass",
-          "text": "Confusing intensity with inappropriateness is common—very sad about an appropriate thing is still healthy. Intensity doesn't equal pathology."
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Mental health means having emotions that make sense given circumstances and managing them effectively—not feeling good all the time. This provides clear criteria for distinguishing normal adolescent turbulence from clinical concerns. Ask: Does this feeling make sense given what happened? Is the intensity proportional? Can they still function? Are they managing it adaptively? Confusing intensity with inappropriateness is common—very sad about an appropriate thing is still healthy."
         }
       },
       {
         "heading": "4. Gender-Specific Emotional Coaching",
-        "intro_text": "Boys and girls face systematically different emotional socialization that creates different vulnerabilities requiring different interventions. Boys need help expressing vulnerability through safe spaces, indirect approaches (car conversations, texting), and male role models demonstrating emotional expression. Girls need validation that anger is legitimate, constructive outlets for anger expression, and boundaries on co-rumination.",
+        "intro_text": "Boys and girls face systematically different emotional socialization that creates different vulnerabilities requiring different interventions. Boys need help expressing vulnerability through safe spaces, indirect approaches (car conversations, texting), and male role models demonstrating emotional expression. Girls need validation that anger is legitimate, constructive outlets for anger expression, and boundaries on co-rumination. The key is challenging \"weakness\" narratives for boys while helping girls distinguish between feeling angry (always okay) and expressing it harmfully (not okay).",
         "insight_card": {
           "title": "Key Insight",
-          "icon": "fa-solid fa-people-group",
-          "text": "The key is challenging 'weakness' narratives for boys while helping girls distinguish between feeling angry (always okay) and expressing it harmfully (not okay)."
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Boys and girls face systematically different emotional socialization that creates different vulnerabilities requiring different interventions. Boys need help expressing vulnerability through safe spaces, indirect approaches (car conversations, texting), and male role models demonstrating emotional expression. Girls need validation that anger is legitimate, constructive outlets for anger expression, and boundaries on co-rumination. The key is challenging \"weakness\" narratives for boys while helping girls distinguish between feeling angry (always okay) and expressing it harmfully (not okay)."
         }
       }
     ],
     "actions": [
       {
-        "title": "Process 1: Responding to Teen Emotional Distress",
+        "title": "Responding to Teen Emotional Distress",
         "context": "Provide immediate, effective support when a teenager is experiencing emotional pain, using the expression-first, control-second framework.",
         "steps": [
           {
-            "bold_title": "Step 1: Pause Your Agenda",
+            "bold_title": "Pause your agenda",
             "description": "Stop whatever you're doing and give full attention"
           },
           {
-            "bold_title": "Step 2: Listen Like a Newspaper Editor",
+            "bold_title": "Listen like a newspaper editor",
             "description": "Hear the full story as if you'll need to write a headline; resist urge to interrupt with solutions"
           },
           {
-            "bold_title": "Step 3: Offer a Headline",
+            "bold_title": "Offer a headline",
             "description": "Distill what you heard into one concise sentence; check if it captures their experience"
           },
           {
-            "bold_title": "Step 4: Provide Empathy",
-            "description": "Validate the feeling without trying to fix it: 'That sounds really hard'"
+            "bold_title": "Provide empathy",
+            "description": "Validate the feeling without trying to fix it: \"That sounds really hard\""
           },
           {
-            "bold_title": "Step 5: Increase Emotional Granularity",
-            "description": "Help them get more specific: 'I hear that you're anxious—do you think you might also be feeling overwhelmed? Or frustrated?'"
+            "bold_title": "Increase emotional granularity",
+            "description": "Help them get more specific: \"I hear that you're anxious—do you think you might also be feeling overwhelmed? Or frustrated?\""
           },
           {
-            "bold_title": "Step 6: Assess Relief",
+            "bold_title": "Assess if expression provided relief",
             "description": "Check if teen seems calmer; if yes, stop here"
           },
           {
-            "bold_title": "Step 7: Ask Permission",
-            "description": "Ask permission to help with control: 'Do you want me to think with you about this?'"
+            "bold_title": "Ask permission to help with control",
+            "description": "\"Do you want me to think with you about this?\""
           },
           {
-            "bold_title": "Step 8: Follow Up",
+            "bold_title": "Follow up later",
             "description": "Check in after several hours or next day"
           }
         ]
       },
       {
-        "title": "Process 2: Helping Teens Develop Problem-Solving Skills",
+        "title": "Helping Teens Develop Problem-Solving Skills",
         "context": "Teach teens to break down problems into changeable and unchangeable components, focusing energy on what they can control.",
         "steps": [
           {
-            "bold_title": "Step 1: Define the Problem",
+            "bold_title": "Define the problem clearly",
             "description": "Get specific about what's wrong in one sentence"
           },
           {
-            "bold_title": "Step 2: Create Two Columns",
-            "description": "Make columns for 'What I cannot change' and 'What I might be able to influence'"
+            "bold_title": "Create two columns",
+            "description": "\"What I cannot change\" and \"What I might be able to influence\""
           },
           {
-            "bold_title": "Step 3: Populate 'Cannot Change'",
+            "bold_title": "Populate the \"cannot change\" column",
             "description": "Identify fixed constraints honestly"
           },
           {
-            "bold_title": "Step 4: Populate 'Can Influence'",
+            "bold_title": "Populate the \"can influence\" column",
             "description": "Identify areas of agency"
           },
           {
-            "bold_title": "Step 5: Generate Solutions",
+            "bold_title": "Generate solutions for changeable elements",
             "description": "Brainstorm 3-5 options before evaluating any"
           },
           {
-            "bold_title": "Step 6: Offer Suggestions Tentatively",
+            "bold_title": "Offer suggestions tentatively",
             "description": "Add your ideas as questions, not directives"
           },
           {
-            "bold_title": "Step 7: Let Teen Choose",
+            "bold_title": "Let teen choose approach",
             "description": "Support their choice even if not your preference"
           },
           {
-            "bold_title": "Step 8: Make Concrete Plan",
+            "bold_title": "Make concrete plan",
             "description": "Get specific about implementation details"
           },
           {
-            "bold_title": "Step 9: Schedule Follow-Up",
+            "bold_title": "Schedule follow-up",
             "description": "Set time to check how it went"
           }
         ]
       },
       {
-        "title": "Process 3: Distinguishing Normal Distress from Clinical Concerns",
+        "title": "Distinguishing Normal Distress from Clinical Concerns",
         "context": "Accurately assess whether a teen's emotional state requires professional intervention or represents normal developmental turbulence.",
         "steps": [
           {
-            "bold_title": "Step 1: Apply 'Makes Sense' Test",
+            "bold_title": "Apply the \"makes sense\" test",
             "description": "Does this feeling fit the situation? Sad about friend moving = healthy; sad about nothing = concerning"
           },
           {
-            "bold_title": "Step 2: Assess Duration and Pattern",
+            "bold_title": "Assess duration and pattern",
             "description": "Does mood rise and fall in waves (normal) or persist for 2+ weeks (concerning)?"
           },
           {
-            "bold_title": "Step 3: Evaluate Functioning",
+            "bold_title": "Evaluate functioning",
             "description": "Can they attend school, complete homework, maintain friendships even if harder?"
           },
           {
-            "bold_title": "Step 4: Assess Management Strategies",
+            "bold_title": "Assess management strategies",
             "description": "Are they using healthy coping (talking, crying, exercising) or harmful strategies (self-harm, substances)?"
           },
           {
-            "bold_title": "Step 5: Check Defense Mechanisms",
+            "bold_title": "Check for defense mechanism quality",
             "description": "Are defenses reality-based or distorting reality?"
           },
           {
-            "bold_title": "Step 6: Screen for Depression",
+            "bold_title": "Screen for depression specifically",
             "description": "Look for cluster: persistent sad/numb mood, loss of interest, sleep/appetite changes, fatigue, worthlessness, concentration difficulty, death thoughts"
           },
           {
-            "bold_title": "Step 7: Screen for Anxiety Disorder",
-            "description": "Check for excessive worry that's difficult to control, occurring about many things, with physical symptoms and functional impairment"
+            "bold_title": "Screen for anxiety disorder specifically",
+            "description": "Excessive worry that's difficult to control, occurring about many things, with physical symptoms and functional impairment"
           },
           {
-            "bold_title": "Step 8: Assess Suicide Risk",
+            "bold_title": "Assess suicide risk directly",
             "description": "Ask explicitly if concerned; any mention requires immediate professional consultation"
           },
           {
-            "bold_title": "Step 9: Consider Context",
+            "bold_title": "Consider racial/ethnic factors",
             "description": "Adjust assessment for marginalized teens who may face barriers"
           },
           {
-            "bold_title": "Step 10: Make Decision and Act",
+            "bold_title": "Make decision and act",
             "description": "If normal, continue supportive parenting and monitor; if borderline, consult pediatrician; if concerning, schedule mental health evaluation; if crisis, immediate intervention"
           }
         ]

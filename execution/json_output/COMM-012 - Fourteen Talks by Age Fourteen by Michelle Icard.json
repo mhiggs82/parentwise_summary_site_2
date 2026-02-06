@@ -15,11 +15,12 @@
       "technology",
       "reputation",
       "BRIEF model"
-    ]
+    ],
+    "category_code": "COMM"
   },
   "hero": {
     "badge": "COMM Core Read",
-    "insights_count": 3,
+    "insights_count": 4,
     "actions_count": 4,
     "read_time": "5 min read"
   },
@@ -54,6 +55,15 @@
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
           "text": "Tweens are hyper-sensitive to facial micro-expressions. If a parent grimaces, rolls eyes, or looks terrified, the tween's amygdala screams \"DANGER\" and they shut down. Keeping a smooth, neutral forehead (\"Botox Brow\") signals safety and keeps the channel open."
+        }
+      },
+      {
+        "heading": "4. Translucent vs. Transparent",
+        "intro_text": "With topics like money, Icard advocates for *translucent* communication (seeing the shape of things without the scary details) rather than *transparent* (seeing every terrifying bill/debt) or *opaque* (hiding everything).",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "With topics like money, Icard advocates for *translucent* communication (seeing the shape of things without the scary details) rather than *transparent* (seeing every terrifying bill/debt) or *opaque* (hiding everything)."
         }
       }
     ],
@@ -151,6 +161,22 @@
           {
             "bold_title": "Wait Rule",
             "description": "For personal purchases, implement a \"wait period\" based on cost ($20 = 1 day wait, $100 = 1 week wait)."
+          },
+          {
+            "bold_title": "The Freak-Out",
+            "description": "Reacting with shock/anger to a confession (teaches them to lie next time)."
+          },
+          {
+            "bold_title": "The Lecture",
+            "description": "Skipping straight to \"Feedback\" (F) without doing B-R-I-E first."
+          },
+          {
+            "bold_title": "The Friend Zone",
+            "description": "Thinking Assistant Manager means \"Friend.\" You are still a leader, just a supportive one."
+          },
+          {
+            "bold_title": "Catastrophizing",
+            "description": "Treating every tween mistake as a sign of future failure."
           }
         ]
       }

@@ -12,11 +12,12 @@
       "listening",
       "emotional intelligence",
       "family dynamics"
-    ]
+    ],
+    "category_code": "COMM"
   },
   "hero": {
     "badge": "COMM Core Read",
-    "insights_count": 3,
+    "insights_count": 4,
     "actions_count": 4,
     "read_time": "4 min read"
   },
@@ -51,6 +52,15 @@
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
           "text": "Instead of fixing weaknesses, parents should act as \"treasure hunters\" for their child's unique strengths (character, academic, relational). Focusing on what is right building resilience more effectively than harping on what is wrong."
+        }
+      },
+      {
+        "heading": "4. Prayer as Conversation",
+        "intro_text": "The book positions prayer not as a ritual but as an honest conversation. By listening well to their children, parents model how God listens to them, making the concept of a listening God experientially accessible.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "The book positions prayer not as a ritual but as an honest conversation. By listening well to their children, parents model how God listens to them, making the concept of a listening God experientially accessible."
         }
       }
     ],
@@ -172,6 +182,22 @@
           {
             "bold_title": "Decide",
             "description": "Yes, No, or \"Not Yet\" (with conditions)."
+          },
+          {
+            "bold_title": "The \"Fix-It\" Reflex",
+            "description": "Jumping in with solutions before the child is finished talking."
+          },
+          {
+            "bold_title": "Interrogating",
+            "description": "Asking too many rapid-fire questions (\"Did you? Why? Who?\")."
+          },
+          {
+            "bold_title": "Distracted Listening",
+            "description": "\"Listening\" while looking at a phone or doing chores."
+          },
+          {
+            "bold_title": "Fearing Disagreement",
+            "description": "Thinking that listening means you have to agree (you don't)."
           }
         ]
       }

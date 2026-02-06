@@ -8,8 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 INPUT_DIR = BASE_DIR / "Book_Summaries"
 OUTPUT_DIR = BASE_DIR / "execution" / "json_output"
 
-# Files to process
-FILES_TO_PROCESS = [f"COMM-{str(i).zfill(3)}" for i in range(1, 15)] # COMM-001 through COMM-014
+FILES_TO_PROCESS = [] # Set to empty list to automatically detect all files
 
 def parse_frontmatter(content):
     """Parse YAML frontmatter from markdown"""
@@ -38,37 +37,52 @@ def extract_sections(content):
     }
 
     # Extract Executive Summary
-    exec_match = re.search(r'## Executive Summary\n(.*?)##', content, re.DOTALL)
+    exec_match = re.search(r'##? (?:1\.\s+)?Executive Summary\s+(.*?)(?=\n##|\n#|$)', content, re.DOTALL)
     if exec_match:
         sections['executive_summary'] = exec_match.group(1).strip()
 
-    # Extract Nuanced Main Topics
-    # Support both "Nuanced Main Topics" and "Chapter Breakdown" if needed
-    topics_match = re.search(r'## (?:Nuanced Main Topics|Chapter Breakdown)\n(.*?)# Section 2:', content, re.DOTALL)
+    # Extract Nuanced Main Topics / Insights
+    # Prioritize "Nuanced Main Topics" or "Deep Insights" over "Chapter Breakdown"
+    topics_match = None
+    for pattern in [r'##? (?:2\.\s+)?Nuanced Main Topics', r'##? (?:2\.\s+)?Deep Insights Analysis', r'##? (?:2\.\s+)?Paradigm Shifts', r'##? (?:2\.\s+)?Chapter Breakdown', r'##? (?:2\.\s+)?Structural Overview']:
+        match = re.search(pattern + r'\s+(.*?)(?=\n##(?!#)|\n# Section 2:|# PART 2:|$)', content, re.DOTALL)
+        if match:
+            topics_match = match
+            break
     if topics_match:
-        topic_blocks = re.findall(r'### (.*?)\n(.*?)(?=###|(?=# Section 2:))', topics_match.group(1), re.DOTALL)
-        for title, text in topic_blocks:
-            sections['nuanced_topics'].append({
-                'heading': title.strip(),
-                'text': text.strip()
-            })
+        topic_text = topics_match.group(1).strip()
+        # Split by ### level headings
+        blocks = re.split(r'\n###?\s+', '\n' + topic_text)
+        for block in blocks:
+            if not block.strip(): continue
+            lines = block.strip().split('\n')
+            if len(lines) >= 2:
+                heading = lines[0].strip()
+                text = '\n'.join(lines[1:]).strip()
+                if heading and text:
+                    sections['nuanced_topics'].append({
+                        'heading': heading,
+                        'text': text
+                    })
 
     # Extract Checklist items
-    checklist_match = re.search(r'## The Checklist\n(.*?)##', content, re.DOTALL)
+    checklist_match = re.search(r'##? (?:The Checklist|Impactful Concepts)\s+(.*?)(?=\n##|\n#|$)', content, re.DOTALL)
     if checklist_match:
-        items = re.findall(r'- \[ \] \*\*(.*?)\*\*: (.*?)$', checklist_match.group(1), re.MULTILINE)
-        sections['checklist'] = [{'title': t, 'description': d} for t, d in items]
+        # Match both checkbox style and simple bold titles
+        items = re.findall(r'(?:- \[ \] \*\*|\* \*\*|\d+\. \*\*)(.*?)\*\*:?\s*(.*?)(?=\n-|\n\*|\n\d+\.|\n##|$)', checklist_match.group(1), re.MULTILINE | re.DOTALL)
+        sections['checklist'] = [{'title': t.strip(), 'description': d.strip()} for t, d in items]
 
     # Extract Processes
-    process_matches = re.finditer(r'### Process \d+: (.*?)\n\*\*Purpose\*\*: (.*?)\n\*\*Steps\*\*:\n(.*?)(?=### Process|$)', content, re.DOTALL)
+    # Flexible matching for Process 1: Title, Purpose: context, Steps: list
+    process_matches = re.finditer(r'##? Process \d+: (.*?)\s+(?:\*\*Purpose\*\*[:\s]+(.*?))?\s+(?:\*\*Prerequisites\*\*[:\s]+(.*?))?\s+\*\*(?:Actionable )?Steps\*\*[:\s]*\n(.*?)(?=##? Process|# Suggested Next Step|$)', content, re.DOTALL | re.IGNORECASE)
     for match in process_matches:
         title = match.group(1).strip()
-        context = match.group(2).strip()
-        steps_text = match.group(3).strip()
+        context = match.group(2).strip() if match.group(2) else ""
+        steps_text = match.group(4).strip()
 
-        # Extract steps - handle varying whitespace after number
+        # Extract steps - handle varying markers (1., -, *, ✓, 🔑, ⚠️, ↻)
         steps = []
-        step_matches = re.findall(r'^\s*\d+\.\s+\*\*(.*?)\*\*:?(.*?)$', steps_text, re.MULTILINE)
+        step_matches = re.findall(r'^\s*(?:\d+\.|\*|-|✓|🔑|⚠️|↻)\s*\*\*(.*?)\*\*(?:[:\s-]*(.*?))?$', steps_text, re.MULTILINE)
         for bold_title, description in step_matches:
             steps.append({
                 'bold_title': bold_title.strip(),
@@ -103,10 +117,24 @@ def convert_markdown_to_json(markdown_content, filename):
     authors_str = frontmatter.get('author', 'Unknown')
     authors = [a.strip() for a in authors_str.replace('&', 'and').split('and')] if authors_str else ['ParentWise Summary']
     tags = frontmatter.get('tags', '').strip('[]').replace('"', '').replace("'", '').split(', ') if frontmatter.get('tags') else []
+    
+    # Smart category extraction: Frontmatter > Filename Prefix > Default 'COMM'
+    category_code = frontmatter.get('category_code')
+    if not category_code:
+        # Try to extract from filename (e.g., "COMM-001 - Title.md" -> "COMM")
+        prefix_match = re.search(r'([A-Z]{3,4})-\d+', filename)
+        if prefix_match:
+            category_code = prefix_match.group(1)
+        else:
+            category_code = 'COMM'
+    
+    # Clean category code
+    category_code = category_code.strip().upper()
+    print(f"    -> Category: {category_code}")
 
     # Build analysis array from nuanced topics
     analysis = []
-    for i, topic in enumerate(sections['nuanced_topics'][:6], 1):  # Limit to 6
+    for i, topic in enumerate(sections['nuanced_topics'], 1):  # Process ALL topics
         analysis.append({
             "heading": f"{i}. {topic['heading']}",
             "intro_text": topic['text'],
@@ -132,10 +160,11 @@ def convert_markdown_to_json(markdown_content, filename):
             "title": title,
             "subtitle": f"A practical guide to {tags[0] if tags else 'parenting'}",
             "authors": authors,
-            "tags": tags
+            "tags": tags,
+            "category_code": category_code
         },
         "hero": {
-            "badge": f"{frontmatter.get('category_code', 'COMM')} Core Read",
+            "badge": f"{category_code} Core Read",
             "insights_count": len(analysis),
             "actions_count": len(actions),
             "read_time": calculate_read_time(markdown_content)
@@ -156,22 +185,24 @@ def main():
     """Process all COMM files"""
     OUTPUT_DIR.mkdir(exist_ok=True, parents=True)
 
-    print(f"Processing {len(FILES_TO_PROCESS)} prefixes...")
+    print(f"Detecting files in {INPUT_DIR}...")
+
+    if FILES_TO_PROCESS:
+        markdown_files = []
+        for prefix in FILES_TO_PROCESS:
+            matches = list(INPUT_DIR.glob(f"{prefix}*.md"))
+            markdown_files.extend(matches)
+    else:
+        # Get all .md files, excluding readme or templates if they existed
+        markdown_files = sorted([f for f in INPUT_DIR.glob("*.md") if not f.name.startswith('_')])
+
+    print(f"Processing {len(markdown_files)} files...")
     print("=" * 50)
 
-    for index, prefix in enumerate(FILES_TO_PROCESS):
+    for index, input_path in enumerate(markdown_files):
         try:
-            print(f"[{index+1}/{len(FILES_TO_PROCESS)}] Searching for {prefix}...")
-
-            # Find matching file
-            matches = list(INPUT_DIR.glob(f"{prefix}*.md"))
-            if not matches:
-                print(f"  ⚠ No file found for prefix: {prefix}")
-                continue
-
-            input_path = matches[0]
             filename = input_path.name
-            print(f"  Found: {filename}")
+            print(f"[{index+1}/{len(markdown_files)}] Processing {filename}...")
 
             with open(input_path, 'r', encoding='utf-8') as f:
                 markdown_content = f.read()

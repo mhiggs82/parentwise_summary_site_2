@@ -1,168 +1,225 @@
 {
   "meta": {
     "title": "Good Inside: A Guide to Connection-Based Parenting",
-    "subtitle": "Understanding behavior as communication and setting boundaries through connection",
-    "authors": ["Dr. Becky Kennedy"],
-    "tags": ["Connection-Based Parenting", "Emotional Regulation", "Boundaries with Empathy", "Internal Goodness", "Intergenerational Healing"]
+    "subtitle": "A practical guide to Connection-Based Parenting",
+    "authors": [
+      "Dr. Becky Kennedy"
+    ],
+    "tags": [
+      "Connection-Based Parenting",
+      "Emotional Regulation",
+      "Boundaries with Empathy",
+      "Internal Goodness",
+      "Intergenerational Healing"
+    ],
+    "category_code": "FOUND"
   },
   "hero": {
     "badge": "FOUND Core Read",
     "insights_count": 5,
     "actions_count": 3,
-    "read_time": "20 min read"
+    "read_time": "7 min read"
   },
   "why_matters": {
     "icon": "fa-solid fa-heart",
-    "text": "This book bridges attachment theory, internal family systems, and neuroscience into an accessible framework that rejects behaviorist approaches while maintaining parental authority. It demonstrates that firm boundaries and warm validation are complementary forces, wiring children for lifelong emotional resilience and healthy relationships."
+    "text": "**Thesis**: Children are fundamentally good inside, and challenging behaviors are expressions of unmet needs rather than character flaws. Effective parenting requires understanding the emotional world beneath surface behaviors while maintaining firm boundaries through connection rather than punishment.\n\n**Unique Contribution**: Dr. Becky Kennedy bridges attachment theory, internal family systems (IFS), and neuroscience into an accessible framework that rejects behaviorist approaches (time-outs, rewards, punishments) while maintaining parental authority. She demonstrates that firm boundaries and warm validation are complementary, not oppositional forces.\n\n**Target Outcome**: Parents develop the capacity to regulate themselves, understand their children's internal experiences, set sturdy boundaries, and build secure attachments that wire children for lifelong emotional resilience and healthy relationships."
   },
   "tabs": {
     "analysis": [
       {
-        "heading": "1. Behavior as Signal, Not Identity",
-        "intro_text": "Traditional parenting treats behavior as the problem to eliminate. Kennedy reframes behavior as communication about internal struggle, shifting intervention from suppression to understanding. This paradigm shift requires parents to look beneath surface actions to identify unmet needs, developmental limitations, or emotional dysregulation.",
+        "heading": "1. 1. Behavior as Signal, Not Identity",
+        "intro_text": "Traditional parenting treats behavior as the problem to eliminate. Kennedy reframes behavior as communication about internal struggle, shifting intervention from suppression to understanding. This paradigm shift requires parents to look beneath surface actions to identify unmet needs, developmental limitations, or emotional dysregulation. When parents respond to the underlying need rather than punishing the behavior, children learn that their feelings are manageable and that they remain lovable even during difficult moments.",
         "insight_card": {
           "title": "Key Insight",
-          "icon": "fa-solid fa-brain",
-          "text": "When parents respond to the underlying need rather than punishing the behavior, children learn that their feelings are manageable and that they remain lovable even during difficult moments."
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Traditional parenting treats behavior as the problem to eliminate. Kennedy reframes behavior as communication about internal struggle, shifting intervention from suppression to understanding. This paradigm shift requires parents to look beneath surface actions to identify unmet needs, developmental limitations, or emotional dysregulation. When parents respond to the underlying need rather than punishing the behavior, children learn that their feelings are manageable and that they remain lovable even during difficult moments."
         }
       },
       {
-        "heading": "2. The 'Two Things Are True' Framework",
-        "intro_text": "This concept teaches parents to hold multiple realities simultaneously rather than collapsing into singular truth. For example: 'I have decided you cannot watch this movie AND you're upset and mad at me.' This framework prevents power struggles by validating the child's emotional reality while maintaining necessary boundaries.",
+        "heading": "2. 2. The \"Two Things Are True\" Framework",
+        "intro_text": "This concept teaches parents to hold multiple realities simultaneously rather than collapsing into singular truth. For example: \"I have decided you cannot watch this movie AND you're upset and mad at me.\" This framework prevents power struggles by validating the child's emotional reality while maintaining necessary boundaries. It models that conflicting feelings can coexist—parents can love their children AND crave alone time, children can be good kids AND have hard times. This multiplicity thinking reduces defensiveness and preserves connection during conflict.",
         "insight_card": {
           "title": "Key Insight",
-          "icon": "fa-solid fa-layer-group",
-          "text": "This multiplicity thinking reduces defensiveness and preserves connection during conflict. It models that conflicting feelings can coexist—parents can love their children AND crave alone time, children can be good kids AND have hard times."
+          "icon": "fa-solid fa-lightbulb",
+          "text": "This concept teaches parents to hold multiple realities simultaneously rather than collapsing into singular truth. For example: \"I have decided you cannot watch this movie AND you're upset and mad at me.\" This framework prevents power struggles by validating the child's emotional reality while maintaining necessary boundaries. It models that conflicting feelings can coexist—parents can love their children AND crave alone time, children can be good kids AND have hard times. This multiplicity thinking reduces defensiveness and preserves connection during conflict."
         }
       },
       {
-        "heading": "3. Most Generous Interpretation (MGI)",
-        "intro_text": "Before responding to challenging behavior, parents ask: 'What is my most generous interpretation of what just happened?' This shifts from judgment to curiosity, reframing 'bad kid' narratives to 'struggling kid' understanding. When children are seen as good inside having hard times, they access self-compassion, which enables regulation and better choices.",
+        "heading": "3. 3. Most Generous Interpretation (MGI)",
+        "intro_text": "Before responding to challenging behavior, parents ask: \"What is my most generous interpretation of what just happened?\" This shifts from judgment to curiosity, reframing \"bad kid\" narratives to \"struggling kid\" understanding. When children are seen as good inside having hard times, they access self-compassion, which enables regulation and better choices. MGI doesn't excuse harmful behavior—boundaries still apply—but it ensures responses address root causes rather than symptoms.",
         "insight_card": {
           "title": "Key Insight",
-          "icon": "fa-solid fa-compass",
-          "text": "MGI doesn't excuse harmful behavior—boundaries still apply—but it ensures responses address root causes rather than symptoms."
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Before responding to challenging behavior, parents ask: \"What is my most generous interpretation of what just happened?\" This shifts from judgment to curiosity, reframing \"bad kid\" narratives to \"struggling kid\" understanding. When children are seen as good inside having hard times, they access self-compassion, which enables regulation and better choices. MGI doesn't excuse harmful behavior—boundaries still apply—but it ensures responses address root causes rather than symptoms."
         }
       },
       {
-        "heading": "4. Boundaries as 'I Won't Let You' Statements",
-        "intro_text": "Kennedy reframes boundaries from what children must do to what parents will do. Instead of 'Stop hitting!' (which requires child compliance), parents say 'I won't let you hit' while physically intervening. This embodies parental authority without requiring the child to self-regulate beyond their capacity.",
+        "heading": "4. 4. Boundaries as \"I Won't Let You\" Statements",
+        "intro_text": "Kennedy reframes boundaries from what children must do to what parents will do. Instead of \"Stop hitting!\" (which requires child compliance), parents say \"I won't let you hit\" while physically intervening. This embodies parental authority without requiring the child to self-regulate beyond their capacity. Physical boundaries communicate safety—when parents contain dysregulated children, they become the \"staircase\" connecting emotional experience (downstairs brain) to regulation capacity (upstairs brain).",
         "insight_card": {
           "title": "Key Insight",
-          "icon": "fa-solid fa-shield-halved",
-          "text": "Physical boundaries communicate safety—when parents contain dysregulated children, they become the 'staircase' connecting emotional experience (downstairs brain) to regulation capacity (upstairs brain)."
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Kennedy reframes boundaries from what children must do to what parents will do. Instead of \"Stop hitting!\" (which requires child compliance), parents say \"I won't let you hit\" while physically intervening. This embodies parental authority without requiring the child to self-regulate beyond their capacity. Physical boundaries communicate safety—when parents contain dysregulated children, they become the \"staircase\" connecting emotional experience (downstairs brain) to regulation capacity (upstairs brain)."
         }
       },
       {
-        "heading": "5. Separating Person from Behavior",
-        "intro_text": "The framework distinguishes who someone is (good inside) from what they do (sometimes problematic). This enables change without shame. When parents address behavior while affirming the person—'I don't appreciate that language, and I can see you must be really upset'—children learn their worth isn't conditional on perfect behavior.",
+        "heading": "5. 5. Separating Person from Behavior",
+        "intro_text": "The framework distinguishes who someone is (good inside) from what they do (sometimes problematic). This enables change without shame. When parents address behavior while affirming the person—\"I don't appreciate that language, and I can see you must be really upset\"—children learn their worth isn't conditional on perfect behavior. Shame makes people feel unsafe, which prevents change; security enables growth.\n\n---",
         "insight_card": {
           "title": "Key Insight",
-          "icon": "fa-solid fa-hands-holding-child",
-          "text": "Shame makes people feel unsafe, which prevents change; security enables growth."
+          "icon": "fa-solid fa-lightbulb",
+          "text": "The framework distinguishes who someone is (good inside) from what they do (sometimes problematic). This enables change without shame. When parents address behavior while affirming the person—\"I don't appreciate that language, and I can see you must be really upset\"—children learn their worth isn't conditional on perfect behavior. Shame makes people feel unsafe, which prevents change; security enables growth.\n\n---"
         }
       }
     ],
     "actions": [
       {
-        "title": "Process 1: Implementing Most Generous Interpretation (MGI)",
+        "title": "Implementing Most Generous Interpretation (MGI)",
         "context": "Transform reactive parenting moments into opportunities for connection and teaching.",
         "steps": [
           {
-            "bold_title": "Step 1: Notice",
-            "description": "Notice your immediate reaction to challenging behavior"
+            "bold_title": "Notice",
+            "description": "your immediate reaction to challenging behavior"
           },
           {
-            "bold_title": "Step 2: Pause",
-            "description": "Take one deep breath before responding"
+            "bold_title": "Pause",
+            "description": "and take one deep breath before responding"
           },
           {
-            "bold_title": "Step 3: Ask",
-            "description": "Ask yourself: 'What is my most generous interpretation of what just happened?'"
+            "bold_title": "Ask",
+            "description": "yourself: \"What is my most generous interpretation of what just happened?\""
           },
           {
-            "bold_title": "Step 4: Consider",
-            "description": "Consider what need, feeling, or struggle might underlie the behavior"
+            "bold_title": "Consider",
+            "description": "what need, feeling, or struggle might underlie the behavior"
           },
           {
-            "bold_title": "Step 5: Reframe",
-            "description": "Reframe the behavior as communication"
+            "bold_title": "Reframe",
+            "description": "the behavior as communication"
           },
           {
-            "bold_title": "Step 6: Respond",
-            "description": "Respond to the underlying need rather than surface behavior"
+            "bold_title": "Respond",
+            "description": "to the underlying need rather than surface behavior"
           },
           {
-            "bold_title": "Step 7: Validate",
-            "description": "Validate the feeling while addressing behavior if necessary"
+            "bold_title": "Validate",
+            "description": "the feeling while addressing behavior if necessary"
           }
         ]
       },
       {
-        "title": "Process 2: Setting Sturdy Boundaries",
+        "title": "Setting Sturdy Boundaries",
         "context": "Establish safety through parental action rather than requiring child compliance.",
         "steps": [
           {
-            "bold_title": "Step 1: Identify",
-            "description": "Identify the safety issue or necessary limit"
+            "bold_title": "Identify",
+            "description": "the safety issue or necessary limit"
           },
           {
-            "bold_title": "Step 2: State",
-            "description": "State boundary as 'I won't let you...' or 'I'm going to...'"
+            "bold_title": "State",
+            "description": "boundary as \"I won't let you...\" or \"I'm going to...\""
           },
           {
-            "bold_title": "Step 3: Position",
-            "description": "Position your body to prevent unsafe action if needed"
+            "bold_title": "Position",
+            "description": "your body to prevent unsafe action if needed"
           },
           {
-            "bold_title": "Step 4: Follow Through",
-            "description": "Follow through with physical intervention if verbal boundary insufficient"
+            "bold_title": "Follow through",
+            "description": "with physical intervention if verbal boundary insufficient"
           },
           {
-            "bold_title": "Step 5: Validate",
-            "description": "Validate feelings while maintaining boundary"
+            "bold_title": "Validate",
+            "description": "feelings while maintaining boundary"
           },
           {
-            "bold_title": "Step 6: Stay Present",
-            "description": "Stay present with child's emotional response"
+            "bold_title": "Stay present",
+            "description": "with child's emotional response"
           },
           {
-            "bold_title": "Step 7: Offer",
-            "description": "Offer alternative when child is regulated"
+            "bold_title": "Offer",
+            "description": "alternative when child is regulated"
           }
         ]
       },
       {
-        "title": "Process 3: Applying 'Two Things Are True'",
+        "title": "Applying \"Two Things Are True\"",
         "context": "Hold multiple realities to prevent power struggles and validate all parties.",
         "steps": [
           {
-            "bold_title": "Step 1: Make",
-            "description": "Make decision based on your values and judgment"
+            "bold_title": "Make",
+            "description": "decision based on your values and judgment"
           },
           {
-            "bold_title": "Step 2: Anticipate",
-            "description": "Anticipate child's emotional response"
+            "bold_title": "Anticipate",
+            "description": "child's emotional response"
           },
           {
-            "bold_title": "Step 3: State",
-            "description": "State both truths explicitly"
+            "bold_title": "State",
+            "description": "both truths explicitly"
           },
           {
-            "bold_title": "Step 4: Validate",
-            "description": "Validate child's perspective"
+            "bold_title": "Validate",
+            "description": "child's perspective"
           },
           {
-            "bold_title": "Step 5: Hold",
-            "description": "Hold your boundary without excessive defending"
+            "bold_title": "Hold",
+            "description": "your boundary without excessive defending"
           },
           {
-            "bold_title": "Step 6: Permit",
-            "description": "Permit child's emotional response"
+            "bold_title": "Permit",
+            "description": "child's emotional response"
           },
           {
-            "bold_title": "Step 7: Stay Present",
-            "description": "Stay present rather than trying to convince child to feel differently"
+            "bold_title": "Stay present",
+            "description": "rather than trying to convince child to feel differently"
+          },
+          {
+            "bold_title": "Pitfall 1",
+            "description": "Using MGI to excuse harmful behavior"
+          },
+          {
+            "bold_title": "Solution",
+            "description": "Validation and boundaries are not mutually exclusive"
+          },
+          {
+            "bold_title": "Pitfall 2",
+            "description": "Asking children to do the parent's job"
+          },
+          {
+            "bold_title": "Solution",
+            "description": "Use \"I won't let you\" statements with physical follow-through"
+          },
+          {
+            "bold_title": "Pitfall 3",
+            "description": "Trying to convince child to agree with your decision"
+          },
+          {
+            "bold_title": "Solution",
+            "description": "Acknowledge their reality without requiring agreement"
+          },
+          {
+            "bold_title": "Pitfall 4",
+            "description": "Abandoning strategy when child protests"
+          },
+          {
+            "bold_title": "Solution",
+            "description": "Protests are expected—consistency builds long-term trust"
+          },
+          {
+            "bold_title": "Pitfall 5",
+            "description": "Neglecting parental self-regulation"
+          },
+          {
+            "bold_title": "Solution",
+            "description": "You cannot pour from an empty cup—prioritize your own emotional capacity"
+          },
+          {
+            "bold_title": "Pitfall 6",
+            "description": "Expecting immediate behavior change"
+          },
+          {
+            "bold_title": "Solution",
+            "description": "This approach builds long-term regulation, not instant compliance"
           }
         ]
       }

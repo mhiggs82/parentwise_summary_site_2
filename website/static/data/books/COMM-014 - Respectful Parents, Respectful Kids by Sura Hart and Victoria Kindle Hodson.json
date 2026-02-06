@@ -14,11 +14,12 @@
       "family culture",
       "mutual respect",
       "No-Fault Zone"
-    ]
+    ],
+    "category_code": "COMM"
   },
   "hero": {
     "badge": "COMM Core Read",
-    "insights_count": 3,
+    "insights_count": 4,
     "actions_count": 4,
     "read_time": "5 min read"
   },
@@ -53,6 +54,15 @@
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
           "text": "Most fights are about strategies (\"I want the iPad,\" \"You must do homework\"). The book teaches families to drop down to the Needs level (\"I need fun,\" \"I need you to learn\"). At the level of Needs, there is no conflict. We can always find a strategy that meets the need for Fun and Learning if we stop fighting over the iPad."
+        }
+      },
+      {
+        "heading": "4. Giraffe Language",
+        "intro_text": "Using the metaphor of the Giraffe (the land animal with the largest heart), the authors teach NVC: observing without judging, identifying feelings, connecting to needs, and making requests. This \"language of the heart\" replaces \"Jackal language\" (blame, shame, labels).",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Using the metaphor of the Giraffe (the land animal with the largest heart), the authors teach NVC: observing without judging, identifying feelings, connecting to needs, and making requests. This \"language of the heart\" replaces \"Jackal language\" (blame, shame, labels)."
         }
       }
     ],
@@ -153,11 +163,39 @@
           },
           {
             "bold_title": "Agenda",
-            "description": ""
+            "description": "*   **Appreciations**: Everyone shares something they liked about the week."
+          },
+          {
+            "bold_title": "Old Business",
+            "description": "Check in on previous solutions."
+          },
+          {
+            "bold_title": "New Business",
+            "description": "Raise issues (using NVC format)."
+          },
+          {
+            "bold_title": "Fun",
+            "description": "End with a game or treat."
           },
           {
             "bold_title": "Consensus",
             "description": "Decisions are made only when everyone agrees (no voting/majority rules, as that leaves someone with unmet needs)."
+          },
+          {
+            "bold_title": "Using NVC as a Weapon",
+            "description": "\"I feel you are being a jerk\" (That's a judgment, not a feeling)."
+          },
+          {
+            "bold_title": "The \"But\" Trap",
+            "description": "\"I hear you need fun, *but* you have to do homework.\" (Use \"AND\" instead)."
+          },
+          {
+            "bold_title": "Skipping Connection",
+            "description": "Jumping straight to fixing the problem before the person feels heard."
+          },
+          {
+            "bold_title": "Assuming \"One Right Way\"",
+            "description": "Thinking your strategy is the only one. Be open to the child's creative ideas."
           }
         ]
       }

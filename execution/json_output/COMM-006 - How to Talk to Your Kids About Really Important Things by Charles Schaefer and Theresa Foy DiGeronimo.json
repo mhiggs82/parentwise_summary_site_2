@@ -14,11 +14,12 @@
       "child psychology",
       "safety",
       "sensitive topics"
-    ]
+    ],
+    "category_code": "COMM"
   },
   "hero": {
     "badge": "COMM Core Read",
-    "insights_count": 3,
+    "insights_count": 4,
     "actions_count": 5,
     "read_time": "5 min read"
   },
@@ -53,6 +54,15 @@
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
           "text": "Information should be matched to developmental stages.\n- **Ages 4-7**: Concrete, simple, immediate relevance.\n- **Ages 8-12**: More detail, causes, consequences, and context.\nThe goal is to answer the *actual* question asked, not to dump adult-level anxiety or complexity on the child."
+        }
+      },
+      {
+        "heading": "4. Emotional Validation Before Problem-Solving",
+        "intro_text": "Before explaining or fixing, parents must validate the child's feeling (\"You sound really scared\"). This lowers anxiety and makes the child receptive to the information that follows.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Before explaining or fixing, parents must validate the child's feeling (\"You sound really scared\"). This lowers anxiety and makes the child receptive to the information that follows."
         }
       }
     ],
@@ -220,6 +230,22 @@
           {
             "bold_title": "Offer resources",
             "description": "(books) if curious."
+          },
+          {
+            "bold_title": "Over-Explaining",
+            "description": "Giving a biology lecture when the child just asked where babies come from."
+          },
+          {
+            "bold_title": "Deflection",
+            "description": "\"You're too young to know that\" (teaches child to ask peers instead)."
+          },
+          {
+            "bold_title": "Shock/Anger",
+            "description": "Reacting negatively to sexual questions/play (creates shame)."
+          },
+          {
+            "bold_title": "The \"Big Talk\"",
+            "description": "Waiting for one big conversation instead of ongoing small dialogues."
           }
         ]
       }

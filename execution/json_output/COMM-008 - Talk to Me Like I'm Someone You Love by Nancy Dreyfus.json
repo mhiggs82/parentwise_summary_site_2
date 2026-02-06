@@ -12,11 +12,12 @@
       "repair",
       "vulnerability",
       "emotional safety"
-    ]
+    ],
+    "category_code": "COMM"
   },
   "hero": {
     "badge": "COMM Core Read",
-    "insights_count": 3,
+    "insights_count": 4,
     "actions_count": 4,
     "read_time": "4 min read"
   },
@@ -51,6 +52,15 @@
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
           "text": "The cards encourage \"leaning in\" to the vulnerability—admitting \"I'm scared you're leaving me\" instead of screaming \"You're a jerk.\" This disarms the partner's defense system."
+        }
+      },
+      {
+        "heading": "4. Distrust as Data",
+        "intro_text": "Instead of shaming \"paranoia,\" the book encourages voicing distrust (\"I'm scared you're lying\") as a way to build trust. Bringing the shadow into the light makes it manageable.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Instead of shaming \"paranoia,\" the book encourages voicing distrust (\"I'm scared you're lying\") as a way to build trust. Bringing the shadow into the light makes it manageable."
         }
       }
     ],
@@ -117,7 +127,7 @@
           },
           {
             "bold_title": "Select a \"Vulnerable\" card",
-            "description": ""
+            "description": "*   \"I'm afraid you're losing interest in me.\""
           },
           {
             "bold_title": "Present it",
@@ -143,7 +153,7 @@
           },
           {
             "bold_title": "Select a card",
-            "description": ""
+            "description": "*   \"I realize I was taking my stress out on you.\""
           },
           {
             "bold_title": "Deliver it",
@@ -152,6 +162,22 @@
           {
             "bold_title": "Let it land",
             "description": ". Don't ask for immediate forgiveness."
+          },
+          {
+            "bold_title": "Weaponizing Cards",
+            "description": "Using a card to shut the partner up (\"See? The card says you should stop!\")."
+          },
+          {
+            "bold_title": "Performative Use",
+            "description": "Using cards to look \"evolved\" while seething inside."
+          },
+          {
+            "bold_title": "Ignoring the Body",
+            "description": "Handing over a \"loving\" card with a glare or rigid posture."
+          },
+          {
+            "bold_title": "expecting Magic",
+            "description": "Thinking a card fixes the *problem* (it fixes the *context* so you can solve the problem)."
           }
         ]
       }

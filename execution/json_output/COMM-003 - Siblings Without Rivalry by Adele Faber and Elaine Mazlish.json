@@ -13,17 +13,18 @@
       "child development",
       "conflict resolution",
       "emotional intelligence"
-    ]
+    ],
+    "category_code": "COMM"
   },
   "hero": {
     "badge": "COMM Core Read",
-    "insights_count": 3,
+    "insights_count": 4,
     "actions_count": 4,
     "read_time": "6 min read"
   },
   "why_matters": {
     "icon": "fa-solid fa-heart",
-    "text": "**Thesis**: Sibling rivalry stems from children's deep need for exclusive parental love and can be significantly reduced through specific communication skills that acknowledge feelings, avoid comparisons, treat children uniquely rather than equally, free them from rigid roles, and teach constructive conflict resolution.\n\n**Unique Contribution**: The book transforms sibling rivalry from an inevitable family burden into a manageable dynamic. It challenges the \"equality\" myth, proposing that treating children \"fairly\" means treating them uniquely according to need, rather than identically. It also introduces the concept of \"intervention layers,\" teaching parents when to step in and when to step back to foster sibling problem-solving.\n\n**Target Outcome**: Parents gain skills to reduce daily conflict intensity, help children develop their own problem-solving abilities, prevent long-term psychological damage from comparison, and foster sibling relationships that become sources of lifelong su"
+    "text": "**Thesis**: Sibling rivalry stems from children's deep need for exclusive parental love and can be significantly reduced through specific communication skills that acknowledge feelings, avoid comparisons, treat children uniquely rather than equally, free them from rigid roles, and teach constructive conflict resolution.\n\n**Unique Contribution**: The book transforms sibling rivalry from an inevitable family burden into a manageable dynamic. It challenges the \"equality\" myth, proposing that treating children \"fairly\" means treating them uniquely according to need, rather than identically. It also introduces the concept of \"intervention layers,\" teaching parents when to step in and when to step back to foster sibling problem-solving.\n\n**Target Outcome**: Parents gain skills to reduce daily conflict intensity, help children develop their own problem-solving abilities, prevent long-term psychological damage from comparison, and foster sibling relationships that become sources of lifelong support."
   },
   "tabs": {
     "analysis": [
@@ -52,6 +53,15 @@
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
           "text": "Parents must intervene to teach non-intervention. The goal is to facilitate a solution so children learn to solve problems themselves. This requires refined judgment: stepping in to acknowledge anger and confidentially leaving the room to let them work it out (Level II), or separating for safety without assigning blame (Level IV)."
+        }
+      },
+      {
+        "heading": "4. Freeing Children from Roles",
+        "intro_text": "\"The smart one,\" \"the messy one,\" \"the bully.\" These roles become self-fulfilling prophecies. The book argues that parents actively shape these identities and have the power to liberate children from them by aggressively noticing and describing behavior that contradicts the assigned role.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "\"The smart one,\" \"the messy one,\" \"the bully.\" These roles become self-fulfilling prophecies. The book argues that parents actively shape these identities and have the power to liberate children from them by aggressively noticing and describing behavior that contradicts the assigned role."
         }
       }
     ],
@@ -189,6 +199,18 @@
           {
             "bold_title": "Follow up",
             "description": "in a week."
+          },
+          {
+            "bold_title": "The \"Fairness\" Trap",
+            "description": "Trying to slice the cake exactly equal teaches children to count crumbs rather than trust your love."
+          },
+          {
+            "bold_title": "Premature Problem-Solving",
+            "description": "Jumping to \"share better\" before acknowledging \"I hate him!\" fails because the emotion is blocking the logic."
+          },
+          {
+            "bold_title": "The \"Victim/Bully\" Role",
+            "description": "Consistently protecting one child casts them as the victim and the other as the bully, calcifying those roles."
           }
         ]
       }

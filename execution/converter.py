@@ -35,10 +35,16 @@ MODEL = os.environ.get("LLM_MODEL", "anthropic/claude-3-5-sonnet-20240620")
 SYSTEM_PROMPT = """You are a book summary analyzer. Extract structured data from the provided markdown book summary.
 
 CRITICAL INSTRUCTIONS FOR COMPLETE EXTRACTION:
-- Extract ALL distinct analysis points found in the text. Do not stop at one. If there are 12 insights, create 12 objects in the array.
+- Extract ALL distinct analysis points found in the text.
 - Extract ALL strategies or action plans found in the content.
-- Do not summarize or combine - keep each distinct point as a separate object.
 - Populate arrays fully with every piece of relevant content.
+
+WHY IT MATTERS SECTION:
+This is the most important part of the JSON for our library overview. It must be compelling and readable.
+- Extract the core "Executive Summary".
+- It should ideally cover: 1) The book's central Thesis, 2) Its Unique Contribution, and 3) The Target Outcome for the reader.
+- Use bolding for key terms.
+- Ensure it is 3-5 sentences or a well-structured paragraph that "sells" the value of the guide.
 
 ICON FORMAT:
 Use Font Awesome 6 Solid classes in the format: 'fa-solid fa-brain', 'fa-solid fa-layer-group', 'fa-solid fa-lightbulb', 'fa-solid fa-heart'
@@ -50,17 +56,18 @@ JSON SCHEMA:
     "title": "Full book title",
     "subtitle": "Brief subtitle describing the book's focus",
     "authors": ["Author Name"],
-    "tags": ["Tag1", "Tag2"]
+    "tags": ["Tag1", "Tag2"],
+    "category_code": "COMM"
   },
   "hero": {
-    "badge": "FOUND Core Read",
+    "badge": "COMM Core Read",
     "insights_count": <number of analysis items>,
     "actions_count": <number of action items>,
     "read_time": "X min read"
   },
   "why_matters": {
     "icon": "fa-solid fa-heart",
-    "text": "Why this book matters - 2-3 sentences"
+    "text": "Compelling summary of WHY this book matters to a parent."
   },
   "tabs": {
     "analysis": [
@@ -138,6 +145,17 @@ def convert_markdown_to_json(markdown_content, filename):
         json_data.setdefault("hero", {})
         json_data["hero"]["read_time"] = read_time_str
 
+        # Smart category override if AI fails or defaults to COMM but filename suggests otherwise
+        meta = json_data.setdefault("meta", {})
+        current_cat = meta.get("category_code", "COMM")
+        
+        if current_cat == "COMM":
+            prefix_match = re.search(r'^([A-Z]+)-\d+', filename)
+            if prefix_match:
+                new_cat = prefix_match.group(1).upper()
+                meta["category_code"] = new_cat
+                json_data["hero"]["badge"] = f"{new_cat} Core Read"
+
         return json_data
 
     except Exception as e:
@@ -158,12 +176,8 @@ def main():
     # Get all markdown files
     all_files = sorted([f for f in os.listdir(INPUT_DIR) if f.endswith('.md')])
 
-    # Filter for COMM-001 through COMM-010
-    markdown_files = [f for f in all_files if any(f.startswith(f'COMM-00{i}-') for i in range(1, 10))]
-    markdown_files = [f for f in all_files if f.startswith('COMM-001-') or f.startswith('COMM-002-') or
-                     f.startswith('COMM-003-') or f.startswith('COMM-004-') or f.startswith('COMM-005-') or
-                     f.startswith('COMM-006-') or f.startswith('COMM-007-') or f.startswith('COMM-008-') or
-                     f.startswith('COMM-009-') or f.startswith('COMM-010-')]
+    # Process all markdown files
+    markdown_files = all_files
     total = len(markdown_files)
 
     if total == 0:

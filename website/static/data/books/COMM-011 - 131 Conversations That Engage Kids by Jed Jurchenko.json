@@ -14,11 +14,12 @@
       "family games",
       "relationships",
       "attachment"
-    ]
+    ],
+    "category_code": "COMM"
   },
   "hero": {
     "badge": "COMM Core Read",
-    "insights_count": 3,
+    "insights_count": 4,
     "actions_count": 4,
     "read_time": "4 min read"
   },
@@ -53,6 +54,15 @@
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
           "text": "We teaching kids soccer skills but often assume they know how to talk. Jurchenko identifies five learnable social skills: gentle eye contact, open body posture, active listening (nodding), appreciating differences, and asking follow-up questions. Teaching these explicitly prepares them for all future relationships."
+        }
+      },
+      {
+        "heading": "4. Connection Before Influence",
+        "intro_text": "A \"fueled\" car (engaged child) can be steered; a parked car (disengaged child) cannot. Conversation puts fuel in the tank. If you try to correct behavior without having a connection, you are trying to steer a parked car.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "A \"fueled\" car (engaged child) can be steered; a parked car (disengaged child) cannot. Conversation puts fuel in the tank. If you try to correct behavior without having a connection, you are trying to steer a parked car."
         }
       }
     ],
@@ -166,6 +176,22 @@
           {
             "bold_title": "Keep it moving",
             "description": "Fast pace keeps energy up."
+          },
+          {
+            "bold_title": "Interrogation Mode",
+            "description": "Asking question after question without sharing your own answers."
+          },
+          {
+            "bold_title": "Correcting Answers",
+            "description": "Telling the child their opinion is wrong (shuts down safety)."
+          },
+          {
+            "bold_title": "Forcing Depth",
+            "description": "Pushing for \"deep\" talks when the child isn't ready."
+          },
+          {
+            "bold_title": "Ignoring Cues",
+            "description": "Keeping the game going when the child is visibly done/tired."
           }
         ]
       }
