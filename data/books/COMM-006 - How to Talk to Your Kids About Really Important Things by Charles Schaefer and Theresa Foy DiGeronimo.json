@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "title": "How to Talk to Your Kids About Really Important Things",
+    "subtitle": "Navigate 30+ difficult topics with children using age-appropriate, non-judgmental communication that keeps you as the trusted information source.",
+    "authors": [
+      "Charles E. Schaefer",
+      "Theresa Foy DiGeronimo"
+    ],
+    "tags": [
+      "parenting",
+      "child development",
+      "family communication",
+      "crisis management",
+      "child psychology",
+      "safety",
+      "sensitive topics"
+    ],
+    "category_code": "COMM"
+  },
+  "hero": {
+    "badge": "COMM Core Read",
+    "insights_count": 4,
+    "actions_count": 5,
+    "read_time": "15 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-heart",
+    "text": "Open, honest, age-appropriate communication about difficult topics is essential for healthy child development, family resilience, and preventing long-term psychological harm. Ignorance creates vulnerability; informed children are safer, more resilient, and more likely to trust parents with future problems."
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. From Protection to Preparation",
+        "intro_text": "The central paradigm shift is moving from shielding children to preparing them. The book argues that 'innocence' based on ignorance is dangerous. Children need accurate information to navigate the world safely and understand their bodies, emotions, and the realities they'll encounter.",
+        "insight_card": {
+          "title": "Informed Resilience",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Knowledge is not innocence-stealing; it's empowerment. Children armed with information make safer decisions and come to parents when confused."
+        }
+      },
+      {
+        "heading": "2. The \"Askable Parent\"",
+        "intro_text": "Being an 'askable parent' means responding to uncomfortable questions with 'I'm glad you asked' rather than shock or deflection. This establishes the parent as a safe harbor for information, ensuring the child comes to them first during crises or confusion rather than turning to peers or the internet.",
+        "insight_card": {
+          "title": "Trusted Source",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "The parent's calm, honest response to even uncomfortable questions builds a lifelong pattern where the child brings their biggest concerns to the parent, not their peers."
+        }
+      },
+      {
+        "heading": "3. Progressive Disclosure",
+        "intro_text": "Information should be matched to developmental stages. Ages 4-7 need concrete, simple, immediately relevant information. Ages 8-12 need more detail, causes, consequences, and context. The goal is to answer the actual question asked, not to dump adult-level anxiety or complexity on the child.",
+        "insight_card": {
+          "title": "Age-Appropriate Truth",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Honest communication means truthful—but calibrated to the child's ability to understand and integrate the information."
+        }
+      },
+      {
+        "heading": "4. Emotional Validation Before Problem-Solving",
+        "intro_text": "Before explaining or fixing, parents must validate the child's feeling ('You sound really scared'). This lowers anxiety and makes the child receptive to the information that follows, creating a foundation for genuine understanding.",
+        "insight_card": {
+          "title": "Feeling Before Facts",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Children cannot hear facts when their nervous system is flooded with fear. Validation first, facts second."
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "Establishing Yourself as an \"Askable Parent\"",
+        "context": "Use to create a family culture where children feel safe asking about anything.",
+        "steps": [
+          {
+            "bold_title": "Examine Your Own Discomfort",
+            "description": "Identify your triggers (sex, death, drugs). Know your own emotional reactions before a child asks."
+          },
+          {
+            "bold_title": "Respond Positively",
+            "description": "Say: 'That's a great question' or 'I'm glad you asked.' This signals that all topics are welcome."
+          },
+          {
+            "bold_title": "Clarify the Real Question",
+            "description": "Ask: 'What makes you ask that?' or 'What do you already know?' This reveals the actual concern."
+          },
+          {
+            "bold_title": "Answer Immediately or Schedule",
+            "description": "Give the answer now or set a specific time: 'Let's talk after dinner.' Following through is critical."
+          },
+          {
+            "bold_title": "Admit Uncertainty",
+            "description": "If you don't know: 'I don't know the answer. Let's find out together.' This models learning and builds trust."
+          },
+          {
+            "bold_title": "Follow Up",
+            "description": "Circle back: 'Remember when we talked about X? Do you have more questions?'"
+          }
+        ]
+      },
+      {
+        "title": "Delivering Age-Appropriate Information",
+        "context": "Use when you need to provide information matched to the child's developmental stage.",
+        "steps": [
+          {
+            "bold_title": "Assess Current Understanding",
+            "description": "Ask: 'What do you know about this?' This reveals their baseline and misconceptions."
+          },
+          {
+            "bold_title": "Determine the Specific Question",
+            "description": "What is the child actually asking for? ('Where do babies come from?' vs. 'How do you make a baby?')"
+          },
+          {
+            "bold_title": "Provide Minimal Accurate Answer",
+            "description": "For 4-7s: Simple, concrete, immediate. For 8-12s: Detailed, context-rich."
+          },
+          {
+            "bold_title": "Pause and Observe",
+            "description": "Watch their reaction. Are they satisfied or wanting more?"
+          },
+          {
+            "bold_title": "Offer More Only If Asked",
+            "description": "Do not over-explain. They will ask for more if needed."
+          },
+          {
+            "bold_title": "Avoid Euphemisms",
+            "description": "Use correct terms (especially for death/sex). Euphemisms create confusion."
+          },
+          {
+            "bold_title": "Check Comprehension",
+            "description": "Ask: 'Can you tell me what you understood?' This reveals whether the message landed."
+          }
+        ]
+      },
+      {
+        "title": "The \"What-If\" Rehearsal Game",
+        "context": "Use to practice safety skills without fear or shame.",
+        "steps": [
+          {
+            "bold_title": "Frame as a Game",
+            "description": "Say: 'Let's play What If.' This removes the weight of real danger."
+          },
+          {
+            "bold_title": "Pose a Scenario",
+            "description": "Ask: 'What if a stranger offered you candy?' Make it concrete and age-appropriate."
+          },
+          {
+            "bold_title": "Ask Their Response",
+            "description": "'What would you do?' Accept any answer initially without judgment."
+          },
+          {
+            "bold_title": "Redirect if Unsafe",
+            "description": "'That might not be safe. Let's think of another way.' Offer the correct response."
+          },
+          {
+            "bold_title": "Teach the Correct Response",
+            "description": "Explain why it's safer: 'Saying 'No' and telling an adult is safer because...'"
+          },
+          {
+            "bold_title": "Practice the Response",
+            "description": "Do a role play. Let them practice saying 'No' or getting help from an adult."
+          }
+        ]
+      },
+      {
+        "title": "Talking About Death",
+        "context": "Use when a loss occurs or when the child asks about death.",
+        "steps": [
+          {
+            "bold_title": "Use Natural Examples",
+            "description": "Start with dead flowers/insects to introduce the concept without trauma."
+          },
+          {
+            "bold_title": "Define Death Concretely",
+            "description": "'Body stops working—no breathing, no feeling, no thinking.' Avoid euphemisms like 'sleeping' or 'went away.'"
+          },
+          {
+            "bold_title": "Tell Promptly",
+            "description": "Do not delay. Children will sense something is wrong if you wait."
+          },
+          {
+            "bold_title": "Validate All Emotions",
+            "description": "Sadness, anger, confusion, even anger at the deceased—all are normal."
+          },
+          {
+            "bold_title": "Explain Next Steps",
+            "description": "What happens next? (Funeral, memorial, where the body goes.) Concreteness helps children process."
+          },
+          {
+            "bold_title": "Reassure About Safety",
+            "description": "'I am healthy and going to be here. You will be taken care of.'"
+          }
+        ]
+      },
+      {
+        "title": "Addressing Sexual Behavior or Curiosity",
+        "context": "Use when you catch exploration or the child asks about bodies.",
+        "steps": [
+          {
+            "bold_title": "Stay Calm",
+            "description": "Do not react with shock or anger. This teaches shame, not safety."
+          },
+          {
+            "bold_title": "Calmly Interrupt",
+            "description": "Gently stop the behavior without dramatic intervention."
+          },
+          {
+            "bold_title": "Redirect to Another Activity",
+            "description": "Change the subject physically: 'Come help me in the kitchen.'"
+          },
+          {
+            "bold_title": "Wait Until Calm",
+            "description": "Address later when emotions are neutral."
+          },
+          {
+            "bold_title": "Initiate Private Talk",
+            "description": "Acknowledge curiosity is normal: 'I know you're curious about bodies.'"
+          },
+          {
+            "bold_title": "Explain Privacy",
+            "description": "'Swimsuit parts are private.' 'We keep our bodies to ourselves in this family.'"
+          },
+          {
+            "bold_title": "Set Boundaries",
+            "description": "'We do that alone in our room' or 'We don't play games with bodies.'"
+          }
+        ]
+      }
+    ]
+  }
+}

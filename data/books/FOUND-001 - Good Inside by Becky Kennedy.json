@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "title": "Good Inside: A Guide to Connection-Based Parenting",
+    "subtitle": "Shift from managing behavior to connecting with the 'good' child beneath the struggle.",
+    "authors": [
+      "Becky Kennedy"
+    ],
+    "tags": [
+      "Connection-Based",
+      "Emotional Regulation",
+      "Boundaries",
+      "Attachment"
+    ],
+    "category_code": "FOUND"
+  },
+  "hero": {
+    "badge": "FOUND Core Read",
+    "insights_count": 5,
+    "actions_count": 4,
+    "read_time": "5 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-heart",
+    "text": "Children are fundamentally good inside, and challenging behaviors are signals of unmet needs rather than character flaws. **Good Inside** rejects traditional behaviorist approaches like time-outs and rewards in favor of connection and sturdy boundaries. By learning to hold multiple truths simultaneously—validating a child's feelings while maintaining safe limits—parents can build secure attachments that wire children for lifelong resilience. This guide transforms parenting from a battle of wills into a collaborative process of emotional regulation and mutual respect."
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. Behavior as a Signal, Not Identity",
+        "intro_text": "Challenging behavior is a form of communication about an internal struggle or unmet need.",
+        "insight_card": {
+          "title": "Decoding Dysregulation",
+          "icon": "fa-solid fa-signal",
+          "text": "Traditional parenting punishes the behavior (the 'bad' action), but connection-based parenting addresses the source (the 'hard' time). When we treat behavior as a signal, we shift from judgment to curiosity, which allows us to help the child regulate rather than just suppressing their symptoms."
+        }
+      },
+      {
+        "heading": "2. The 'Two Things Are True' Paradigm",
+        "intro_text": "Resilience is built when children learn that conflicting realities can exist at the same time.",
+        "insight_card": {
+          "title": "Multiple Realities",
+          "icon": "fa-solid fa-scale-balanced",
+          "text": "You can be a 'good kid' and have a 'bad moment.' A parent can be 'loving' and 'exhausted.' Holding both truths prevents shame and power struggles. It allows the parent to say, 'I have decided the answer is no, AND you are allowed to be mad about that decision.'"
+        }
+      },
+      {
+        "heading": "3. Most Generous Interpretation (MGI)",
+        "intro_text": "Success begins with seeing the child through a lens of inherent goodness, even when they are struggling.",
+        "insight_card": {
+          "title": "Generous Perspective",
+          "icon": "fa-solid fa-magnifying-glass-plus",
+          "text": "Before reacting, ask: 'What is my most generous interpretation of why my child is doing this?' Shifting from 'they are being disrespectful' to 'they are overwhelmed' changes your physiological response, moving you from a state of threat to a state of connection and teaching."
+        }
+      },
+      {
+        "heading": "4. Boundaries as 'I Won't Let You' Statements",
+        "intro_text": "Boundaries are about the parent's actions, not the child's compliance.",
+        "insight_card": {
+          "title": "Parental Authority",
+          "icon": "fa-solid fa-shield-halved",
+          "text": "A sturdy boundary doesn't ask for permission; it provides safety. Instead of saying 'Stop hitting!' (which relies on a dysregulated child's control), you say 'I won't let you hit' while physically intervening. This embodies safety and relieves the child of a job they aren't yet capable of doing."
+        }
+      },
+      {
+        "heading": "5. Separating Person from Behavior",
+        "intro_text": "Shame is the primary obstacle to change; security is the primary driver of growth.",
+        "insight_card": {
+          "title": "Identity Protection",
+          "icon": "fa-solid fa-user-shield",
+          "text": "Addressing behavior while affirming the child's identity—'I don't like that choice, but I always love you'—ensures that change happens through safety rather than shame. A child who feels 'bad' cannot learn; a child who feels 'seen' can develop the skills to do better next time."
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "Applying the Most Generous Interpretation",
+        "context": "Transform reactive moments into opportunities for connection by pausing to reframe the behavior.",
+        "steps": [
+          {
+            "bold_title": "NOTICE your immediate internal reaction",
+            "description": "Identify if you are feeling threatened, disrespected, or angry when the challenging behavior occurs."
+          },
+          {
+            "bold_title": "PAUSE and take one grounding breath",
+            "description": "Physically stop yourself from speaking or acting for five seconds to shift out of your reactive 'survival' brain."
+          },
+          {
+            "bold_title": "ASK the MGI core question",
+            "description": "Silently ask yourself: 'What is my most generous interpretation of what just happened right now?'"
+          },
+          {
+            "bold_title": "IDENTIFY the underlying struggle",
+            "description": "Consider if the child is tired, hungry, overwhelmed by a transition, or lacking the skill to handle a 'no.'"
+          },
+          {
+            "bold_title": "REFRAME the behavior as communication",
+            "description": "Mentally translate 'He's being mean' to 'He's having a really hard time managing his frustration with his brother.'"
+          },
+          {
+            "bold_title": "RESPOND to the internal need",
+            "description": "Address the feeling first ('You seem really overwhelmed') before you address the action ('We can't use those words')."
+          },
+          {
+            "bold_title": "VALIDATE without requiring agreement",
+            "description": "Acknowledge their hard time even if their behavior still requires a boundary. **Success Check**: You stayed calm and curious during a moment that would have normally triggered a lecture."
+          }
+        ]
+      },
+      {
+        "title": "Setting Sturdy Boundaries without Shame",
+        "context": "Establish safety through clear parent-led action rather than relying on child compliance.",
+        "steps": [
+          {
+            "bold_title": "IDENTIFY the non-negotiable limit",
+            "description": "Decide clearly in your mind what the boundary is (e.g., no hitting, leaving the park now, or screen time ending)."
+          },
+          {
+            "bold_title": "USE 'I won't let you' language",
+            "description": "State the boundary as your own action: 'I won't let you hit' or 'I am going to put the tablet away now.'"
+          },
+          {
+            "bold_title": "POSITION your body for safety",
+            "description": "Get close to the child and place yourself between them and the danger or the person they are hurting."
+          },
+          {
+            "bold_title": "FOLLOW THROUGH with physical action",
+            "description": "If the verbal boundary isn't enough, gently but firmly move the child or remove the object without anger."
+          },
+          {
+            "bold_title": "VALIDATE the resulting protest",
+            "description": "Acknowledge their reaction: 'I see you're really mad at me for Stopping that. You loved that toy.'"
+          },
+          {
+            "bold_title": "STAY present during the storm",
+            "description": "Don't send the child away for being upset; stay near them to show that your boundary is sturdy but your love is constant."
+          },
+          {
+            "bold_title": "OFFER a regulated alternative later",
+            "description": "Once the child is calm, discuss what they can do next time. **Success Check**: You enforced a rule without yelling or needing the child to agree with you."
+          }
+        ]
+      },
+      {
+        "title": "Using 'Two Things Are True' in Conflict",
+        "context": "Reduce power struggles by validating the child's emotional reality while holding your parental boundary.",
+        "steps": [
+          {
+            "bold_title": "IDENTIFY the two conflicting truths",
+            "description": "Usually, these are 1) Your boundary/decision and 2) The child's feeling/desire."
+          },
+          {
+            "bold_title": "CONNECT the truths with 'AND'",
+            "description": "Avoid using 'but,' which cancels out the first part. 'I am turning off the TV AND you are allowed to be upset.'"
+          },
+          {
+            "bold_title": "ACKNOWLEDGE the child's perspective",
+            "description": "Describe their reality with empathy: 'You were having so much fun and you really wanted to keep playing.'"
+          },
+          {
+            "bold_title": "HOLD your boundary with warmth",
+            "description": "Maintain your decision without becoming cold or aggressive; your 'sturdiness' is what provides their safety."
+          },
+          {
+            "bold_title": "RESIST the urge to defend",
+            "description": "Don't give a long lecture explaining *why* the TV is going off; the explanation often fuels the power struggle."
+          },
+          {
+            "bold_title": "NAME your own internal multiplicity",
+            "description": "Remind yourself: 'I am a good parent AND I am having a really hard time with my child right now.'"
+          },
+          {
+            "bold_title": "PERMIT their negative emotional response",
+            "description": "Accept that they don't have to like your decision. **Success Check**: You held a firm limit while the child felt fully heard and understood."
+          }
+        ]
+      },
+      {
+        "title": "Building Daily Connection Capital",
+        "context": "Proactively strengthen the relationship so that boundaries are easier for the child to accept later.",
+        "steps": [
+          {
+            "bold_title": "COMMIT to 10 minutes of PNP",
+            "description": "Practice 'Playing No Phone'—ten minutes where your child leads the play and you have zero distractions."
+          },
+          {
+            "bold_title": "PRACTICE 'Most Generous Noticing'",
+            "description": "Call out the good things you see them doing: 'I noticed how you kept trying that puzzle even when it was tricky.'"
+          },
+          {
+            "bold_title": "USE the 5-to-1 ratio",
+            "description": "For every one correction or boundary, ensure you have five positive connecting interactions throughout the day."
+          },
+          {
+            "bold_title": "ESTABLISH a 'Repair' ritual",
+            "description": "If you yell or lose your cool, always come back to apologize and explain: 'I was overwhelmed, and it wasn't your fault.'"
+          },
+          {
+            "bold_title": "SOLICIT their 'Expert' opinion",
+            "description": "Ask them to teach you something about their world (a game, a book, a drawing) to show you value their competence."
+          },
+          {
+            "bold_title": "PRIORITIZE physical consent-based touch",
+            "description": "Offer hugs, high-fives, or simple hand-on-shoulder moments while respecting their body boundaries."
+          },
+          {
+            "bold_title": "SHARE one specific appreciation daily",
+            "description": "At bedtime, tell them one thing they did that you truly appreciated. **Success Check**: You feel more 'connected' and less like a police officer in your home."
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "title": "Excusive Interpretation",
+        "icon": "fa-solid fa-ban",
+        "text": "Using the 'Most Generous Interpretation' as an excuse to ignore harmful behavior. Remember: Validation and boundaries must happen together."
+      },
+      {
+        "title": "Delegating the Parent Job",
+        "icon": "fa-solid fa-person-circle-question",
+        "text": "Asking a dysregulated child to 'calm down' or 'make a good choice.' It is the parent's job to provide the safety that allows for regulation."
+      },
+      {
+        "title": "The Compliance Trap",
+        "icon": "fa-solid fa-gem",
+        "text": "Mistaking immediate obedience for success. True success is the child feeling safe enough to express feelings while still following a boundary."
+      },
+      {
+        "title": "Neglecting Self-Regulation",
+        "icon": "fa-solid fa-battery-empty",
+        "text": "Trying to coach a child when your own 'battery' is at zero. You cannot provide a sturdy boundary if you are in a state of emotional depletion."
+      }
+    ]
+  }
+}

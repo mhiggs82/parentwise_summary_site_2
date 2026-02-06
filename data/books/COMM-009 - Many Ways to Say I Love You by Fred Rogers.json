@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "title": "Many Ways to Say I Love You: Wisdom for Parents and Children from Mister Rogers",
+    "subtitle": "Parenting as a developmental journey where adults heal their own childhoods while creating 'safe places' for the next generation.",
+    "authors": [
+      "Fred Rogers"
+    ],
+    "tags": [
+      "parenting",
+      "child development",
+      "emotional intelligence",
+      "family history",
+      "unconditional love",
+      "discipline",
+      "self-worth"
+    ],
+    "category_code": "COMM"
+  },
+  "hero": {
+    "badge": "COMM Core Read",
+    "insights_count": 4,
+    "actions_count": 4,
+    "read_time": "12 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-heart",
+    "text": "Healthy child development springs from unconditional love and the creation of 'safe places' where children are accepted for who they are, not who parents wish them to be. Parenting is a developmental journey where adults relive and heal their own childhoods while guiding the next generation."
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. The Safe Place",
+        "intro_text": "Rogers introduces the 'safe place'—not a physical location, but a relational space where the child feels entirely accepted. In this space, no feeling is forbidden. The parent provides a container for the child's full self, including the parts they fear will be rejected.",
+        "insight_card": {
+          "title": "Unconditional Acceptance",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "A safe place is where a child learns that they can be fully known and still be loved. This is the foundation of all healthy development."
+        }
+      },
+      {
+        "heading": "2. Parenting as Reliving Childhood",
+        "intro_text": "'When we become parents, we bring our own childhoods with us.' Awareness of how our past triggers inform present parenting allows us to separate our childhood fears from our child's present reality.",
+        "insight_card": {
+          "title": "Conscious Parenting",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Our children's developmental stages trigger memories of our own experience. Awareness creates choice—we can break cycles or repeat them."
+        }
+      },
+      {
+        "heading": "3. Limits as Expressions of Love",
+        "intro_text": "Rogers explicitly connects discipline with love. Since children cannot regulate themselves or keep themselves safe, providing boundaries is a profound act of care. Permissiveness is identified as a form of neglect; limits provide the security structure children crave.",
+        "insight_card": {
+          "title": "Secure Boundaries",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Children's behavior may test limits, but their hearts crave them. Limits say: 'I care enough to keep you safe.'"
+        }
+      },
+      {
+        "heading": "4. The \"Good Enough\" Parent",
+        "intro_text": "Rogers dismantles the 'perfect parent' myth. A parent who makes mistakes, apologizes, and repairs is actually better for development than a 'perfect' facade, because it teaches the child how to be human, how to fail, and how to reconcile.",
+        "insight_card": {
+          "title": "Repair as Teaching",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "When parents model imperfection and repair, they teach the child that mistakes are not catastrophic—they are opportunities for connection."
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "Excavating Childhood Patterns",
+        "context": "Use to differentiate your past from the child's present, breaking intergenerational cycles.",
+        "steps": [
+          {
+            "bold_title": "Identify a Current Trigger",
+            "description": "When does your child's behavior activate you most? (Whining, mess, refusal, aggression.)"
+          },
+          {
+            "bold_title": "Pause and Reflect",
+            "description": "'How was this handled when I was a child?' What memories arise?"
+          },
+          {
+            "bold_title": "Feel the Old Emotion",
+            "description": "Allow yourself to feel the shame, fear, or anger from your childhood."
+          },
+          {
+            "bold_title": "Separate Past from Present",
+            "description": "'That was then. This is now. My child is safe. I am the adult now.'"
+          },
+          {
+            "bold_title": "Choose a Different Response",
+            "description": "What would your present-day, secure self do? (Comfort instead of punishment, curiosity instead of anger.)"
+          }
+        ]
+      },
+      {
+        "title": "Creating a \"Safe Place\" Ritual",
+        "context": "Use to establish a baseline of unconditional acceptance, usually at bedtime.",
+        "steps": [
+          {
+            "bold_title": "Choose a Time",
+            "description": "Bedtime works well, but any consistent time is effective."
+          },
+          {
+            "bold_title": "Remove Distractions",
+            "description": "No phone, no agenda. Just presence."
+          },
+          {
+            "bold_title": "Listen Without Correcting",
+            "description": "Whatever they share—fears, confessions, dreams—do not immediately teach or correct."
+          },
+          {
+            "bold_title": "Affirm Unconditionally",
+            "description": "'I like you just the way you are.' or 'You are loved exactly as you are.'"
+          },
+          {
+            "bold_title": "Make It Consistent",
+            "description": "Do this daily, even if just for 5 minutes. Consistency is what builds safety."
+          }
+        ]
+      },
+      {
+        "title": "Setting Limits as Love",
+        "context": "Use when enforcing rules or boundaries to reframe limits as acts of care.",
+        "steps": [
+          {
+            "bold_title": "Identify a Necessary Limit",
+            "description": "No hitting, no unkindness, bedtime at 8pm—whatever is essential."
+          },
+          {
+            "bold_title": "State It Clearly and Calmly",
+            "description": "Be firm without anger: 'I can't let you hit.'"
+          },
+          {
+            "bold_title": "Explain the Care Behind It",
+            "description": "'I stop you because I love you and need to keep you safe.'"
+          },
+          {
+            "bold_title": "Validate the Feeling",
+            "description": "'You can be angry, and I won't let you hit.' Both feelings and limits coexist."
+          },
+          {
+            "bold_title": "Enforce Without Anger",
+            "description": "The limit itself is the teacher, not your frustration."
+          }
+        ]
+      },
+      {
+        "title": "Modeling Repair (The Apology)",
+        "context": "Use when you make a mistake—yelled, forgot a promise, were unkind—to teach reconciliation.",
+        "steps": [
+          {
+            "bold_title": "Notice You Made a Mistake",
+            "description": "Yelled, broke a promise, were harsh. Acknowledge it internally first."
+          },
+          {
+            "bold_title": "Acknowledge It Explicitly",
+            "description": "'I made a mistake. I yelled, and that wasn't okay.'"
+          },
+          {
+            "bold_title": "Apologize",
+            "description": "'I'm sorry I yelled. I was frustrated, but I shouldn't have done that.'"
+          },
+          {
+            "bold_title": "Don't Blame",
+            "description": "Avoid: 'I yelled because you...' Own it cleanly."
+          },
+          {
+            "bold_title": "Reconnect",
+            "description": "Offer a hug or ask for one. Repair the relationship."
+          }
+        ]
+      }
+    ]
+  }
+}

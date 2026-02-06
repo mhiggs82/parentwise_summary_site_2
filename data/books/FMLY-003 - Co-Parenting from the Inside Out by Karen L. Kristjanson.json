@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "title": "Co-Parenting from the Inside Out",
+    "subtitle": "Inner growth and self-management for effective shared parenting.",
+    "authors": [
+      "Karen L. Kristjanson"
+    ],
+    "tags": [
+      "Co-Parenting",
+      "Divorce",
+      "Conflict Resolution",
+      "Self-Management"
+    ],
+    "category_code": "FMLY"
+  },
+  "hero": {
+    "badge": "FMLY Core Read",
+    "insights_count": 5,
+    "actions_count": 4,
+    "read_time": "5 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-heart-circle-check",
+    "text": "Effective co-parenting is an 'inside-out' process that begins with mastering your own reactions rather than trying to control your ex-partner. **Co-Parenting from the Inside Out** argues that by treating the relationship as a professional business partnership, you can shield your children from the toxicity of adult conflict. By focusing on self-regulation, grieving the past independently, and accepting the reality of 'different houses,' you empower your children to love both parents freely. This guide provides the emotional and tactical tools to move from a state of reactive crisis to a stable, child-centered co-parenting environment."
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. The Business Partnership Model",
+        "intro_text": "Treat your ex-partner like a professional colleague you don't necessarily like but must work with.",
+        "insight_card": {
+          "title": "Professional Distance",
+          "icon": "fa-solid fa-briefcase",
+          "text": "The single most effective shift is moving from an 'emotional ex-spouse' mindset to a 'functional co-parent' mindset. In a business partnership, you are polite, brief, and strictly focused on the 'client' (the child). This professional distance prevents you from regressing into old marital arguments and keeps the focus on the logistics of raising healthy children."
+        }
+      },
+      {
+        "heading": "2. Inside-Out Self-Management",
+        "intro_text": "You cannot change your ex-partner's behavior; you can only change your reaction to it.",
+        "insight_card": {
+          "title": "Internal Sovereignty",
+          "icon": "fa-solid fa-person-arrow-up-from-line",
+          "text": "Co-parenting success is determined by your ability to manage your own triggers. If you are emotionally hijacked by a text or email, your parenting will suffer. Success requires doing the 'inner work'—therapy, journaling, and nervous system regulation—so that you can remain calm and focused even when the other parent is being difficult."
+        }
+      },
+      {
+        "heading": "3. Acceptance of 'Two Realities'",
+        "intro_text": "Children are adaptable and can handle different rules in different houses as long as the parents aren't fighting about them.",
+        "insight_card": {
+          "title": "Styles vs. Safety",
+          "icon": "fa-solid fa-house-chimney-crack",
+          "text": "The damage to children comes not from having 'different rules' (e.g., bedtimes or screen limits) but from the parents' criticism of those differences. Unless there is a genuine safety concern, you must accept that you have zero control over what happens in the other home. Framing differences as 'different styles' rather than 'wrong choices' preserves your child's sense of loyalty to both homes."
+        }
+      },
+      {
+        "heading": "4. Radical Acceptance of Reality",
+        "intro_text": "Parenting based on how things *should* be leads to burnout; parenting based on how they *are* leads to stability.",
+        "insight_card": {
+          "title": "Reality-Based Strategy",
+          "icon": "fa-solid fa-eye",
+          "text": "You must accept the divorce and your ex-partner exactly as they are today. If they are absent, reactive, or unreliable, stop waiting for them to change. When you accept the painful reality, you can stop fighting a war you can't win and start building a stable 'home-front' for your children that isn't dependent on the other parent's performance."
+        }
+      },
+      {
+        "heading": "5. Modeling Resilience and Integrity",
+        "insight_card": {
+          "title": "The Silent Lesson",
+          "icon": "fa-solid fa-hand-holding-heart",
+          "text": "Co-parenting is your child's primary classroom for conflict resolution and emotional intelligence. By maintaining a high-road approach with integrity, you are actively modeling for them how to handle difficult people and unfair situations. Your children are watching your character more than they are listening to the rules; your 'inside-out' growth eventually becomes their blueprint for resilience."
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "The Communication Detox (BIFF Tool)",
+        "context": "Lower the conflict temperature by professionalizing every interaction with the other parent.",
+        "steps": [
+          {
+            "bold_title": "MOVE all logistics to a dedicated channel",
+            "description": "Switch all communication to email or a specific app like OurFamilyWizard; avoid phone calls or face-to-face talks for logistics."
+          },
+          {
+            "bold_title": "IMPLEMENT a 24-hour response pause",
+            "description": "Unless it's a medical emergency, never reply to a message immediately. Allow your nervous system to return to a baseline state."
+          },
+          {
+            "bold_title": "APPLY the 'Brief' rule to every message",
+            "description": "Keep it to two paragraphs max. The more you say, the more there is for the other person to attack or misinterpret."
+          },
+          {
+            "bold_title": "KEEP it strictly 'Informative'",
+            "description": "Focus only on dates, times, and observable facts about the child. Do not share your personal news or lifestyle updates."
+          },
+          {
+            "bold_title": "USE a 'Friendly' but neutral tone",
+            "description": "Remove all adjectives, accusations, and history. Say 'Please pick up at 5' instead of 'You're always late, so don't be late this time.'"
+          },
+          {
+            "bold_title": "STAY 'Firm' about established boundaries",
+            "description": "Reference the parenting plan directly if there is a dispute. Do not negotiate out of guilt or fear of another argument."
+          },
+          {
+            "bold_title": "SCAN for 'Hidden Hooks' before sending",
+            "description": "Delete any sentence that attempts to explain your feelings or correct their behavior. **Success Check**: Emails become 'boring' and the conflict loop is broken."
+          }
+        ]
+      },
+      {
+        "title": "The Two-House Transition Protocol",
+        "context": "Protect your child from the 'loyalty bind' and stress of moving between two different emotional environments.",
+        "steps": [
+          {
+            "bold_title": "ORGANIZE a neutral drop-off point",
+            "description": "Use curbside drop-offs or public locations if face-to-face interactions lead to tension or arguments."
+          },
+          {
+            "bold_title": "OFFER a 'Smooth Takeoff' smile",
+            "description": "Keep your expression positive and encouraging as they leave: 'Have a great time at Dad's! See you Sunday!'"
+          },
+          {
+            "bold_title": "CREATE a 30-minute 'Landing Buffer'",
+            "description": "When they return, give them space to be bored or quiet. Do not jump into a heavy routine or interrogations immediately."
+          },
+          {
+            "bold_title": "REFRAIN from 'Spying' or questioning",
+            "description": "Avoid asking 'Who was there?' or 'What did you eat?' This makes the child feel they have to 'report' on the other house."
+          },
+          {
+            "bold_title": "EQUIP both houses with basic essentials",
+            "description": "Maintain sets of pajamas, toothbrushes, and sneakers at both locations so the child isn't 'living out of a suitcase.'"
+          },
+          {
+            "bold_title": "ESTABLISH a consistent reunion ritual",
+            "description": "Pick a predictable activity—like a specific snack or a high-five—that signals they have 'landed' safely back with you."
+          },
+          {
+            "bold_title": "HOLD the 'Other House' as valid",
+            "description": "Keep a photo of the other parent in the house or room to show the child that their relationship with both parents is safe. **Success Check**: Transitions become quiet, expected routines without child meltdowns."
+          }
+        ]
+      },
+      {
+        "title": "Explaining 'Different House' Rules",
+        "context": "Neutralize the conflict when a child notices or complains about the differences in rules between households.",
+        "steps": [
+          {
+            "bold_title": "VALIDATE the child's literal observation",
+            "description": "When they say 'Dad lets me stay up late!', respond with: 'Wow, that sounds like a fun thing to do with your dad.'"
+          },
+          {
+            "bold_title": "FRAME the difference as a 'Style' choice",
+            "description": "Say: 'Every house has its own way of doing things. Just like your school has rules that are different from home rules.'"
+          },
+          {
+            "bold_title": "REITERATE your household boundary neutrally",
+            "description": "State clearly: 'In THIS house, lights out is at 9:00 so your brain is ready for school tomorrow.'"
+          },
+          {
+            "bold_title": "REFUSE to attack the other parent's choice",
+            "description": "Do not say 'Your dad shouldn't do that' or 'He is being irresponsible.' Keep your opinion completely private."
+          },
+          {
+            "bold_title": "ENSURE consistency in your own home",
+            "description": "The child will test your rule because it's different. Hold steady so they realize your rule is safe and predictable."
+          },
+          {
+            "bold_title": "OFFER empathy for the transition stress",
+            "description": "Say: 'I know it’s a big change to switch from late nights to school nights. It will take a minute for your body to get used to it.'"
+          },
+          {
+            "bold_title": "FOCUS on the child's regulation",
+            "description": "Help them manage their frustration about the rule rather than fighting the rule itself. **Success Check**: The child stops saying 'But at Dad's...' and begins to follow your home's routine."
+          }
+        ]
+      },
+      {
+        "title": "Managing the 'Email Trigger'",
+        "context": "Use 'Inside Out' self-regulation to prevent yourself from being emotionally hijacked by a difficult co-parenting message.",
+        "steps": [
+          {
+            "bold_title": "RECOGNIZE the physical stress response",
+            "description": "Notice if your heart races, your stomach ties, or your breathing shallows as soon as you see the sender's name."
+          },
+          {
+            "bold_title": "LABEL the specific trigger accurately",
+            "description": "Say to yourself: 'I am feeling angry because I feel controlled' or 'I am feeling small because I feel judged.'"
+          },
+          {
+            "bold_title": "CLOSE the device immediately",
+            "description": "Do not read the full message while you are in a high-arousal state. Put the phone down or walk away from the computer."
+          },
+          {
+            "bold_title": "EXECUTE a physical 'Venting' action",
+            "description": "Go for a run, scream into a pillow, or call a trusted 'safe' person to vent your initial knee-jerk reaction."
+          },
+          {
+            "bold_title": "REFRAME the sender's intent",
+            "description": "Switch from 'They are attacking me' to 'They are acting out of their own anxiety/stress. It is their problem, not mine.'"
+          },
+          {
+            "bold_title": "WAIT at least four hours to re-read",
+            "description": "Return to the message only when you can read it as if it were a dry, boring business memo from a late insurance adjuster."
+          },
+          {
+            "bold_title": "DRAFT a 'Boring' professional response",
+            "description": "Reply only to the logistical points. Ignore all the insults or accusations. **Success Check**: You feel a sense of calm power because the other person can no longer 'push your buttons.'"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "title": "The 'Messenger' Trap",
+        "icon": "fa-solid fa-person-walking-arrow-right",
+        "text": "Using your child to deliver messages ('Tell your father that I need the check'). This puts the child in the middle of a war they didn't start and makes them feel responsible for adult stability."
+      },
+      {
+        "title": "Spying and Interrogation",
+        "icon": "fa-solid fa-user-secret",
+        "text": "Asking the child questions about the other parent's personal life or dating. This makes the child feel they are being 'unfaithful' if they enjoy their time at the other house."
+      },
+      {
+        "title": "The 'Disney Parent' Competition",
+        "icon": "fa-solid fa-gamepad",
+        "text": "Trying to 'win' the child's love by always being the 'fun' house with no rules and constant gifts. This prevents the child from developing the resilience that comes from having a real parent."
+      },
+      {
+        "title": "The 'Victim' Narrative",
+        "icon": "fa-solid fa-face-frown",
+        "text": "Venting to the child about your ex's behavior or the legal system. This causes 'parentification,' where the child feels they must emotionally manage their parent's grief or anger."
+      }
+    ]
+  }
+}

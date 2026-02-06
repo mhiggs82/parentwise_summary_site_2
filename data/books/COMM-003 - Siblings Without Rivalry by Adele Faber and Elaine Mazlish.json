@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "title": "Siblings Without Rivalry",
+    "subtitle": "How to help your children live together so you can live too.",
+    "authors": [
+      "Adele Faber",
+      "Elaine Mazlish"
+    ],
+    "tags": [
+      "Parenting",
+      "Sibling Relationships",
+      "Conflict Resolution",
+      "Family Dynamics"
+    ],
+    "category_code": "COMM"
+  },
+  "hero": {
+    "badge": "COMM Core Read",
+    "insights_count": 5,
+    "actions_count": 4,
+    "read_time": "5 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-people-group",
+    "text": "Sibling rivalry is not an inevitable family burden but a manageable dynamic driven by a child's deep need for exclusive parental love. **Siblings Without Rivalry** reveals that treating children 'equally' is a myth that actually increases competition. By moving toward 'unique recognition' and teaching graduated conflict-resolution skills, parents can transform the sibling relationship from a source of friction into a lifelong bond of support. This guide provides the tools to de-escalate daily battles and free children from the restrictive roles that often define family life."
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. The Equality Myth",
+        "intro_text": "Children don't want to be loved 'equally'; they want to be loved 'uniquely.'",
+        "insight_card": {
+          "title": "Uniqueness Over Equality",
+          "icon": "fa-solid fa-scale-balanced",
+          "text": "When we try to make everything perfectly equal—the same size cake, the same number of minutes on a lap—we inadvertently teach children to become accountants of love. This creates a scarcity mentality. By giving according to individual need ('You need new shoes; your brother doesn't') and acknowledging unique traits, you create a sense of abundance and security that reduces the need for constant comparison."
+        }
+      },
+      {
+        "heading": "2. Validation Before Mediation",
+        "intro_text": "Negative feelings between siblings must be acknowledged before problem-solving can begin.",
+        "insight_card": {
+          "title": "Emotional Safety First",
+          "icon": "fa-solid fa-shield-heart",
+          "text": "When a child says 'I hate my brother,' the parental instinct is to correct them ('No you don't!'). This denial of feeling makes the child feel even more misunderstood and resentful. Acknowledging the feeling—'Sometimes you feel really frustrated living with him'—allows the emotional charge to drop. Only when a child feels their 'case' is heard can they consider a win-win solution."
+        }
+      },
+      {
+        "heading": "3. The Danger of Comparison",
+        "intro_text": "Both positive and negative comparisons fuel sibling resentment.",
+        "insight_card": {
+          "title": "Direct Feedback Mirrors",
+          "icon": "fa-solid fa-eye",
+          "text": "Favorable comparisons ('Why can't you be messy like your sister?') make the 'good' child feel pressure to remain perfect and the 'other' child feel inferior. Unfavorable comparisons are even more damaging. The skill is to describe only the behavior you see in front of you without referencing the other child at all. This keeps the relationship strictly between the parent and that specific child."
+        }
+      },
+      {
+        "heading": "4. Liberating Family Roles",
+        "intro_text": "Children often become trapped in roles like 'the bully,' 'the victim,' or 'the smart one.'",
+        "insight_card": {
+          "title": "Casting Off Labels",
+          "icon": "fa-solid fa-tags",
+          "text": "Parents often assign (or allow children to adopt) rigid roles to manage family life. These labels become self-fulfilling prophecies. To free a child, parents must aggressively notice and describe behavior that contradicts their 'assigned' role. By narrating their moments of kindness or focus, you give them a wider range of possible identities to inhabit."
+        }
+      },
+      {
+        "heading": "5. Intervention as Coaching",
+        "insight_card": {
+          "title": "Facilitating Resolution",
+          "icon": "fa-solid fa-whistle",
+          "text": "The goal of intervention is not to judge who is 'right,' but to coach the children on how to find their own solutions. Frequent parental judging creates 'victims' and 'bullies.' By acting as a facilitator—acknowledging both sides' feelings and then leaving the room—you force the children to develop the negotiation and compromise skills they will need for their entire lives."
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "Acknowledge Feelings (The De-Escalator)",
+        "context": "Use this process when a child is venting or complaining about their sibling to prevent the situation from escalating into a fight.",
+        "steps": [
+          {
+            "bold_title": "STOP your current activity",
+            "description": "Give the complaining child your full attention; this signals that their frustration is valid and worth hearing."
+          },
+          {
+            "bold_title": "LISTEN without interrupting or correcting",
+            "description": "Let them finish their entire 'list of grievances' even if it sounds exaggerated or unfair to the other child."
+          },
+          {
+            "bold_title": "NAME the intense emotion you hear",
+            "description": "Use a powerful word: 'You sound absolutely furious at him!' or 'It sounds like you feel very disappointed by that choice.'"
+          },
+          {
+            "bold_title": "RESIST the urge to defend the sibling",
+            "description": "Do not explain why the brother did it; at this moment, the child only needs to know that YOU understand THEIR pain."
+          },
+          {
+            "bold_title": "REFLECT the child's underlying wish",
+            "description": "State what they want in fantasy: 'You wish your sister would ask before she even touches your Lego castle, right?'"
+          },
+          {
+            "bold_title": "WAIT in supportive silence",
+            "description": "Give them time to feel the relief of being heard. Often, the validation alone is enough to stop the complaint."
+          },
+          {
+            "bold_title": "OFFER a symbolic outlet for the anger",
+            "description": "If they still feel charged, say: 'Why don't you draw a picture of how mad you are right now?' **Success Check**: The child takes a deep breath and forgets about the 'emergency' within minutes."
+          }
+        ]
+      },
+      {
+        "title": "Giving According to Need (Uniqueness)",
+        "context": "Meet the legitimate needs of one child without creating a competitive 'accountant' mindset in the other.",
+        "steps": [
+          {
+            "bold_title": "ASSESS the genuine individual need",
+            "description": "Determine if a child actually needs a specific item, time, or attention right now, regardless of what the other has."
+          },
+          {
+            "bold_title": "PROVIDE the item or time directly",
+            "description": "Give the resource without buying a 'consolation prize' for the sibling; this reinforces that resources are based on need."
+          },
+          {
+            "bold_title": "ACKNOWLEDGE the sibling's feeling",
+            "description": "If the other child complains, say: 'It's really hard to watch your brother get new cleats when your old ones still fit.'"
+          },
+          {
+            "bold_title": "STATE the core family principle",
+            "description": "Explain clearly: 'In this family, everybody gets what they need, when they need it. It's not about being the same.'"
+          },
+          {
+            "bold_title": "AFFIRM their future security",
+            "description": "Give them confidence in the future: 'When YOU grow out of your cleats, you will get new ones too. I promise.'"
+          },
+          {
+            "bold_title": "AVOID apologizing for the gift",
+            "description": "Don't feel guilty; you are teaching them that love and resources are not a pie that runs out, but a responsive system."
+          },
+          {
+            "bold_title": "DEMONSTRATE unique recognition",
+            "description": "Notice a different way to celebrate the child who didn't get the item: 'I love how well you maintain your current gear.' **Success Check**: The sibling says 'I'll get mine when I need it' instead of 'That's not fair!'"
+          }
+        ]
+      },
+      {
+        "title": "The Graduated Intervention (Level II)",
+        "context": "Intervene in a middle-level conflict where things are heating up but no one is in physical danger yet.",
+        "steps": [
+          {
+            "bold_title": "ENTER the room calmly and slowly",
+            "description": "Do not rush in or yell; your calm presence is the first tool for de-escalating the high energy of the fight."
+          },
+          {
+            "bold_title": "ACKNOWLEDGE both perspectives with neutrality",
+            "description": "State what you see: 'So, you want to keep playing the game, and you want to go outside now. Is that right?'"
+          },
+          {
+            "bold_title": "REFUSE to judge who is 'right'",
+            "description": "Reject the role of judge. Do not try to figure out who 'started it' or who is the 'aggressor' in the moment."
+          },
+          {
+            "bold_title": "NAME the difficulty of the situation",
+            "description": "Show empathy: 'That is such a hard problem when two people want completely different things at the same time.'"
+          },
+          {
+            "bold_title": "EXPRESS confidence in their capability",
+            "description": "State firmly: 'I have a lot of confidence that the two of you can find a solution that works for both of you.'"
+          },
+          {
+            "bold_title": "LEAVE the room immediately after coaching",
+            "description": "This is crucial. By exiting, you remove the audience for the performative part of the fight and force them to negotiate."
+          },
+          {
+            "bold_title": "MONITORE the energy from a distance",
+            "description": "Stay nearby but out of sight. Wait for the sound of negotiation or compromise. **Success Check**: You hear one child say 'Well, what if we...' and the fight turns into a conversation."
+          }
+        ]
+      },
+      {
+        "title": "Physical Separation (Level IV Danger)",
+        "context": "Use this protocol when siblings are in physical danger or the fight has become genuinely unsafe.",
+        "steps": [
+          {
+            "bold_title": "STOP the action immediately with authority",
+            "description": "Use a loud, firm voice: 'STOP! Everyone's hands off! It is not safe in here right now!'"
+          },
+          {
+            "bold_title": "SEPARATE the children physically",
+            "description": "Direct them to different rooms: 'You go to the kitchen, and you go to the den. We need a safety break.'"
+          },
+          {
+            "bold_title": "AVOID blame or investigations",
+            "description": "Do not ask 'Who hit first?' during the separation. The priority is safety, not justice, in the heat of the moment."
+          },
+          {
+            "bold_title": "STATE the reason for separation",
+            "description": "Explain clearly: 'It is my job to keep everyone safe, and right now it's not safe for the two of you to be together.'"
+          },
+          {
+            "bold_title": "ENSURE a cooling-off period",
+            "description": "Give them at least 15-20 minutes of separate time to allow their nervous systems to return to a baseline state."
+          },
+          {
+            "bold_title": "INVITE a reconciliation meeting later",
+            "description": "Once everyone is calm, call them together to discuss what happened and how they can 'make it right' without hitting."
+          },
+          {
+            "bold_title": "RESTORE connection individually",
+            "description": "Check in with each child privately to reassure them that while the behavior was unsafe, they are still loved. **Success Check**: The children stay in their separate zones without chasing each other to continue the fight."
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "title": "The 'Victim/Bully' Lock-in",
+        "icon": "fa-solid fa-lock",
+        "text": "Always protecting the same 'weaker' child. This cast the other child as a permanent 'villain' and the protected child as a 'victim,' entrenching the behavior on both sides."
+      },
+      {
+        "title": "Premature Problem-Solving",
+        "icon": "fa-solid fa-hourglass-start",
+        "text": "Jumping to 'make them share' before they have felt heard. If a child's huge anger isn't validated, their logic brain is 'offline' and they literally cannot hear or process a fair solution."
+      },
+      {
+        "title": "Bailing out 'Fairness'",
+        "icon": "fa-solid fa-circle-xmark",
+        "text": "Trying to justify why you didn't buy the same gift. Don't defend the choice based on money; stand firm on the principle of individual need. Apologizing makes you look like you're playing favorites."
+      },
+      {
+        "title": "Assigning 'Who Started It'",
+        "icon": "fa-solid fa-fingerprint",
+        "text": "Playing detective in a fight. You will almost never find the 'truth,' and by picking a side, you incentivize the siblings to find more subtle ways to provoke each other out of your sight."
+      }
+    ]
+  }
+}

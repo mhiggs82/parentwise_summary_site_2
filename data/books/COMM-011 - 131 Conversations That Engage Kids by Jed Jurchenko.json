@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "title": "131 Conversations That Engage Kids",
+    "subtitle": "Gamify family dialogue through fun mechanics and microskills to build secure attachment in the digital age.",
+    "authors": [
+      "Jed Jurchenko"
+    ],
+    "tags": [
+      "kids",
+      "tweens",
+      "communication",
+      "connection",
+      "conversation starters",
+      "family games",
+      "relationships",
+      "attachment"
+    ],
+    "category_code": "COMM"
+  },
+  "hero": {
+    "badge": "COMM Core Read",
+    "insights_count": 4,
+    "actions_count": 4,
+    "read_time": "12 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-heart",
+    "text": "In a digital age, face-to-face conversation is the 'invisible infrastructure' of secure attachment. By actively cultivating dialogue through fun, low-pressure methods, parents can build bridges of influence that allow them to guide children through life's challenges."
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. Intimacy as \"In-to-me-see\"",
+        "intro_text": "Jurchenko defines intimacy not as serious, deep talk, but as the experience of being seen. This happens gradually. You don't start with 'What is your deepest fear?' You start with 'What's your favorite ice cream?' and build the muscle of sharing.",
+        "insight_card": {
+          "title": "Progressive Sharing",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Intimacy is built through accumulated moments of being witnessed, not through manufactured deep talks."
+        }
+      },
+      {
+        "heading": "2. Gamification as a Bridge",
+        "intro_text": "Direct questions can feel like an interrogation to a tween. Gamification (answering a question when you pull a Jenga block) distracts the defense mechanisms. The focus is on the game, which allows the conversation to slip in sideways.",
+        "insight_card": {
+          "title": "The Power of Play",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "When the focus is on the game, children's guard lowers and authentic sharing becomes possible."
+        }
+      },
+      {
+        "heading": "3. Microskills for Kids",
+        "intro_text": "We teach soccer skills but assume children know how to talk. Jurchenko identifies five learnable social skills: gentle eye contact, open body posture, active listening (nodding), appreciating differences, and asking follow-up questions. Teaching these explicitly prepares them for all future relationships.",
+        "insight_card": {
+          "title": "Teachable Communication Skills",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Conversation is a skill like any other. Explicit teaching creates competence and confidence."
+        }
+      },
+      {
+        "heading": "4. Connection Before Influence",
+        "intro_text": "A 'fueled' car (engaged child) can be steered; a parked car (disengaged child) cannot. Conversation puts fuel in the tank. If you try to correct behavior without connection, you are trying to steer a parked car.",
+        "insight_card": {
+          "title": "Fuel for Influence",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Every moment of genuine connection increases the child's willingness to be guided. Influence flows from connection."
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "The Conversation Jenga Strategy",
+        "context": "Use this game-based method to make conversation fun and low-pressure, especially with resistant or shy kids.",
+        "steps": [
+          {
+            "bold_title": "Buy a Jenga Set",
+            "description": "A standard set with numbered blocks works perfectly."
+          },
+          {
+            "bold_title": "Number the Blocks",
+            "description": "Use a permanent marker to number 1-131 (or however many questions you have)."
+          },
+          {
+            "bold_title": "Create Your Question List",
+            "description": "Use Jurchenko's 131 questions or create your own. Group by difficulty (easy to deep)."
+          },
+          {
+            "bold_title": "Play Together",
+            "description": "When someone pulls a block, they look up the question and answer. Others can answer too if they want."
+          },
+          {
+            "bold_title": "Focus on Fun",
+            "description": "If the tower falls, laugh. The goal is connection, not winning. The game is the vehicle."
+          }
+        ]
+      },
+      {
+        "title": "The Assessment & Re-engagement Loop",
+        "context": "Use when a child seems withdrawn or disengaged to reconnect before attempting correction.",
+        "steps": [
+          {
+            "bold_title": "Assess Connection Level",
+            "description": "Is the child making eye contact? Speaking in full sentences? If no, they are 'parked' (disengaged)."
+          },
+          {
+            "bold_title": "Pause Correction",
+            "description": "Stop lecturing or criticizing. You cannot steer a parked car."
+          },
+          {
+            "bold_title": "Initiate Interaction",
+            "description": "Offer a low-stakes activity: a game, a walk, a snack together."
+          },
+          {
+            "bold_title": "Use a \"Level 1\" Question",
+            "description": "Ask something easy and fun: 'What's the best thing you ate today?' 'What made you laugh?'"
+          },
+          {
+            "bold_title": "Wait for the Signal",
+            "description": "Look for a smile, eye contact, or voluntary sharing. These signal re-engagement ('fueled car')."
+          },
+          {
+            "bold_title": "Now Guide or Correct",
+            "description": "Only after reconnection will they receive your guidance. Now influence is possible."
+          }
+        ]
+      },
+      {
+        "title": "Teaching the 5 Microskills",
+        "context": "Use to build your child's social competence explicitly, like you'd teach any other skill.",
+        "steps": [
+          {
+            "bold_title": "Use the Catch Analogy",
+            "description": "'Conversation is like catch. You have to look at the person to catch the ball.'"
+          },
+          {
+            "bold_title": "Skill 1: Eyes",
+            "description": "Practice holding gentle eye contact for 5 seconds with you. Praise them: 'You're getting better at this!'"
+          },
+          {
+            "bold_title": "Skill 2: Body",
+            "description": "Show closed (crossed arms) vs. open posture. Practice 'aiming your heart' at the speaker."
+          },
+          {
+            "bold_title": "Skill 3: Nodding",
+            "description": "Demonstrate how nodding encourages the speaker to continue."
+          },
+          {
+            "bold_title": "Skill 4: Curiosity",
+            "description": "Practice asking 'Tell me more about that.' Teach them follow-up questions."
+          },
+          {
+            "bold_title": "Skill 5: Appreciation",
+            "description": "Notice and affirm when they do it right: 'I loved how you looked at me when I told that story.'"
+          }
+        ]
+      },
+      {
+        "title": "The Beach Ball Method",
+        "context": "Use for kinetic/active kids who struggle with sitting still during conversations.",
+        "steps": [
+          {
+            "bold_title": "Get a Beach Ball",
+            "description": "A standard inflatable beach ball works perfectly."
+          },
+          {
+            "bold_title": "Write Numbers All Over It",
+            "description": "Use a permanent marker to write numbers randomly across the ball (1-50 or more)."
+          },
+          {
+            "bold_title": "Toss and Select",
+            "description": "Throw it. Whoever catches it looks at which number their right thumb touches."
+          },
+          {
+            "bold_title": "Answer the Question",
+            "description": "Look up that number's question and answer it."
+          },
+          {
+            "bold_title": "Keep It Moving",
+            "description": "Fast pace keeps energy high. Toss it back and forth. The active nature engages kids who otherwise zone out."
+          }
+        ]
+      }
+    ]
+  }
+}
