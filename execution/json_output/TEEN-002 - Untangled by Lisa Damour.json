@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "title": "Untangled: Guiding Teenage Girls Through the Seven Transitions into Adulthood",
+    "subtitle": "Understanding the developmental strands that shape adolescent girls",
+    "authors": ["Lisa Damour, Ph.D."],
+    "tags": ["adolescent development", "parenting girls", "teenage psychology", "developmental stages", "identity formation", "peer relationships", "emotional intelligence"],
+    "category_code": "TEEN"
+  },
+  "hero": {
+    "badge": "TEEN Development",
+    "insights_count": 4,
+    "actions_count": 5,
+    "read_time": "8 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-heart",
+    "text": "Adolescent development in girls follows seven predictable developmental strands that, when understood, transform seemingly chaotic teenage behavior into comprehensible growth patterns. Rather than viewing adolescence as a turbulent period to endure, parents can recognize their daughter's behavior as evidence of healthy progression toward adulthood. This framework normalizes teenage behavior while providing actionable guidance for parents navigating each developmental phase."
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. The Swimming Pool Metaphor",
+        "intro_text": "Teens need to push off from parents to return to independence, not as rejection but as developmental necessity. The adolescent drive for autonomy trumps almost everything else, explaining seemingly irrational behavior and suggesting intervention strategies that work with autonomy rather than against it.",
+        "insight_card": {
+          "title": "Autonomy as Secure Base",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Parents serve as secure base while daughters develop independence. Withdrawal and distance-seeking, while painful, signal healthy development rather than parental failure."
+        }
+      },
+      {
+        "heading": "2. From Pathology to Development",
+        "intro_text": "Behaviors typically viewed as problematic—eye-rolling, withdrawal, moodiness—are reframed as evidence of healthy developmental progress. This shift from deficit-based to growth-based thinking fundamentally changes parent-teen dynamics through understanding the veil of obedience concept.",
+        "insight_card": {
+          "title": "The Veil of Obedience",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Girls appear to listen while actually disengaging when adults lecture, take suspicious tones, or level moral judgments. Understanding this pattern prevents undermining communication effectiveness."
+        }
+      },
+      {
+        "heading": "3. Rupture and Repair for Emotional Intelligence",
+        "intro_text": "Conflicts followed by thoughtful resolution build emotional intelligence by integrating limbic and cortical brain functions. Emotional intelligence requires practice with competing mental states in safe relationships where repair is possible.",
+        "insight_card": {
+          "title": "The Repair Process",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "After conflicts, acknowledge both perspectives, explain your mental state, invite reflection on hers, apologize when appropriate, and avoid shame. This builds neural integration and relationship security."
+        }
+      },
+      {
+        "heading": "4. Multiple Tributaries to Self-Esteem",
+        "intro_text": "Girls need diverse sources of self-worth—academics, athletics, relationships, work, hobbies—rather than single identity focus. Over-reliance on any single source, especially romantic attention, leads to poor decisions and vulnerability.",
+        "insight_card": {
+          "title": "Identity Diversification",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Require diverse activities, celebrate varied accomplishments, and intervene when one domain dominates identity to create resilience and protect against perfectionism."
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "Maintaining Connection During Withdrawal",
+        "context": "When your daughter is developmentally distancing herself and seeking privacy, you need strategies to preserve the relationship without forcing false closeness.",
+        "steps": [
+          {
+            "bold_title": "Recognize cold shoulder as developmental progress",
+            "description": "Eye-rolling and privacy-seeking signal normal development, not personal attack. Managing your own feelings of rejection is essential parental work."
+          },
+          {
+            "bold_title": "Grant age-appropriate privacy",
+            "description": "Bedroom becomes sanctuary; reduce monitoring of personal space. This demonstrates respect for her growing boundaries while maintaining necessary oversight."
+          },
+          {
+            "bold_title": "Establish predictable connection points",
+            "description": "Family dinners, weekly family nights, and one-on-one time create consistent opportunities for relationship maintenance without forced intimacy."
+          },
+          {
+            "bold_title": "Capitalize on car time for conversations",
+            "description": "Captive audience with no eye contact required reduces pressure and creates space for natural conversation flow about meaningful topics."
+          },
+          {
+            "bold_title": "Avoid taking rejection personally",
+            "description": "Her distancing is about her development, not your parenting quality. Maintaining your own support network helps you process these feelings."
+          }
+        ]
+      },
+      {
+        "title": "Responding to Social Drama",
+        "context": "Your daughter's peer relationships now rival parental relationships in importance. Supporting her social navigation while teaching healthy skills requires differentiated responses to different situations.",
+        "steps": [
+          {
+            "bold_title": "Validate peer conflicts as devastating",
+            "description": "Don't minimize friendship problems—they feel genuinely catastrophic to teens. Your validation is the first step toward productive problem-solving."
+          },
+          {
+            "bold_title": "Listen without immediately problem-solving",
+            "description": "Ask 'Do you want help or need to vent?' before offering advice. Many times she needs to process emotionally before strategizing solutions."
+          },
+          {
+            "bold_title": "Teach assertiveness and boundary-setting",
+            "description": "Help her practice standing up for herself while respecting others' rights. This builds confidence in social conflict situations."
+          },
+          {
+            "bold_title": "Use Monday morning quarterbacking",
+            "description": "Debrief social situations after emotions settle to teach skills. 'What happened? What would you do differently? What did you learn?'"
+          },
+          {
+            "bold_title": "Monitor for social isolation or bullying",
+            "description": "Watch for patterns of isolation, bullying victimization, or her bullying others. Distinguish normal conflict from systemic mistreatment."
+          }
+        ]
+      },
+      {
+        "title": "Building Emotional Regulation Capacity",
+        "context": "Teenage emotional intensity is neurologically based and normal. Your role is to help her develop skills to manage these intense emotions independently over time.",
+        "steps": [
+          {
+            "bold_title": "Serve as emotional dumping ground",
+            "description": "Listen without trying to fix everything. This creates safety for emotional processing and teaches her feelings can be expressed without catastrophe."
+          },
+          {
+            "bold_title": "Distinguish complaining from venting",
+            "description": "Complaining wants solutions; venting needs listening. Ask clarifying questions before jumping to problem-solving mode."
+          },
+          {
+            "bold_title": "Put feelings into specific words",
+            "description": "Help her name emotions precisely: 'You seem angry under the sadness' or 'That's disappointed and relieved at the same time.' Naming contains and organizes feeling."
+          },
+          {
+            "bold_title": "Avoid minimizing or talking her out of feelings",
+            "description": "Accept her emotional reality as valid even if you see things differently. Validation doesn't mean agreement; it means respect."
+          },
+          {
+            "bold_title": "Model healthy emotional regulation",
+            "description": "She learns emotion management by watching you handle your own feelings. Let her see your process of acknowledging, processing, and moving forward."
+          }
+        ]
+      },
+      {
+        "title": "Navigating Authority Conflicts",
+        "context": "Questioning authority is developmentally appropriate cognitive progress. Managing these conflicts productively requires examining your own 'crazy spots' and using discipline as teaching.",
+        "steps": [
+          {
+            "bold_title": "Expect and welcome questioning of rules",
+            "description": "Oppositional thinking signals cognitive development, not disrespect. Welcome her questions and engage with her reasoning."
+          },
+          {
+            "bold_title": "Provide real explanations for rules",
+            "description": "Replace 'because I said so' with authentic reasoning. This teaches her to think about consequences and builds her own judgment."
+          },
+          {
+            "bold_title": "Practice rupture and repair after conflicts",
+            "description": "Conflict followed by thoughtful resolution builds emotional intelligence. Model apologizing when you're wrong and explaining your mental state."
+          },
+          {
+            "bold_title": "Allow defying-while-complying",
+            "description": "Eye rolls while doing what's asked are developmentally acceptable. Save your authority for actual compliance issues, not attitude management."
+          },
+          {
+            "bold_title": "Help her manage difficult adults",
+            "description": "Coach her to handle challenging teachers and coaches rather than rescuing her. This builds problem-solving skills and confidence."
+          }
+        ]
+      },
+      {
+        "title": "Framing Expectations Around Self-Care",
+        "context": "The adolescent drive for autonomy is stronger than the drive to obey. Positioning expectations as personal responsibility rather than parental authority works with her developmental needs.",
+        "steps": [
+          {
+            "bold_title": "Avoid lectures, suspicious tones, and moral judgments",
+            "description": "These approaches trigger the veil of obedience where she appears to listen while disengaging. Instead, have genuine conversations about her choices."
+          },
+          {
+            "bold_title": "Focus on actual consequences rather than rules",
+            "description": "Skip arbitrary rules and help her understand natural consequences of choices. This builds her own judgment system."
+          },
+          {
+            "bold_title": "Discuss nutrition as anytime versus sometime foods",
+            "description": "Avoid good/bad food labeling. Teach body awareness and intuitive eating—eat when hungry, stop when full."
+          },
+          {
+            "bold_title": "Establish technology boundaries to protect sleep",
+            "description": "Frame as self-care for her developing brain: 'Your brain needs sleep to work well. Devices need to sleep outside your room.'"
+          },
+          {
+            "bold_title": "Address substance use with brain science",
+            "description": "Teach her about adolescent brain vulnerability to addiction and risky decision-making. Frame rules as protecting her development, not controlling behavior."
+          }
+        ]
+      }
+    ]
+  }
+}
