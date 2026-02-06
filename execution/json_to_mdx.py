@@ -20,7 +20,7 @@ hide_table_of_contents: false
 ---
 
 import BookSummary from '@site/src/components/BookSummary';
-import bookData from '@site/static/data/books/{json_filename}';
+import bookData from "@site/static/data/books/{json_filename}";
 
 export const toc = [
 {toc_items}

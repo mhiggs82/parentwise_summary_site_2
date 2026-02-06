@@ -142,7 +142,7 @@ def convert_markdown_to_json(markdown_content, filename):
         },
         "why_matters": {
             "icon": "fa-solid fa-heart",
-            "text": sections['executive_summary'][:1000] if sections['executive_summary'] else "A comprehensive guide for parents."
+            "text": sections['executive_summary'] if sections['executive_summary'] else "A comprehensive guide for parents."
         },
         "tabs": {
             "analysis": analysis,
@@ -168,7 +168,7 @@ def main():
             if not matches:
                 print(f"  ⚠ No file found for prefix: {prefix}")
                 continue
-            
+
             input_path = matches[0]
             filename = input_path.name
             print(f"  Found: {filename}")
