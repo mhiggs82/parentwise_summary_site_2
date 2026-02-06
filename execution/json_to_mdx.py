@@ -8,6 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 INPUT_DIR = BASE_DIR / "execution" / "json_output"
 OUTPUT_DIR = BASE_DIR / "execution" / "mdx_output"
 DOCS_DIR = BASE_DIR / "website" / "docs"
+STATIC_DATA_DIR = BASE_DIR / "website" / "static" / "data" / "books"
 
 # Mapping for automated routing
 CATEGORY_MAP = {
@@ -16,13 +17,18 @@ CATEGORY_MAP = {
     "PRNT": "parent-self-work",
     "MENT": "mental-health",
     "TEEN": "teen-development",
-    "TECH": "digital-age-technology",
+    "DIGI": "digital-age-technology",
+    "FMLY": "family-structure",
     "SPEC": "specialized-topics",
+    "LIFE": "character-development",
+    "GNDR": "gender-specific",
+    "GLOB": "multicultural",
+    "NEED": "special-needs",
     "CHAR": "character-development",
-    "FAMI": "family-structure",
     "GEND": "gender-specific",
-    "MULT": "multicultural",
-    "NEED": "special-needs"
+    "TECH": "digital-age-technology",
+    "FAMI": "family-structure",
+    "MULT": "multicultural"
 }
 
 # MDX Template
@@ -89,6 +95,10 @@ def generate_toc_items(data):
                 val = title.replace("'", "\\'").replace('"', '\\"')
                 items.append(f"  {{ value: '{val}', id: '{slug}', level: 3 }},")
 
+    # Add Common Pitfalls section (H2)
+    if 'tabs' in data and 'pitfalls' in data['tabs'] and data['tabs']['pitfalls']:
+        items.append("  { value: 'Common Pitfalls', id: 'pitfalls', level: 2 },")
+
     return "\n".join(items)
 
 def generate_mdx(json_filepath, json_filename):
@@ -117,7 +127,13 @@ def generate_mdx(json_filepath, json_filename):
         # Extract WHY IT MATTERS for the SEO description
         raw_description = data.get('why_matters', {}).get('text', '')
         # Clean markdown bolding and quotes, then truncate
-        clean_description = re.sub(r'\*\*(.*?)\*\*', r'\1', raw_description).replace('"', "'").replace("\n", " ")[:240].strip()
+        clean_description = re.sub(r'\*\*(.*?)\*\*', r'\1', raw_description).replace('\\', '\\\\').replace('"', "'").replace("\n", " ")[:240].strip()
+
+        # Escape backslashes in other fields too
+        subtitle = subtitle.replace('\\', '\\\\')
+        author = author.replace('\\', '\\\\')
+        title_formatted = title_formatted.replace('\\', '\\\\')
+        short_title = short_title.replace('\\', '\\\\')
         if not clean_description:
             clean_description = subtitle if subtitle else f"A summary of {title}."
 
@@ -197,7 +213,13 @@ def main():
             with open(backup_path, 'w', encoding='utf-8') as f:
                 f.write(mdx_content)
 
-            print(f"✓ Saved to {output_path}")
+            # Ensure static directory exists and copy JSON data
+            STATIC_DATA_DIR.mkdir(exist_ok=True, parents=True)
+            static_json_path = STATIC_DATA_DIR / filename
+            with open(static_json_path, 'w', encoding='utf-8') as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+
+            print(f"✓ Saved to {output_path} and static folder")
 
         except Exception as e:
             print(f"✗ Failed to generate MDX for {filename}: {str(e)}")

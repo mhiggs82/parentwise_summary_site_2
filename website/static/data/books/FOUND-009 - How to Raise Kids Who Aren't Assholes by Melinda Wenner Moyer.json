@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "title": "How to Raise Kids Who Aren't Assholes: Science-Based Strategies for Better Parenting—from Tots to Teens",
+    "subtitle": "",
+    "authors": [
+      "Melinda Wenner Moyer"
+    ],
+    "tags": [
+      "Evidence-Based Parenting",
+      "Character Development",
+      "Prosocial Behavior",
+      "Anti-Racist Parenting",
+      "Intrinsic Motivation",
+      "Emotional Literacy",
+      "Growth Mindset",
+      "Digital Citizenship"
+    ],
+    "category_code": "FOUND"
+  },
+  "hero": {
+    "badge": "FOUND Core Read",
+    "insights_count": 5,
+    "actions_count": 5,
+    "read_time": "10 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-lightbulb",
+    "text": "Parents can intentionally shape children's character through evidence-based strategies that emphasize emotional literacy, perspective-taking, and intrinsic motivation rather than punishment or conditional love. The book addresses what Moyer calls a \"crisis of kindness\" in modern society, arguing that raising kind, resilient, honest children requires deliberate effort grounded in developmental psychology research rather than intuition or popular parenting myths. Moyer synthesizes over 20 years of developmental psychology research into practical, non-judgmental guidance that challenges widely-held assumptions—such as colorblind parenting, rewards-based motivation systems, and punitive discipline—while acknowledging the complexity of modern parenting pressures. Unlike prescriptive parenting manuals that offer one-size-fits-all solutions, Moyer's approach recognizes nuance and context, helping parents interpret research findings and apply them to their unique family situations. Raise children who are kind, resilient, honest, equitable, and capable of navigating complex social and moral landscapes—not through perfection, but through consistent, compassionate guidance grounded in how children's brains actually develop. The book aims to equip parents with both the \"why\" (research-backed principles) and the \"how\" (concrete strategies) for fostering character traits that matter in an increasingly complex world."
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. From Colorblind to Anti-Racist Parenting",
+        "intro_text": "The prevailing assumption that ignoring race prevents racism is contradicted by research showing that children notice racial differences from a young age. When parents remain silent, children learn that race is taboo and shameful, often inventing their own (frequently biased) explanations for racial",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "The prevailing assumption that ignoring race prevents racism is contradicted by research showing that children notice racial differences from a young age. When parents remain silent, children learn that race is taboo and shameful, often inventing the"
+        }
+      },
+      {
+        "heading": "2. Intrinsic Motivation vs. External Rewards",
+        "intro_text": "Research consistently shows that external rewards undermine intrinsic motivation for tasks that could be inherently satisfying. When parents offer prizes for reading, grades, or prosocial behavior, children learn to value the reward rather than the activity itself. Moyer advocates for fostering intr",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Research consistently shows that external rewards undermine intrinsic motivation for tasks that could be inherently satisfying. When parents offer prizes for reading, grades, or prosocial behavior, children learn to value the reward rather than the a"
+        }
+      },
+      {
+        "heading": "3. Induction: Connecting Actions to Impact",
+        "intro_text": "Traditional discipline often focuses on punishment or consequences without helping children understand why their behavior matters. Moyer emphasizes \"induction\"—explaining how actions affect others—as the foundation of moral development. When parents help children see that hitting hurts both physical",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Traditional discipline often focuses on punishment or consequences without helping children understand why their behavior matters. Moyer emphasizes \"induction\"—explaining how actions affect others—as the foundation of moral development. When parents "
+        }
+      },
+      {
+        "heading": "4. The Authoritative Parenting Balance",
+        "intro_text": "Moyer advocates for authoritative parenting—a style that combines high warmth with high expectations. This differs from authoritarian parenting (high expectations, low warmth), permissive parenting (high warmth, low expectations), and neglectful parenting (low on both dimensions). Authoritative pare",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Moyer advocates for authoritative parenting—a style that combines high warmth with high expectations. This differs from authoritarian parenting (high expectations, low warmth), permissive parenting (high warmth, low expectations), and neglectful pare"
+        }
+      },
+      {
+        "heading": "5. Explicit Values Transmission",
+        "intro_text": "Children do not absorb values through osmosis; they require repeated, direct conversations about what matters. Whether discussing kindness, anti-racism, gender equality, consent, or honesty, parents must explicitly name and explain their values. This includes using media as a springboard for discuss",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Key insight pending."
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "Building Emotional Literacy",
+        "context": "Develop children's capacity to recognize, name, and regulate emotions—foundational for empathy and prosocial behavior.",
+        "steps": [
+          {
+            "description": "throughout daily routines (\"You seem excited about the party\"; \"I'm frustrated because I'm running late\")",
+            "bold_title": "Label emotions constantly"
+          },
+          {
+            "description": "(don't say \"Don't be sad\" or \"Calm down\") even when emotions seem disproportionate",
+            "bold_title": "Avoid dismissing feelings"
+          },
+          {
+            "description": "(\"I see you're angry, AND hitting isn't okay\")",
+            "bold_title": "Validate without condoning"
+          },
+          {
+            "description": "about emotions (\"How did that make you feel?\"; \"Why do you think she was upset?\")",
+            "bold_title": "Ask open-ended questions"
+          },
+          {
+            "description": "(\"What could you do next time you feel this way?\")",
+            "bold_title": "Help problem-solve"
+          },
+          {
+            "description": "(\"I'm frustrated about work, so I'm going to take a walk\")",
+            "bold_title": "Model emotional expression"
+          },
+          {
+            "description": "(\"How do you think that character felt?\")  **Frequency**: Daily; integrate into existing routines (meals, bedtime, car rides)",
+            "bold_title": "Revisit emotions in stories/media"
+          }
+        ]
+      },
+      {
+        "title": "Applying Induction-Based Discipline",
+        "context": "Help children understand how their actions affect others, building intrinsic motivation for prosocial behavior.",
+        "steps": [
+          {
+            "description": "before responding (prevents reactive punishment)",
+            "bold_title": "Pause and breathe"
+          },
+          {
+            "description": "(\"I see you're frustrated\")",
+            "bold_title": "Acknowledge the child's feelings"
+          },
+          {
+            "description": "(\"You hit your sister\") without judgment",
+            "bold_title": "Describe the behavior factually"
+          },
+          {
+            "description": "(\"When you hit, it hurts her AND makes her sad\")",
+            "bold_title": "Connect to impact on others"
+          },
+          {
+            "description": "(\"How do you think she felt?\")",
+            "bold_title": "Ask the child to consider the other person's perspective"
+          },
+          {
+            "description": "(\"What could you do differently next time?\")",
+            "bold_title": "Problem-solve together"
+          },
+          {
+            "description": "if the child is too upset to process in the moment  **Frequency**: Every time a child's behavior affects others; consistency matters more than severity",
+            "bold_title": "Follow up later"
+          }
+        ]
+      },
+      {
+        "title": "Fostering Growth Mindset",
+        "context": "Shape children's beliefs about ability and effort, increasing resilience and intrinsic motivation.",
+        "steps": [
+          {
+            "description": "(\"You worked hard on that\"; NOT \"You're so smart\")",
+            "bold_title": "Praise effort, not ability"
+          },
+          {
+            "description": "(\"You can't do it *yet*\"; \"You haven't mastered that *yet*\")",
+            "bold_title": "Use \"yet\""
+          },
+          {
+            "description": "(\"Your practice paid off\"; \"You figured it out by trying different strategies\")",
+            "bold_title": "Tie success to effort"
+          },
+          {
+            "description": "(signals that challenge = failure)",
+            "bold_title": "Avoid praising for easy tasks"
+          },
+          {
+            "description": "(\"What did you learn from that?\"; \"That's useful information for next time\")",
+            "bold_title": "Reframe failure as learning"
+          },
+          {
+            "description": "(\"I'm not good at this *yet*, but I'm going to practice\")",
+            "bold_title": "Model growth mindset"
+          },
+          {
+            "description": "(\"I'm proud of how hard you tried\")  **Frequency**: Multiple times daily; especially important after challenges or failures",
+            "bold_title": "Celebrate effort over outcomes"
+          }
+        ]
+      },
+      {
+        "title": "Implementing Authoritative Parenting",
+        "context": "Balance warmth and boundaries to create secure, well-adjusted children.",
+        "steps": [
+          {
+            "description": "(safety, respect, honesty)",
+            "bold_title": "Establish clear, non-negotiable rules"
+          },
+          {
+            "description": "(\"We don't hit because it hurts people\")",
+            "bold_title": "Explain the reasoning"
+          },
+          {
+            "description": "(\"Tell me what happened\")",
+            "bold_title": "Listen to the child's perspective"
+          },
+          {
+            "description": "even while maintaining the boundary",
+            "bold_title": "Acknowledge their feelings"
+          },
+          {
+            "description": "(related to the misbehavior, not punitive)",
+            "bold_title": "Apply natural/logical consequences"
+          },
+          {
+            "description": "(shame, withdrawal of love, guilt-tripping)",
+            "bold_title": "Avoid psychological control"
+          },
+          {
+            "description": "(\"I love you; I didn't like the behavior\")",
+            "bold_title": "Reconnect after consequences"
+          },
+          {
+            "description": "as children develop  **Frequency**: Ongoing; consistency is more important than perfection",
+            "bold_title": "Revisit rules periodically"
+          }
+        ]
+      },
+      {
+        "title": "Having Explicit Values Conversations",
+        "context": "Intentionally transmit values about kindness, anti-racism, anti-sexism, consent, and integrity.",
+        "steps": [
+          {
+            "description": "(even young children notice race, gender, power dynamics)",
+            "bold_title": "Start early"
+          },
+          {
+            "description": "(pause during TV/movies to discuss stereotypes)",
+            "bold_title": "Use media as a springboard"
+          },
+          {
+            "description": "(\"Why do you think that character did that?\"; \"What do you notice about who has power in this story?\")",
+            "bold_title": "Ask open-ended questions"
+          },
+          {
+            "description": "(\"In our family, we believe...\"; \"I think it's unfair when...\")",
+            "bold_title": "Share your own values"
+          },
+          {
+            "description": "(kids tune out; dialogue is more effective)",
+            "bold_title": "Avoid lecturing"
+          },
+          {
+            "description": "(values are internalized through repetition, not one conversation)",
+            "bold_title": "Revisit topics repeatedly"
+          },
+          {
+            "description": "(children do as you do, not as you say)",
+            "bold_title": "Model the values"
+          },
+          {
+            "description": "(\"That's a great question; let's figure it out together\")  **Frequency**: Weekly minimum; integrate into daily conversations",
+            "bold_title": "Admit when you don't know"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "title": "Using colorblind language (\"I don't see race\")",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "text": "Acknowledge race explicitly; silence teaches children race is taboo"
+      },
+      {
+        "title": "Over-relying on rewards and praise for innate abilities",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "text": "Focus on effort, process, and intrinsic satisfaction"
+      },
+      {
+        "title": "Punishing without explaining impact",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "text": "Always connect behavior to how it affects others (induction)"
+      },
+      {
+        "title": "Lecturing rather than dialoguing about values",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "text": "Ask questions; explore ideas together; listen to child's perspective"
+      },
+      {
+        "title": "Inconsistency in boundaries and expectations",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "text": "Set clear non-negotiables; follow through predictably"
+      },
+      {
+        "title": "Shielding children from all failure and disappointment",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "text": "Allow age-appropriate struggles; reframe failure as learning"
+      },
+      {
+        "title": "One-time \"big talks\" instead of ongoing conversations",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "text": "Revisit topics regularly; let values emerge through repeated dialogue"
+      },
+      {
+        "title": "Saying one thing while modeling another",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "text": "Remember children watch what you do more than listen to what you say"
+      },
+      {
+        "title": "Expecting immediate behavior change",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "text": "Character development is a long game; celebrate incremental progress"
+      },
+      {
+        "title": "Striving for perfection rather than consistency",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "text": "Acknowledge mistakes; model repair; focus on progress over perfection"
+      }
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "title": "The Soul of Discipline: The Loving Parent's Guide to Setting Limits",
+    "subtitle": "",
+    "authors": [
+      "Kim John Payne, M.Ed."
+    ],
+    "tags": [],
+    "category_code": "FOUND"
+  },
+  "hero": {
+    "badge": "FOUND Core Read",
+    "insights_count": 7,
+    "actions_count": 2,
+    "read_time": "9 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-lightbulb",
+    "text": "Practical parenting wisdom"
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "Topic 1: The Pinging Principle - Behavioral Signals as Navigation",
+        "intro_text": "**Core Concept:**\nChildren send behavioral \"pings\"—challenging behaviors like whining, defiance, aggression, or withdrawal—to receive orienting feedback from parents, similar to sonar navigation. These pings are not intentional manipulation but unconscious attempts to establish stability when feelin",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Why It Matters:**\nThis principle eliminates the personalization of misbehavior that triggers parental reactivity. When parents understand that a tantrum is not \"against them\" but a signal of the child's internal disorientation, they can respond tho"
+        }
+      },
+      {
+        "heading": "Topic 2: Governor-Gardener-Guide Framework - Developmental Leadership Phases",
+        "intro_text": "**Core Concept:**\nEffective parenting requires three distinct leadership styles that align with children's neurological and psychological development:\n- **Governor (0-9 years):** Benevolent authority who decides with minimal explanation: \"I will decide\"\n- **Gardener (9-13 years):** Collaborative pla",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Why It Matters:**\nMost parent-child conflict stems from developmental misalignment—treating young children as capable of reasoning they haven't developed (leading to endless negotiations) or treating teens as incapable children (leading to rebellio"
+        }
+      },
+      {
+        "heading": "Topic 3: Inner/Outer World Balance - The Overwhelm Equation",
+        "intro_text": "**Core Concept:**\nChildren have two worlds: the inner world (developing sense of self, emotional capacity, processing ability) and the outer world (activities, stimulation, expectations, transitions). When outer demands exceed inner capacity, children become disoriented and behaviorally dysregulated",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Why It Matters:**\nThis framework explains why \"good\" activities can create behavioral problems. A child who attends excellent schools, enriching activities, and wholesome playdates may still struggle behaviorally if the cumulative load exceeds proc"
+        }
+      },
+      {
+        "heading": "Topic 4: Boundaries vs. Walls - The Architecture of Effective Limits",
+        "intro_text": "**Core Concept:**\nBoundaries and walls both create separation, but their impact differs profoundly:\n- **Boundaries:** Firm yet responsive structures that provide safety while allowing growth; they flex without breaking, maintain connection while providing limits, and adapt to developmental changes\n-",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Why It Matters:**\nMany parents oscillate between permissiveness (no boundaries) and authoritarianism (rigid walls), not realizing a third option exists. Boundaries create the security children need while preserving the relationship connection essen"
+        }
+      },
+      {
+        "heading": "Topic 5: Willpower vs. Willfulness - The Developmental Distinction",
+        "intro_text": "**Core Concept:**\nPayne distinguishes two manifestations of strong will:\n- **Willpower:** Flexible persistence, impulse control, appropriate timing, awareness of others, ability to delay gratification, capacity to adjust approaches when initial attempts fail\n- **Willfulness:** Rigid self-centerednes",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Why It Matters:**\nParents often celebrate \"strong-willed\" children without recognizing whether they're seeing willpower or willfulness. Willpower correlates with life success—the capacity to persist toward goals, regulate impulses, consider social "
+        }
+      },
+      {
+        "heading": "Topic 6: The Five Essentials of Healthy Compliance - Neuroscience-Based Direction Protocol",
+        "intro_text": "**Core Concept:**\nEffective directions follow five sequential steps that dramatically increase compliance:\n1. **Pause and Picture:** Parent centers themselves and visualizes successful completion\n2. **Start Small:** Direction is simple, specific, age-appropriate\n3. **Stay Close and Calm:** Parent mo",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Why It Matters:**\nMost parent frustration stems from violated expectations—they give directions expecting compliance, then feel angry and disrespected when children don't comply. The Five Essentials transform this by acknowledging that compliance i"
+        }
+      },
+      {
+        "heading": "Topic 7: Inner Speech Development - The Voice of Self-Regulation",
+        "intro_text": "**Core Concept:**\nChildren develop internal self-regulation through a progression:\n1. **External speech (ages 2-4):** Parent directs verbally, child complies with external guidance\n2. **Private speech (ages 4-7):** Child talks themselves through tasks aloud, internalizing parental guidance\n3. **Inne",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "This progression depends on adequate external guidance during early years. Children develop inner speech by internalizing the calm, clear parental voice they've consistently experienced."
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "Daily Practices",
+        "context": "Implement these daily practices consistently",
+        "steps": [
+          {
+            "description": "Wake child with gentle, calm presence (not rushing or urgency)",
+            "bold_title": "Practice 1"
+          },
+          {
+            "description": "Provide clear, simple sequence: \"First breakfast, then get dressed, then brush teeth\"",
+            "bold_title": "Practice 2"
+          },
+          {
+            "description": "Use proximity during transitions rather than shouting instructions across rooms",
+            "bold_title": "Practice 3"
+          },
+          {
+            "description": "Limit morning choices to two acceptable options (\"Red shirt or blue shirt?\")",
+            "bold_title": "Practice 4"
+          },
+          {
+            "description": "Avoid negotiations about non-negotiables (school attendance, basic hygiene)",
+            "bold_title": "Practice 5"
+          }
+        ]
+      },
+      {
+        "title": "Weekly Practices",
+        "context": "Implement these weekly practices consistently",
+        "steps": [
+          {
+            "description": "Map all outer world demands: school, activities, homework, appointments, screen time, playdates, transitions",
+            "bold_title": "Practice 1"
+          },
+          {
+            "description": "Map all inner world strengthening: free play, nature time, family meals, unstructured time, rest, creative pursuits",
+            "bold_title": "Practice 2"
+          },
+          {
+            "description": "Calculate time ratio and compare to developmental guidelines (younger children need 60-80% inner strengthening)",
+            "bold_title": "Practice 3"
+          },
+          {
+            "description": "Identify if challenging behavior correlates with busy days, overscheduling, or lack of downtime",
+            "bold_title": "Practice 4"
+          },
+          {
+            "description": "Choose 1-2 outer world demands to reduce or eliminate if imbalance exists",
+            "bold_title": "Practice 5"
+          }
+        ]
+      }
+    ]
+  }
+}

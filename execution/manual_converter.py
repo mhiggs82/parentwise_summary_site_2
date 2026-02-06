@@ -1,232 +1,190 @@
 import os
 import json
 import re
+import math
 from pathlib import Path
+from dotenv import load_dotenv
+import litellm
+from execution.quality_standards import QUALITY_MANIFESTO
+
+# Load environment variables
+load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 
 # Configuration
 BASE_DIR = Path(__file__).resolve().parent.parent
 INPUT_DIR = BASE_DIR / "Book_Summaries"
 OUTPUT_DIR = BASE_DIR / "execution" / "json_output"
+MODEL = os.environ.get("LLM_MODEL", "anthropic/claude-3-5-sonnet-20240620")
 
-FILES_TO_PROCESS = [] # Set to empty list to automatically detect all files
+# System prompt for high-fidelity AI extraction
+SYSTEM_PROMPT = f"""You are a book summary analyzer. Your task is to extract structured data from the provided markdown book summary.
 
-def parse_frontmatter(content):
-    """Parse YAML frontmatter from markdown"""
-    match = re.match(r'^---\n(.*?)\n---\n', content, re.DOTALL)
-    if match:
-        frontmatter = {}
-        for line in match.group(1).split('\n'):
-            if ':' in line:
-                key, value = line.split(':', 1)
-                key = key.strip().lower()
-                value = value.strip().strip('"').strip("'")
-                frontmatter[key] = value
-        return frontmatter
-    return {}
+{QUALITY_MANIFESTO}
 
-def extract_sections(content):
-    """Extract main sections from markdown"""
-    # Remove frontmatter
-    content = re.sub(r'^---\n.*?\n---\n', '', content, flags=re.DOTALL)
+PRIME DIRECTIVE: 
+Adhere strictly to the semantic meaning and nuance of the source text. Do NOT over-summarize or omit details that contribute to the author's specific perspective. Your goal is faithful restructuring, not transformation.
 
-    sections = {
-        'executive_summary': '',
-        'nuanced_topics': [],
-        'checklist': [],
-        'processes': []
-    }
+EXTRACTION RULES:
+1. ANALYSIS & INSIGHTS:
+   - Extract ALL distinct analysis points.
+   - For each point, preserve the core arguments, evidence, or logic presented.
+   - Use the original tone and terminology where appropriate.
+2. ACTIONABLE STEPS:
+   - Extract every strategy, process, or action plan.
+   - Ensure steps are clear and maintain the original sequence and caveats.
+3. WHY IT MATTERS (EXECUTIVE SUMMARY):
+   - Capture the central Thesis, Unique Contribution, and Target Outcome.
+   - Maintain the "voice" of the summary while ensuring it's compelling for a card view.
+   - Use bolding for emphasis on key philosophical or tactical shifts.
 
-    # Extract Executive Summary
-    exec_match = re.search(r'##? (?:1\.\s+)?Executive Summary\s+(.*?)(?=\n##|\n#|$)', content, re.DOTALL)
-    if exec_match:
-        sections['executive_summary'] = exec_match.group(1).strip()
+JSON SCHEMA:
+{
+  "meta": {
+    "title": "Full book title",
+    "subtitle": "A catchy, high-impact subtitle reflecting the book's core value",
+    "authors": ["Author Name"],
+    "tags": ["Tag1", "Tag2"],
+    "category_code": "COMM"
+  },
+  "hero": {
+    "badge": "COMM Core Read",
+    "insights_count": <int>,
+    "actions_count": <int>,
+    "read_time": "X min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-heart",
+    "text": "The semantic heart of the guide."
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. Topic Title",
+        "intro_text": "Detailed semantic extraction of the topic",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "The core takeaway, preserved in its original nuance"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "Action Strategy Title",
+        "context": "When and why to use this, per the text",
+        "steps": [
+          {
+            "bold_title": "Step Name",
+            "description": "Semantic detail of the step"
+          }
+        ]
+      }
+    ]
+  }
+}
 
-    # Extract Nuanced Main Topics / Insights
-    # Prioritize "Nuanced Main Topics" or "Deep Insights" over "Chapter Breakdown"
-    topics_match = None
-    for pattern in [r'##? (?:2\.\s+)?Nuanced Main Topics', r'##? (?:2\.\s+)?Deep Insights Analysis', r'##? (?:2\.\s+)?Paradigm Shifts', r'##? (?:2\.\s+)?Chapter Breakdown', r'##? (?:2\.\s+)?Structural Overview']:
-        match = re.search(pattern + r'\s+(.*?)(?=\n##(?!#)|\n# Section 2:|# PART 2:|$)', content, re.DOTALL)
-        if match:
-            topics_match = match
-            break
-    if topics_match:
-        topic_text = topics_match.group(1).strip()
-        # Split by ### level headings
-        blocks = re.split(r'\n###?\s+', '\n' + topic_text)
-        for block in blocks:
-            if not block.strip(): continue
-            lines = block.strip().split('\n')
-            if len(lines) >= 2:
-                heading = lines[0].strip()
-                text = '\n'.join(lines[1:]).strip()
-                if heading and text:
-                    sections['nuanced_topics'].append({
-                        'heading': heading,
-                        'text': text
-                    })
-
-    # Extract Checklist items
-    checklist_match = re.search(r'##? (?:The Checklist|Impactful Concepts)\s+(.*?)(?=\n##|\n#|$)', content, re.DOTALL)
-    if checklist_match:
-        # Match both checkbox style and simple bold titles
-        items = re.findall(r'(?:- \[ \] \*\*|\* \*\*|\d+\. \*\*)(.*?)\*\*:?\s*(.*?)(?=\n-|\n\*|\n\d+\.|\n##|$)', checklist_match.group(1), re.MULTILINE | re.DOTALL)
-        sections['checklist'] = [{'title': t.strip(), 'description': d.strip()} for t, d in items]
-
-    # Extract Processes
-    # Flexible matching for Process 1: Title, Purpose: context, Steps: list
-    process_matches = re.finditer(r'##? Process \d+: (.*?)\s+(?:\*\*Purpose\*\*[:\s]+(.*?))?\s+(?:\*\*Prerequisites\*\*[:\s]+(.*?))?\s+\*\*(?:Actionable )?Steps\*\*[:\s]*\n(.*?)(?=##? Process|# Suggested Next Step|$)', content, re.DOTALL | re.IGNORECASE)
-    for match in process_matches:
-        title = match.group(1).strip()
-        context = match.group(2).strip() if match.group(2) else ""
-        steps_text = match.group(4).strip()
-
-        # Extract steps - handle varying markers (1., -, *, ✓, 🔑, ⚠️, ↻)
-        steps = []
-        step_matches = re.findall(r'^\s*(?:\d+\.|\*|-|✓|🔑|⚠️|↻)\s*\*\*(.*?)\*\*(?:[:\s-]*(.*?))?$', steps_text, re.MULTILINE)
-        for bold_title, description in step_matches:
-            steps.append({
-                'bold_title': bold_title.strip(),
-                'description': description.strip()
-            })
-
-        sections['processes'].append({
-            'title': title,
-            'context': context,
-            'steps': steps
-        })
-
-    return sections
+Return ONLY valid JSON."""
 
 def calculate_read_time(content):
-    """Calculate read time (1 min per 200 words)"""
+    """Calculate accurate read time (1 min per 200 words)"""
     word_count = len(content.split())
-    minutes = max(1, round(word_count / 200))
+    minutes = max(1, math.ceil(word_count / 200))
     return f"{minutes} min read"
 
 def convert_markdown_to_json(markdown_content, filename):
-    """Convert markdown content to structured JSON"""
+    """Convert markdown content to structured JSON using AI"""
+    try:
+        read_time_str = calculate_read_time(markdown_content)
+        
+        response = litellm.completion(
+            model=MODEL,
+            max_tokens=4096,
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": markdown_content}
+            ]
+        )
 
-    # Parse frontmatter
-    frontmatter = parse_frontmatter(markdown_content)
+        response_text = response.choices[0].message.content
+        if response_text.strip().startswith("```"):
+            lines = response_text.strip().split("\n")
+            response_text = "\n".join(lines[1:-1])
+            if response_text.startswith("json"):
+                response_text = response_text[4:].strip()
 
-    # Extract sections
-    sections = extract_sections(markdown_content)
+        json_data = json.loads(response_text)
 
-    # Get metadata
-    title = frontmatter.get('title', 'Untitled')
-    authors_str = frontmatter.get('author', 'Unknown')
-    authors = [a.strip() for a in authors_str.replace('&', 'and').split('and')] if authors_str else ['ParentWise Summary']
-    tags = frontmatter.get('tags', '').strip('[]').replace('"', '').replace("'", '').split(', ') if frontmatter.get('tags') else []
-    
-    # Smart category extraction: Frontmatter > Filename Prefix > Default 'COMM'
-    category_code = frontmatter.get('category_code')
-    if not category_code:
-        # Try to extract from filename (e.g., "COMM-001 - Title.md" -> "COMM")
+        # Post-processing overrides for consistency
+        json_data.setdefault("hero", {})["read_time"] = read_time_str
+        
+        # Smart category correction
+        meta = json_data.setdefault("meta", {})
+        current_cat = meta.get("category_code", "COMM")
+        
         prefix_match = re.search(r'([A-Z]{3,4})-\d+', filename)
         if prefix_match:
-            category_code = prefix_match.group(1)
-        else:
-            category_code = 'COMM'
-    
-    # Clean category code
-    category_code = category_code.strip().upper()
-    print(f"    -> Category: {category_code}")
+            new_cat = prefix_match.group(1).upper()
+            meta["category_code"] = new_cat
+            json_data["hero"]["badge"] = f"{new_cat} Core Read"
 
-    # Build analysis array from nuanced topics
-    analysis = []
-    for i, topic in enumerate(sections['nuanced_topics'], 1):  # Process ALL topics
-        analysis.append({
-            "heading": f"{i}. {topic['heading']}",
-            "intro_text": topic['text'],
-            "insight_card": {
-                "title": "Key Insight",
-                "icon": "fa-solid fa-lightbulb",
-                "text": topic['text']
-            }
-        })
+        return json_data
 
-    # Build actions array from processes
-    actions = []
-    for process in sections['processes']:
-        actions.append({
-            "title": process['title'],
-            "context": process['context'],
-            "steps": process['steps']
-        })
+    except Exception as e:
+        print(f"  ✗ AI Error for {filename}: {str(e)}")
+        raise
 
-    # Build JSON structure
-    json_data = {
-        "meta": {
-            "title": title,
-            "subtitle": f"A practical guide to {tags[0] if tags else 'parenting'}",
-            "authors": authors,
-            "tags": tags,
-            "category_code": category_code
-        },
-        "hero": {
-            "badge": f"{category_code} Core Read",
-            "insights_count": len(analysis),
-            "actions_count": len(actions),
-            "read_time": calculate_read_time(markdown_content)
-        },
-        "why_matters": {
-            "icon": "fa-solid fa-heart",
-            "text": sections['executive_summary'] if sections['executive_summary'] else "A comprehensive guide for parents."
-        },
-        "tabs": {
-            "analysis": analysis,
-            "actions": actions
-        }
-    }
-
-    return json_data
+# Set to specific prefixes to process (e.g., ["FOUND"]) or empty [] for all
+FILES_TO_PROCESS = ["FOUND"]
 
 def main():
-    """Process all COMM files"""
+    """Process files using AI conversion"""
     OUTPUT_DIR.mkdir(exist_ok=True, parents=True)
 
-    print(f"Detecting files in {INPUT_DIR}...")
+    print("🌟 ParentWise Quality Standards Loaded:")
+    print(QUALITY_MANIFESTO)
+    print("=" * 60)
 
+    print(f"Detecting files in {INPUT_DIR}...")
+    
     if FILES_TO_PROCESS:
         markdown_files = []
         for prefix in FILES_TO_PROCESS:
             matches = list(INPUT_DIR.glob(f"{prefix}*.md"))
             markdown_files.extend(matches)
+        # Ensure unique and sorted
+        markdown_files = sorted(list(set(markdown_files)))
     else:
-        # Get all .md files, excluding readme or templates if they existed
         markdown_files = sorted([f for f in INPUT_DIR.glob("*.md") if not f.name.startswith('_')])
 
-    print(f"Processing {len(markdown_files)} files...")
+    print(f"Processing {len(markdown_files)} files with full AI Semantic Extraction...")
     print("=" * 50)
 
     for index, input_path in enumerate(markdown_files):
         try:
             filename = input_path.name
-            print(f"[{index+1}/{len(markdown_files)}] Processing {filename}...")
+            print(f"[{index+1}/{len(markdown_files)}] Semantic Processing: {filename}...")
 
             with open(input_path, 'r', encoding='utf-8') as f:
                 markdown_content = f.read()
 
-            # Convert to JSON
+            # AI Conversion
             json_data = convert_markdown_to_json(markdown_content, filename)
 
-            # Save JSON output
+            # Save JSON
             output_filename = filename.replace('.md', '.json')
             output_path = OUTPUT_DIR / output_filename
 
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(json_data, f, indent=2, ensure_ascii=False)
 
-            print(f"  ✓ Saved to {output_path}")
+            print(f"  ✓ Semantic JSON saved to {output_path}")
 
         except Exception as e:
             print(f"  ✗ Failed: {str(e)}")
-            import traceback
-            traceback.print_exc()
             continue
 
     print("=" * 50)
-    print("Conversion complete!")
+    print("Full AI Migration complete!")
 
 if __name__ == "__main__":
     main()

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Fourteen Talks by Age Fourteen",
-    "subtitle": "A practical guide to tweens",
+    "subtitle": "Navigate the critical middle school window using the BRIEF model to keep communication lines open during the pivotal tween years.",
     "authors": [
       "Michelle Icard"
     ],
@@ -22,161 +22,145 @@
     "badge": "COMM Core Read",
     "insights_count": 4,
     "actions_count": 4,
-    "read_time": "5 min read"
+    "read_time": "13 min read"
   },
   "why_matters": {
     "icon": "fa-solid fa-heart",
-    "text": "**Thesis**: The middle school years (10-14) are the critical window for establishing the communication lines that will sustain the parent-child relationship through the high-stakes high school years. Parents must shift from \"Manager\" (directing) to \"Assistant Manager\" (supporting), using the BRIEF model to navigate fourteen essential topics before the child tunes out.\n\n**Unique Contribution**: Icard provides a specific, replicable conversation structure (BRIEF) and applies it to the exact topics parents fear most (sex, money, impulsivity). Her \"Botox Brow\" concept (keeping a neutral face to prevent shutting down the child) is a simple, powerful tool for emotional regulation.\n\n**Target Outcome**: A parent-child dynamic where the tween feels safe bringing problems to the parent because they know they won't be lectured, shamed, or freaked out upon."
+    "text": "The middle school years (10-14) are the critical window for establishing communication lines that will sustain parent-teen relationships through high school. By shifting from 'Manager' to 'Assistant Manager' and using the BRIEF model for tough talks, parents can navigate fourteen essential topics before the child tunes out."
   },
   "tabs": {
     "analysis": [
       {
         "heading": "1. The \"Assistant Manager\" Shift",
-        "intro_text": "In childhood, the parent is the Manager (dictating everything). In adolescence, if the parent doesn't demote themselves to Assistant Manager, the child will fire them (rebel/withdraw). The Assistant Manager offers input and guidance but allows the Manager (the tween) to begin making calls and facing consequences.",
+        "intro_text": "In childhood, the parent is the Manager (dictating everything). In adolescence, if the parent doesn't demote themselves to Assistant Manager, the child will fire them (rebel/withdraw). The Assistant Manager offers input and guidance but allows the Manager (the tween) to begin making calls.",
         "insight_card": {
-          "title": "Key Insight",
+          "title": "Voluntary Cooperation",
           "icon": "fa-solid fa-lightbulb",
-          "text": "In childhood, the parent is the Manager (dictating everything). In adolescence, if the parent doesn't demote themselves to Assistant Manager, the child will fire them (rebel/withdraw). The Assistant Manager offers input and guidance but allows the Manager (the tween) to begin making calls and facing consequences."
+          "text": "Tweens stop listening to managers. They listen to assistants—people who respect their growing autonomy while staying involved."
         }
       },
       {
         "heading": "2. The BRIEF Model",
-        "intro_text": "B - **Begin** Peacefully (neutral observation).\nR - **Relate** (validate their world).\nI - **Interview** (ask questions, don't lecture).\nE - **Echo** (repeat back to ensure understanding).\nF - **Feedback** (share wisdom *only* after steps 1-4).\n\nMost parents skip straight to Feedback. That's why tweens stop listening.",
+        "intro_text": "B - Begin Peacefully, R - Relate, I - Interview, E - Echo, F - Feedback. Most parents skip to F (feedback/lecturing), which is why tweens stop listening. The first four steps build safety and understanding.",
         "insight_card": {
-          "title": "Key Insight",
+          "title": "The Listening-First Framework",
           "icon": "fa-solid fa-lightbulb",
-          "text": "B - **Begin** Peacefully (neutral observation).\nR - **Relate** (validate their world).\nI - **Interview** (ask questions, don't lecture).\nE - **Echo** (repeat back to ensure understanding).\nF - **Feedback** (share wisdom *only* after steps 1-4).\n\nMost parents skip straight to Feedback. That's why tweens stop listening."
+          "text": "Feedback lands only after understanding is established. Skipping the first four steps ensures rejection."
         }
       },
       {
         "heading": "3. Visual Neutrality (The Botox Brow)",
-        "intro_text": "Tweens are hyper-sensitive to facial micro-expressions. If a parent grimaces, rolls eyes, or looks terrified, the tween's amygdala screams \"DANGER\" and they shut down. Keeping a smooth, neutral forehead (\"Botox Brow\") signals safety and keeps the channel open.",
+        "intro_text": "Tweens are hyper-sensitive to facial micro-expressions. If a parent grimaces, rolls eyes, or looks terrified, the tween's amygdala screams 'DANGER' and they shut down. Keeping a smooth, neutral forehead signals safety.",
         "insight_card": {
-          "title": "Key Insight",
+          "title": "Facial Regulation",
           "icon": "fa-solid fa-lightbulb",
-          "text": "Tweens are hyper-sensitive to facial micro-expressions. If a parent grimaces, rolls eyes, or looks terrified, the tween's amygdala screams \"DANGER\" and they shut down. Keeping a smooth, neutral forehead (\"Botox Brow\") signals safety and keeps the channel open."
+          "text": "Your face is broadcasting your judgment before your words. Neutral faces keep kids talking."
         }
       },
       {
         "heading": "4. Translucent vs. Transparent",
-        "intro_text": "With topics like money, Icard advocates for *translucent* communication (seeing the shape of things without the scary details) rather than *transparent* (seeing every terrifying bill/debt) or *opaque* (hiding everything).",
+        "intro_text": "With topics like money, advocate for translucent communication (seeing the shape of things without scary details) rather than transparent (seeing every terrifying bill) or opaque (hiding everything).",
         "insight_card": {
-          "title": "Key Insight",
+          "title": "Age-Calibrated Disclosure",
           "icon": "fa-solid fa-lightbulb",
-          "text": "With topics like money, Icard advocates for *translucent* communication (seeing the shape of things without the scary details) rather than *transparent* (seeing every terrifying bill/debt) or *opaque* (hiding everything)."
+          "text": "Too much information overwhelms and creates anxiety. Too little creates distrust. Translucent is the sweet spot."
         }
       }
     ],
     "actions": [
       {
         "title": "The BRIEF Conversation Protocol",
-        "context": "Navigate a specific conflict or hard topic without an explosion.",
+        "context": "Use for specific conflicts or hard topics. This structure ensures they feel heard before you offer guidance.",
         "steps": [
           {
             "bold_title": "Begin Peacefully",
-            "description": "\"I noticed you seemed upset about...\" (Keep tone flat/warm)."
+            "description": "'I noticed you seemed upset about...' Keep your tone warm and flat, not accusatory."
           },
           {
             "bold_title": "Relate",
-            "description": "\"I remember feeling overwhelmed by homework too.\" (Build a bridge)."
+            "description": "'I remember feeling overwhelmed by homework too.' Build a bridge to their experience."
           },
           {
             "bold_title": "Interview",
-            "description": "\"What is the hardest part about this assignment? How do you think you want to tackle it?\""
+            "description": "'What is the hardest part? How do you think you want to tackle it?' Ask genuine questions."
           },
           {
             "bold_title": "Echo",
-            "description": "\"So you're saying you feel stuck because you don't understand the first question?\""
+            "description": "'So you're saying you feel stuck because you don't understand the first question?' Verify understanding."
           },
           {
             "bold_title": "Feedback",
-            "description": "\"Would you like some help brainstorming, or do you want to take a break first?\" (Offer options, not commands)."
+            "description": "'Would you like some help brainstorming, or do you want to take a break first?' Offer options only now."
           }
         ]
       },
       {
         "title": "The \"Assistant Manager\" Role Transition",
-        "context": "Reset the power dynamic to reduce rebellion.",
+        "context": "Use to reset the power dynamic and reduce rebellion by explicitly shifting your role.",
         "steps": [
           {
-            "bold_title": "Schedule a meeting",
-            "description": "Sit down at a calm time."
+            "bold_title": "Schedule a Meeting",
+            "description": "Sit down at a calm time. This signals seriousness."
           },
           {
-            "bold_title": "State the change",
-            "description": "\"You are getting older, and you can handle more responsibility. I'm moving from Manager to Assistant Manager.\""
+            "bold_title": "State the Change",
+            "description": "'You're getting older, and you can handle more responsibility. I'm moving from Manager to Assistant Manager.'"
           },
           {
-            "bold_title": "Define the role",
-            "description": "\"You make the calls on [clothing/room/hobby]. I am here to help if you get stuck or ask for advice.\""
+            "bold_title": "Define the Assistant Manager Role",
+            "description": "'You make the calls on clothing/room/hobby. I'm here to help if you get stuck or ask for advice.'"
           },
           {
-            "bold_title": "Define the boundaries",
-            "description": "\"I only step in as Manager for safety/health/legal issues.\""
+            "bold_title": "Define the Boundaries",
+            "description": "'I only step in as Manager for safety/health/legal issues.'"
           },
           {
-            "bold_title": "Stick to it",
-            "description": "When they mess up (non-catastrophically), don't fix it. Say, \"That's tough. How do you want to handle it?\""
+            "bold_title": "Stick to It",
+            "description": "When they mess up (non-catastrophically), resist fixing. Say: 'That's tough. How do you want to handle it?'"
           }
         ]
       },
       {
         "title": "The Reputation Savings Account Talk",
-        "context": "Teach consequences without shame.",
+        "context": "Use to teach consequences without shame and build financial/social awareness.",
         "steps": [
           {
-            "bold_title": "The Metaphor",
-            "description": "Explain reputation is like a bank account. Good choices are deposits; mistakes are withdrawals."
+            "bold_title": "Explain the Metaphor",
+            "description": "Reputation is like a bank account. Good choices are deposits; mistakes are withdrawals."
           },
           {
-            "bold_title": "The Balance",
-            "description": "\"If you have a high balance (lots of trust/kindness), one withdrawal (mistake) isn't a crisis. You have overdraft protection.\""
+            "bold_title": "The Balance Concept",
+            "description": "'If you have a high balance (lots of trust/kindness), one withdrawal (mistake) isn't a crisis. You have overdraft protection.'"
           },
           {
             "bold_title": "The Recovery",
-            "description": "\"If you overdraft, you have to make deposits (apologies, better behavior) to get back in the black.\""
+            "description": "'If you overdraft, you have to make deposits (apologies, better behavior) to get back in the black.'"
           },
           {
-            "bold_title": "The Application",
-            "description": "Use this language when mistakes happen. \"That was a withdrawal. What's your plan to make a deposit?\""
+            "bold_title": "Apply It",
+            "description": "When mistakes happen, use this language: 'That was a withdrawal. What's your plan to make a deposit?'"
           }
         ]
       },
       {
         "title": "The Translucent Money Talk",
-        "context": "Teach financial literacy without anxiety.",
+        "context": "Use to teach financial literacy without creating anxiety or entitlement.",
         "steps": [
           {
-            "bold_title": "Show the pie",
+            "bold_title": "Show the Pie",
             "description": "Draw a circle. Slices for Housing, Food, Cars, Fun, Savings."
           },
           {
-            "bold_title": "Explain trade-offs",
-            "description": "\"We have a limited pie. If we make the 'Fun' slice huge, the 'Food' slice gets too small.\""
+            "bold_title": "Explain Trade-offs",
+            "description": "'We have a limited pie. If we make the 'Fun' slice huge, the 'Food' slice gets too small.'"
           },
           {
-            "bold_title": "Explain the 'No'",
-            "description": "\"When I say no to the sneakers, it's not because I'm mean. It's because the 'Shoe' slice is empty this month.\""
+            "bold_title": "Explain the \"No\"",
+            "description": "'When I say no to the sneakers, it's not because I'm mean. It's because the 'Shoe' slice is empty this month.'"
           },
           {
-            "bold_title": "Wait Rule",
-            "description": "For personal purchases, implement a \"wait period\" based on cost ($20 = 1 day wait, $100 = 1 week wait)."
-          },
-          {
-            "bold_title": "The Freak-Out",
-            "description": "Reacting with shock/anger to a confession (teaches them to lie next time)."
-          },
-          {
-            "bold_title": "The Lecture",
-            "description": "Skipping straight to \"Feedback\" (F) without doing B-R-I-E first."
-          },
-          {
-            "bold_title": "The Friend Zone",
-            "description": "Thinking Assistant Manager means \"Friend.\" You are still a leader, just a supportive one."
-          },
-          {
-            "bold_title": "Catastrophizing",
-            "description": "Treating every tween mistake as a sign of future failure."
+            "bold_title": "Implement Wait Rules",
+            "description": "For personal purchases, use a wait period: $20 = 1 day wait, $100 = 1 week wait. This teaches impulse control."
           }
         ]
       }

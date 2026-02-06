@@ -319,6 +319,68 @@ export default function BookSummary({ data }) {
                     ))}
                 </div>
             </section>
+
+            {/* Common Pitfalls Section */}
+            {tabs.pitfalls && tabs.pitfalls.length > 0 && (
+                <section id="pitfalls" style={{ marginBottom: '80px', scrollMarginTop: '25vh' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '40px' }}>
+                        <h2 style={{ fontSize: '32px', fontWeight: '800', margin: 0, color: 'var(--pw-danger)', textShadow: '0 0 20px rgba(255, 77, 77, 0.3)' }}>Common Pitfalls</h2>
+                        <div style={{ flex: 1, height: '1px', background: 'linear-gradient(to right, var(--pw-danger), transparent)', opacity: 0.3 }}></div>
+                    </div>
+
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '24px' }}>
+                        {tabs.pitfalls.map((pitfall, idx) => (
+                            <div key={idx} style={{
+                                backgroundColor: 'var(--pw-bg-secondary)',
+                                borderRadius: '24px',
+                                padding: '32px',
+                                border: '1px solid rgba(255, 77, 77, 0.2)',
+                                boxShadow: '0 10px 30px rgba(255, 77, 77, 0.05)',
+                                position: 'relative',
+                                overflow: 'hidden',
+                                transition: 'all 0.3s ease',
+                                display: 'flex',
+                                flexDirection: 'column',
+                                gap: '16px'
+                            }} className="pitfall-card">
+                                {/* Danger Glow Background */}
+                                <div style={{
+                                    position: 'absolute',
+                                    top: '-40px',
+                                    right: '-40px',
+                                    width: '100px',
+                                    height: '100px',
+                                    background: 'radial-gradient(circle, rgba(255, 77, 77, 0.1) 0%, transparent 70%)',
+                                    zIndex: 0
+                                }}></div>
+
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '12px', position: 'relative', zIndex: 1 }}>
+                                    <div style={{
+                                        width: '40px',
+                                        height: '40px',
+                                        borderRadius: '12px',
+                                        backgroundColor: 'rgba(255, 77, 77, 0.1)',
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        justifyContent: 'center',
+                                        fontSize: '20px',
+                                        color: 'var(--pw-danger)',
+                                        border: '1px solid rgba(255, 77, 77, 0.2)'
+                                    }}>
+                                        ⚠️
+                                    </div>
+                                    <h4 style={{ margin: 0, fontSize: '18px', fontWeight: '700', color: 'var(--pw-danger)' }}>
+                                        {pitfall.title}
+                                    </h4>
+                                </div>
+                                <p style={{ margin: 0, fontSize: '15px', lineHeight: '1.6', color: 'var(--pw-text-secondary)', position: 'relative', zIndex: 1 }}>
+                                    {pitfall.text}
+                                </p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+            )}
         </div>
     );
 }

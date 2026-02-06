@@ -92,11 +92,18 @@ JSON SCHEMA:
           }
         ]
       }
+    ],
+    "pitfalls": [
+      {
+        "title": "Pitfall Label",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "text": "Detailed description of the pitfall and how to avoid it."
+      }
     ]
   }
 }
 
-Extract all content accurately and completely. Return only valid JSON."""
+Extract all content accurately and completely. Return only valid JSON. Ensure 'pitfalls' is a distinct section under 'tabs' based on 'Common Pitfalls' or 'Common Obstacles' in the source text."""
 
 
 def calculate_read_time(content):

@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "The Explosive Child: A New Approach for Understanding and Parenting Easily Frustrated, Chronically Inflexible Children",
+    "subtitle": "",
+    "authors": [
+      "Ross W. Greene, Ph.D."
+    ],
+    "tags": [],
+    "category_code": "FOUND"
+  },
+  "hero": {
+    "badge": "FOUND Core Read",
+    "insights_count": 7,
+    "actions_count": 0,
+    "read_time": "7 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-lightbulb",
+    "text": "Practical parenting wisdom"
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. From Motivation to Capability: The Paradigm Shift",
+        "intro_text": "**Core Concept:**\nTraditional behavioral frameworks assume children with concerning behaviors are motivated to misbehave—they possess the skills to behave appropriately but choose not to deploy them. This assumption leads to consequence-based interventions designed to increase motivation through rew",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Why It Matters:**\nThis paradigm shift transforms the entire intervention target. If the problem is motivation, the solution is consequence management. If the problem is capability, the solution is skill development through collaborative practice. T"
+        }
+      },
+      {
+        "heading": "2. The ALSUP: Precision Diagnostic Tool",
+        "intro_text": "**Core Concept:**\nThe Assessment of Lagging Skills & Unsolved Problems (ALSUP) provides structured methodology for identifying specific intervention targets. The lagging skills section covers five domains: executive skills (shifting cognitive set, working memory, organization, planning), language pr",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Why It Matters:**\nWithout precision assessment, interventions remain generic and ineffective. Vague concerns like \"he's defiant\" or \"she has meltdowns\" provide no actionable direction. ALSUP transforms behavioral frustration into specific targets: "
+        }
+      },
+      {
+        "heading": "3. The Three-Plan Framework: Decision Architecture",
+        "intro_text": "**Core Concept:**\nEvery parental expectation can be addressed through one of three plans. Plan A involves unilateral adult imposition—adults impose their will, often through physical intervention, raised voice, or consequence threat. Plan A solves problems quickly but at high cost: doesn't teach ski",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Why It Matters:**\nThe framework eliminates the false binary of \"enforce or surrender\" that traps many parents. When problems arise, parents often feel they must either impose their will (risking explosions and relationship damage) or abandon expect"
+        }
+      },
+      {
+        "heading": "4. The Empathy Step: Information Gathering as Foundation",
+        "intro_text": "**Core Concept:**\nThe empathy step, the first phase of Plan B, involves gathering accurate information about what makes a specific expectation difficult for your child. Adults introduce the unsolved problem neutrally (\"I've noticed you're having difficulty [specific expectation]\"), then use genuine ",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Why It Matters:**\nSolutions generated without accurate understanding of the problem's nature are unlikely to work. If you don't know why your child struggles with a specific expectation, any solution is a guess. The empathy step transforms guesswor"
+        }
+      },
+      {
+        "heading": "5. Collaboration as Skill-Building Process",
+        "intro_text": "**Core Concept:**\nPlan B's third step involves generating mutually satisfactory solutions addressing both the child's concern and the adult's concern. The process begins with inviting brainstorming (\"I wonder if there's a way...\" or \"Let's think about how we can solve this\"), encouraging the child t",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Why It Matters:**\nSolutions imposed unilaterally (Plan A) generate compliance at best, resistance at worst, and teach nothing about collaborative problem-solving. Solutions co-created through Plan B generate buy-in because the child participated in"
+        }
+      },
+      {
+        "heading": "6. Proactive vs. Reactive: Timing Determines Success",
+        "intro_text": "**Core Concept:**\nPlan B must be implemented proactively during calm moments, not reactively during or immediately after explosive episodes. Proactive Plan B identifies predictable unsolved problems and addresses them before the next triggering situation occurs. Reactive approaches attempt to proble",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Why It Matters:**\nDuring high emotional arousal, the brain's executive functioning capacities become largely inaccessible—this is neurobiological reality, not a choice. Attempting collaborative problem-solving during meltdowns fails because the chi"
+        }
+      },
+      {
+        "heading": "7. Systemic Implementation: Beyond Individual Child",
+        "intro_text": "**Core Concept:**\nWhile CPS focuses on the child's lagging skills and unsolved problems, successful implementation requires systemic change. Adults must develop their own skills in emotional regulation during collaborative problem-solving, patience with the process, and communication techniques for ",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Why It Matters:**\nA child developing flexibility, frustration tolerance, and problem-solving skills in one environment but encountering punitive consequence-based approaches in another experiences inconsistency that slows skill development and crea"
+        }
+      }
+    ],
+    "actions": []
+  }
+}

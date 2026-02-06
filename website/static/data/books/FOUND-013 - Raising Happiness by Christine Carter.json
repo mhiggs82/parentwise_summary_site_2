@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "title": "Raising Happiness: 10 Simple Steps for More Joyful Kids and Happier Parents",
+    "subtitle": "",
+    "authors": [
+      "Christine Carter"
+    ],
+    "tags": [],
+    "category_code": "FOUND"
+  },
+  "hero": {
+    "badge": "FOUND Core Read",
+    "insights_count": 7,
+    "actions_count": 1,
+    "read_time": "8 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-lightbulb",
+    "text": "Practical parenting wisdom"
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. The Oxygen Mask Principle: Parental Well-Being as Foundation",
+        "intro_text": "**Core Concept**: Parental happiness directly predicts child outcomes through emotional contagion, modeling, and parenting effectiveness. Depressed or highly stressed parents cannot effectively teach happiness skills, making self-care a parental responsibility rather than indulgence.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Mechanism**: Children's mirror neurons and extended exposure create emotional synchronization with caregivers. Parental emotional states influence children through three pathways: (1) direct mimicry of facial expressions and vocal tones, (2) shared"
+        }
+      },
+      {
+        "heading": "2. Social Architecture: Relationships as Primary Happiness Driver",
+        "intro_text": "**Core Concept**: Social connections predict happiness more than any other single factor, including income, physical health, or professional achievement. Children benefit from robust networks including family, friends, neighbors, and mentors—not just parental attachment.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Mechanism**: Humans evolved as social species with neurobiological systems rewarding connection. Oxytocin release during positive social interaction creates feelings of safety and bonding. Social support buffers stress, provides practical assistanc"
+        }
+      },
+      {
+        "heading": "3. Conflict as Growth Medium: Transforming Disputes into Development",
+        "intro_text": "**Core Concept**: Conflict provides essential training ground for emotional growth, perspective-taking, and problem-solving when mediated constructively. Unmediated sibling conflict ends destructively 90% of the time, but proper resolution builds lifelong skills.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Mechanism**: Conflict creates emotional intensity that focuses attention, making it a powerful learning moment. Working through disagreement requires perspective-taking (understanding others' wants and feelings), emotional regulation (managing frus"
+        }
+      },
+      {
+        "heading": "4. Gratitude Architecture: Systematic Appreciation Cultivation",
+        "intro_text": "**Core Concept**: Gratitude is a trainable positive emotion about the past that increases happiness by up to 25%, strengthens relationships, and creates upward spirals by directing attention toward life's positive aspects. Regular practice shifts baseline attention patterns from deficit-focus to abu",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Mechanism**: Gratitude interventions work through multiple pathways: (1) savoring positive experiences rather than adapting to them, (2) strengthening social bonds through expressed appreciation, (3) reframing difficulties by finding silver linings"
+        }
+      },
+      {
+        "heading": "5. Emotional Intelligence Foundation: Literacy, Expression, and Regulation",
+        "intro_text": "**Core Concept**: Emotional intelligence—the ability to identify, understand, express, and regulate emotions—is more predictive of life success than IQ. Unlike cognitive intelligence, emotional intelligence is highly teachable through explicit instruction and practice.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Mechanism**: Emotional intelligence operates through four connected capacities: (1) recognizing emotions in self and others, (2) understanding causes and consequences of emotions, (3) expressing feelings appropriately, and (4) regulating emotional "
+        }
+      },
+      {
+        "heading": "6. Habit Architecture: Automating Happiness Through Routine",
+        "intro_text": "**Core Concept**: Habits bypass conscious decision-making, making positive behaviors automatic and sustainable. Since 40% of daily actions are habitual, designing happiness habits creates reliable well-being without depleting willpower.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Mechanism**: Habits form through cue-routine-reward loops that become encoded in basal ganglia, operating below conscious awareness. After 10-12 weeks of consistent repetition, behaviors become automatic responses to contextual cues. Environmental "
+        }
+      },
+      {
+        "heading": "7. Kindness Cultivation: Altruism as Health and Happiness Intervention",
+        "intro_text": "**Core Concept**: Teaching children to help others produces measurable benefits for both giver and receiver. Adults who volunteered as teens are healthier and happier 50 years later. Kindness creates meaning, strengthens relationships, and generates \"helper's high\" through endorphin release.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Mechanism**: Altruism benefits givers through multiple pathways: (1) creating sense of purpose and efficacy, (2) strengthening social bonds through reciprocity, (3) generating positive emotions through neurochemical responses, (4) building competen"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "Assess Your Starting Point",
+        "context": "Establish baseline measurements enabling progress tracking and identifying highest-priority areas for intervention.",
+        "steps": [
+          {
+            "description": "- Use simple 1-10 scale for yourself and each child    - Track daily for one week to identify patterns    - Note correlation between your state and children's behavior    - Identify times of day or si",
+            "bold_title": "Rate current happiness levels"
+          },
+          {
+            "description": "- List close friends seen regularly (yours and children's)    - Note frequency of extended family contact    - Assess neighborhood and community connections    - Identify gaps in social infrastructure",
+            "bold_title": "Audit social connections"
+          },
+          {
+            "description": "- Which happiness practices already occur naturally?    - What routines are consistent vs. chaotic?    - How do you currently handle conflicts?    - What gratitude or appreciation practices exist?",
+            "bold_title": "Evaluate existing practices"
+          },
+          {
+            "description": "- What time is realistically available?    - What family support exists?    - What barriers prevent desired practices?    - What strengths can you build from?  **Output**: Clear picture of current sta",
+            "bold_title": "Identify constraints and resources"
+          }
+        ]
+      }
+    ]
+  }
+}

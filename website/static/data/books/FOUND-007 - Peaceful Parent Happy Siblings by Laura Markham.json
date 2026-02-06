@@ -1,0 +1,330 @@
+{
+  "meta": {
+    "title": "Peaceful Parent, Happy Siblings: How to Stop the Fighting and Raise Friends for Life",
+    "subtitle": "",
+    "authors": [
+      "Dr. Laura Markham"
+    ],
+    "tags": [
+      "Sibling Relationships",
+      "Peaceful Parenting",
+      "Emotion Coaching",
+      "Conflict Resolution",
+      "Family Dynamics"
+    ],
+    "category_code": "FOUND"
+  },
+  "hero": {
+    "badge": "FOUND Core Read",
+    "insights_count": 5,
+    "actions_count": 5,
+    "read_time": "10 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-lightbulb",
+    "text": "The quality of sibling relationships is primarily determined not by children's temperaments or behaviors, but by the parent's approach to discipline, emotional regulation, and connection with each child. Parents who regulate their emotions, maintain warm connections, and coach rather than control raise children who fight less and develop closer lifelong bonds. This work bridges attachment theory, neuroscience, and practical parenting by demonstrating that sibling rivalry is not inevitable destiny but a manageable outcome of parenting choices. Unlike traditional approaches that focus on managing conflict between children, Markham argues the solution lies in transforming the parent-child relationship itself. The book provides specific, actionable strategies for each developmental stage from pregnancy through early childhood. Parents will develop the capacity to remain emotionally regulated during sibling conflicts, help each child feel deeply valued, and teach children emotional intelligence skills that enable them to resolve conflicts independently. The ultimate goal is raising siblings who become friends for life while developing relationship skills applicable to all future interactions."
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. Sibling Rivalry as Symptom, Not Cause",
+        "intro_text": "Traditional view holds that siblings fight because of personality clashes or competition for resources. Markham reframes sibling conflict as a symptom of unmet emotional needs and lack of regulation skills rather than an inherent feature of sibling relationships. The fighting reflects the quality of",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Traditional view holds that siblings fight because of personality clashes or competition for resources. Markham reframes sibling conflict as a symptom of unmet emotional needs and lack of regulation skills rather than an inherent feature of sibling r"
+        }
+      },
+      {
+        "heading": "2. The \"Take Five\" Self-Regulation Practice",
+        "intro_text": "Before intervening in any sibling conflict, parents must take five conscious breaths to shift from fight-or-flight to calm presence. This practice prevents escalation that occurs when parents intervene while dysregulated, models emotional regulation for children, and allows the prefrontal cortex to ",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Before intervening in any sibling conflict, parents must take five conscious breaths to shift from fight-or-flight to calm presence. This practice prevents escalation that occurs when parents intervene while dysregulated, models emotional regulation "
+        }
+      },
+      {
+        "heading": "3. Special Time as Rivalry Prevention",
+        "intro_text": "Dedicated one-on-one attention where each child directs activity serves as preventive maintenance that reduces sibling conflict. A minimum of 10 minutes daily of undivided, child-led interaction fills each child's \"connection tank,\" preventing attention-seeking behavior that manifests as sibling riv",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Dedicated one-on-one attention where each child directs activity serves as preventive maintenance that reduces sibling conflict. A minimum of 10 minutes daily of undivided, child-led interaction fills each child's \"connection tank,\" preventing attent"
+        }
+      },
+      {
+        "heading": "4. Time-In vs Time-Out",
+        "intro_text": "When children act out—especially toward siblings—Markham advocates bringing them close for connection rather than isolating them. Time-In addresses root cause (emotional overwhelm) rather than symptom (behavior), prevents the shame cycle that worsens behavior, and teaches emotional regulation throug",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "When children act out—especially toward siblings—Markham advocates bringing them close for connection rather than isolating them. Time-In addresses root cause (emotional overwhelm) rather than symptom (behavior), prevents the shame cycle that worsens"
+        }
+      },
+      {
+        "heading": "5. Coaching Conflict Resolution",
+        "intro_text": "Rather than solving sibling conflicts for children or simply punishing aggression, parents serve as coaches who facilitate emotional intelligence development. The process involves: assessing safety, regulating oneself first, acknowledging both children's perspectives, naming emotions for each child,",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Key insight pending."
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "Daily Self-Regulation Practice",
+        "context": "Develop capacity to remain calm during sibling conflicts, preventing escalation and modeling emotional regulation for children.",
+        "steps": [
+          {
+            "description": "morning centering ritual—set alarm 10 minutes before children wake, practice five conscious breaths, set intention to notice dysregulation",
+            "bold_title": "ESTABLISH"
+          },
+          {
+            "description": "physical reminder system—place sticky notes in conflict zones (kitchen, playroom, car) with \"BREATHE\" or \"Take Five\"",
+            "bold_title": "CREATE"
+          },
+          {
+            "description": "\"Take Five\" during calm moments—count five slow breaths three times daily, notice body sensations",
+            "bold_title": "PRACTICE"
+          },
+          {
+            "description": "personal dysregulation signals—tight chest, clenched jaw, rapid thoughts, raised voice",
+            "bold_title": "IDENTIFY"
+          },
+          {
+            "description": "pause protocol during conflicts—take five breaths BEFORE speaking, step away briefly if unable to calm",
+            "bold_title": "IMPLEMENT"
+          },
+          {
+            "description": "evening reflection practice—review day for successful regulation moments, note triggers, plan for tomorrow",
+            "bold_title": "DEVELOP"
+          },
+          {
+            "description": "support system—identify accountability partner, consider meditation app, seek professional support if needed  **Success Check**: You can intervene in sibling conflicts without raising your voice or feeling reactive.",
+            "bold_title": "BUILD"
+          }
+        ]
+      },
+      {
+        "title": "Establishing Special Time with Each Child",
+        "context": "Fill each child's connection tank to reduce attention-seeking behavior and sibling rivalry while providing safe space for emotional expression.",
+        "steps": [
+          {
+            "description": "realistic time allocation—minimum 10 minutes daily per child, schedule at same time to build routine",
+            "bold_title": "CALCULATE"
+          },
+          {
+            "description": "Special Time to children—explain \"This is your time with me, you choose what we do,\" create visual schedule",
+            "bold_title": "ANNOUNCE"
+          },
+          {
+            "description": "environment—silence phone completely, arrange care for other children, gather materials",
+            "bold_title": "PREPARE"
+          },
+          {
+            "description": "session with clear framing—\"This is your Special Time. What would you like to do?\" Set timer so child can see time remaining",
+            "bold_title": "BEGIN"
+          },
+          {
+            "description": "minimal intervention—describe what you see without judgment, avoid teaching or directing, let child control all aspects",
+            "bold_title": "PRACTICE"
+          },
+          {
+            "description": "undivided attention—make eye contact frequently, show genuine interest, notice child's unique qualities",
+            "bold_title": "PROVIDE"
+          },
+          {
+            "description": "session with transition support—give five-minute warning, acknowledge difficulty stopping, confirm next Special Time",
+            "bold_title": "CLOSE"
+          },
+          {
+            "description": "behavioral changes—note reduction in attention-seeking and sibling conflicts  **Warning**: Consistency matters more than length—better 10 minutes daily than 30 minutes sporadically.",
+            "bold_title": "OBSERVE"
+          }
+        ]
+      },
+      {
+        "title": "Intervening in Sibling Conflict with Emotion Coaching",
+        "context": "Transform sibling fights into opportunities to teach emotional intelligence, conflict resolution, and empathy while preventing escalation.",
+        "steps": [
+          {
+            "description": "safety immediately—scan for physical danger, separate children physically without anger if needed",
+            "bold_title": "ASSESS"
+          },
+          {
+            "description": "yourself first—take five conscious breaths, remind yourself \"This is not an emergency; this is an opportunity\"",
+            "bold_title": "REGULATE"
+          },
+          {
+            "description": "both children's perspectives—get at eye level, listen without interrupting, reflect back: \"So you felt ___ when ___\"",
+            "bold_title": "ACKNOWLEDGE"
+          },
+          {
+            "description": "emotions for both children—\"You're angry that your brother took your toy,\" validate without judgment",
+            "bold_title": "NAME"
+          },
+          {
+            "description": "clear limits on behavior—\"You can be as angry as you want AND no hitting,\" use \"and\" not \"but\"",
+            "bold_title": "SET"
+          },
+          {
+            "description": "communication skills—\"Can you tell your sister what you need using words?\" Model if needed but don't speak for them",
+            "bold_title": "COACH"
+          },
+          {
+            "description": "collaborative problem-solving—\"We have a problem. What could we do?\" Wait for children's ideas, ask \"Would that work for both of you?\"",
+            "bold_title": "GUIDE"
+          },
+          {
+            "description": "repair if needed—\"Your sister is still upset. What could help her feel better?\" Avoid forced apologies",
+            "bold_title": "FACILITATE"
+          },
+          {
+            "description": "Time-In if emotions remain high—\"You're still having a hard time. Come sit with me\"",
+            "bold_title": "OFFER"
+          },
+          {
+            "description": "and reinforce learning—\"You both worked that out! You used your words\"  **Success Check**: Both children feel heard and the conflict resolves without punishment or escalation.",
+            "bold_title": "DEBRIEF"
+          }
+        ]
+      },
+      {
+        "title": "Implementing Empathic Limits",
+        "context": "Set boundaries that children internalize and follow willingly by acknowledging their perspective while maintaining family standards.",
+        "steps": [
+          {
+            "description": "your non-negotiable limits—safety rules, values-based rules, distinguish from preferences",
+            "bold_title": "IDENTIFY"
+          },
+          {
+            "description": "limit clearly and simply—use positive framing, be specific, make eye contact",
+            "bold_title": "STATE"
+          },
+          {
+            "description": "child's desire or feeling—\"You really want to keep playing,\" show genuine understanding",
+            "bold_title": "ACKNOWLEDGE"
+          },
+          {
+            "description": "feeling and limit with \"AND\"—\"You want to keep playing AND it's time for bed\" (avoid \"but\")",
+            "bold_title": "CONNECT"
+          },
+          {
+            "description": "choice or alternative when possible—\"You can brush teeth now or after story\"",
+            "bold_title": "OFFER"
+          },
+          {
+            "description": "wish in fantasy if no alternative exists—\"I bet you wish you could eat candy for every meal!\"",
+            "bold_title": "GIVE"
+          },
+          {
+            "description": "through with action if needed—calmly intervene physically, maintain matter-of-fact tone",
+            "bold_title": "FOLLOW"
+          },
+          {
+            "description": "present through emotional response—\"You're so disappointed. I'm right here,\" allow full expression",
+            "bold_title": "STAY"
+          },
+          {
+            "description": "after emotion passes—offer hug, appreciate cooperation",
+            "bold_title": "RECONNECT"
+          },
+          {
+            "description": "on effectiveness—adjust approach based on what works for your child  **Warning**: Giving in after child escalates teaches that escalation works.",
+            "bold_title": "REFLECT"
+          }
+        ]
+      },
+      {
+        "title": "Helping Children Through Big Emotions (Time-In Protocol)",
+        "context": "Support children to express and process difficult emotions safely, preventing those emotions from driving aggressive behavior toward siblings.",
+        "steps": [
+          {
+            "description": "signs of emotional overwhelm—aggression, defiance, whining, rigidity (cries for help, not character flaws)",
+            "bold_title": "RECOGNIZE"
+          },
+          {
+            "description": "connection—\"You're having a hard time. Come here,\" open arms, get at child's level",
+            "bold_title": "INVITE"
+          },
+          {
+            "description": "safe container for emotion—move to quiet space, offer lap or hand-holding based on preference",
+            "bold_title": "CREATE"
+          },
+          {
+            "description": "minimal words—\"I'm right here,\" \"You're safe,\" \"I love you,\" avoid questions or problem-solving",
+            "bold_title": "USE"
+          },
+          {
+            "description": "emotional expression—allow crying, trembling, angry words, don't try to stop or distract",
+            "bold_title": "WELCOME"
+          },
+          {
+            "description": "physical connection—keep gentle hand on back, respect boundaries if child pushes away",
+            "bold_title": "MAINTAIN"
+          },
+          {
+            "description": "the wave—emotions typically peak and subside over 5-20 minutes, stay present through entire cycle",
+            "bold_title": "RIDE"
+          },
+          {
+            "description": "signs of completion—crying slows, body relaxes, eye contact, deep sigh or yawn",
+            "bold_title": "NOTICE"
+          },
+          {
+            "description": "and reflect—\"You had some big feelings. You're okay now,\" briefly name what happened without lecturing",
+            "bold_title": "RECONNECT"
+          },
+          {
+            "description": "if needed—only after emotions fully expressed, help child make repair if they hurt sibling  **Warning**: Stopping emotional expression creates emotional backlog that emerges as behavior problems.",
+            "bold_title": "PROBLEM-SOLVE"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "title": "Intervening in sibling conflicts while dysregulated",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "text": "Commit to \"Take Five\" before every intervention—no exceptions"
+      },
+      {
+        "title": "Trying to solve conflicts for children instead of coaching them",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "text": "Ask \"What could you do?\" rather than imposing solutions"
+      },
+      {
+        "title": "Skipping Special Time with individual children",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "text": "Protect this time as non-negotiable; consistency matters more than duration"
+      },
+      {
+        "title": "Using \"but\" which negates validation (\"I know you're mad BUT...\")",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "text": "Use \"and\" to connect feeling and limit (\"You're angry AND no hitting\")"
+      },
+      {
+        "title": "Forcing apologies instead of facilitating genuine repair",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "text": "Ask \"What could help your sister feel better?\" and support child's initiative"
+      },
+      {
+        "title": "Isolating children (Time-Out) instead of connecting (Time-In)",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "text": "Bring child close during emotional overwhelm, stay present through expression"
+      },
+      {
+        "title": "Expecting immediate results",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "text": "Trust the process—emotional development and sibling relationship transformation take months of consistency"
+      },
+      {
+        "title": "Comparing siblings or showing favoritism",
+        "icon": "fa-solid fa-triangle-exclamation",
+        "text": "Ensure each child has protected Special Time, celebrate each child's unique qualities"
+      }
+    ]
+  }
+}

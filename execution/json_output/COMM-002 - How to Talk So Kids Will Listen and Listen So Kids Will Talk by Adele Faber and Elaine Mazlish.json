@@ -1,223 +1,234 @@
 {
   "meta": {
     "title": "How to Talk So Kids Will Listen & Listen So Kids Will Talk",
-    "subtitle": "A practical guide to parenting",
+    "subtitle": "The ultimate survival guide for communicating with children of all ages.",
     "authors": [
       "Adele Faber",
       "Elaine Mazlish"
     ],
     "tags": [
-      "parenting",
-      "communication",
-      "child development",
-      "family relationships",
-      "emotional intelligence",
-      "respectful communication",
-      "problem-solving"
+      "Parenting",
+      "Communication",
+      "Child Development",
+      "Emotional Intelligence"
     ],
     "category_code": "COMM"
   },
   "hero": {
     "badge": "COMM Core Read",
-    "insights_count": 4,
+    "insights_count": 5,
     "actions_count": 4,
     "read_time": "5 min read"
   },
   "why_matters": {
-    "icon": "fa-solid fa-heart",
-    "text": "**Thesis**: Children's cooperation and emotional health depend fundamentally on adults' communication methods. When parents replace judgment, commands, and punishment with skills that acknowledge feelings, encourage autonomy, and invite problem-solving, they create relationships where children develop self-esteem, responsibility, and genuine cooperation.\n\n**Unique Contribution**: This work translates abstract psychological principles into concrete, repeatable communication techniques. Unlike theoretical parenting books, it provides specific verbal formulas, visual demonstrations through cartoons, and practice exercises. The revolutionary insight: children don't need perfect parents—they need parents who can describe rather than evaluate, who can accept feelings without fixing them, and who can engage cooperation without coercion.\n\n**Target Outcome**: Parents will internalize communication skills that reduce daily conflict, build children's self-reliance, create emotional safety, develop intrinsic motivation, and establish respectful communication patterns."
+    "icon": "fa-solid fa-face-smile-beam",
+    "text": "The quality of a child's cooperation is directly linked to the quality of the communication they receive from adults. **How to Talk So Kids Will Listen** provides a revolutionary framework that replaces commands and judgment with skills that acknowledge feelings and encourage autonomy. By moving from a model of control to one of respect, parents can foster genuine self-esteem and intrinsic responsibility. This approach not only reduces daily conflict but also establishes an emotional safety net that allows children to develop into resilient and empathetic adults."
   },
   "tabs": {
     "analysis": [
       {
-        "heading": "1. Feelings Must Be Accepted Before Behavior Can Change",
-        "intro_text": "The fundamental shift is from denying feelings (\"You're fine\") to acknowledging them (\"You're really disappointed\"). Acknowledged feelings dissipate; denied feelings intensify. This emotional validation is the prerequisite for cooperation.",
+        "heading": "1. Feelings Before Logic",
+        "intro_text": "A child's emotional state must be validated before they can process logical information.",
         "insight_card": {
-          "title": "Key Insight",
-          "icon": "fa-solid fa-lightbulb",
-          "text": "The fundamental shift is from denying feelings (\"You're fine\") to acknowledging them (\"You're really disappointed\"). Acknowledged feelings dissipate; denied feelings intensify. This emotional validation is the prerequisite for cooperation."
+          "title": "Emotional Prerequisite",
+          "icon": "fa-solid fa-water-ladder",
+          "text": "When we deny a child's feelings ('It's just a scratch') or judge them ('Don't be a baby'), their brain enters a defensive state. Acknowledge feelings first—'That looked like a scary fall'—to allow the emotional intensity to dissipate. Only once a child feels 'heard' can their nervous system calm enough to hear your instructions or problem-solve."
         }
       },
       {
-        "heading": "2. Punishment Distracts from Learning",
-        "intro_text": "Punishment focuses the child on resentment toward the punisher rather than on the problem. Natural consequences and problem-solving focus attention on making amends and preventing recurrence, teaching internal responsibility rather than external avoidance.",
+        "heading": "2. The Punishment Diversion",
+        "intro_text": "Punishment focuses a child's attention on parent unfairness rather than their own behavior.",
         "insight_card": {
-          "title": "Key Insight",
-          "icon": "fa-solid fa-lightbulb",
-          "text": "Punishment focuses the child on resentment toward the punisher rather than on the problem. Natural consequences and problem-solving focus attention on making amends and preventing recurrence, teaching internal responsibility rather than external avoidance."
+          "title": "Accountability over Penalty",
+          "icon": "fa-solid fa-gavel",
+          "text": "Punishment triggers resentment and a desire for revenge, which distracts the child from reflecting on the problem. By replacing punishment with natural consequences and the opportunity to make amends, you keep the child's focus on their own responsibility. This builds an internal moral compass rather than a fear of external authority."
         }
       },
       {
-        "heading": "3. Descriptive Praise Builds Identity",
-        "intro_text": "Evaluative praise (\"You're so smart\") creates dependency on external validation. Descriptive praise (\"You figured out the puzzle by trying different pieces\") gives children language for their own strengths and builds authentic self-esteem.",
+        "heading": "3. Descriptive Feedback vs. Evaluative Praise",
+        "intro_text": "Evaluative praise ('Good boy!') creates a dependency on others for self-worth.",
         "insight_card": {
-          "title": "Key Insight",
-          "icon": "fa-solid fa-lightbulb",
-          "text": "Evaluative praise (\"You're so smart\") creates dependency on external validation. Descriptive praise (\"You figured out the puzzle by trying different pieces\") gives children language for their own strengths and builds authentic self-esteem."
+          "title": "Mirrors of Identity",
+          "icon": "fa-solid fa-address-card",
+          "text": "Generic praise can feel pressuring or manipulative to a child. Descriptive praise—'You used five different colors in that drawing'—acts as a mirror. It provides the child with the inventory of their own efforts and strategies, allowing them to draw their own internal conclusion: 'I am creative' or 'I am persistent.'"
         }
       },
       {
-        "heading": "4. Autonomy Requires Struggle",
-        "intro_text": "Rescuing children from struggle communicates a lack of confidence in their capability. Respecting their struggle while offering information (\"That jar can be hard to open\") communicates trust and builds self-efficacy.",
+        "heading": "4. Respecting the Struggle",
+        "intro_text": "Rescuing a child from difficulty communicates a lack of confidence in their capability.",
         "insight_card": {
-          "title": "Key Insight",
-          "icon": "fa-solid fa-lightbulb",
-          "text": "Rescuing children from struggle communicates a lack of confidence in their capability. Respecting their struggle while offering information (\"That jar can be hard to open\") communicates trust and builds self-efficacy."
+          "title": "Scaffolding Autonomy",
+          "icon": "fa-solid fa-mountain",
+          "text": "Building a child's self-reliance requires letting them experience minor struggles. Instead of doing the task for them, 'respect the struggle' by offering information or acknowledging the difficulty. Say 'That jar can be hard to open' rather than taking it away. This communicates trust in their ability to eventually figure it out."
+        }
+      },
+      {
+        "heading": "5. Identity Roles and Scripts",
+        "insight_card": {
+          "title": "Freeing the Script",
+          "icon": "fa-solid fa-mask",
+          "text": "Children often live up (or down) to the roles assigned to them by parents, such as 'the messy one' or 'the shy one.' To free a child from these roles, parents must catch them doing things that contradict the script and describe those moments. By narrating their successes, you give the child a wider set of identities to inhabit."
         }
       }
     ],
     "actions": [
       {
-        "title": "Acknowledging Feelings to Defuse Emotional Intensity",
-        "context": "To help children feel understood so they can move from emotional overwhelm to problem-solving.",
+        "title": "Defusing Emotional Intensity",
+        "context": "Use this sequence when a child is upset or crying to help them regulate and feel understood.",
         "steps": [
           {
-            "bold_title": "STOP",
-            "description": "your automatic response (no fixing/denying)."
+            "bold_title": "STOP the urge to fix or deny",
+            "description": "Notice your own instinct to say 'You're fine' or 'Stop crying,' and choose to pause instead."
           },
           {
-            "bold_title": "LISTEN",
-            "description": "with full attention (eye contact, body language)."
+            "bold_title": "OFFER your full undivided attention",
+            "description": "Lower your body to their eye level and use open body language to show you are listening."
           },
           {
-            "bold_title": "ACKNOWLEDGE",
-            "description": "with simple sounds (\"Oh,\" \"Mmm,\" \"I see\")."
+            "bold_title": "ACKNOWLEDGE with simple neutral sounds",
+            "description": "Use 'Oh,' 'Mmm,' or 'I see' as they speak; this shows you are present without judging or interrupting."
           },
           {
-            "bold_title": "NAME",
-            "description": "the feeling you observe (\"That sounds frustrating\")."
+            "bold_title": "NAME the specific feeling you see",
+            "description": "Use an identifying phrase: 'That sounds like a huge disappointment' or 'You seem really frustrated with that.'"
           },
           {
-            "bold_title": "GIVE",
-            "description": "wishes in fantasy (\"I wish I could make that happen for you!\")."
+            "bold_title": "GRANT wishes in fantasy",
+            "description": "Connect with their desire: 'I wish I had a magic wand to make that cookie appear for you right now!'"
           },
           {
-            "bold_title": "WAIT",
-            "description": "for the shift (relaxation response)."
+            "bold_title": "WAIT for the 'Regulation Sigh'",
+            "description": "Stay quiet long enough for their breathing to settle and for them to realize they've been fully heard."
           },
           {
-            "bold_title": "RESIST",
-            "description": "the urge to teach/lecture immediately."
+            "bold_title": "RESIST the urge to lecture",
+            "description": "Do not transition immediately into a 'teaching moment.' Let the validation stand on its own for a while. **Success Check**: The child's crying slows down and they lean toward you for connection."
           }
         ]
       },
       {
-        "title": "Engaging Cooperation Without Power Struggles",
-        "context": "To get children to cooperate with necessary tasks while preserving relationship and building intrinsic motivation.",
+        "title": "Engaging Cooperation (The Five Tools)",
+        "context": "Get things done without the yelling or power struggles by using descriptive and concise communication.",
         "steps": [
           {
-            "bold_title": "DESCRIBE",
-            "description": "what you see: \"The milk is out on the counter.\""
+            "bold_title": "DESCRIBE the problem neutrally",
+            "description": "State only what you see: 'The wet towel is on the bed' instead of 'Why do you always leave your mess?'"
           },
           {
-            "bold_title": "GIVE",
-            "description": "information: \"Milk turns sour when it's not refrigerated.\""
+            "bold_title": "GIVE information about the impact",
+            "description": "Provide the factual 'why': 'Wet towels can make the mattress moldy' rather than lecturing about responsibility."
           },
           {
-            "bold_title": "SAY",
-            "description": "it with one word: \"Milk!\""
+            "bold_title": "USE the 'One-Word Reminder'",
+            "description": "Brevity is key to avoiding an 'off-switch' in the child's brain. Just say the object name: 'Towel!'"
           },
           {
-            "bold_title": "DESCRIBE",
-            "description": "your feelings: \"I feel frustrated when I have to repeat myself.\""
+            "bold_title": "DESCRIBE your own feelings",
+            "description": "Use an 'I' statement without blame: 'I feel frustrated when I see a wet bed because I worked hard to make it.'"
           },
           {
-            "bold_title": "WRITE",
-            "description": "a note: \"Please put me back! - The Milk.\""
+            "bold_title": "WRITE a silent or humorous note",
+            "description": "Place a note where they will see it: 'Please hang me up so I can get dry! - Your Towel.' This bypasses verbal resistance."
           },
           {
-            "bold_title": "OFFER",
-            "description": "a choice: \"Do you want to put it away now or in 5 minutes?\""
+            "bold_title": "OFFER a choice of 'how' or 'when'",
+            "description": "Provide autonomy: 'Do you want to hang that up now, or right after you finish your snack?'"
           },
           {
-            "bold_title": "TAKE",
-            "description": "action: Remove the object or person if needed, calmly."
+            "bold_title": "ACKNOWLEDGE the completed task",
+            "description": "Notice the result: 'I appreciate having a dry bed to sit on tonight.' **Success Check**: The towel is hung up without a secondary argument."
           }
         ]
       },
       {
-        "title": "Problem-Solving Together for Chronic Conflicts",
-        "context": "To resolve recurring conflicts by creating solutions both parent and child can accept.",
+        "title": "Collaborative Problem-Solving",
+        "context": "Use this formal process for recurring conflicts that haven't been resolved with daily tools.",
         "steps": [
           {
-            "bold_title": "SCHEDULE",
-            "description": "the conversation when calm."
+            "bold_title": "INVITE their perspective first",
+            "description": "Start with curiosity: 'I want to hear how you feel about our morning routine. What's the hardest part for you?'"
           },
           {
-            "bold_title": "ACKNOWLEDGE",
-            "description": "child's feelings and needs first."
+            "bold_title": "GIVE back their point of view",
+            "description": "Show them you understood: 'So for you, you're so sleepy in the morning that getting dressed feels impossible. Is that it?'"
           },
           {
-            "bold_title": "STATE",
-            "description": "your feelings and needs briefly."
+            "bold_title": "STATE your own needs concisely",
+            "description": "Explain your side: 'I feel very stressed when we're late because my boss expects me in my seat by 8:00.'"
           },
           {
-            "bold_title": "INVITE",
-            "description": "brainstorming (\"Let's think of solutions\")."
+            "bold_title": "BRAINSTORM every possible idea",
+            "description": "Write down every suggestion on a piece of paper—even the silly or impractical ones—without any judgment."
           },
           {
-            "bold_title": "WRITE",
-            "description": "down every idea without judgment."
+            "bold_title": "REVIEW and veto the list",
+            "description": "Go through the ideas together and cross out any that either person is not willing or able to do."
           },
           {
-            "bold_title": "REVIEW",
-            "description": "the list together and veto unacceptable ones."
+            "bold_title": "SELECT solutions to put into action",
+            "description": "Pick the ones you both agree on and decide exactly who is responsible for which part and for how long."
           },
           {
-            "bold_title": "CHOOSE",
-            "description": "solution(s) to try."
-          },
-          {
-            "bold_title": "FOLLOW UP",
-            "description": "to see if it's working."
+            "bold_title": "SET a follow-up date",
+            "description": "Agree to meet again in a week to see if the new plan is working or if we need a new brainstorm. **Success Check**: You reach a compromise that the child feels they 'own' rather than one that was forced on them."
           }
         ]
       },
       {
-        "title": "Giving Descriptive Praise",
-        "context": "To build child's self-esteem and internal motivation.",
+        "title": "Building Identity with Descriptive Praise",
+        "context": "Help your child develop an authentic internal sense of competence by acting as a specific mirror.",
         "steps": [
           {
-            "bold_title": "OBSERVE",
-            "description": "specifically what child did."
+            "bold_title": "OBSERVE the specific action",
+            "description": "Choose a moment where the child is working hard or being helpful, and focus on the literal details."
           },
           {
-            "bold_title": "DESCRIBE",
-            "description": "only what you see (\"You put all the blocks away\")."
+            "bold_title": "DESCRIBE only what you see",
+            "description": "Say: 'You put all the green blocks in one bin and all the blue blocks in another' rather than 'Good job cleaning.'"
           },
           {
-            "bold_title": "DESCRIBE",
-            "description": "the effort/strategy (\"You kept trying until it fit\")."
+            "bold_title": "HIGHLIGHT the effort or strategy",
+            "description": "Acknowledge the work: 'You kept trying different holes until that puzzle piece finally fit into the right spot.'"
           },
           {
-            "bold_title": "DESCRIBE",
-            "description": "your authentic feeling (\"I appreciate the help\")."
+            "bold_title": "NAME the character trait revealed",
+            "description": "Sum it up with a word for their internal library: 'That's what I call being persistent' or 'That took real focus.'"
           },
           {
-            "bold_title": "STOP",
-            "description": "(let child draw their own conclusion \"I'm helpful\")."
+            "bold_title": "DESCRIBE your own authentic appreciation",
+            "description": "Share the impact: 'I really appreciated coming into a kitchen with clear counters this morning.'"
           },
           {
-            "bold_title": "AVOID",
-            "description": "adding evaluation (\"Good boy/girl\")."
+            "bold_title": "STOP after describing",
+            "description": "Do not add a 'Good boy' or 'You're so smart' at the end. Let the description do the work of building their self-view."
           },
           {
-            "bold_title": "Sarcastic Description",
-            "description": "\"Oh, I see SOMEONE left their bag out AGAIN.\""
-          },
-          {
-            "bold_title": "Disguised Threats",
-            "description": "Offering choices where one is a punishment."
-          },
-          {
-            "bold_title": "Predetermined Brainstorming",
-            "description": "Creating a \"solution\" before the child is heard."
-          },
-          {
-            "bold_title": "The \"But\" Eraser",
-            "description": "\"I know you're sad, BUT...\" (erases the validation)."
+            "bold_title": "WATCH for their internal conclusion",
+            "description": "Notice the small smile of pride that comes when they realize: 'I am a person who can solve hard problems.' **Success Check**: The child begins to narrate their OWN successes back to you without needing your approval."
           }
         ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "title": "The 'But' Eraser",
+        "icon": "fa-solid fa-eraser",
+        "text": "Saying 'I know you're sad, BUT the answer is still no.' The word 'but' erases the preceding validation. Use 'and' or 'the problem is' instead to hold the choice and the feeling simultaneously."
+      },
+      {
+        "title": "Disguised Punishment",
+        "icon": "fa-solid fa-mask",
+        "text": "Offering a 'choice' between cooperation and a negative consequence ('Do you want to clean or do you want to lose your iPad?'). This is a threat, not a choice, and will trigger defensive resistance."
+      },
+      {
+        "title": "Sarcastic Description",
+        "icon": "fa-solid fa-face-rolling-eyes",
+        "text": "Using the tools with a mocking tone: 'Oh, I see SOMEONE left their dirty socks in the middle of the literal hallway for the tenth time today.' Tone is the primary signal of intent; sarcasm destroys trust."
+      },
+      {
+        "title": "Teaching During the Storm",
+        "icon": "fa-solid fa-bolt",
+        "text": "Trying to explain the 'rules' while a child is in peak emotional distress. You cannot teach a brain that is in survival mode. Validation must happen first; instruction happens later during calm."
       }
     ]
   }

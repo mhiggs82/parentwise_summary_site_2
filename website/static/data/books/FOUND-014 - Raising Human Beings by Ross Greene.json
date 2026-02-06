@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Raising Human Beings: Creating a Collaborative Partnership with Your Child",
+    "subtitle": "",
+    "authors": [
+      "Ross W. Greene, PhD"
+    ],
+    "tags": [],
+    "category_code": "FOUND"
+  },
+  "hero": {
+    "badge": "FOUND Core Read",
+    "insights_count": 7,
+    "actions_count": 0,
+    "read_time": "7 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-lightbulb",
+    "text": "Practical parenting wisdom"
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. The Incompatibility Framework: Redefining the Problem",
+        "intro_text": "**Core Concept**: Problems arise not from defiant children but from mismatches between child characteristics (temperament, developmental stage, lagging skills, preferences) and environmental expectations (parental, school, peer, societal).",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Why It Matters**: This reframe eliminates blame, redirects energy from punishment to problem-solving, and clarifies that the solution involves either (a) building child's capacity to meet expectation, (b) modifying the expectation, or (c) environme"
+        }
+      },
+      {
+        "heading": "2. Kids Do Well If They Can: The Motivation Myth",
+        "intro_text": "**Core Concept**: Children who fail to meet expectations lack skills or face obstacles, not motivation. If they could meet the expectation reliably, they would—because doing well produces better outcomes than struggling.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Why It Matters**: This principle fundamentally transforms how parents interpret and respond to challenging behavior. It eliminates the entire category of interventions based on \"making them want it more\" (rewards, punishments, lectures, shame) and "
+        }
+      },
+      {
+        "heading": "3. The Three-Plan Decision Architecture",
+        "intro_text": "**Core Concept**: Parents have three response options for every unsolved problem. Making these choices explicit prevents reflexive overuse of Plan A and creates intentional decision-making.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Why It Matters**: Most parents default to Plan A (unilateral control) without conscious choice. Naming alternatives creates space for strategic decision-making based on problem priority, relationship impact, and developmental goals."
+        }
+      },
+      {
+        "heading": "4. Information as Primary Currency: The Empathy Step",
+        "intro_text": "**Core Concept**: Solutions are only as good as the information they're based on. Parents must gather accurate information about the child's perspective before attempting to solve problems.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Why It Matters**: Adult intuition about children's obstacles is frequently inaccurate. Without understanding what's actually making an expectation difficult, proposed solutions miss the mark and fail."
+        }
+      },
+      {
+        "heading": "5. Proactive vs. Reactive Timing: When to Solve Problems",
+        "intro_text": "**Core Concept**: Problems should be solved proactively during calm moments, not reactively during crises. The heat of the moment is for damage control, not collaborative problem-solving.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Why It Matters**: Crisis conversations occur when both parties are emotionally flooded. In this state, executive function is compromised, creativity is limited, and statements are more likely to damage relationships. Proactive conversations allow a"
+        }
+      },
+      {
+        "heading": "6. Solution Quality: Realism, Mutuality, and Specificity",
+        "intro_text": "**Core Concept**: Not all agreements are equally effective. Durable solutions share three characteristics: both parties genuinely believe the solution is realistic, both truly agree (not just comply), and the solution specifies concrete actions.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Why It Matters**: Weak solutions fail quickly, leading parents to conclude \"Plan B doesn't work\" when actually the solution quality was insufficient."
+        }
+      },
+      {
+        "heading": "7. Iteration and Durability: Problem-Solving as Process",
+        "intro_text": "**Core Concept**: Most problems require multiple solution attempts. First solutions frequently fail—this is information, not failure. Iteration is how collaborative problem-solving builds both solutions and skills.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "**Why It Matters**: Parents who expect first solutions to work perfectly often abandon Plan B after initial failure, concluding the approach doesn't work. Understanding iteration as normal prevents premature abandonment."
+        }
+      }
+    ],
+    "actions": []
+  }
+}

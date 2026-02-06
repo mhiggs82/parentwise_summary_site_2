@@ -1,247 +1,121 @@
 {
   "meta": {
-    "title": "How to Talk When Kids Won't Listen: Whining, Fighting, Meltdowns, Defiance, and Other Challenges of Childhood",
-    "subtitle": "A practical guide to parenting",
-    "authors": [
-      "Joanna Faber",
-      "Julie King"
-    ],
-    "tags": [
-      "parenting",
-      "child development",
-      "communication",
-      "conflict resolution",
-      "emotional intelligence",
-      "problem-solving"
-    ],
+    "title": "How to Talk When Kids Won't Listen",
+    "subtitle": "Comprehensive toolkit for modern parenting challenges from digital dilemmas to emotional regulation.",
+    "authors": ["Joanna Faber", "Julie King"],
+    "tags": ["parenting", "child development", "communication", "conflict resolution", "emotional intelligence", "problem-solving"],
     "category_code": "COMM"
   },
   "hero": {
     "badge": "COMM Core Read",
     "insights_count": 4,
     "actions_count": 5,
-    "read_time": "4 min read"
+    "read_time": "14 min read"
   },
   "why_matters": {
     "icon": "fa-solid fa-heart",
-    "text": "**Thesis**: Children become more cooperative, resilient, and emotionally intelligent when adults acknowledge their feelings, engage them in problem-solving, and avoid punishment-based discipline. Communication tools that respect children's autonomy while maintaining adult boundaries create stronger relationships and teach life-long conflict resolution skills.\n\n**Unique Contribution**: This book translates abstract parenting principles into concrete, actionable communication tools. It extends the Faber/Mazlish \"How to Talk\" legacy to include digital dilemmas, younger children, and contemporary sensory/behavioral challenges, operationalizing emotional validation through specific scripts and visual examples.\n\n**Target Outcome**: Parents and educators will reduce daily power struggles, minimize punishment cycles, and cultivate children who can articulate needs, solve problems collaboratively, and develop internal motivation rather than compliance driven by fear or reward."
+    "text": "Children become more cooperative, resilient, and emotionally intelligent when adults acknowledge their feelings, engage them in problem-solving, and avoid punishment-based discipline. Communication tools that respect children's autonomy while maintaining adult boundaries create stronger relationships and teach life-long conflict resolution skills."
   },
   "tabs": {
     "analysis": [
       {
         "heading": "1. From Behavior Modification to Relationship Preservation",
-        "intro_text": "Traditional parenting focuses on immediate compliance. This approach reframes discipline as teaching problem-solving. The goal shifts from \"How do I make the behavior stop?\" to \"How do I help my child develop skills to handle this?\"",
+        "intro_text": "Traditional parenting focuses on immediate compliance. This approach reframes discipline as teaching problem-solving. The goal shifts from 'How do I make the behavior stop?' to 'How do I help my child develop skills to handle this?'",
         "insight_card": {
-          "title": "Key Insight",
+          "title": "Skill-Centered Discipline",
           "icon": "fa-solid fa-lightbulb",
-          "text": "Traditional parenting focuses on immediate compliance. This approach reframes discipline as teaching problem-solving. The goal shifts from \"How do I make the behavior stop?\" to \"How do I help my child develop skills to handle this?\""
+          "text": "Every behavioral challenge is an opportunity to teach a life skill. When parents focus on teaching rather than stopping, they raise competent, resilient adults."
         }
       },
       {
         "heading": "2. The Praise Trap",
-        "intro_text": "Evaluative praise (\"You're so smart\") creates performance anxiety and fixed mindsets. Descriptive praise (\"You kept trying different ways\") builds resilience and intrinsic motivation. Well-intentioned praise can undermine the very qualities it aims to encourage.",
+        "intro_text": "Evaluative praise ('You're so smart') creates performance anxiety and fixed mindsets. Descriptive praise ('You kept trying different ways') builds resilience and intrinsic motivation. Well-intentioned praise can undermine the very qualities it aims to encourage.",
         "insight_card": {
-          "title": "Key Insight",
+          "title": "Effort Over Trait",
           "icon": "fa-solid fa-lightbulb",
-          "text": "Evaluative praise (\"You're so smart\") creates performance anxiety and fixed mindsets. Descriptive praise (\"You kept trying different ways\") builds resilience and intrinsic motivation. Well-intentioned praise can undermine the very qualities it aims to encourage."
+          "text": "When praise focuses on effort and strategy, children become willing to tackle challenges. When praise focuses on traits, children become afraid of failure."
         }
       },
       {
         "heading": "3. From Fixing to Accepting Feelings",
         "intro_text": "Parents instinctively try to eliminate negative emotions. The book reveals this as counterproductive—accepted feelings dissipate, while dismissed feelings intensify. The paradox: accepting that something is hard makes it easier to bear.",
         "insight_card": {
-          "title": "Key Insight",
+          "title": "Acceptance as Relief",
           "icon": "fa-solid fa-lightbulb",
-          "text": "Parents instinctively try to eliminate negative emotions. The book reveals this as counterproductive—accepted feelings dissipate, while dismissed feelings intensify. The paradox: accepting that something is hard makes it easier to bear."
+          "text": "Children cannot be reasoned out of emotions with which they are still struggling. Acceptance creates the psychological safety necessary for reasoning."
         }
       },
       {
         "heading": "4. Manage Environment Instead of Child",
         "intro_text": "Many conflicts stem from developmental mismatch or unrealistic expectations. Adjusting the environment (routines, physical space, timing) prevents problems rather than punishing inevitable failures.",
         "insight_card": {
-          "title": "Key Insight",
+          "title": "Prevention Over Punishment",
           "icon": "fa-solid fa-lightbulb",
-          "text": "Many conflicts stem from developmental mismatch or unrealistic expectations. Adjusting the environment (routines, physical space, timing) prevents problems rather than punishing inevitable failures."
+          "text": "When we design the child's day around their developmental capacities, we prevent most conflicts before they start."
         }
       }
     ],
     "actions": [
       {
         "title": "Acknowledge Feelings to Defuse Conflict",
-        "context": "Validate emotional experience to help children move through difficult feelings.",
+        "context": "Use when your child is emotionally activated. The goal is to validate emotional experience so they can move through difficult feelings toward problem-solving.",
         "steps": [
-          {
-            "bold_title": "PAUSE",
-            "description": "automatic responses (reassurance, logic)."
-          },
-          {
-            "bold_title": "NAME",
-            "description": "the emotion (\"That sounds frustrating\")."
-          },
-          {
-            "bold_title": "DESCRIBE",
-            "description": "the situation (\"You wanted the blue cup\")."
-          },
-          {
-            "bold_title": "LISTEN",
-            "description": "with simple sounds (\"Oh,\" \"Mmm\")."
-          },
-          {
-            "bold_title": "GIVE",
-            "description": "in Fantasy (\"I wish I could make it sunny\")."
-          },
-          {
-            "bold_title": "STOP",
-            "description": "before saying \"But...\""
-          },
-          {
-            "bold_title": "WAIT",
-            "description": "for the shift in tension."
-          }
+          {"bold_title": "Pause Automatic Responses", "description": "Resist reassurance, logic, and distraction. Receive the feeling first."},
+          {"bold_title": "Name the Emotion", "description": "Use precise language: 'That sounds frustrating.' Naming organizes the feeling."},
+          {"bold_title": "Describe the Situation", "description": "Show understanding: 'You wanted the blue cup.' This validates the experience."},
+          {"bold_title": "Listen With Minimal Responses", "description": "Use simple sounds: 'Oh,' 'Mmm.' These invite continued sharing without your interpretation."},
+          {"bold_title": "Give in Fantasy", "description": "When wishes can't be granted: 'I wish I could make it sunny.' This honors the longing."},
+          {"bold_title": "Stop Before \"But\"", "description": "Do not add logic or teaching yet. Wait for the emotional shift."},
+          {"bold_title": "Wait for the Shift", "description": "You will sense when they have moved toward openness—that's readiness for next steps."}
         ]
       },
       {
         "title": "Engage Cooperation Without Commands",
-        "context": "Reduce power struggles by inviting cooperation.",
+        "context": "Use when you need the child to cooperate with necessary tasks. The goal is cooperation that flows from respect.",
         "steps": [
-          {
-            "bold_title": "DESCRIBE",
-            "description": "what you see (\"I see a jacket on the floor\")."
-          },
-          {
-            "bold_title": "GIVE",
-            "description": "information (\"Food belongs in the kitchen\")."
-          },
-          {
-            "bold_title": "SAY",
-            "description": "it with one word (\"Shoes!\")."
-          },
-          {
-            "bold_title": "DESCRIBE",
-            "description": "your feelings (\"I feel frustrated...\")."
-          },
-          {
-            "bold_title": "OFFER",
-            "description": "a choice (\"Walk or hop?\")."
-          },
-          {
-            "bold_title": "WRITE",
-            "description": "a note (\"Remember your cleats\")."
-          },
-          {
-            "bold_title": "BE",
-            "description": "playful (make toys talk)."
-          }
+          {"bold_title": "Describe What You See", "description": "Use factual observation: 'I see a jacket on the floor.'"},
+          {"bold_title": "Give Information", "description": "Provide a reason: 'Food belongs in the kitchen.'"},
+          {"bold_title": "Use One Word", "description": "After initial instruction: 'Shoes!' This respects their intelligence."},
+          {"bold_title": "Describe Your Feelings", "description": "Share your stake: 'I feel frustrated...'"},
+          {"bold_title": "Offer a Choice", "description": "Provide autonomy: 'Walk or hop?'"},
+          {"bold_title": "Write a Note", "description": "If verbal fails: 'Remember your cleats.'"},
+          {"bold_title": "Use Playfulness", "description": "Make toys talk or use humor to lighten the moment."}
         ]
       },
       {
         "title": "Problem-Solve Recurring Conflicts",
-        "context": "Engage children in creating solutions to persistent problems.",
+        "context": "Use for persistent issues to engage children in creating solutions.",
         "steps": [
-          {
-            "bold_title": "WAIT",
-            "description": "for a calm moment (Step Zero)."
-          },
-          {
-            "bold_title": "ACKNOWLEDGE",
-            "description": "feelings extensively (Step One)."
-          },
-          {
-            "bold_title": "DESCRIBE",
-            "description": "the problem briefly (\"I worry about your sleep\")."
-          },
-          {
-            "bold_title": "INVITE",
-            "description": "ideas (\"What can we do?\")."
-          },
-          {
-            "bold_title": "WRITE",
-            "description": "down all ideas (even silly ones)."
-          },
-          {
-            "bold_title": "REVIEW",
-            "description": "and choose mutually agreeable solutions."
-          },
-          {
-            "bold_title": "TRY",
-            "description": "the plan and revisit if needed."
-          }
+          {"bold_title": "Wait for Calm", "description": "Never problem-solve during the heat of conflict. Choose Step Zero: calm time."},
+          {"bold_title": "Acknowledge Feelings", "description": "Start from their perspective to establish psychological safety."},
+          {"bold_title": "Describe the Problem", "description": "Be brief about your concern: 'I worry about your sleep.'"},
+          {"bold_title": "Invite Ideas", "description": "Ask: 'What can we do?' Invite their creativity."},
+          {"bold_title": "Write All Ideas", "description": "Include silly ones. No judgment at this stage."},
+          {"bold_title": "Review and Choose", "description": "Select solution(s) to try. Set a follow-up time: 'Let's revisit if needed.'"}
         ]
       },
       {
         "title": "Descriptive Praise",
-        "context": "Build intrinsic motivation.",
+        "context": "Use to build intrinsic motivation without creating dependence on external judgment.",
         "steps": [
-          {
-            "bold_title": "OBSERVE",
-            "description": "specific details."
-          },
-          {
-            "bold_title": "DESCRIBE",
-            "description": "what you see (\"You used three colors\")."
-          },
-          {
-            "bold_title": "DESCRIBE",
-            "description": "effort (\"You worked on that for 20 minutes\")."
-          },
-          {
-            "bold_title": "DESCRIBE",
-            "description": "progress (\"You're faster than last week\")."
-          },
-          {
-            "bold_title": "ASK",
-            "description": "questions (\"How did you figure that out?\")."
-          },
-          {
-            "bold_title": "STOP",
-            "description": "before \"Good job.\""
-          }
+          {"bold_title": "Observe Specific Details", "description": "Notice exactly: 'You used three colors.'"},
+          {"bold_title": "Describe What You See", "description": "Avoid judgment: 'You worked on that for 20 minutes.'"},
+          {"bold_title": "Describe Effort", "description": "Notice the work: 'You're faster than last week.'"},
+          {"bold_title": "Describe Progress", "description": "Compare only to their past self."},
+          {"bold_title": "Ask Questions", "description": "Invite reflection: 'How did you figure that out?'"},
+          {"bold_title": "Stop Before \"Good Job\"", "description": "Let them draw their own conclusions."}
         ]
       },
       {
         "title": "Take Action Without Insult",
-        "context": "Protect limits when words fail.",
+        "context": "Use when words have failed and you must protect safety or enforce limits.",
         "steps": [
-          {
-            "bold_title": "STATE",
-            "description": "limit (\"I can't let you hurt him\")."
-          },
-          {
-            "bold_title": "DESCRIBE",
-            "description": "feeling (\"I don't like seeing paint on the furniture\")."
-          },
-          {
-            "bold_title": "ACT",
-            "description": "(Remove child/object)."
-          },
-          {
-            "bold_title": "AVOID",
-            "description": "insults (\"You're so careless\")."
-          },
-          {
-            "bold_title": "ACKNOWLEDGE",
-            "description": "feelings (\"You're disappointed playing is over\")."
-          },
-          {
-            "bold_title": "FOLLOW THROUGH",
-            "description": "consistently."
-          },
-          {
-            "bold_title": "The \"But\" Eraser",
-            "description": "\"I know you're sad, BUT...\""
-          },
-          {
-            "bold_title": "Disguised Blame",
-            "description": "\"The problem is you never listen.\""
-          },
-          {
-            "bold_title": "Fake Choices",
-            "description": "\"Clean up or lose TV\" (That's a threat)."
-          },
-          {
-            "bold_title": "Rushing Validation",
-            "description": "Moving to problem-solving before feelings are heard."
-          }
+          {"bold_title": "State the Limit", "description": "Be clear: 'I can't let you hurt him.'"},
+          {"bold_title": "Describe Your Feeling", "description": "Share the impact: 'I don't like seeing paint on the furniture.'"},
+          {"bold_title": "Take Action", "description": "Remove child/object calmly."},
+          {"bold_title": "Avoid Insults", "description": "Do not say 'You're careless.' Focus on the action."},
+          {"bold_title": "Acknowledge Feelings", "description": "Show empathy: 'You're disappointed playing is over.'"},
+          {"bold_title": "Follow Through", "description": "Enforce consistently so the limit becomes real."}
         ]
       }
     ]

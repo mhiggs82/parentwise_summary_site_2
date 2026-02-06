@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "title": "How to Raise Kids Who Aren't Assholes: Science-Based Strategies for Better Parenting",
+    "subtitle": "Evidence-based approaches to raising kind, resilient, honest children through emotional literacy and induction",
+    "authors": [
+      "Melinda Wenner Moyer"
+    ],
+    "tags": [
+      "Evidence-Based Parenting",
+      "Character Development",
+      "Prosocial Behavior",
+      "Anti-Racist Parenting",
+      "Emotional Literacy",
+      "Growth Mindset"
+    ],
+    "category_code": "FOUND"
+  },
+  "hero": {
+    "badge": "Character Development",
+    "insights_count": 5,
+    "actions_count": 5,
+    "read_time": "13 min"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-circle-info",
+    "text": "Parents can intentionally shape children's character through evidence-based strategies emphasizing emotional literacy, perspective-taking, and intrinsic motivation. Raising kind, resilient, honest children requires deliberate effort grounded in developmental psychology rather than intuition."
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "From Colorblind to Anti-Racist Parenting",
+        "intro_text": "Moving beyond silence about race to active conversations about racism and privilege",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Ignoring race prevents racism is contradicted by research. When parents remain silent, children learn race is taboo and shame-based. Anti-racist parenting requires explicit, ongoing conversations about race, racism, and privilege starting in early childhood. The goal is raising culturally competent, anti-racist individuals who navigate a diverse world with empathy."
+        }
+      },
+      {
+        "heading": "Intrinsic Motivation vs. External Rewards",
+        "intro_text": "Understanding that external rewards undermine motivation for inherently satisfying activities",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "External rewards undermine intrinsic motivation for tasks that could be inherently satisfying. Fostering intrinsic motivation requires three key elements: autonomy (meaningful choices), mastery (appropriately challenging tasks), and purpose (connecting activities to larger values). This approach produces more durable engagement and genuine enthusiasm."
+        }
+      },
+      {
+        "heading": "Induction: Connecting Actions to Impact",
+        "intro_text": "Explaining how actions affect others to build genuine empathy and moral development",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Traditional discipline focuses on punishment without helping children understand why their behavior matters. Induction—explaining how actions affect others—is foundational for moral development. When parents help children see that hitting hurts both physically and emotionally, children develop genuine empathy rather than fear-based compliance."
+        }
+      },
+      {
+        "heading": "The Authoritative Parenting Balance",
+        "intro_text": "Combining high warmth with high expectations for optimal child development",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Authoritative parenting combines high warmth with high expectations, differing from authoritarian (high expectations, low warmth) or permissive (high warmth, low expectations) styles. This balance produces better academic performance, fewer risky behaviors, stronger relationships, and better emotional regulation."
+        }
+      },
+      {
+        "heading": "Explicit Values Transmission",
+        "intro_text": "Directly teaching children what matters through repeated conversations and discussions",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Children do not absorb values through osmosis; they require repeated, direct conversations about what matters. Whether discussing kindness, anti-racism, gender equality, or honesty, parents must explicitly name and explain values through media discussions, open-ended questions, and revisiting topics regularly."
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "Building Emotional Literacy",
+        "context": "Develop children's capacity to recognize, name, and regulate emotions—foundational for empathy",
+        "steps": [
+          {
+            "bold_title": "LABEL",
+            "description": "emotions constantly throughout daily routines ('You seem excited about the party'; 'I'm frustrated because I'm running late')"
+          },
+          {
+            "bold_title": "AVOID",
+            "description": "dismissing feelings (don't say 'Don't be sad' or 'Calm down') even when emotions seem disproportionate"
+          },
+          {
+            "bold_title": "VALIDATE",
+            "description": "without condoning ('I see you're angry, AND hitting isn't okay')"
+          },
+          {
+            "bold_title": "ASK",
+            "description": "open-ended questions about emotions ('How did that make you feel?'; 'Why do you think she was upset?')"
+          },
+          {
+            "bold_title": "HELP",
+            "description": "problem-solve ('What could you do next time you feel this way?')"
+          },
+          {
+            "bold_title": "MODEL",
+            "description": "emotional expression ('I'm frustrated about work, so I'm going to take a walk')"
+          },
+          {
+            "bold_title": "REVISIT",
+            "description": "emotions in stories/media ('How do you think that character felt?')"
+          }
+        ]
+      },
+      {
+        "title": "Applying Induction-Based Discipline",
+        "context": "Help children understand how their actions affect others, building intrinsic prosocial motivation",
+        "steps": [
+          {
+            "bold_title": "PAUSE",
+            "description": "and breathe before responding (prevents reactive punishment)"
+          },
+          {
+            "bold_title": "ACKNOWLEDGE",
+            "description": "the child's feelings ('I see you're frustrated')"
+          },
+          {
+            "bold_title": "DESCRIBE",
+            "description": "the behavior factually ('You hit your sister') without judgment"
+          },
+          {
+            "bold_title": "CONNECT",
+            "description": "to impact on others ('When you hit, it hurts her AND makes her sad')"
+          },
+          {
+            "bold_title": "ASK",
+            "description": "the child to consider the other person's perspective ('How do you think she felt?')"
+          },
+          {
+            "bold_title": "PROBLEM-SOLVE",
+            "description": "together ('What could you do differently next time?')"
+          },
+          {
+            "bold_title": "FOLLOW",
+            "description": "up later if the child is too upset to process in the moment"
+          }
+        ]
+      },
+      {
+        "title": "Fostering Growth Mindset",
+        "context": "Shape children's beliefs about ability and effort to increase resilience and motivation",
+        "steps": [
+          {
+            "bold_title": "PRAISE",
+            "description": "effort, not ability ('You worked hard on that'; NOT 'You're so smart')"
+          },
+          {
+            "bold_title": "USE",
+            "description": "'yet' ('You can't do it *yet*'; 'You haven't mastered that *yet*')"
+          },
+          {
+            "bold_title": "TIE",
+            "description": "success to effort ('Your practice paid off'; 'You figured it out by trying different strategies')"
+          },
+          {
+            "bold_title": "AVOID",
+            "description": "praising for easy tasks (signals that challenge = failure)"
+          },
+          {
+            "bold_title": "REFRAME",
+            "description": "failure as learning ('What did you learn from that?'; 'That's useful information for next time')"
+          },
+          {
+            "bold_title": "MODEL",
+            "description": "growth mindset ('I'm not good at this *yet*, but I'm going to practice')"
+          },
+          {
+            "bold_title": "CELEBRATE",
+            "description": "effort over outcomes ('I'm proud of how hard you tried')"
+          }
+        ]
+      },
+      {
+        "title": "Implementing Authoritative Parenting",
+        "context": "Balance warmth and boundaries to create secure, well-adjusted children",
+        "steps": [
+          {
+            "bold_title": "ESTABLISH",
+            "description": "clear, non-negotiable rules (safety, respect, honesty)"
+          },
+          {
+            "bold_title": "EXPLAIN",
+            "description": "the reasoning ('We don't hit because it hurts people')"
+          },
+          {
+            "bold_title": "LISTEN",
+            "description": "to the child's perspective ('Tell me what happened')"
+          },
+          {
+            "bold_title": "ACKNOWLEDGE",
+            "description": "their feelings even while maintaining the boundary"
+          },
+          {
+            "bold_title": "APPLY",
+            "description": "natural/logical consequences (related to the misbehavior, not punitive)"
+          },
+          {
+            "bold_title": "AVOID",
+            "description": "psychological control (shame, withdrawal of love, guilt-tripping)"
+          },
+          {
+            "bold_title": "RECONNECT",
+            "description": "after consequences ('I love you; I didn't like the behavior')"
+          },
+          {
+            "bold_title": "REVISIT",
+            "description": "rules periodically as children develop"
+          }
+        ]
+      },
+      {
+        "title": "Having Explicit Values Conversations",
+        "context": "Intentionally transmit values about kindness, anti-racism, anti-sexism, and integrity",
+        "steps": [
+          {
+            "bold_title": "START",
+            "description": "early (even young children notice race, gender, power dynamics)"
+          },
+          {
+            "bold_title": "USE",
+            "description": "media as a springboard (pause during TV/movies to discuss stereotypes)"
+          },
+          {
+            "bold_title": "ASK",
+            "description": "open-ended questions ('Why do you think that character did that?'; 'What do you notice about who has power in this story?')"
+          },
+          {
+            "bold_title": "SHARE",
+            "description": "your own values ('In our family, we believe...'; 'I think it's unfair when...')"
+          },
+          {
+            "bold_title": "AVOID",
+            "description": "lecturing (kids tune out; dialogue is more effective)"
+          },
+          {
+            "bold_title": "REVISIT",
+            "description": "topics repeatedly (values are internalized through repetition, not one conversation)"
+          },
+          {
+            "bold_title": "MODEL",
+            "description": "the values (children do as you do, not as you say)"
+          },
+          {
+            "bold_title": "ADMIT",
+            "description": "when you don't know ('That's a great question; let's figure it out together')"
+          }
+        ]
+      }
+    ]
+  }
+}

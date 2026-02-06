@@ -1,0 +1,234 @@
+{
+    "meta": {
+        "title": "Unplug Your Kids",
+        "subtitle": "A graduated roadmap to reducing screen time and reclaiming real-world connection.",
+        "authors": [
+            "Iovana Yao"
+        ],
+        "tags": [
+            "Digital Detox",
+            "Screen Time Management",
+            "Child Development",
+            "Behavioral Discipline"
+        ],
+        "category_code": "DIGI"
+    },
+    "hero": {
+        "badge": "DIGI Core Read",
+        "insights_count": 5,
+        "actions_count": 4,
+        "read_time": "5 min read"
+    },
+    "why_matters": {
+        "icon": "fa-solid fa-plug-circle-xmark",
+        "text": "Digital dependency is a biological habit fueled by dopamine, and breaking it requires a systematic, graduated approach rather than sudden removal. **Unplug Your Kids from the Digital World** advocates for a 'ramp-down' protocol that respects the child's brain chemistry while replacing screens with direct parental connection. By utilizing 'Love and Logic' principles—emphasizing empathy and natural consequences—you can transition your home from digital isolation to real-world engagement. This guide provides the tactical countdowns and behavioral frameworks needed to eliminate transition tantrums and protect the sleep sanctity of your child's bedroom."
+    },
+    "tabs": {
+        "analysis": [
+            {
+                "heading": "1. Graduated Ramp-Down",
+                "intro_text": "Sudden 'cold turkey' bans often lead to neuro-crashes and extreme behavioral pushback.",
+                "insight_card": {
+                    "title": "The 15-Minute Rule",
+                    "icon": "fa-solid fa-stairs",
+                    "text": "Because the brain is biologically adapted to the high-dopamine environment of screens, a sudden ban can trigger genuine physical and emotional distress. Yao suggests a graduated reduction of just 15 minutes per week. This 'slow-fade' protocol feels manageable to the child but adds up to hours of reclaimed real-world time over a single month, allowing the brain's baseline to reset without war."
+                }
+            },
+            {
+                "heading": "2. Pre-Loading Transitions",
+                "intro_text": "Most screen-time tantrums are caused by the shock of a sudden transition.",
+                "insight_card": {
+                    "title": "The Advance Warning Protocol",
+                    "icon": "fa-solid fa-hourglass-half",
+                    "text": "Demanding a child 'Turn it off NOW!' triggers an immediate fight-or-flight response. The brain needs time to disconnect from the digital 'flow state.' Using an 'Advance Warning Protocol'—with checkpoints at 60, 15, and 5 minutes—gives the child's nervous system a chance to prepare for the transition, significantly reducing the likelihood of a shutdown meltdown."
+                }
+            },
+            {
+                "heading": "3. Parental Presence Substitution",
+                "intro_text": "You cannot remove the 'Electronic Babysitter' without filling the resulting vacuum with human connection.",
+                "insight_card": {
+                    "title": "Jumpstarting Imagination",
+                    "icon": "fa-solid fa-person-rays",
+                    "text": "When a child's screen time is drastically reduced, they often experience a period of boredom-induced distress because they've 'lost the skill' of independent play. Parents must initially act as a 'Presence Substitute,' engaging in high-value analog activities (Legos, cooking, walking) alongside the child to jumpstart their dormant imagination and social skills."
+                }
+            },
+            {
+                "heading": "4. Empathy-Based Consequences",
+                "insight_card": {
+                    "title": "Natural Logic",
+                    "icon": "fa-solid fa-heart-circle-bolt",
+                    "text": "Using 'Love and Logic' means replacing angry punishments with empathetic natural consequences. Instead of 'You're grounded!' use: 'Oh man, that's sad. You used up all your digital energy today, so the iPad needs to rest and recharge tomorrow.' This frames the limit as an external reality rather than a parental attack, teaching the child personal responsibility rather than fear."
+                }
+            },
+            {
+                "heading": "5. The Eye Contact Anchor",
+                "intro_text": "Maintain the social priority by anchoring all digital use in real-world eye contact.",
+                "insight_card": {
+                    "title": "The Pause Rule",
+                    "icon": "fa-solid fa-eye",
+                    "text": "To prevent 'phubbing' and digital isolation, establish the non-negotiable anchor: 'If a parent speaks to you, the game must be paused and eye contact established.' This one simple habit keeps the human relationship at the top of the social hierarchy and prevents the child from becoming lost in the digital vortex at the expense of family connection."
+                }
+            }
+        ],
+        "actions": [
+            {
+                "title": "The Graduated Ramp-Down Protocol",
+                "context": "Reduce your child's screen-time dependency systematically to avoid the neuro-crash of a sudden ban.",
+                "steps": [
+                    {
+                        "bold_title": "CALCULATE the current daily average",
+                        "description": "Perform an honest audit for three days to find your starting point (e.g., 4 hours per day)."
+                    },
+                    {
+                        "bold_title": "ESTABLISH your long-term 'Diet' goal",
+                        "description": "Define exactly where you want to be in two months (e.g., 1 hour per day) so you have a finish line."
+                    },
+                    {
+                        "bold_title": "REDUCE the daily limit by 15 minutes",
+                        "description": "Start Week 1 by scaling back only 15 minutes per day to keep the change nearly imperceptible to the child."
+                    },
+                    {
+                        "bold_title": "EXPLAIN using 'Health' language",
+                        "description": "Frame the change as a health choice: 'We're going to give your eyes and brain 15 minutes more analog rest this week.'"
+                    },
+                    {
+                        "bold_title": "FILL the newly reclaimed window",
+                        "description": "Do not leave the time empty; immediately fill that 15 minutes with a high-value connection activity like a walk or LEGOs."
+                    },
+                    {
+                        "bold_title": "MAINTAIN the weekly cadence",
+                        "description": "Drop another 15 minutes every Monday until you hit your target goal. Consistency is the key to brain recalibration."
+                    },
+                    {
+                        "bold_title": "MONITOR for the 'Presence' shift",
+                        "description": "Notice when they start seeking out real-world activities without being prompted. **Success Check**: Your child starts their 'analog' activity voluntarily at the new earlier time."
+                    }
+                ]
+            },
+            {
+                "title": "The Tantrum-Free Transition",
+                "context": "Use strategic countdowns to help your child's brain disconnect from the digital 'flow state' without a meltdown.",
+                "steps": [
+                    {
+                        "bold_title": "START a physical visible timer",
+                        "description": "Use an analog timer or clock so the child can see the time disappearing rather than being surprised by a ring."
+                    },
+                    {
+                        "bold_title": "GIVE the 60-minute 'Big Picture' warning",
+                        "description": "Casually mention: 'You have one hour left. Think about what you want to achieve in the game today.'"
+                    },
+                    {
+                        "bold_title": "CHECK-IN at the 15-minute mark",
+                        "description": "Signal: '15 minutes left. It's time to start looking for a good place to save your progress or finish the round.'"
+                    },
+                    {
+                        "bold_title": "CREATE the '5-Minute Bridge'",
+                        "description": "Ask: '5 minutes left. What should we do together AFTER this—play outside or start a board game?'"
+                    },
+                    {
+                        "bold_title": "MAINTAIN a hard 'No-Negotiation' stance",
+                        "description": "When the timer rings, do not grant 'just one more minute.' If you give in, you train them to negotiate every time."
+                    },
+                    {
+                        "bold_title": "UTILIZE empathy for the 'Hard Stop'",
+                        "description": "If they struggle, say: 'I know it's hard to put down! It's so addictive. Since it's tough today, we'll try a shorter time tomorrow to practice.'"
+                    },
+                    {
+                        "bold_title": "IMMEDIATELY pivot to the bridge activity",
+                        "description": "Gently guide them physically toward the next analog event to break the digital spell. **Success Check**: The device is put down with a sigh rather than a scream."
+                    }
+                ]
+            },
+            {
+                "title": "Applying 'Love and Logic' Limits",
+                "context": "Use natural consequences and empathy to teach your child to regulate their own technology use.",
+                "steps": [
+                    {
+                        "bold_title": "DEFINE the 'Work before Play' rule",
+                        "description": "Establish the standard: 'Screens are for members of the family who finish their daily contributions first.'"
+                    },
+                    {
+                        "bold_title": "NOTICE the breach without initial anger",
+                        "description": "If they play before chores, don't yell. Simply observe the choice they made."
+                    },
+                    {
+                        "bold_title": "APPLY 'Sad Parent' empathy first",
+                        "description": "Say: 'Oh, man. That's a bummer. You chose to use up your screen energy before your jobs were finished today.'"
+                    },
+                    {
+                        "bold_title": "STATE the natural recovery consequence",
+                        "description": "Say: 'Because that exhausted your brain today, the iPad will have to rest for 24 hours to recharge its battery.'"
+                    },
+                    {
+                        "bold_title": "REFUSE to engage in an argument",
+                        "description": "When they beg or complain, just repeat the empathy: 'I know, it's so sad. I'm sure it'll be easier to remember tomorrow.'"
+                    },
+                    {
+                        "bold_title": "PROVIDE a path for restoration",
+                        "description": "Let them know: 'Once your chores are done and the iPad has rested, we'll get a fresh start.' "
+                    },
+                    {
+                        "bold_title": "REASSURE them of your steady love",
+                        "description": "Hug them and say: 'I love you too much to let you get addicted to that thing. You can handle this.' **Success Check**: Your child does their chores first the next day to 'protect their energy.'"
+                    }
+                ]
+            },
+            {
+                "title": "Executing the Bedroom Detox",
+                "context": "Protect your child's sleep hygiene and mental health by turning the bedroom into a 'Digital-Free Sanctuary.'",
+                "steps": [
+                    {
+                        "bold_title": "ANNOUNCE the 'Sleep Sanctuary' shift",
+                        "description": "Explain that the bedroom is for resting, reading, and growing—not for the stimulation of blue light."
+                    },
+                    {
+                        "bold_title": "REMOVE all screens permanently",
+                        "description": "Take out all televisions, gaming consoles, iPads, and smartphones from the bedroom environment."
+                    },
+                    {
+                        "bold_title": "CREATE an inviting 'Unplugged' nook",
+                        "description": "Replace the tech with high-quality physical books, a comfortable chair, and a soft reading lamp."
+                    },
+                    {
+                        "bold_title": "SETUP the central kitchen charger",
+                        "description": "Establish a rule that all mobile devices must be 'checked in' to the kitchen at least one hour before bedtime."
+                    },
+                    {
+                        "bold_title": "LEAD with your own bedroom detox",
+                        "description": "Remove your own phone and TV from your bedroom to show that sleep hygiene is a whole-family value."
+                    },
+                    {
+                        "bold_title": "INTRODUCE analog sleep signals",
+                        "description": "Use an old-fashioned alarm clock and a designated notebook for 'brain dumping' thoughts before sleep."
+                    },
+                    {
+                        "bold_title": "ENFORCE the sanctuary boundary strictly",
+                        "description": "Even on weekends, keep the devices out of the sleep space to maintain the neural association with rest. **Success Check**: Your child falls asleep significantly faster and reports more vivid dreams."
+                    }
+                ]
+            }
+        ],
+        "pitfalls": [
+            {
+                "title": "The 'One More Minute' Trap",
+                "icon": "fa-solid fa-clock-rotate-left",
+                "text": "Giving in to 'Just one more game!' This immediately tells the child that your 'Time's Up' signal is actually the start of a negotiation, not a boundary."
+            },
+            {
+                "title": "The 'Angry Snatch' Habit",
+                "icon": "fa-solid fa-bolt",
+                "text": "Yanking the phone or tablet out of their hands in a moment of frustration. This triggers trauma and a deep sense of powerlessness, resulting in a defensive 'fight' response."
+            },
+            {
+                "title": "The Leisure Vacuum",
+                "icon": "fa-solid fa-ghost",
+                "text": "Taking away screens but providing zero substitute for connection. If you don't engage with the bored child, they will eventually find destructive ways to seek your attention."
+            },
+            {
+                "title": "Weekend Inconsistency",
+                "icon": "fa-solid fa-calendar-xmark",
+                "text": "Enforcing a 15-minute reduction on weeknights but letting them binge for 8 hours on Saturday. The brain's dopamine baseline cannot reset if you 'overdose' once a week."
+            }
+        ]
+    }
+}

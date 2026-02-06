@@ -1,202 +1,105 @@
 {
   "meta": {
     "title": "Respectful Parents, Respectful Kids",
-    "subtitle": "A practical guide to Nonviolent Communication",
-    "authors": [
-      "Sura Hart",
-      "Victoria Kindle Hodson"
-    ],
-    "tags": [
-      "Nonviolent Communication",
-      "NVC",
-      "parenting",
-      "conflict resolution",
-      "family culture",
-      "mutual respect",
-      "No-Fault Zone"
-    ],
+    "subtitle": "Create a democratic family culture where conflicts are solved through co-operation, not coercion, using NVC and the No-Fault Zone.",
+    "authors": ["Sura Hart", "Victoria Kindle Hodson"],
+    "tags": ["Nonviolent Communication", "NVC", "parenting", "conflict resolution", "family culture", "mutual respect", "No-Fault Zone"],
     "category_code": "COMM"
   },
   "hero": {
     "badge": "COMM Core Read",
     "insights_count": 4,
     "actions_count": 4,
-    "read_time": "5 min read"
+    "read_time": "13 min read"
   },
   "why_matters": {
     "icon": "fa-solid fa-heart",
-    "text": "**Thesis**: Family conflict arises not from bad children or bad parents, but from a \"power-over\" mindset that pits needs against each other. By shifting to a \"power-with\" framework (The No-Fault Zone), families can resolve conflicts by ensuring everyone's needs are identified and valued equally.\n\n**Unique Contribution**: Hart and Hodson provide a structured \"operating system\" for the family based on Nonviolent Communication. Their concept of the \"No-Fault Zone\" helps meaningful visual and spatial anchor for conflict resolution. They emphasize that respect is a two-way street: parents cannot demand respect without modeling it.\n\n**Target Outcome**: A democratic family culture characterized by emotional safety, where conflicts are solved through \"co-operation\" (operating together) rather than coercion or compromise."
+    "text": "Family conflict arises not from bad children or bad parents, but from a 'power-over' mindset. By shifting to 'power-with' (The No-Fault Zone), families can resolve conflicts by ensuring everyone's needs are identified and valued equally, creating a culture of democratic cooperation."
   },
   "tabs": {
     "analysis": [
       {
         "heading": "1. The No-Fault Zone",
-        "intro_text": "This is both a physical map (provided in the book) and a conceptual space. It is a place where no blame exists. In this zone, we don't talk about who did what wrong; we talk about how we are feeling and what we need. Entering the No-Fault Zone signals a ceasefire and a shift to problem-solving.",
+        "intro_text": "Both a physical map and a conceptual space where no blame exists. In this zone, we don't talk about who did what wrong; we talk about how we are feeling and what we need. Entering the zone signals a ceasefire and a shift to problem-solving.",
         "insight_card": {
-          "title": "Key Insight",
+          "title": "Blame-Free Problem Space",
           "icon": "fa-solid fa-lightbulb",
-          "text": "This is both a physical map (provided in the book) and a conceptual space. It is a place where no blame exists. In this zone, we don't talk about who did what wrong; we talk about how we are feeling and what we need. Entering the No-Fault Zone signals a ceasefire and a shift to problem-solving."
+          "text": "When blame is removed, people relax and genuine problem-solving becomes possible."
         }
       },
       {
         "heading": "2. The 7 Keys to Cooperation",
-        "intro_text": "1.  **Co-operation**: Doing things *with*, not *to*, others.\n2.  **Respect**: Seeing the other person (literally \"re-spect\" / look again).\n3.  **Safety**: Emotional safety is the prerequisite for cooperation. Use \"Giraffe ears\" (listening for needs).\n4.  **Empathy**: Being present with feelings.\n5.  **Needs**: The universal motivators of all behavior.\n6.  **Understanding**: Seeing the positive intent behind \"negative\" behavior.\n7.  **Contribution**: Children's innate desire to enrich life.",
+        "intro_text": "Co-operation (doing things WITH not TO others), Respect (seeing the person), Safety (emotional safety first), Empathy (being present with feelings), Needs (universal motivators), Understanding (seeing positive intent), Contribution (children's desire to enrich life). These create the foundation for democratic family culture.",
         "insight_card": {
-          "title": "Key Insight",
+          "title": "Seven Pillars",
           "icon": "fa-solid fa-lightbulb",
-          "text": "1.  **Co-operation**: Doing things *with*, not *to*, others.\n2.  **Respect**: Seeing the other person (literally \"re-spect\" / look again).\n3.  **Safety**: Emotional safety is the prerequisite for cooperation. Use \"Giraffe ears\" (listening for needs).\n4.  **Empathy**: Being present with feelings.\n5.  **Needs**: The universal motivators of all behavior.\n6.  **Understanding**: Seeing the positive intent behind \"negative\" behavior.\n7.  **Contribution**: Children's innate desire to enrich life."
+          "text": "When these seven elements are present, cooperation flows naturally without coercion."
         }
       },
       {
         "heading": "3. Needs vs. Strategies (The Crux)",
-        "intro_text": "Most fights are about strategies (\"I want the iPad,\" \"You must do homework\"). The book teaches families to drop down to the Needs level (\"I need fun,\" \"I need you to learn\"). At the level of Needs, there is no conflict. We can always find a strategy that meets the need for Fun and Learning if we stop fighting over the iPad.",
+        "intro_text": "Most fights are about strategies ('I want the iPad,' 'You must do homework'). At the Needs level ('I need fun,' 'I need you to learn'), there is no conflict. We can always find a strategy that meets both needs.",
         "insight_card": {
-          "title": "Key Insight",
+          "title": "The Shared Need",
           "icon": "fa-solid fa-lightbulb",
-          "text": "Most fights are about strategies (\"I want the iPad,\" \"You must do homework\"). The book teaches families to drop down to the Needs level (\"I need fun,\" \"I need you to learn\"). At the level of Needs, there is no conflict. We can always find a strategy that meets the need for Fun and Learning if we stop fighting over the iPad."
+          "text": "At the level of needs, parents and children are allies, not adversaries."
         }
       },
       {
         "heading": "4. Giraffe Language",
-        "intro_text": "Using the metaphor of the Giraffe (the land animal with the largest heart), the authors teach NVC: observing without judging, identifying feelings, connecting to needs, and making requests. This \"language of the heart\" replaces \"Jackal language\" (blame, shame, labels).",
+        "intro_text": "Using the metaphor of the Giraffe (the land animal with the largest heart), the authors teach NVC: observing without judging, identifying feelings, connecting to needs, and making requests. This 'language of the heart' replaces 'Jackal language' (blame, shame, labels).",
         "insight_card": {
-          "title": "Key Insight",
+          "title": "Heart-Centered Speech",
           "icon": "fa-solid fa-lightbulb",
-          "text": "Using the metaphor of the Giraffe (the land animal with the largest heart), the authors teach NVC: observing without judging, identifying feelings, connecting to needs, and making requests. This \"language of the heart\" replaces \"Jackal language\" (blame, shame, labels)."
+          "text": "When we speak from the heart about our true needs and feelings, people listen instead of defending."
         }
       }
     ],
     "actions": [
       {
         "title": "Entering the No-Fault Zone",
-        "context": "Solve a conflict when tensions are high.",
+        "context": "Use when tensions are high to shift from blame to problem-solving.",
         "steps": [
-          {
-            "bold_title": "Signal",
-            "description": "One person calls for the \"No-Fault Zone.\""
-          },
-          {
-            "bold_title": "Move",
-            "description": "Physically go to the designated spot."
-          },
-          {
-            "bold_title": "Rules",
-            "description": "The rule of the Zone is \"No Blame, No Shame.\""
-          },
-          {
-            "bold_title": "Step 1 (Vent)",
-            "description": "Each person gets uninterrupted time to speak. (The other must listen/mirror)."
-          },
-          {
-            "bold_title": "Step 2 (Feelings/Needs)",
-            "description": "Translate the vent into \"I feel X because I need Y.\""
-          },
-          {
-            "bold_title": "Step 3 (Solution)",
-            "description": "Brainstorm strategies that could meet *both* sets of needs."
-          }
+          {"bold_title": "Signal the Zone", "description": "One person calls for the 'No-Fault Zone.' This is a mutual agreement to stop blaming."},
+          {"bold_title": "Move Physically", "description": "Go to the designated spot (a rug, special chairs). Physical movement reinforces the mindset shift."},
+          {"bold_title": "State the Rules", "description": "'In this zone, we don't blame. We talk about how we're feeling and what we need.'"},
+          {"bold_title": "Step 1 (Vent)", "description": "Each person gets uninterrupted time to speak. The other listens and mirrors: 'So you're feeling...because you need...'"},
+          {"bold_title": "Step 2 (Feelings/Needs)", "description": "Translate: 'I feel X because I need Y.'"},
+          {"bold_title": "Step 3 (Solution)", "description": "Brainstorm strategies that could meet BOTH sets of needs. No 'winning'—both need to be happy."}
         ]
       },
       {
         "title": "The \"Do Over\" (Rewind)",
-        "context": "Fix a sloppy/hurtful interaction immediately.",
+        "context": "Use to fix a sloppy or hurtful interaction immediately, modeling repair.",
         "steps": [
-          {
-            "bold_title": "Notice",
-            "description": "You snapped or blamed (\"You're so lazy!\")."
-          },
-          {
-            "bold_title": "Stop",
-            "description": "\"Wait, cut. I didn't like how I said that.\""
-          },
-          {
-            "bold_title": "Rewind",
-            "description": "\"Can I have a do-over?\""
-          },
-          {
-            "bold_title": "Re-state",
-            "description": "Try again in Giraffe language. \"I'm feeling frustrated about the messy room because I need order. Would you help me clean it?\""
-          },
-          {
-            "bold_title": "Accept",
-            "description": "The child can also ask for a do-over if they speak disrespectfully."
-          }
+          {"bold_title": "Notice", "description": "You snapped or blamed ('You're so lazy!')."},
+          {"bold_title": "Stop", "description": "'Wait, cut. I didn't like how I said that.'"},
+          {"bold_title": "Ask for a Do-Over", "description": "'Can I have a do-over?'"},
+          {"bold_title": "Re-state in Giraffe Language", "description": "'I'm feeling frustrated about the messy room because I need order. Would you help me clean it?'"},
+          {"bold_title": "Accept Do-Overs from Child Too", "description": "If they speak disrespectfully, they can ask for a do-over. Model that everyone gets second chances."}
         ]
       },
       {
         "title": "Decoding Behavior \"Guess\"",
-        "context": "Handle a child's \"acting out\" with empathy.",
+        "context": "Use when a child is acting out to respond with empathy instead of punishment.",
         "steps": [
-          {
-            "bold_title": "Observe",
-            "description": "Child is screaming/hitting."
-          },
-          {
-            "bold_title": "Don't React",
-            "description": "Don't yell back."
-          },
-          {
-            "bold_title": "Put on Giraffe Ears",
-            "description": "Ask yourself, \"What is the unmet need here?\""
-          },
-          {
-            "bold_title": "Guess Aloud",
-            "description": "\"Are you feeling angry because you need to be heard?\""
-          },
-          {
-            "bold_title": "Guess Again",
-            "description": "\"Are you sad because you need comfort?\""
-          },
-          {
-            "bold_title": "Verify",
-            "description": "Keep guessing until the child softens/nods. Connection is established."
-          }
+          {"bold_title": "Observe", "description": "Child is screaming, hitting, or withdrawn."},
+          {"bold_title": "Don't React", "description": "Do not yell back or punish. Pause."},
+          {"bold_title": "Put on Giraffe Ears", "description": "Ask yourself: 'What is the unmet need here?'"},
+          {"bold_title": "Guess Aloud", "description": "'Are you feeling angry because you need to be heard?'"},
+          {"bold_title": "Guess Again", "description": "'Are you sad because you need comfort?' Keep guessing until the child softens or nods. Connection is established."}
         ]
       },
       {
         "title": "The Family Meeting",
-        "context": "Proactive relationship building.",
+        "context": "Use weekly to build relationship proactively and practice these skills when NOT in crisis.",
         "steps": [
-          {
-            "bold_title": "Schedule",
-            "description": "Same time weekly."
-          },
-          {
-            "bold_title": "Agenda",
-            "description": "*   **Appreciations**: Everyone shares something they liked about the week."
-          },
-          {
-            "bold_title": "Old Business",
-            "description": "Check in on previous solutions."
-          },
-          {
-            "bold_title": "New Business",
-            "description": "Raise issues (using NVC format)."
-          },
-          {
-            "bold_title": "Fun",
-            "description": "End with a game or treat."
-          },
-          {
-            "bold_title": "Consensus",
-            "description": "Decisions are made only when everyone agrees (no voting/majority rules, as that leaves someone with unmet needs)."
-          },
-          {
-            "bold_title": "Using NVC as a Weapon",
-            "description": "\"I feel you are being a jerk\" (That's a judgment, not a feeling)."
-          },
-          {
-            "bold_title": "The \"But\" Trap",
-            "description": "\"I hear you need fun, *but* you have to do homework.\" (Use \"AND\" instead)."
-          },
-          {
-            "bold_title": "Skipping Connection",
-            "description": "Jumping straight to fixing the problem before the person feels heard."
-          },
-          {
-            "bold_title": "Assuming \"One Right Way\"",
-            "description": "Thinking your strategy is the only one. Be open to the child's creative ideas."
-          }
+          {"bold_title": "Schedule", "description": "Same time weekly. Consistency signals importance."},
+          {"bold_title": "Appreciations", "description": "Everyone shares something they liked about the week. This builds goodwill."},
+          {"bold_title": "Old Business", "description": "Check in on previous solutions: 'Is that working?'"},
+          {"bold_title": "New Business", "description": "Raise issues using NVC format: 'I feel... because I need...'"},
+          {"bold_title": "Fun", "description": "End with a game or treat. Make it something kids look forward to."},
+          {"bold_title": "Consensus", "description": "Decisions are made only when everyone agrees (no voting/majority, as that leaves someone with unmet needs)."}
         ]
       }
     ]

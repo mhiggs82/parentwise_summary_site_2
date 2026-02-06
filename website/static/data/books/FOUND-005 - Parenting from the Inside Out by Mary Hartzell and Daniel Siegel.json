@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "title": "Parenting from the Inside Out: How a Deeper Self-Understanding Can Help You Raise Children Who Thrive",
+    "subtitle": "How self-reflection and understanding your own history predict your child's secure attachment.",
+    "authors": [
+      "Daniel J. Siegel",
+      "Mary Hartzell"
+    ],
+    "tags": [
+      "Interpersonal Neurobiology",
+      "Attachment Theory",
+      "Self-Reflection",
+      "Mindsight",
+      "Intergenerational Healing"
+    ],
+    "category_code": "FOUND"
+  },
+  "hero": {
+    "badge": "FOUND Core Read",
+    "insights_count": 5,
+    "actions_count": 5,
+    "read_time": "10 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-lightbulb",
+    "text": "The best predictor of a child's secure attachment is not what happened to parents in childhood, but how parents have made sense of those experiences. Self-understanding liberates parents from unconsciously repeating harmful patterns and enables them to provide the emotional foundation children need to thrive. This work bridges interpersonal neurobiology with attachment research, demonstrating that parental self-reflection physically reshapes brain structure and relational capacity. Unlike behavioral parenting guides, it positions internal transformation as the primary intervention, supported by decades of cross-cultural research on over 10,000 parent-child dyads. Parents who engage in reflective self-understanding will develop mindsight (perceiving their own and their children's minds), response flexibility, and the capacity to provide secure attachment regardless of their own childhood experiences. This creates intergenerational healing and optimal developmental conditions for children's emotional intelligence, resilience, and social competence."
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. From Determinism to Possibility",
+        "intro_text": "Traumatic childhoods do not doomed parenting capacity. Reflective processing of experiences matters more than the experiences themselves. Change is possible regardless of past adversity.",
+        "insight_card": {
+          "title": "Earned Security",
+          "icon": "fa-solid fa-shield-heart",
+          "text": "Parents who make sense of their difficult histories raise securely attached children just as effectively as those with positive histories."
+        }
+      },
+      {
+        "heading": "2. Implicit Memory and Reactivity",
+        "intro_text": "Unprocessed past experiences are encoded as implicit memory, driving unconscious reactions. When parents overreact, they are often responding to ghosts from their own past rather than the present child.",
+        "insight_card": {
+          "title": "Diagnostic Question",
+          "icon": "fa-solid fa-ghost",
+          "text": "In moments of high intensity, ask: 'Is this about my child's behavior or my own history?'"
+        }
+      },
+      {
+        "heading": "3. Narrative Coherence",
+        "intro_text": "Coherent life stories integrate logic and emotion. A balanced, responsible story of your past predicts secure child attachment across across generations.",
+        "insight_card": {
+          "title": "Integration",
+          "icon": "fa-solid fa-puzzle-piece",
+          "text": "A coherent life narrative integrates the left-brain's facts with the right-brain's emotions."
+        }
+      },
+      {
+        "heading": "4. Mindsight and Mental Attunement",
+        "intro_text": "Mindsight is the capacity to perceive mental states (thoughts, feelings, intentions) in yourself and others. It allows parents to see the mind behind the behavior.",
+        "insight_card": {
+          "title": "Feeling Felt",
+          "icon": "fa-solid fa-heart",
+          "text": "Attuning to your child's internal experience allows them to experience the vital state of 'feeling felt'."
+        }
+      },
+      {
+        "heading": "5. Response Flexibility and the High Road",
+        "intro_text": "Response flexibility is the ability to pause and choose a response rather than reacting automatically. High-road processing involves reflection rather than primal emotion.",
+        "insight_card": {
+          "title": "The High Road",
+          "icon": "fa-solid fa-bridge",
+          "text": "Response flexibility models self-regulation for children and prevents shame-inducing overreactions."
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "Identifying Implicit Memory Triggers",
+        "context": "Recognize when ghosts of the past are driving your current parenting reactions.",
+        "steps": [
+          {
+            "bold_title": "Notice intensity",
+            "description": "Pay attention when an emotional reaction feels much larger than the situation warrants."
+          },
+          {
+            "bold_title": "Identify somatic signals",
+            "description": "Notice physical tension, racing heart, or the urge to flee or attack."
+          },
+          {
+            "bold_title": "Practice observational distance",
+            "description": "Verbally acknowledge: 'This is my history talking, not my child's intent.'"
+          }
+        ]
+      },
+      {
+        "title": "Building Narrative Coherence",
+        "context": "Integrate fragmented life experiences into a meaningful life story.",
+        "steps": [
+          {
+            "bold_title": "Create a timeline",
+            "description": "Map significant childhood experiences, including both the facts and the feelings associated with them."
+          },
+          {
+            "bold_title": "Look for balanced perspectives",
+            "description": "Describe caregivers' both positive and negative attributes without idealizing or dehumanizing."
+          },
+          {
+            "bold_title": "Take responsibility",
+            "description": "Focus on how you interpret and carry your story today, taking ownership of your perspective."
+          }
+        ]
+      },
+      {
+        "title": "Developing Mindsight",
+        "context": "Cultivate the ability to see the mind beneath the behavior.",
+        "steps": [
+          {
+            "bold_title": "Name your own states",
+            "description": "Regularly label your own emotions aloud: 'I'm feeling frustrated and I need a breath.'"
+          },
+          {
+            "bold_title": "Offer hypotheses",
+            "description": "Tentatively name child's possible feelings: 'I wonder if you're feeling scared right now?'"
+          },
+          {
+            "bold_title": "Distinguish behavior from intent",
+            "description": "Focus on what the child is trying to feel or meet through their actions."
+          }
+        ]
+      },
+      {
+        "title": "The STOP Technique (Flexibility)",
+        "context": "Create a space between stimulus and response during high-stress moments.",
+        "steps": [
+          {
+            "bold_title": "S-T-O-P",
+            "description": "Stop, Take a breath, Observe sensations, Proceed mindfully."
+          },
+          {
+            "bold_title": "Assess conditions",
+            "description": "Notice if hunger, fatigue, or stress is lowering your 'High Road' capacity."
+          },
+          {
+            "bold_title": "Repare failures",
+            "description": "When you lose flexibility and overreact, model accountability by repairing with your child."
+          }
+        ]
+      },
+      {
+        "title": "Rupture and Repair",
+        "context": "Turn inevitable conflicts into opportunities for deeper trust.",
+        "steps": [
+          {
+            "bold_title": "Self-Regulate first",
+            "description": "You cannot repair authentically while you are still dysregulated."
+          },
+          {
+            "bold_title": "Take full responsibility",
+            "description": "Acknowledge the rupture clearly: 'I yelled, and that was scary for you.'"
+          },
+          {
+            "bold_title": "Allow processing time",
+            "description": "Re-establish safety before demanding the relationship go back to normal."
+          }
+        ]
+      }
+    ]
+  }
+}
