@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "title": "Social Media Wellness",
+    "subtitle": "Helping tweens and teens thrive in an unbalanced digital world.",
+    "authors": [
+      "Ana Homayoun"
+    ],
+    "tags": [
+      "Social Media",
+      "Teen Wellness",
+      "Self-Regulation",
+      "Mental Health"
+    ],
+    "category_code": "DIGI"
+  },
+  "hero": {
+    "badge": "DIGI Core Read",
+    "insights_count": 5,
+    "actions_count": 4,
+    "read_time": "5 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-heart-pulse",
+    "text": "Social media is the new landscape for adolescent social and emotional development, and wellness requires moving beyond fear-based control toward intentional self-regulation. **Social Media Wellness** introduces the 'Three Ss' framework—Socialization, Self-Regulation, and Safety—to help teens evaluate their digital habits through the lens of their own personal goals. By mastering 'monotasking' and curating more positive digital feeds, teens can reduce the 'always-on' exhaustion that fuels anxiety. This guide empowers parents to collaborate with their children to build an internal compass for digital health that persists even when supervision is absent."
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. The Three Ss Framework",
+        "intro_text": "Evaluate any app or digital behavior by looking at three core human needs.",
+        "insight_card": {
+          "title": "Socialization, Self-Regulation, Safety",
+          "icon": "fa-solid fa-triangles-lines",
+          "text": "Every digital choice should be filtered through the 'Three Ss': 1) Socialization: Does this build healthy connection or fuel toxic comparison? 2) Self-Regulation: Can I stop using this, or does it disrupt my sleep and focus? 3) Safety: Is my privacy and physical well-being protected? This framework moves the conversation away from 'Is this app bad?' toward 'How is this app affecting my well-being?'"
+        }
+      },
+      {
+        "heading": "2. Compartmentalized Monotasking",
+        "intro_text": "Multitasking is a myth that increases anxiety and erodes academic performance.",
+        "insight_card": {
+          "title": "The Power of One",
+          "icon": "fa-solid fa-bullseye",
+          "text": "The feeling of constant digital overwhelm is caused by fragmented attention. Homayoun advocates for 'Compartmentalization'—the practice of doing exactly one thing at a time. By putting the phone in another room during homework (monotasking) and dedicating specific windows for social media (compartmentalizing), teens can cut their work time in half and significantly lower their baseline stress levels."
+        }
+      },
+      {
+        "heading": "3. Clusters of Connection",
+        "intro_text": "Digital resilience is built by diversifying a teen's real-world social circles.",
+        "insight_card": {
+          "title": "Social Diversification",
+          "icon": "fa-solid fa-circles-intersect",
+          "text": "Teen vulnerability increases when their entire social life exists in a single group (e.g., school friends). If a drama 'explodes' in that group online, they have no safe harbor. Encouraging 'clusters' of connection—like separate circles for sports, art class, and family—ensures a teen has diverse places to belong, making them far more resilient to digital social storms."
+        }
+      },
+      {
+        "heading": "4. The Values Anchor",
+        "intro_text": "Teens ignore external rules but will follow digital habits that support their own internal goals.",
+        "insight_card": {
+          "title": "Goal-Directed Habits",
+          "icon": "fa-solid fa-anchor",
+          "text": "Instead of saying 'Don't use Snapchat,' help a teen identify their own core values (e.g., Health, Success, Fun). If a teen wants to play high-level soccer, use that value to anchor their digital choices. 'How does staying up until 2 AM scrolling support your value of physical performance?' When the motivation for screen limits comes from their own 'Why,' self-regulation becomes much easier."
+        }
+      },
+      {
+        "heading": "5. From Offline to One World",
+        "insight_card": {
+          "title": "Seamless Reality",
+          "icon": "fa-solid fa-arrows-spin",
+          "text": "Adults often speak of 'online' and 'offline' as separate lives, but for modern teens, it is one seamless world. Digital wellness isn't about escaping technology; it's about learning to be a healthy human *inside* of it. Our parenting must focus on the eternal human skills—kindness, focus, and integrity—rather than just trying to keep up with the newest app features."
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "The Values Alignment Conversation",
+        "context": "Shift your teen's motivation for screen limits from external compliance to internal goal pursuit.",
+        "steps": [
+          {
+            "bold_title": "FACILITATE a personal values audit",
+            "description": "Have your teen circle their top 5 values from a list (e.g., Friendship, Success, Health, Adventure)."
+          },
+          {
+            "bold_title": "REVIEW their literal screen time stats",
+            "description": "Look at the data together on their phone to see where their attention is actually going each week."
+          },
+          {
+            "bold_title": "PROMPT with the 'Alignment' question",
+            "description": "Ask without judgment: 'Does spending 4 hours on TikTok support your value of [Value X]?'"
+          },
+          {
+            "bold_title": "INVITE them to design a pivot",
+            "description": "Ask: 'If we wanted your time to match your goals better, what's one small change YOU would make?'"
+          },
+          {
+            "bold_title": "IDENTIFY 'Value-Adding' digital use",
+            "description": "Highlight apps that *do* align with their goals, like a workout app or a creative tutorial."
+          },
+          {
+            "bold_title": "AGREE on a 'High-Value' trial week",
+            "description": "Support them in trying a new limit based on their own value for 7 days."
+          },
+          {
+            "bold_title": "DEBRIEF the feeling of alignment",
+            "description": "Ask after a week: 'Do you feel more or less stressed when your time matches your goals?' **Success Check**: Your teen says 'I'm getting off my phone because I want to get to the gym early.'"
+          }
+        ]
+      },
+      {
+        "title": "Implementing the Sleep Rescue Plan",
+        "context": "Systematically eliminate the #1 source of teen anxiety and academic struggle: digital sleep deprivation.",
+        "steps": [
+          {
+            "bold_title": "ESTABLISH a sleep baseline",
+            "description": "Have your teen track their actual hours of sleep for three days to see the reality of the deficit."
+          },
+          {
+            "bold_title": "EXPLAIN the 'Brain Cleaning' science",
+            "description": "Teach them about glial cells: 'During deep sleep, your brain literally washes away toxins that make you feel irritable.'"
+          },
+          {
+            "bold_title": "MANDATE the communal charging station",
+            "description": "Require all devices (including parent devices) to be plugged in in a common area (like the kitchen) at a set time."
+          },
+          {
+            "bold_title": "DECLUTTER the sleep environment",
+            "description": "Remove laptops and tablets from the bedroom entirely. The bed should only be for sleeping, not scrolling."
+          },
+          {
+            "bold_title": "INTRODUCE a 30-minute 'Wind-Down' window",
+            "description": "Swap the screen for a book, music, or a shower 30 minutes before the head hits the pillow."
+          },
+          {
+            "bold_title": "PURCHASE a dedicated alarm clock",
+            "description": "Buy a cheap, analog alarm clock so they don't have the excuse of 'needing my phone for the alarm.'"
+          },
+          {
+            "bold_title": "MONITOR for the 'Fragility' shift",
+            "description": "Notice if their mood and resilience improve after 3 nights of 9-hour sleep. **Success Check**: You see an increase in your teen's morning energy and a decrease in afternoon 'meltdowns.'"
+          }
+        ]
+      },
+      {
+        "title": "Executing Compartmentalized Homework",
+        "context": "Help your teen cut homework time and stress in half by using the 'Pomodoro' monotasking technique.",
+        "steps": [
+          {
+            "bold_title": "CREATE a distraction-free 'Launchpad'",
+            "description": "Have them put their phone in a separate room and close all browser tabs that aren't for the specific task."
+          },
+          {
+            "bold_title": "USE a physical timer (no phone)",
+            "description": "Set a timer for 25 minutes of 'Intense Monotasking'—no checking emails or messages during this time."
+          },
+          {
+            "bold_title": "WORK on exactly one single task",
+            "description": "If it's math, it's ONLY math. No switching back and forth between subjects."
+          },
+          {
+            "bold_title": "TAKE a 'Screen-Free' break",
+            "description": "After 25 mins, take a 5-minute break to stretch, get water, or snack—but keep the phone away."
+          },
+          {
+            "bold_title": "REPEAT for four focus cycles",
+            "description": "Perform four rotations of 25 on / 5 off to maximize the brain's focus endurance."
+          },
+          {
+            "bold_title": "REWARD with a longer digital break",
+            "description": "After the fourth cycle, allow a 20-minute break where they can check all their socials as a reward."
+          },
+          {
+            "bold_title": "AUDIT the time saved at the end",
+            "description": "Ask: 'Did that homework go faster without the phone sitting next to you?' **Success Check**: Your teen finishes their work an hour earlier than usual and goes to bed calm."
+          }
+        ]
+      },
+      {
+        "title": "Social Media Spring Cleaning",
+        "context": "Actively curate your digital environment to reduce feelings of inadequacy and comparison.",
+        "steps": [
+          {
+            "bold_title": "SET aside a shared 15-minute 'Scrub'",
+            "description": "Sit with your teen and go through their 'Following' lists on the apps they use most frequently."
+          },
+          {
+            "bold_title": "APPLY the 'Wellness Check' question",
+            "description": "Scroll past an account and ask: 'How does this person's content actually make me feel in my body?'"
+          },
+          {
+            "bold_title": "IDENTIFY 'FOMO' or 'Comparison' triggers",
+            "description": "Notice accounts that spark jealousy, boredom, or a sense of 'not being enough.'"
+          },
+          {
+            "bold_title": "UNFOLLOW or 'Mute' the negative inputs",
+            "description": "Give them permission to unfollow even friends or celebrities if the content is persistently draining."
+          },
+          {
+            "bold_title": "ADD 'Inspirational Anchor' accounts",
+            "description": "Follow new pages based on their hobbies, passions, or positivity (e.g., art, sports, or nature photography)."
+          },
+          {
+            "bold_title": "REVIEW the resulting 'Vibe Shift'",
+            "description": "Notice if their feed feels more like a place of interest and less like a place of anxiety."
+          },
+          {
+            "bold_title": "REPEAT the curation every semester",
+            "description": "Follow lists grow and change; make this a semi-annual habit. **Success Check**: Your teen says 'I love my feed now; it's mostly basketball and art tips.'"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "title": "The 'Techno-Spying' Temptation",
+        "icon": "fa-solid fa-user-secret",
+        "text": "Secretly reading your teen's messages without a safety cause. This completely destroys the trust necessary for collaboration. Only investigate when there is a clear safety 'red flag.'"
+      },
+      {
+        "title": "Parental Monotasking Failure",
+        "icon": "fa-solid fa-mobile-screen-button",
+        "text": "Telling your kids to monotask while you check your email during a conversation. Your modeling of 'unfragmented attention' is the strongest lesson they can receive."
+      },
+      {
+        "title": "The Total App Ban",
+        "icon": "fa-solid fa-ban",
+        "text": "Banning an app like Snapchat entirely. This usually just drives the use 'underground' on a friend's phone. It is far more effective to teach them *how* to use it safely and intentionally."
+      },
+      {
+        "title": "Ignoring the 'Digital Joy'",
+        "icon": "fa-solid fa-face-smile",
+        "text": "Only focusing on the dangers. If you never acknowledge the fun, connection, and learning parts of social media, you will seem out of touch and lose your 'seat at the table' of influence."
+      }
+    ]
+  }
+}
