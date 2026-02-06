@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "title": "The Me, Me, Me Epidemic",
+    "subtitle": "A step-by-step guide to raising capable, grateful kids in an over-entitled world.",
+    "authors": [
+      "Amy McCready"
+    ],
+    "tags": [
+      "Entitlement",
+      "Responsibility",
+      "Discipline",
+      "Gratitude"
+    ],
+    "category_code": "LIFE"
+  },
+  "hero": {
+    "badge": "LIFE Core Read",
+    "insights_count": 5,
+    "actions_count": 4,
+    "read_time": "5 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-child-reaching",
+    "text": "The epidemic of entitlement is not a character flaw in children but a systemic result of modern parenting that prioritizes immediate happiness over long-term resilience. When parents over-function by rescuing, fixing, and over-buying, children naturally under-function. **The Me, Me, Me Epidemic** provides an 'Un-Entitler Toolbox' to shift the home dynamic from 'What can you do for me?' to 'What can we do for each other?' By implementing natural consequences and contribution-based systems, you raise children who are not the center of the universe, but capable contributors to it."
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. The Praise Paradox",
+        "intro_text": "Constant generic praise creates 'praise junkies' who fear failure and lack internal motivation.",
+        "insight_card": {
+          "title": "Encouragement vs. Praise",
+          "icon": "fa-solid fa-star",
+          "text": "Generic praise like 'Good job!' focuses on external validation. This erodes risk-taking because children fear losing their 'smart' or 'good' label. Instead, use *Encouragement*, which notices effort and improvement: 'I see you really stuck with that puzzle even when it got tricky.' This builds grit by shifting the child's focus to their own internal satisfaction."
+        }
+      },
+      {
+        "heading": "2. The Consequential Environment",
+        "intro_text": "Entitlement thrives when parents act as a buffer between their child and the natural results of their actions.",
+        "insight_card": {
+          "title": "Removing the Buffer",
+          "icon": "fa-solid fa-shield-halved",
+          "text": "If a child forgets a lunch, they should experience hunger. If they break a toy, it should stay broken. In a 'Consequential Environment,' the parent offers deep empathy—'That's a bummer, I know you're hungry'—but *does not fix it*. This experiential learning is the only way children truly internalize that their choices have real-world weight."
+        }
+      },
+      {
+        "heading": "3. Connection as Motivation",
+        "intro_text": "Misbehavior is often a cry for connection; children who feel ignored will use entitlement to demand attention.",
+        "insight_card": {
+          "title": "The Attention Basket",
+          "icon": "fa-solid fa-battery-half",
+          "text": "When a child's 'attention basket' is empty, they use negative behavior to force a parent to engage. Proactive connection—like 'Mind, Body, and Soul Time'—fills that basket before it runs dry. This prevents the need for entitled outbursts because the child already feels significant and secure in the relationship."
+        }
+      },
+      {
+        "heading": "4. Contribution vs. Transactions",
+        "intro_text": "Chores should be framed as 'membership dues' for living in the family, not for-profit labor.",
+        "insight_card": {
+          "title": "The Dues of Belonging",
+          "icon": "fa-solid fa-handshake",
+          "text": "Tying allowance to chores creates a transactional mindset: 'I don't need money this week, so I won't clean.' Instead, de-couple them. You do chores because you are a member of the house (Contribution). You receive an allowance to learn how to manage money (Education). This distinction builds a selfless 'we-mentality' rather than an entitled 'what's in it for me' attitude."
+        }
+      },
+      {
+        "heading": "5. The 'Wait' Muscle",
+        "insight_card": {
+          "title": "Delayed Gratification",
+          "icon": "fa-solid fa-clock",
+          "text": "In an age of instant Amazon deliveries, children lose the ability to wait. Purposefully delaying a child's 'wants'—even when you can afford them—builds the 'wait muscle.' This intentional delay transforms a child from a passive consumer into someone who can regulate their impulses and truly appreciate what they eventually receive."
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "Implementing the 'No Rescue' Protocol",
+        "context": "Build your child's resilience by allowing them to face the natural consequences of their own forgetfulness.",
+        "steps": [
+          {
+            "bold_title": "WARN during a calm moment",
+            "description": "Sit down when things are peaceful and explain the new policy without any anger or lecturing."
+          },
+          {
+            "bold_title": "DECLARE the specific boundary",
+            "description": "Say: 'Starting Monday, I will no longer drive forgotten lunches or sports gear to school for you.'"
+          },
+          {
+            "bold_title": "WAIT for the inevitable failure",
+            "description": "Expect that they will forget eventually; this is part of the learning process, not a failure of your plan."
+          },
+          {
+            "bold_title": "REMAIN steady when the call comes",
+            "description": "When the panic call or text arrives from school, keep your voice calm and avoid the 'I told you so' trap."
+          },
+          {
+            "bold_title": "EXPRESS empathy without fixing",
+            "description": "Say: 'I love you, and I know it's hard to be hungry. I'll have a big snack ready when you get home.'"
+          },
+          {
+            "bold_title": "MAINTAIN the boundary at all costs",
+            "description": "Do not drive to the school. The one moment of discomfort is the price for a lifetime of capability."
+          },
+          {
+            "bold_title": "DEBRIEF with curious questions",
+            "description": "Later that evening, ask: 'What is your plan for remembering tomorrow?' and let them come up with the solution. **Success Check**: Your child starts checking their bag before leaving the house without being told."
+          }
+        ]
+      },
+      {
+        "title": "Executing Mind, Body, and Soul Time",
+        "context": "Proactively fill your child's need for significance so they don't demand it through entitled behaviors.",
+        "steps": [
+          {
+            "bold_title": "SELECT a consistent daily time",
+            "description": "Find 10–15 minutes that you can dedicate every single day, regardless of how busy the schedule is."
+          },
+          {
+            "bold_title": "NAME the session specifically",
+            "description": "Tell your child: 'This is our special Mind, Body, and Soul Time,' to signal that they are your priority."
+          },
+          {
+            "bold_title": "REMOVE all digital distractions",
+            "description": "Leave your phone in a desk drawer. The presence of a screen on the table signals that the child is 'secondary.'"
+          },
+          {
+            "bold_title": "SURRENDER control to the child",
+            "description": "Let them lead the activity. If they want to play dolls, Legos, or draw, do exactly what they find fun."
+          },
+          {
+            "bold_title": "ENGAGE without teaching or correcting",
+            "description": "Avoid the parent-urge to fix their drawing or teach them the 'right' way to play. Just be a playmate."
+          },
+          {
+            "bold_title": "OBSERVE their world with curiosity",
+            "description": "Notice what they find interesting and comment with interest: 'I see you're building a very tall tower there!'"
+          },
+          {
+            "bold_title": "CLOSE with a specific affirmation",
+            "description": "End the time by saying: 'I truly loved playing with you today.' **Success Check**: You notice a decrease in 'whining' or 'demanding' behaviors throughout the rest of the day."
+          }
+        ]
+      },
+      {
+        "title": "Establishing the 'Contribution' System",
+        "context": "Reframe chores as 'membership dues' to build a sense of belonging and responsibility in the home.",
+        "steps": [
+          {
+            "bold_title": "BRAINSTORM all family tasks",
+            "description": "Sit together and list every job required to run the house, from taking out the trash to cleaning the toilets."
+          },
+          {
+            "bold_title": "INVITE the child to select roles",
+            "description": "Instead of assigning, ask: 'Which of these three jobs do you want to be responsible for as a member of this house?'"
+          },
+          {
+            "bold_title": "TRAIN through side-by-side work",
+            "description": "Don't just command; work with them for the first few times until they are genuinely capable of doing it alone."
+          },
+          {
+            "bold_title": "SCHEDULE a consistent 'Membership' time",
+            "description": "Set a specific block, like 'Saturday Morning Clean,' so the expectations are predictable and non-negotiable."
+          },
+          {
+            "bold_title": "ELIMINATE the link between chores and pay",
+            "description": "Clearly explain: 'We don't pay you for these jobs, because this is simply what we do to help our family thrive.'"
+          },
+          {
+            "bold_title": "ENFORCE using 'When-Then' logic",
+            "description": "Use the formula: 'When your contribution is finished, then we can turn on the TV.' It frames the job as the gateway to the fun."
+          },
+          {
+            "bold_title": "PRACTICE patience during the learning curve",
+            "description": "Accept B-minus work at first. Perfection isn't the goal; a sense of responsibility is. **Success Check**: Your child starts doing their task without being'nagged' on Saturday morning."
+          }
+        ]
+      },
+      {
+        "title": "Launching Financial Training",
+        "context": "Teach money management as a skill by giving an allowance that is de-coupled from behavior or chores.",
+        "steps": [
+          {
+            "bold_title": "DETERMINE a base weekly amount",
+            "description": "A good rule of thumb is $0.50 to $1.00 per year of age per week, depending on your family's budget."
+          },
+          {
+            "bold_title": "ESTABLISH Save, Spend, and Share jars",
+            "description": "Create three clear containers to help the child visualize where their money is going and how it grows."
+          },
+          {
+            "bold_title": "DEFINE new purchasing responsibilities",
+            "description": "Tell them: 'From now on, you are in charge of buying your own [Lego sets/Candy/App Store items] with this money.'"
+          },
+          {
+            "bold_title": "DISTRIBUTE funds without strings",
+            "description": "Give the allowance on the same day every week, even if their room is messy or they had a bad day at school."
+          },
+          {
+            "bold_title": "MONITOR without interfering",
+            "description": "Allow them to buy 'junk' if that's what they choose. The lesson comes from their own regret, not your lecture."
+          },
+          {
+            "bold_title": "PERMIT the natural sting of bankruptcy",
+            "description": "When they run out of money and want something else, do not offer an advance. Let them experience the 'no' of an empty jar."
+          },
+          {
+            "bold_title": "REFUSE all financial bailouts",
+            "description": "Maintain the lesson: 'I know you want that, but you'll have to wait until your jar fills up again next week.' **Success Check**: Your child passes a toy at the store and says 'I'm saving my money for something else.'"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "title": "The 'Guilt' Rescue",
+        "icon": "fa-solid fa-heart-crack",
+        "text": "Feeling like a 'bad parent' because your child is struggling, so you step in and fix the problem for them. This robs them of a chance to build resilience."
+      },
+      {
+        "title": "Variable Reinforcement",
+        "icon": "fa-solid fa-rotate",
+        "text": "Enforcing a consequence on Monday but letting it slide on Friday. Inconsistency actually *strengthens* bad behavior because the child learns to gamble on your weakness."
+      },
+      {
+        "title": "The 'I Told You So' Lecture",
+        "icon": "fa-solid fa-comment-slash",
+        "text": "Adding a lecture to a natural consequence. The consequence *is* the lesson; your lecture only makes the child resentful and distracts them from learning."
+      },
+      {
+        "title": "Over-Praising Progress",
+        "icon": "fa-solid fa-bullhorn",
+        "text": "Training the child to look at you for validation after every small act. If you praise everything, the child loses their internal sense of accomplishment."
+      }
+    ]
+  }
+}
