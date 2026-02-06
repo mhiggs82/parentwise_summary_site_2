@@ -24,7 +24,7 @@
   },
   "why_matters": {
     "icon": "fa-solid fa-heart",
-    "text": "**Thesis**: Open, honest, age-appropriate communication between parents and children about difficult topics is essential for healthy child development, family resilience, and preventing long-term psychological harm. Ignorance creates vulnerability; informed children are safer and more resilient.\n\n**Unique Contribution**: The book provides specific, scripted dialogues for discussing 30+ challenging topics (death, sex, divorce, abuse) with children aged 4-12. It bridges the gap between theory and "
+    "text": "**Thesis**: Open, honest, age-appropriate communication between parents and children about difficult topics is essential for healthy child development, family resilience, and preventing long-term psychological harm. Ignorance creates vulnerability; informed children are safer and more resilient.\n\n**Unique Contribution**: The book provides specific, scripted dialogues for discussing 30+ challenging topics (death, sex, divorce, abuse) with children aged 4-12. It bridges the gap between theory and action by offering concrete language for the \"Askable Parent\"—one who encourages questions rather than deflecting them.\n\n**Target Outcome**: Parents become trusted sources of information (\"askable\") who can discuss any topic without judgment. This prevents misinformation, reduces anxiety, builds resilience, and establishes communication patterns that extend into adolescence."
   },
   "tabs": {
     "analysis": [
@@ -34,7 +34,7 @@
         "insight_card": {
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
-          "text": "The central paradigm shift is moving from shielding children to preparing them. The book argues that \"innocence\" based on ignorance is dangerous. Children need accurate information to navigate the wor..."
+          "text": "The central paradigm shift is moving from shielding children to preparing them. The book argues that \"innocence\" based on ignorance is dangerous. Children need accurate information to navigate the world safely."
         }
       },
       {
@@ -43,7 +43,7 @@
         "insight_card": {
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
-          "text": "Being an \"askable parent\" means responding to uncomfortable questions with \"I'm glad you asked\" rather than shock or deflection. This establishes the parent as a safe harbor for information, ensuring ..."
+          "text": "Being an \"askable parent\" means responding to uncomfortable questions with \"I'm glad you asked\" rather than shock or deflection. This establishes the parent as a safe harbor for information, ensuring the child comes to them first during crises or confusion."
         }
       },
       {
@@ -52,7 +52,7 @@
         "insight_card": {
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
-          "text": "Information should be matched to developmental stages.\n- **Ages 4-7**: Concrete, simple, immediate relevance.\n- **Ages 8-12**: More detail, causes, consequences, and context.\nThe goal is to answer the..."
+          "text": "Information should be matched to developmental stages.\n- **Ages 4-7**: Concrete, simple, immediate relevance.\n- **Ages 8-12**: More detail, causes, consequences, and context.\nThe goal is to answer the *actual* question asked, not to dump adult-level anxiety or complexity on the child."
         }
       }
     ],
@@ -90,22 +90,138 @@
       {
         "title": "Delivering Age-Appropriate Information",
         "context": "Provide information matched to developmental stage.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "Assess",
+            "description": "current understanding (\"What do you know about this?\")."
+          },
+          {
+            "bold_title": "Determine",
+            "description": "the specific question asking for."
+          },
+          {
+            "bold_title": "Provide",
+            "description": "a minimal accurate answer."
+          },
+          {
+            "bold_title": "Pause",
+            "description": "and observe reaction."
+          },
+          {
+            "bold_title": "Offer",
+            "description": "more only if asked."
+          },
+          {
+            "bold_title": "Avoid",
+            "description": "euphemisms (especially for death/sex)."
+          },
+          {
+            "bold_title": "Check",
+            "description": "comprehension (\"Can you tell me what you understood?\")."
+          }
+        ]
       },
       {
         "title": "The \"What-If\" Rehearsal Game",
         "context": "Practice safety skills without fear.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "Frame",
+            "description": "as a game (\"Let's play What If\")."
+          },
+          {
+            "bold_title": "Pose",
+            "description": "a scenario (\"What if a stranger offered you candy?\")."
+          },
+          {
+            "bold_title": "Ask",
+            "description": "\"What would you do?\""
+          },
+          {
+            "bold_title": "Accept",
+            "description": "any answer initially."
+          },
+          {
+            "bold_title": "Redirect",
+            "description": "if incorrect (\"That might not be safe. Let's think of another way\")."
+          },
+          {
+            "bold_title": "Teach",
+            "description": "the correct response."
+          },
+          {
+            "bold_title": "Practice",
+            "description": "the response (Role play)."
+          }
+        ]
       },
       {
         "title": "Talking About Death",
         "context": "Process loss without creating confusion.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "Use natural examples",
+            "description": "(dead flowers/insects)."
+          },
+          {
+            "bold_title": "Define death concretely",
+            "description": "\"Body stops working—no breathing/feeling.\""
+          },
+          {
+            "bold_title": "Avoid euphemisms",
+            "description": "like \"sleeping\" or \"went away.\""
+          },
+          {
+            "bold_title": "Tell promptly",
+            "description": "when a loss occurs."
+          },
+          {
+            "bold_title": "Validate all emotions",
+            "description": "(sadness, anger, confusion)."
+          },
+          {
+            "bold_title": "Explain next steps",
+            "description": "(funeral, memorial)."
+          },
+          {
+            "bold_title": "Reassure",
+            "description": "about their own safety and your care."
+          }
+        ]
       },
       {
         "title": "Discussing Sexual Behavior (Privacy)",
         "context": "Address exploration without shame.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "Calmly interrupt",
+            "description": "inappropriate behavior."
+          },
+          {
+            "bold_title": "Redirect",
+            "description": "to another activity."
+          },
+          {
+            "bold_title": "Wait",
+            "description": "until calm to discuss."
+          },
+          {
+            "bold_title": "Initiate private talk",
+            "description": "Acknowledge curiosity is normal."
+          },
+          {
+            "bold_title": "Explain privacy",
+            "description": "\"Swimsuit parts are private.\""
+          },
+          {
+            "bold_title": "Set boundaries",
+            "description": "\"We do that alone in our room\" or \"We don't play games with bodies.\""
+          },
+          {
+            "bold_title": "Offer resources",
+            "description": "(books) if curious."
+          }
+        ]
       }
     ]
   }

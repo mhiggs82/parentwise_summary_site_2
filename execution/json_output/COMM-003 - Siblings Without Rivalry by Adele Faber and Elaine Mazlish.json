@@ -23,7 +23,7 @@
   },
   "why_matters": {
     "icon": "fa-solid fa-heart",
-    "text": "**Thesis**: Sibling rivalry stems from children's deep need for exclusive parental love and can be significantly reduced through specific communication skills that acknowledge feelings, avoid comparisons, treat children uniquely rather than equally, free them from rigid roles, and teach constructive conflict resolution.\n\n**Unique Contribution**: The book transforms sibling rivalry from an inevitable family burden into a manageable dynamic. It challenges the \"equality\" myth, proposing that treati"
+    "text": "**Thesis**: Sibling rivalry stems from children's deep need for exclusive parental love and can be significantly reduced through specific communication skills that acknowledge feelings, avoid comparisons, treat children uniquely rather than equally, free them from rigid roles, and teach constructive conflict resolution.\n\n**Unique Contribution**: The book transforms sibling rivalry from an inevitable family burden into a manageable dynamic. It challenges the \"equality\" myth, proposing that treating children \"fairly\" means treating them uniquely according to need, rather than identically. It also introduces the concept of \"intervention layers,\" teaching parents when to step in and when to step back to foster sibling problem-solving.\n\n**Target Outcome**: Parents gain skills to reduce daily conflict intensity, help children develop their own problem-solving abilities, prevent long-term psychological damage from comparison, and foster sibling relationships that become sources of lifelong su"
   },
   "tabs": {
     "analysis": [
@@ -33,7 +33,7 @@
         "insight_card": {
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
-          "text": "The revolutionary insight is that \"equal is less.\" Children don't want the same amount of love; they want exclusive love. Parents discover that measured fairness creates a scarcity mentality (\"He got ..."
+          "text": "The revolutionary insight is that \"equal is less.\" Children don't want the same amount of love; they want exclusive love. Parents discover that measured fairness creates a scarcity mentality (\"He got more!\"), while unique recognition (\"I love the way you...\") creates abundance and security."
         }
       },
       {
@@ -42,16 +42,16 @@
         "insight_card": {
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
-          "text": "Traditional discipline stops bad behavior through consequences but often increases resentment between siblings. The book shifts to teaching alternative behaviors while maintaining the relationship int..."
+          "text": "Traditional discipline stops bad behavior through consequences but often increases resentment between siblings. The book shifts to teaching alternative behaviors while maintaining the relationship integrity, helping children learn self-regulation and negotiation rather than external compliance."
         }
       },
       {
         "heading": "3. The Intervention Paradox",
-        "intro_text": "Parents must intervene to teach non-intervention. The goal is to facilitate a solution so children learn to solve problems themselves. This requires refined judgment: stepping in to acknowledge anger and confidentially leaving the room to let them work it out (Level II), or separating for safety wit...",
+        "intro_text": "Parents must intervene to teach non-intervention. The goal is to facilitate a solution so children learn to solve problems themselves. This requires refined judgment: stepping in to acknowledge anger and confidentially leaving the room to let them work it out (Level II), or separating for safety without assigning blame (Level IV).",
         "insight_card": {
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
-          "text": "Parents must intervene to teach non-intervention. The goal is to facilitate a solution so children learn to solve problems themselves. This requires refined judgment: stepping in to acknowledge anger ..."
+          "text": "Parents must intervene to teach non-intervention. The goal is to facilitate a solution so children learn to solve problems themselves. This requires refined judgment: stepping in to acknowledge anger and confidentially leaving the room to let them work it out (Level II), or separating for safety without assigning blame (Level IV)."
         }
       }
     ],
@@ -153,7 +153,44 @@
       {
         "title": "Intervene in Fights (Graduated Response)",
         "context": "Match intervention to danger level to build conflict resolution skills.\n\n**Levels**:\n*   **Level I (Normal Bickering)**: Ignore it. Leave the room.\n*   **Level II (Heating Up)**:\n    1.  Enter calmly.\n    2.  Acknowledge both sides (\"You want X, he wants Y\").\n    3.  Express confidence (\"I bet you can work this out\").\n    4.  Leave the room.\n*   **Level III (Dangerous)**:\n    1.  \"Is this a play fight or a real fight?\" (Clarify consent).\n*   **Level IV (Physical Danger)**:\n    1.  \"STOP! Too dangerous!\"\n    2.  Separate physically (\"You to your room, you to yours\").\n    3.  No punishment/blame, just safety (\"It's not safe to be together right now\").\n    4.  Problem-solve later when calm.\n\n### Process 5: Collaborative Problem-Solving Meeting\n**Purpose**: Resolve persistent conflicts.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "Call",
+            "description": "a meeting when calm."
+          },
+          {
+            "bold_title": "Explain",
+            "description": "ground rules (no interrupting)."
+          },
+          {
+            "bold_title": "Invite",
+            "description": "Child A to speak; write down their feelings/needs."
+          },
+          {
+            "bold_title": "Invite",
+            "description": "Child B to speak; write down their feelings/needs."
+          },
+          {
+            "bold_title": "Read",
+            "description": "back both sides to ensure accuracy."
+          },
+          {
+            "bold_title": "Brainstorm",
+            "description": "solutions (write down ALL ideas, even silly ones)."
+          },
+          {
+            "bold_title": "Review",
+            "description": "list and cross out unworkable ideas."
+          },
+          {
+            "bold_title": "Choose",
+            "description": "a solution everyone can live with."
+          },
+          {
+            "bold_title": "Follow up",
+            "description": "in a week."
+          }
+        ]
       }
     ]
   }

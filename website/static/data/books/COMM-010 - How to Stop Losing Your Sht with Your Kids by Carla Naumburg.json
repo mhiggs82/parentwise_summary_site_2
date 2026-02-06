@@ -23,17 +23,17 @@
   },
   "why_matters": {
     "icon": "fa-solid fa-heart",
-    "text": "**Thesis**: Parental meltdowns (losing your sh\\*t) are predictable nervous system responses to overload, not moral failures. By managing triggers through self-care (\"Button Reduction Practices\") and using simple in-the-moment pauses, parents can regain control and model emotional regulation.\n\n**Unique Contribution**: Naumburg demystifies \"losing it\" using the FART acronym (Feelings, Automatic, Reactive, Toxic) and reframes children not as \"triggers\" but as \"button pushers\"—a critical distinction"
+    "text": "**Thesis**: Parental meltdowns (losing your sh\\*t) are predictable nervous system responses to overload, not moral failures. By managing triggers through self-care (\"Button Reduction Practices\") and using simple in-the-moment pauses, parents can regain control and model emotional regulation.\n\n**Unique Contribution**: Naumburg demystifies \"losing it\" using the FART acronym (Feelings, Automatic, Reactive, Toxic) and reframes children not as \"triggers\" but as \"button pushers\"—a critical distinction that places responsibility for the *buttons* on the parent. Her tone is humorous, non-judgmental, and deeply practical (\"Do literally anything else\").\n\n**Target Outcome**: Parents move from chronic reactivity and shame to a state of greater calm, where they \"lose it\" less often and repair relationship ruptures more effectively when they do."
   },
   "tabs": {
     "analysis": [
       {
         "heading": "1. Triggers vs. Button Pushers",
-        "intro_text": "Children are **button pushers**—it is their job to test boundaries and be immature. Parents own the **buttons** (exhaustion, hunger, stress, history). Managing the *buttons* (shrinking them so they are harder to hit) is the parent's work. Blaming the child for pushing a giant, glowing red button is ...",
+        "intro_text": "Children are **button pushers**—it is their job to test boundaries and be immature. Parents own the **buttons** (exhaustion, hunger, stress, history). Managing the *buttons* (shrinking them so they are harder to hit) is the parent's work. Blaming the child for pushing a giant, glowing red button is ineffective.",
         "insight_card": {
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
-          "text": "Children are **button pushers**—it is their job to test boundaries and be immature. Parents own the **buttons** (exhaustion, hunger, stress, history). Managing the *buttons* (shrinking them so they ar..."
+          "text": "Children are **button pushers**—it is their job to test boundaries and be immature. Parents own the **buttons** (exhaustion, hunger, stress, history). Managing the *buttons* (shrinking them so they are harder to hit) is the parent's work. Blaming the child for pushing a giant, glowing red button is ineffective."
         }
       },
       {
@@ -42,7 +42,7 @@
         "insight_card": {
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
-          "text": "Naumburg identifies multitasking as a primary accelerant for meltdowns. It keeps the nervous system in a state of high alert. **Single-tasking** (doing one thing at a time) is presented not just as pr..."
+          "text": "Naumburg identifies multitasking as a primary accelerant for meltdowns. It keeps the nervous system in a state of high alert. **Single-tasking** (doing one thing at a time) is presented not just as productivity advice, but as a nervous system regulation strategy."
         }
       },
       {
@@ -59,22 +59,102 @@
       {
         "title": "The \"Notice-Pause-Do Literally Anything Else\" Protocol",
         "context": "Stop a meltdown in progress.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "Notice",
+            "description": "Catch the physical \"tell\" (shoulders up, heat in face)."
+          },
+          {
+            "bold_title": "Pause",
+            "description": "Stop moving. Stop talking. Freeze."
+          },
+          {
+            "bold_title": "Do Literally Anything Else",
+            "description": ""
+          },
+          {
+            "bold_title": "Wait",
+            "description": "Don't address the child until your heart rate slows."
+          }
+        ]
       },
       {
         "title": "Identifying Triggers & Tells",
         "context": "Increase self-awareness to predict explosions.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "Review categories",
+            "description": "Multi-tasking, sensory overload, hunger, exhaustion, lack of support."
+          },
+          {
+            "bold_title": "Identify \"Tells\"",
+            "description": "What does your body do before you yell? (Clenched fists? Shallow breath? \"I hate everyone\" thoughts?)."
+          },
+          {
+            "bold_title": "Log it",
+            "description": "For one week, note what happened right *before* you lost it."
+          },
+          {
+            "bold_title": "Identify the Button",
+            "description": "Was it the kid (pusher) or your exhaustion (button)?"
+          }
+        ]
       },
       {
         "title": "Single-Tasking Practice",
         "context": "Lower baseline nervous system arousal.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "Choose one activity",
+            "description": "(coffee, shower, dishwashing)."
+          },
+          {
+            "bold_title": "Remove distractions",
+            "description": "(phone away, TV off)."
+          },
+          {
+            "bold_title": "Focus",
+            "description": "entirely on the sensory experience of that task."
+          },
+          {
+            "bold_title": "Redirect",
+            "description": "mind when it wanders."
+          },
+          {
+            "bold_title": "Expand",
+            "description": "to more times of day (e.g., \"I am just buckling the car seat\")."
+          }
+        ]
       },
       {
         "title": "The Clean Repair",
         "context": "Fix the relationship after a blowout.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "Wait",
+            "description": "until calm (don't apologize while still angry)."
+          },
+          {
+            "bold_title": "State the behavior",
+            "description": "\"I yelled.\""
+          },
+          {
+            "bold_title": "Own it",
+            "description": "\"I lost my temper. That was my responsibility, not yours.\""
+          },
+          {
+            "bold_title": "Apologize",
+            "description": "\"I'm sorry I scared you.\""
+          },
+          {
+            "bold_title": "Plan",
+            "description": "\"Next time I will take a break.\""
+          },
+          {
+            "bold_title": "Move on",
+            "description": "Don't over-explain or beg for forgiveness."
+          }
+        ]
       }
     ]
   }

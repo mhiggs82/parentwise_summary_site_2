@@ -8,19 +8,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 INPUT_DIR = BASE_DIR / "Book_Summaries"
 OUTPUT_DIR = BASE_DIR / "execution" / "json_output"
 
-# Files to process (COMM-001 through COMM-010)
-FILES_TO_PROCESS = [
-    "COMM-001 - How to Talk So Teens Will Listen and Listen So Teens Will Talk by Adele Faber and Elaine Mazlish.md",
-    "COMM-002 - How to Talk So Kids Will Listen and Listen So Kids Will Talk by Adele Faber and Elaine Mazlish.md",
-    "COMM-003 - Siblings Without Rivalry by Adele Faber and Elaine Mazlish.md",
-    "COMM-004 - How to Talk When Kids Won't Listen by Joanna Faber, Julie King.md",
-    "COMM-005 - How to Talk When Kids Won't Listen by Joanna Faber and Julie King.md",
-    "COMM-006 - How to Talk to Your Kids About Really Important Things by Charles Schaefer and Theresa Foy DiGeronimo.md",
-    "COMM-007 - How to Listen So Your Kids Will Talk by Becky Harling.md",
-    "COMM-008 - Talk to Me Like I'm Someone You Love by Nancy Dreyfus.md",
-    "COMM-009 - Many Ways to Say I Love You by Fred Rogers.md",
-    "COMM-010 - How to Stop Losing Your Sht with Your Kids by Carla Naumburg.md"
-]
+# Files to process
+FILES_TO_PROCESS = [f"COMM-{str(i).zfill(3)}" for i in range(1, 15)] # COMM-001 through COMM-014
 
 def parse_frontmatter(content):
     """Parse YAML frontmatter from markdown"""
@@ -54,7 +43,8 @@ def extract_sections(content):
         sections['executive_summary'] = exec_match.group(1).strip()
 
     # Extract Nuanced Main Topics
-    topics_match = re.search(r'## Nuanced Main Topics\n(.*?)# Section 2:', content, re.DOTALL)
+    # Support both "Nuanced Main Topics" and "Chapter Breakdown" if needed
+    topics_match = re.search(r'## (?:Nuanced Main Topics|Chapter Breakdown)\n(.*?)# Section 2:', content, re.DOTALL)
     if topics_match:
         topic_blocks = re.findall(r'### (.*?)\n(.*?)(?=###|(?=# Section 2:))', topics_match.group(1), re.DOTALL)
         for title, text in topic_blocks:
@@ -70,15 +60,15 @@ def extract_sections(content):
         sections['checklist'] = [{'title': t, 'description': d} for t, d in items]
 
     # Extract Processes
-    process_matches = re.finditer(r'### Process \d+: (.*?)\n\*\*Purpose\*\*: (.*?)\n\*\*Steps?\*\*:\n(.*?)(?=### Process|$)', content, re.DOTALL)
+    process_matches = re.finditer(r'### Process \d+: (.*?)\n\*\*Purpose\*\*: (.*?)\n\*\*Steps\*\*:\n(.*?)(?=### Process|$)', content, re.DOTALL)
     for match in process_matches:
         title = match.group(1).strip()
         context = match.group(2).strip()
         steps_text = match.group(3).strip()
 
-        # Extract steps
+        # Extract steps - handle varying whitespace after number
         steps = []
-        step_matches = re.findall(r'\d+\. \*\*(.*?)\*\*:?(.*?)$', steps_text, re.MULTILINE)
+        step_matches = re.findall(r'^\s*\d+\.\s+\*\*(.*?)\*\*:?(.*?)$', steps_text, re.MULTILINE)
         for bold_title, description in step_matches:
             steps.append({
                 'bold_title': bold_title.strip(),
@@ -119,11 +109,11 @@ def convert_markdown_to_json(markdown_content, filename):
     for i, topic in enumerate(sections['nuanced_topics'][:6], 1):  # Limit to 6
         analysis.append({
             "heading": f"{i}. {topic['heading']}",
-            "intro_text": topic['text'][:300] + "..." if len(topic['text']) > 300 else topic['text'],
+            "intro_text": topic['text'],
             "insight_card": {
                 "title": "Key Insight",
                 "icon": "fa-solid fa-lightbulb",
-                "text": topic['text'][:200] + "..." if len(topic['text']) > 200 else topic['text']
+                "text": topic['text']
             }
         })
 
@@ -152,7 +142,7 @@ def convert_markdown_to_json(markdown_content, filename):
         },
         "why_matters": {
             "icon": "fa-solid fa-heart",
-            "text": sections['executive_summary'][:500] if sections['executive_summary'] else "A comprehensive guide for parents."
+            "text": sections['executive_summary'][:1000] if sections['executive_summary'] else "A comprehensive guide for parents."
         },
         "tabs": {
             "analysis": analysis,
@@ -166,18 +156,22 @@ def main():
     """Process all COMM files"""
     OUTPUT_DIR.mkdir(exist_ok=True, parents=True)
 
-    print(f"Processing {len(FILES_TO_PROCESS)} files...")
+    print(f"Processing {len(FILES_TO_PROCESS)} prefixes...")
     print("=" * 50)
 
-    for index, filename in enumerate(FILES_TO_PROCESS):
+    for index, prefix in enumerate(FILES_TO_PROCESS):
         try:
-            print(f"[{index+1}/{len(FILES_TO_PROCESS)}] Processing {filename}...")
+            print(f"[{index+1}/{len(FILES_TO_PROCESS)}] Searching for {prefix}...")
 
-            # Read markdown content
-            input_path = INPUT_DIR / filename
-            if not input_path.exists():
-                print(f"  ⚠ File not found: {input_path}")
+            # Find matching file
+            matches = list(INPUT_DIR.glob(f"{prefix}*.md"))
+            if not matches:
+                print(f"  ⚠ No file found for prefix: {prefix}")
                 continue
+            
+            input_path = matches[0]
+            filename = input_path.name
+            print(f"  Found: {filename}")
 
             with open(input_path, 'r', encoding='utf-8') as f:
                 markdown_content = f.read()

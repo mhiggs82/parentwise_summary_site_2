@@ -22,7 +22,7 @@
   },
   "why_matters": {
     "icon": "fa-solid fa-heart",
-    "text": "**Thesis**: Effective listening is the cornerstone of strong parent-child relationships and spiritual formation. By listening to understand rather than to correct, parents empower children to become confident, emotionally intelligent adults with lasting connections to their family and God.\n\n**Unique Contribution**: Harling integrates biblical wisdom with practical communication techniques. She reframes listening not as passive reception but as an active spiritual practice that mirrors God's atte"
+    "text": "**Thesis**: Effective listening is the cornerstone of strong parent-child relationships and spiritual formation. By listening to understand rather than to correct, parents empower children to become confident, emotionally intelligent adults with lasting connections to their family and God.\n\n**Unique Contribution**: Harling integrates biblical wisdom with practical communication techniques. She reframes listening not as passive reception but as an active spiritual practice that mirrors God's attentive love, offering specific tools like the \"Three-Minute Timer\" to restructure family dialogue.\n\n**Target Outcome**: Parents create a culture where children feel heard and valued, leading to stronger attachment, better emotional regulation, and a natural openness to spiritual guidance."
   },
   "tabs": {
     "analysis": [
@@ -32,16 +32,16 @@
         "insight_card": {
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
-          "text": "Traditional parenting often prioritizes immediate behavioral correction. Harling argues that connection must precede correction. When children feel understood first, they are psychologically open to g..."
+          "text": "Traditional parenting often prioritizes immediate behavioral correction. Harling argues that connection must precede correction. When children feel understood first, they are psychologically open to guidance. Listening is the bridge that allows truth to cross over."
         }
       },
       {
         "heading": "2. The Three-Minute Timer",
-        "intro_text": "For strong-willed or argumentative children, Harling suggests a structural tool: give them uninterrupted time (e.g., 3 minutes) to present their case. The parent listens without interjecting. This validates the child's perspective and often diffuses the emotional intensity, even if the answer remain...",
+        "intro_text": "For strong-willed or argumentative children, Harling suggests a structural tool: give them uninterrupted time (e.g., 3 minutes) to present their case. The parent listens without interjecting. This validates the child's perspective and often diffuses the emotional intensity, even if the answer remains \"no.\"",
         "insight_card": {
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
-          "text": "For strong-willed or argumentative children, Harling suggests a structural tool: give them uninterrupted time (e.g., 3 minutes) to present their case. The parent listens without interjecting. This val..."
+          "text": "For strong-willed or argumentative children, Harling suggests a structural tool: give them uninterrupted time (e.g., 3 minutes) to present their case. The parent listens without interjecting. This validates the child's perspective and often diffuses the emotional intensity, even if the answer remains \"no.\""
         }
       },
       {
@@ -50,7 +50,7 @@
         "insight_card": {
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
-          "text": "Instead of fixing weaknesses, parents should act as \"treasure hunters\" for their child's unique strengths (character, academic, relational). Focusing on what is right building resilience more effectiv..."
+          "text": "Instead of fixing weaknesses, parents should act as \"treasure hunters\" for their child's unique strengths (character, academic, relational). Focusing on what is right building resilience more effectively than harping on what is wrong."
         }
       }
     ],
@@ -58,22 +58,122 @@
       {
         "title": "Establishing Daily Listening Rhythms",
         "context": "Create predictable opportunities for connection.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "Identify",
+            "description": "transition points (after school, bedtime, dinner)."
+          },
+          {
+            "bold_title": "Eliminate",
+            "description": "distractions (phones away)."
+          },
+          {
+            "bold_title": "Position",
+            "description": "yourself at eye level or side-by-side."
+          },
+          {
+            "bold_title": "Ask",
+            "description": "one open-ended question (\"What was the best part of today?\")."
+          },
+          {
+            "bold_title": "Wait",
+            "description": "10 seconds for the answer (don't rush silence)."
+          },
+          {
+            "bold_title": "Reflect",
+            "description": "back what you heard (\"So you felt excited when...\")."
+          },
+          {
+            "bold_title": "Affirm",
+            "description": "without correcting."
+          }
+        ]
       },
       {
         "title": "The Three-Minute Timer Technique",
         "context": "Manage conflict and ensure the child feels heard.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "Set a timer",
+            "description": "for 3 minutes (or 1 min per year of age)."
+          },
+          {
+            "bold_title": "State the rule",
+            "description": "Child speaks, parent listens silently."
+          },
+          {
+            "bold_title": "Listen",
+            "description": "for the core desire/feeling, not just the argument."
+          },
+          {
+            "bold_title": "Summarize",
+            "description": "their point when the timer goes off: \"You're saying you think it's unfair because...\""
+          },
+          {
+            "bold_title": "Give your decision",
+            "description": "and rationale."
+          },
+          {
+            "bold_title": "Stick",
+            "description": "to the decision, but validate the feelings about it."
+          }
+        ]
       },
       {
         "title": "Strength-Discovery Journaling",
         "context": "Shift focus from deficits to strengths.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "Dedicate",
+            "description": "a notebook for each child."
+          },
+          {
+            "bold_title": "Observe",
+            "description": "them for a week, looking for strengths."
+          },
+          {
+            "bold_title": "Categorize",
+            "description": "Character (kindness), Relational (inclusive), Talent (art/sport)."
+          },
+          {
+            "bold_title": "Record",
+            "description": "specific instances."
+          },
+          {
+            "bold_title": "Share",
+            "description": "one observation daily: \"I noticed how patient you were with your brother.\""
+          },
+          {
+            "bold_title": "Review",
+            "description": "monthly to see growth patterns."
+          }
+        ]
       },
       {
         "title": "Proposal-Based Negotiation",
         "context": "Teach respectful advocacy.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "Invite",
+            "description": "a written proposal for big requests (phone, later curfew)."
+          },
+          {
+            "bold_title": "Require",
+            "description": "reasons, plan for responsibility, and acknowledgement of risks."
+          },
+          {
+            "bold_title": "Review",
+            "description": "the proposal privately."
+          },
+          {
+            "bold_title": "Discuss",
+            "description": "it together, affirming the effort."
+          },
+          {
+            "bold_title": "Decide",
+            "description": "Yes, No, or \"Not Yet\" (with conditions)."
+          }
+        ]
       }
     ]
   }

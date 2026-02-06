@@ -23,7 +23,7 @@
   },
   "why_matters": {
     "icon": "fa-solid fa-heart",
-    "text": "**Thesis**: Healthy child development springs from the foundation of unconditional love and the creation of \"safe places\" where children are accepted for who they are, not who parents wish them to be. Parenting is a developmental journey where adults relive and heal their own childhoods while guiding the next generation.\n\n**Unique Contribution**: Mr. Rogers reframes parental imperfection not as a failure, but as a teaching tool. He emphasizes \"presence over perfection\" and the \"continuity of car"
+    "text": "**Thesis**: Healthy child development springs from the foundation of unconditional love and the creation of \"safe places\" where children are accepted for who they are, not who parents wish them to be. Parenting is a developmental journey where adults relive and heal their own childhoods while guiding the next generation.\n\n**Unique Contribution**: Mr. Rogers reframes parental imperfection not as a failure, but as a teaching tool. He emphasizes \"presence over perfection\" and the \"continuity of care.\" His gentle, profound insight is that the most important parenting intervention is being a steady, honest, human presence.\n\n**Target Outcome**: Parents release the burden of perfection, embrace their own and their child's emotional reality, and build relationships grounded in deep, unconditional acceptance."
   },
   "tabs": {
     "analysis": [
@@ -33,7 +33,7 @@
         "insight_card": {
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
-          "text": "Rogers introduces the concept of the \"safe place\"—not necessarily a physical location, but a relational space where the child feels entirely accepted. In this space, no feeling is forbidden. The paren..."
+          "text": "Rogers introduces the concept of the \"safe place\"—not necessarily a physical location, but a relational space where the child feels entirely accepted. In this space, no feeling is forbidden. The parent provides a container for the child's full self."
         }
       },
       {
@@ -42,7 +42,7 @@
         "insight_card": {
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
-          "text": "\"When we become parents, we bring our own childhoods with us.\" Rogers posits that every developmental stage our child goes through triggers memories (often unconscious) of our own experience at that a..."
+          "text": "\"When we become parents, we bring our own childhoods with us.\" Rogers posits that every developmental stage our child goes through triggers memories (often unconscious) of our own experience at that age. Awareness of this allows us to separate our past fears from our child's present reality."
         }
       },
       {
@@ -51,7 +51,7 @@
         "insight_card": {
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
-          "text": "Rogers explicitly connects discipline with love. Since children cannot regulate themselves or keep themselves safe, providing boundaries is a profound act of care. Permissiveness is identified as a fo..."
+          "text": "Rogers explicitly connects discipline with love. Since children cannot regulate themselves or keep themselves safe, providing boundaries is a profound act of care. Permissiveness is identified as a form of neglect; limits provide the security structure children crave."
         }
       }
     ],
@@ -59,22 +59,106 @@
       {
         "title": "Excavating Childhood Patterns",
         "context": "Differentiate your past from the child's present.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "Identify",
+            "description": "a current trigger (e.g., whining, mess, refusal)."
+          },
+          {
+            "bold_title": "Pause",
+            "description": "and ask: \"How was this handled when I was a child?\""
+          },
+          {
+            "bold_title": "Feel",
+            "description": "the old emotion (shame, fear, anger)."
+          },
+          {
+            "bold_title": "Separate",
+            "description": "Say \"That was then. This is now. My child is safe.\""
+          },
+          {
+            "bold_title": "Choose",
+            "description": "a response that breaks the cycle (e.g., comfort instead of punishment)."
+          }
+        ]
       },
       {
         "title": "Creating a \"Safe Place\" Ritual",
         "context": "Establish a baseline of unconditional acceptance.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "Choose",
+            "description": "a time (bedtime is common)."
+          },
+          {
+            "bold_title": "Remove",
+            "description": "distractions."
+          },
+          {
+            "bold_title": "Listen",
+            "description": "without correcting or teaching."
+          },
+          {
+            "bold_title": "Accept",
+            "description": "whatever is shared. \"I like you just the way you are.\""
+          },
+          {
+            "bold_title": "Consistency",
+            "description": "Do this daily, even for 5 minutes."
+          }
+        ]
       },
       {
         "title": "Setting Limits as Love",
         "context": "Provide security through structure.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "Identify",
+            "description": "a necessary limit (e.g., no hitting)."
+          },
+          {
+            "bold_title": "State",
+            "description": "it clearly and calmly."
+          },
+          {
+            "bold_title": "Explain",
+            "description": "the care behind it: \"I stop you because I love you and need to keep you safe.\""
+          },
+          {
+            "bold_title": "Validate",
+            "description": "the feeling: \"You can be angry, but you cannot hit.\""
+          },
+          {
+            "bold_title": "Enforce",
+            "description": "without anger. The limit itself is the teacher."
+          }
+        ]
       },
       {
         "title": "Modeling Repair (The Apology)",
         "context": "Teach reconciliation.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "Notice",
+            "description": "you made a mistake (yelled, forgot promise)."
+          },
+          {
+            "bold_title": "Acknowledge",
+            "description": "it explicitly: \"I made a mistake.\""
+          },
+          {
+            "bold_title": "Apologize",
+            "description": "\"I'm sorry I yelled. I was frustrated, but I shouldn't have done that.\""
+          },
+          {
+            "bold_title": "Don't blame",
+            "description": "Avoid \"I yelled because you...\""
+          },
+          {
+            "bold_title": "Reconnect",
+            "description": "Ask for a hug or offer reassurance."
+          }
+        ]
       }
     ]
   }

@@ -23,7 +23,7 @@
   },
   "why_matters": {
     "icon": "fa-solid fa-heart",
-    "text": "**Thesis**: Children become more cooperative, resilient, and emotionally intelligent when adults acknowledge their feelings, engage them in problem-solving, and avoid punishment-based discipline. Communication tools that respect children's autonomy while maintaining adult boundaries create stronger relationships and teach life-long conflict resolution skills.\n\n**Unique Contribution**: This book translates abstract parenting principles into concrete, actionable communication tools. It extends the"
+    "text": "**Thesis**: Children become more cooperative, resilient, and emotionally intelligent when adults acknowledge their feelings, engage them in problem-solving, and avoid punishment-based discipline. Communication tools that respect children's autonomy while maintaining adult boundaries create stronger relationships and teach life-long conflict resolution skills.\n\n**Unique Contribution**: This book translates abstract parenting principles into concrete, actionable communication tools. It extends the Faber/Mazlish \"How to Talk\" legacy to include digital dilemmas, younger children, and contemporary sensory/behavioral challenges, operationalizing emotional validation through specific scripts and visual examples.\n\n**Target Outcome**: Parents and educators will reduce daily power struggles, minimize punishment cycles, and cultivate children who can articulate needs, solve problems collaboratively, and develop internal motivation rather than compliance driven by fear or reward."
   },
   "tabs": {
     "analysis": [
@@ -33,7 +33,7 @@
         "insight_card": {
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
-          "text": "Traditional parenting focuses on immediate compliance. This approach reframes discipline as teaching problem-solving. The goal shifts from \"How do I make the behavior stop?\" to \"How do I help my child..."
+          "text": "Traditional parenting focuses on immediate compliance. This approach reframes discipline as teaching problem-solving. The goal shifts from \"How do I make the behavior stop?\" to \"How do I help my child develop skills to handle this?\""
         }
       },
       {
@@ -42,7 +42,7 @@
         "insight_card": {
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
-          "text": "Evaluative praise (\"You're so smart\") creates performance anxiety and fixed mindsets. Descriptive praise (\"You kept trying different ways\") builds resilience and intrinsic motivation. Well-intentioned..."
+          "text": "Evaluative praise (\"You're so smart\") creates performance anxiety and fixed mindsets. Descriptive praise (\"You kept trying different ways\") builds resilience and intrinsic motivation. Well-intentioned praise can undermine the very qualities it aims to encourage."
         }
       },
       {
@@ -51,7 +51,7 @@
         "insight_card": {
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
-          "text": "Parents instinctively try to eliminate negative emotions. The book reveals this as counterproductive—accepted feelings dissipate, while dismissed feelings intensify. The paradox: accepting that someth..."
+          "text": "Parents instinctively try to eliminate negative emotions. The book reveals this as counterproductive—accepted feelings dissipate, while dismissed feelings intensify. The paradox: accepting that something is hard makes it easier to bear."
         }
       }
     ],
@@ -93,22 +93,130 @@
       {
         "title": "Engage Cooperation Without Commands",
         "context": "Reduce power struggles by inviting cooperation.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "DESCRIBE",
+            "description": "what you see (\"I see a jacket on the floor\")."
+          },
+          {
+            "bold_title": "GIVE",
+            "description": "information (\"Food belongs in the kitchen\")."
+          },
+          {
+            "bold_title": "SAY",
+            "description": "it with one word (\"Shoes!\")."
+          },
+          {
+            "bold_title": "DESCRIBE",
+            "description": "your feelings (\"I feel frustrated...\")."
+          },
+          {
+            "bold_title": "OFFER",
+            "description": "a choice (\"Walk or hop?\")."
+          },
+          {
+            "bold_title": "WRITE",
+            "description": "a note (\"Remember your cleats\")."
+          },
+          {
+            "bold_title": "BE",
+            "description": "playful (make toys talk)."
+          }
+        ]
       },
       {
         "title": "Problem-Solve Recurring Conflicts",
         "context": "Engage children in creating solutions to persistent problems.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "WAIT",
+            "description": "for a calm moment (Step Zero)."
+          },
+          {
+            "bold_title": "ACKNOWLEDGE",
+            "description": "feelings extensively (Step One)."
+          },
+          {
+            "bold_title": "DESCRIBE",
+            "description": "the problem briefly (\"I worry about your sleep\")."
+          },
+          {
+            "bold_title": "INVITE",
+            "description": "ideas (\"What can we do?\")."
+          },
+          {
+            "bold_title": "WRITE",
+            "description": "down all ideas (even silly ones)."
+          },
+          {
+            "bold_title": "REVIEW",
+            "description": "and choose mutually agreeable solutions."
+          },
+          {
+            "bold_title": "TRY",
+            "description": "the plan and revisit if needed."
+          }
+        ]
       },
       {
         "title": "Descriptive Praise",
         "context": "Build intrinsic motivation.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "OBSERVE",
+            "description": "specific details."
+          },
+          {
+            "bold_title": "DESCRIBE",
+            "description": "what you see (\"You used three colors\")."
+          },
+          {
+            "bold_title": "DESCRIBE",
+            "description": "effort (\"You worked on that for 20 minutes\")."
+          },
+          {
+            "bold_title": "DESCRIBE",
+            "description": "progress (\"You're faster than last week\")."
+          },
+          {
+            "bold_title": "ASK",
+            "description": "questions (\"How did you figure that out?\")."
+          },
+          {
+            "bold_title": "STOP",
+            "description": "before \"Good job.\""
+          }
+        ]
       },
       {
         "title": "Take Action Without Insult",
         "context": "Protect limits when words fail.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "STATE",
+            "description": "limit (\"I can't let you hurt him\")."
+          },
+          {
+            "bold_title": "DESCRIBE",
+            "description": "feeling (\"I don't like seeing paint on the furniture\")."
+          },
+          {
+            "bold_title": "ACT",
+            "description": "(Remove child/object)."
+          },
+          {
+            "bold_title": "AVOID",
+            "description": "insults (\"You're so careless\")."
+          },
+          {
+            "bold_title": "ACKNOWLEDGE",
+            "description": "feelings (\"You're disappointed playing is over\")."
+          },
+          {
+            "bold_title": "FOLLOW THROUGH",
+            "description": "consistently."
+          }
+        ]
       }
     ]
   }

@@ -126,9 +126,8 @@ def main():
 
     all_files = sorted([f for f in os.listdir(INPUT_DIR) if f.endswith('.json')])
 
-    # Filter for COMM-001 through COMM-010
-    json_files = [f for f in all_files if any(f.startswith(f'COMM-00{i}') for i in range(1, 10))] + \
-                 [f for f in all_files if f.startswith('COMM-010')]
+    # Filter for all COMM books
+    json_files = [f for f in all_files if f.startswith('COMM-')]
     total = len(json_files)
 
     if total == 0:

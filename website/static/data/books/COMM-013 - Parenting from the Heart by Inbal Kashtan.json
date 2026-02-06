@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "title": "Parenting From Your Heart",
+    "subtitle": "A practical guide to Nonviolent Communication",
+    "authors": [
+      "Inbal Kashtan"
+    ],
+    "tags": [
+      "Nonviolent Communication",
+      "NVC",
+      "parenting",
+      "conflict resolution",
+      "empathy",
+      "cooperation",
+      "autonomy"
+    ]
+  },
+  "hero": {
+    "badge": "COMM Core Read",
+    "insights_count": 3,
+    "actions_count": 4,
+    "read_time": "5 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-heart",
+    "text": "**Thesis**: Parenting based on \"power-over\" (coercion, rewards, punishment) creates resistance and disconnection. Parenting based on \"power-with\" (collaboration, mutual needs) cultivates intrinsic motivation and deep connection. By using Nonviolent Communication (NVC) principles, parents can resolve conflicts by addressing the underlying needs of both the child and the parent.\n\n**Unique Contribution**: Kashtan applies Marshall Rosenberg's NVC framework to the specific power dynamics of the parent-child relationship. She brilliantly reframes \"behavior problems\" as \"tragic expressions of unmet needs\" and offers a roadmap for moving from demand-based parenting to request-based parenting.\n\n**Target Outcome**: A family culture where conflicts are solved collaboratively, children follow rules because they understand the values behind them (not out of fear), and parents model the compassion they wish to see in their children."
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. Needs vs. Strategies",
+        "intro_text": "This is the core distinction. A **Need** is universal (safety, rest, play, connection). A **Strategy** is a specific action to meet a need (watching TV, hitting a sibling, refusing to eat). Conflict happens at the level of *Strategy*. If parents can identify the underlying *Need*, new strategies can always be found.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "This is the core distinction. A **Need** is universal (safety, rest, play, connection). A **Strategy** is a specific action to meet a need (watching TV, hitting a sibling, refusing to eat). Conflict happens at the level of *Strategy*. If parents can identify the underlying *Need*, new strategies can always be found."
+        }
+      },
+      {
+        "heading": "2. Hearing the \"Yes\" Behind the \"No\"",
+        "intro_text": "When a child says \"No\" to a request (e.g., \"Put on your shoes\"), they are saying \"Yes\" to a different need (e.g., \"I need autonomy\" or \"I need to finish my play\"). The parent's job is not to crush the \"No,\" but to find the \"Yes\" and integrate it.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "When a child says \"No\" to a request (e.g., \"Put on your shoes\"), they are saying \"Yes\" to a different need (e.g., \"I need autonomy\" or \"I need to finish my play\"). The parent's job is not to crush the \"No,\" but to find the \"Yes\" and integrate it."
+        }
+      },
+      {
+        "heading": "3. Protective vs. Punitive Force",
+        "intro_text": "NVC allows for force, but only *protective* force. Punitive force intends to cause pain or teach a lesson (\"You need to learn\"). Protective force intends only to prevent injury or damage, with no desire to punish (\"I am holding you so you don't run into the street\"). The difference is in the parent's intention and energy.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "NVC allows for force, but only *protective* force. Punitive force intends to cause pain or teach a lesson (\"You need to learn\"). Protective force intends only to prevent injury or damage, with no desire to punish (\"I am holding you so you don't run into the street\"). The difference is in the parent's intention and energy."
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "The 4-Step NVC Conflict Resolution",
+        "context": "Solve a problem without coercion.",
+        "steps": [
+          {
+            "bold_title": "Observation",
+            "description": "State facts without judgment. \"I see a backpack in the hall\" (NOT \"You are messy\")."
+          },
+          {
+            "bold_title": "Feeling",
+            "description": "State your emotion. \"I feel frustrated...\""
+          },
+          {
+            "bold_title": "Need",
+            "description": "Connect to your value. \"...because I have a need for order and ease in the morning.\""
+          },
+          {
+            "bold_title": "Request",
+            "description": "Ask for a specific action. \"Would you be willing to put it on the hook?\""
+          },
+          {
+            "bold_title": "Listen",
+            "description": "If they say no, decode their need (see below)."
+          }
+        ]
+      },
+      {
+        "title": "Decoding the \"No\"",
+        "context": "Respond to refusal without a power struggle.",
+        "steps": [
+          {
+            "bold_title": "Pause",
+            "description": "Don't react to the \"defiance.\""
+          },
+          {
+            "bold_title": "Inquire",
+            "description": "\"It sounds like you have a reason for saying no. Can you tell me?\""
+          },
+          {
+            "bold_title": "Guess the Need",
+            "description": "\"Are you saying no because you want to keep playing (Need: Play)?\" or \"Do you want to decide for yourself (Need: Autonomy)?\""
+          },
+          {
+            "bold_title": "Validate",
+            "description": "\"I hear you. You really want to choose.\""
+          },
+          {
+            "bold_title": "Collaborate",
+            "description": "\"I have a need for us to leave on time. Is there a way we can meet your need for play and my need for punctuality?\""
+          }
+        ]
+      },
+      {
+        "title": "The Self-Empathy Pause",
+        "context": "Regulate the parent before engaging the child.",
+        "steps": [
+          {
+            "bold_title": "Trigger",
+            "description": "You feel anger/urge to yell."
+          },
+          {
+            "bold_title": "Stop",
+            "description": "Step away physically or mentally."
+          },
+          {
+            "bold_title": "Inward Check",
+            "description": "\"What is going on in me? I am angry.\""
+          },
+          {
+            "bold_title": "Needs Check",
+            "description": "\"Why? Because I am exhausted and I have a desperate need for rest/support.\""
+          },
+          {
+            "bold_title": "Calm",
+            "description": "Acknowledging the need often lowers the anger intensity."
+          },
+          {
+            "bold_title": "Re-engage",
+            "description": "Address the child from this place of self-knowledge, not reactive rage."
+          }
+        ]
+      },
+      {
+        "title": "From Praise to Appreciation",
+        "context": "Build intrinsic self-worth.",
+        "steps": [
+          {
+            "bold_title": "Notice",
+            "description": "The child did something helpful."
+          },
+          {
+            "bold_title": "Stop",
+            "description": "Swallow the words \"Good job.\""
+          },
+          {
+            "bold_title": "Observe",
+            "description": "\"You shared your toy with your sister.\""
+          },
+          {
+            "bold_title": "Feel",
+            "description": "\"I felt so happy watching that.\""
+          },
+          {
+            "bold_title": "Need",
+            "description": "\"Because I really value kindness in our family.\""
+          },
+          {
+            "bold_title": "Result",
+            "description": "The child feels seen and valued, not just evaluated."
+          }
+        ]
+      }
+    ]
+  }
+}

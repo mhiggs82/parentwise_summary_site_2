@@ -22,7 +22,7 @@
   },
   "why_matters": {
     "icon": "fa-solid fa-heart",
-    "text": "**Thesis**: Relationship ruptures are often \"context failures\"—how we treat each other—rather than \"content disputes.\" These can be rapidly repaired by shifting from defensive verbal arguing to vulnerable written messages (flash cards) that bypass emotional flooding and re-establish safety.\n\n**Unique Contribution**: Dreyfus introduces a tangible tool—127 pre-written messages (\"flash cards\")—that partners can physically hold up or hand over during conflict. This method neutralizes toxic tone of v"
+    "text": "**Thesis**: Relationship ruptures are often \"context failures\"—how we treat each other—rather than \"content disputes.\" These can be rapidly repaired by shifting from defensive verbal arguing to vulnerable written messages (flash cards) that bypass emotional flooding and re-establish safety.\n\n**Unique Contribution**: Dreyfus introduces a tangible tool—127 pre-written messages (\"flash cards\")—that partners can physically hold up or hand over during conflict. This method neutralizes toxic tone of voice, slows down reactivity, and provides the \"perfect words\" when stress makes them impossible to find.\n\n**Target Outcome**: Partners transform toxic conflicts into moments of intimacy by bypassing the amygdala hijack/defensiveness loop. The goal is not just to stop fighting, but to use conflict as a doorway to deeper vulnerability and trust."
   },
   "tabs": {
     "analysis": [
@@ -32,7 +32,7 @@
         "insight_card": {
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
-          "text": "Most fights are about *how* we are fighting (tone, facial expression, safety), not *what* we are fighting about. The book argues that you cannot resolve content until the context is safe. Card #20 (\"T..."
+          "text": "Most fights are about *how* we are fighting (tone, facial expression, safety), not *what* we are fighting about. The book argues that you cannot resolve content until the context is safe. Card #20 (\"Talk to me like I'm someone you love\") creates an immediate context shift."
         }
       },
       {
@@ -41,7 +41,7 @@
         "insight_card": {
           "title": "Key Insight",
           "icon": "fa-solid fa-lightbulb",
-          "text": "When flooded, our verbal tone often betrays our best intentions (we sound angry even when saying \"I love you\"). Written cards strip away the toxic tone, allowing the message to land purely. Using a pr..."
+          "text": "When flooded, our verbal tone often betrays our best intentions (we sound angry even when saying \"I love you\"). Written cards strip away the toxic tone, allowing the message to land purely. Using a prop also breaks the trance of the argument."
         }
       },
       {
@@ -58,22 +58,102 @@
       {
         "title": "Rapid De-Escalation (The \"Stop\" Protocol)",
         "context": "Interrupt reactive cycles before damage is done.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "Notice",
+            "description": "the physiological signs of flooding (heat, racing heart)."
+          },
+          {
+            "bold_title": "Stop talking",
+            "description": "immediately."
+          },
+          {
+            "bold_title": "Use a \"Shifting Gears\" card",
+            "description": "(real or mental):"
+          },
+          {
+            "bold_title": "Hand it to your partner",
+            "description": "or say the words without edge."
+          },
+          {
+            "bold_title": "Wait",
+            "description": "for their nervous system to register the shift."
+          }
+        ]
       },
       {
         "title": "The \"Talk to Me Like I'm Someone You Love\" Intervention",
         "context": "Reset the emotional tone when the partner is harsh.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "Feel the sting",
+            "description": "of the partner's tone/words."
+          },
+          {
+            "bold_title": "Resist",
+            "description": "the urge to counter-attack."
+          },
+          {
+            "bold_title": "Say (or hold up card)",
+            "description": "\"Talk to me like I'm someone you love.\""
+          },
+          {
+            "bold_title": "Hold your ground",
+            "description": "gently. This is a request, not an attack."
+          },
+          {
+            "bold_title": "Allow",
+            "description": "the partner a moment to recalibrate their tone."
+          }
+        ]
       },
       {
         "title": "Vulnerable Disclosure",
         "context": "Connect through shared humanity rather than winning points.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "Identify",
+            "description": "the feeling *beneath* the anger (fear, shame, hurt)."
+          },
+          {
+            "bold_title": "Select a \"Vulnerable\" card",
+            "description": ""
+          },
+          {
+            "bold_title": "Present it",
+            "description": "without blaming."
+          },
+          {
+            "bold_title": "Observe",
+            "description": "Does the partner's face soften?"
+          },
+          {
+            "bold_title": "Move",
+            "description": "into connection if safety is established."
+          }
+        ]
       },
       {
         "title": "Taking Responsibility",
         "context": "Repair trust by owning your piece of the mess.",
-        "steps": []
+        "steps": [
+          {
+            "bold_title": "Identify",
+            "description": "one thing you did that contributed to the fight."
+          },
+          {
+            "bold_title": "Select a card",
+            "description": ""
+          },
+          {
+            "bold_title": "Deliver it",
+            "description": "without \"But you started it.\""
+          },
+          {
+            "bold_title": "Let it land",
+            "description": ". Don't ask for immediate forgiveness."
+          }
+        ]
       }
     ]
   }
