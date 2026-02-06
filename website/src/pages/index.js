@@ -27,7 +27,7 @@ export default function Home() {
   const categories = [
     { badge: 'FOUND', name: 'Foundational', count: 40, description: 'General strategies, philosophies, and foundational advice for raising children.', to: '/docs/foundational' },
     { badge: 'COMM', name: 'Communication', count: 14, description: 'Mastering dialogue, active listening, and conflict resolution with kids.', to: '/docs/communication' },
-    { badge: 'SPEC', name: 'Special Needs', count: 15, description: 'Expert guidance for ADHD, Autism, sensory processing, and unique challenges.', to: '/docs/special-needs' },
+    { badge: 'SPEC', name: 'Special Needs', count: 15, description: 'Expert guidance for ADHD, Autism, sensory processing, and unique challenges.', to: '/docs/specialized-topics' },
     { badge: 'DIGI', name: 'Digital', count: 6, description: 'Navigating technology, screen time, and digital wellness with children.', to: '/docs/digital-age-technology' },
     { badge: 'DEV', name: 'Development', count: 23, description: 'Age-appropriate milestones, cognitive growth, and character development.', to: '/docs/character-development' },
     { badge: 'EI', name: 'Emotional Int.', count: 19, description: 'Fostering empathy, self-regulation, and emotional awareness in children.', to: '/docs/mental-health' },
