@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "How to Talk When Kids Won't Listen: Whining, Fighting, Meltdowns, Defiance, and Other Challenges of Childhood",
+    "subtitle": "A practical guide to parenting",
+    "authors": [
+      "Joanna Faber",
+      "Julie King"
+    ],
+    "tags": [
+      "parenting",
+      "child development",
+      "communication",
+      "conflict resolution",
+      "emotional intelligence",
+      "problem-solving"
+    ]
+  },
+  "hero": {
+    "badge": "COMM Core Read",
+    "insights_count": 3,
+    "actions_count": 5,
+    "read_time": "4 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-heart",
+    "text": "**Thesis**: Children become more cooperative, resilient, and emotionally intelligent when adults acknowledge their feelings, engage them in problem-solving, and avoid punishment-based discipline. Communication tools that respect children's autonomy while maintaining adult boundaries create stronger relationships and teach life-long conflict resolution skills.\n\n**Unique Contribution**: This book translates abstract parenting principles into concrete, actionable communication tools. It extends the"
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. From Behavior Modification to Relationship Preservation",
+        "intro_text": "Traditional parenting focuses on immediate compliance. This approach reframes discipline as teaching problem-solving. The goal shifts from \"How do I make the behavior stop?\" to \"How do I help my child develop skills to handle this?\"",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Traditional parenting focuses on immediate compliance. This approach reframes discipline as teaching problem-solving. The goal shifts from \"How do I make the behavior stop?\" to \"How do I help my child..."
+        }
+      },
+      {
+        "heading": "2. The Praise Trap",
+        "intro_text": "Evaluative praise (\"You're so smart\") creates performance anxiety and fixed mindsets. Descriptive praise (\"You kept trying different ways\") builds resilience and intrinsic motivation. Well-intentioned praise can undermine the very qualities it aims to encourage.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Evaluative praise (\"You're so smart\") creates performance anxiety and fixed mindsets. Descriptive praise (\"You kept trying different ways\") builds resilience and intrinsic motivation. Well-intentioned..."
+        }
+      },
+      {
+        "heading": "3. From Fixing to Accepting Feelings",
+        "intro_text": "Parents instinctively try to eliminate negative emotions. The book reveals this as counterproductive—accepted feelings dissipate, while dismissed feelings intensify. The paradox: accepting that something is hard makes it easier to bear.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Parents instinctively try to eliminate negative emotions. The book reveals this as counterproductive—accepted feelings dissipate, while dismissed feelings intensify. The paradox: accepting that someth..."
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "Acknowledge Feelings to Defuse Conflict",
+        "context": "Validate emotional experience to help children move through difficult feelings.",
+        "steps": [
+          {
+            "bold_title": "PAUSE",
+            "description": "automatic responses (reassurance, logic)."
+          },
+          {
+            "bold_title": "NAME",
+            "description": "the emotion (\"That sounds frustrating\")."
+          },
+          {
+            "bold_title": "DESCRIBE",
+            "description": "the situation (\"You wanted the blue cup\")."
+          },
+          {
+            "bold_title": "LISTEN",
+            "description": "with simple sounds (\"Oh,\" \"Mmm\")."
+          },
+          {
+            "bold_title": "GIVE",
+            "description": "in Fantasy (\"I wish I could make it sunny\")."
+          },
+          {
+            "bold_title": "STOP",
+            "description": "before saying \"But...\""
+          },
+          {
+            "bold_title": "WAIT",
+            "description": "for the shift in tension."
+          }
+        ]
+      },
+      {
+        "title": "Engage Cooperation Without Commands",
+        "context": "Reduce power struggles by inviting cooperation.",
+        "steps": []
+      },
+      {
+        "title": "Problem-Solve Recurring Conflicts",
+        "context": "Engage children in creating solutions to persistent problems.",
+        "steps": []
+      },
+      {
+        "title": "Descriptive Praise",
+        "context": "Build intrinsic motivation.",
+        "steps": []
+      },
+      {
+        "title": "Take Action Without Insult",
+        "context": "Protect limits when words fail.",
+        "steps": []
+      }
+    ]
+  }
+}

@@ -5,7 +5,7 @@ from pathlib import Path
 
 # Configuration
 BASE_DIR = Path(__file__).resolve().parent.parent
-INPUT_DIR = BASE_DIR / "website" / "static" / "data" / "books"
+INPUT_DIR = BASE_DIR / "execution" / "json_output"
 OUTPUT_DIR = BASE_DIR / "execution" / "mdx_output"
 
 # MDX Template
@@ -50,7 +50,7 @@ def generate_toc_items(data):
         "  { value: 'Why It Matters', id: 'why-it-matters', level: 2 },",
         "  { value: 'Analysis & Insights', id: 'analysis', level: 2 },"
     ]
-    
+
     # Add Analysis sub-headings (H3)
     if 'tabs' in data and 'analysis' in data['tabs']:
         for item in data['tabs']['analysis']:
@@ -60,7 +60,7 @@ def generate_toc_items(data):
                 # Escape single/double quotes in value if they exist for JS string safety
                 val = heading.replace("'", "\\'").replace('"', '\\"')
                 items.append(f"  {{ value: '{val}', id: '{slug}', level: 3 }},")
-    
+
     # Add Actionable Framework (H2) and sub-items (H3)
     items.append("  { value: 'Actionable Framework', id: 'actions', level: 2 },")
     if 'tabs' in data and 'actions' in data['tabs']:
@@ -70,7 +70,7 @@ def generate_toc_items(data):
                 slug = slugify(title)
                 val = title.replace("'", "\\'").replace('"', '\\"')
                 items.append(f"  {{ value: '{val}', id: '{slug}', level: 3 }},")
-    
+
     return "\n".join(items)
 
 def generate_mdx(json_filepath, json_filename):
@@ -92,7 +92,7 @@ def generate_mdx(json_filepath, json_filename):
 
         # Replace : with - in full title for frontmatter
         title_formatted = title.replace(':', ' -')
-        
+
         # Generate TOC items
         toc_items = generate_toc_items(data)
 
@@ -124,7 +124,11 @@ def main():
         print(f"Error: Input directory {INPUT_DIR} does not exist.")
         return
 
-    json_files = sorted([f for f in os.listdir(INPUT_DIR) if f.endswith('.json')])
+    all_files = sorted([f for f in os.listdir(INPUT_DIR) if f.endswith('.json')])
+
+    # Filter for COMM-001 through COMM-010
+    json_files = [f for f in all_files if any(f.startswith(f'COMM-00{i}') for i in range(1, 10))] + \
+                 [f for f in all_files if f.startswith('COMM-010')]
     total = len(json_files)
 
     if total == 0:

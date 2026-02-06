@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "title": "How to Stop Losing Your Sht with Your Kids",
+    "subtitle": "A practical guide to parenting",
+    "authors": [
+      "Carla Naumburg, PhD"
+    ],
+    "tags": [
+      "parenting",
+      "emotional regulation",
+      "anger management",
+      "self-care",
+      "mindfulness",
+      "triggers",
+      "nervous system"
+    ]
+  },
+  "hero": {
+    "badge": "COMM Core Read",
+    "insights_count": 3,
+    "actions_count": 4,
+    "read_time": "4 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-heart",
+    "text": "**Thesis**: Parental meltdowns (losing your sh\\*t) are predictable nervous system responses to overload, not moral failures. By managing triggers through self-care (\"Button Reduction Practices\") and using simple in-the-moment pauses, parents can regain control and model emotional regulation.\n\n**Unique Contribution**: Naumburg demystifies \"losing it\" using the FART acronym (Feelings, Automatic, Reactive, Toxic) and reframes children not as \"triggers\" but as \"button pushers\"—a critical distinction"
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. Triggers vs. Button Pushers",
+        "intro_text": "Children are **button pushers**—it is their job to test boundaries and be immature. Parents own the **buttons** (exhaustion, hunger, stress, history). Managing the *buttons* (shrinking them so they are harder to hit) is the parent's work. Blaming the child for pushing a giant, glowing red button is ...",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Children are **button pushers**—it is their job to test boundaries and be immature. Parents own the **buttons** (exhaustion, hunger, stress, history). Managing the *buttons* (shrinking them so they ar..."
+        }
+      },
+      {
+        "heading": "2. The Myth of Multitasking",
+        "intro_text": "Naumburg identifies multitasking as a primary accelerant for meltdowns. It keeps the nervous system in a state of high alert. **Single-tasking** (doing one thing at a time) is presented not just as productivity advice, but as a nervous system regulation strategy.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Naumburg identifies multitasking as a primary accelerant for meltdowns. It keeps the nervous system in a state of high alert. **Single-tasking** (doing one thing at a time) is presented not just as pr..."
+        }
+      },
+      {
+        "heading": "3. Self-Compassion as Infrastructure",
+        "intro_text": "Self-compassion isn't fluffy; it's physics. Shame increases stress, which keeps the nervous system primed to explode. Compassion lowers stress, increasing the gap between trigger and reaction.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Self-compassion isn't fluffy; it's physics. Shame increases stress, which keeps the nervous system primed to explode. Compassion lowers stress, increasing the gap between trigger and reaction."
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "The \"Notice-Pause-Do Literally Anything Else\" Protocol",
+        "context": "Stop a meltdown in progress.",
+        "steps": []
+      },
+      {
+        "title": "Identifying Triggers & Tells",
+        "context": "Increase self-awareness to predict explosions.",
+        "steps": []
+      },
+      {
+        "title": "Single-Tasking Practice",
+        "context": "Lower baseline nervous system arousal.",
+        "steps": []
+      },
+      {
+        "title": "The Clean Repair",
+        "context": "Fix the relationship after a blowout.",
+        "steps": []
+      }
+    ]
+  }
+}

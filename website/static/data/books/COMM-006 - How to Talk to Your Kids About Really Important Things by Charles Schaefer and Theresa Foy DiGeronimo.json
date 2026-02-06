@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "title": "How to Talk to Your Kids About Really Important Things",
+    "subtitle": "A practical guide to parenting",
+    "authors": [
+      "Charles E. Schaefer",
+      "Theresa Foy DiGeronimo"
+    ],
+    "tags": [
+      "parenting",
+      "child development",
+      "family communication",
+      "crisis management",
+      "child psychology",
+      "safety",
+      "sensitive topics"
+    ]
+  },
+  "hero": {
+    "badge": "COMM Core Read",
+    "insights_count": 3,
+    "actions_count": 5,
+    "read_time": "5 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-heart",
+    "text": "**Thesis**: Open, honest, age-appropriate communication between parents and children about difficult topics is essential for healthy child development, family resilience, and preventing long-term psychological harm. Ignorance creates vulnerability; informed children are safer and more resilient.\n\n**Unique Contribution**: The book provides specific, scripted dialogues for discussing 30+ challenging topics (death, sex, divorce, abuse) with children aged 4-12. It bridges the gap between theory and "
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. From Protection to Preparation",
+        "intro_text": "The central paradigm shift is moving from shielding children to preparing them. The book argues that \"innocence\" based on ignorance is dangerous. Children need accurate information to navigate the world safely.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "The central paradigm shift is moving from shielding children to preparing them. The book argues that \"innocence\" based on ignorance is dangerous. Children need accurate information to navigate the wor..."
+        }
+      },
+      {
+        "heading": "2. The \"Askable Parent\"",
+        "intro_text": "Being an \"askable parent\" means responding to uncomfortable questions with \"I'm glad you asked\" rather than shock or deflection. This establishes the parent as a safe harbor for information, ensuring the child comes to them first during crises or confusion.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Being an \"askable parent\" means responding to uncomfortable questions with \"I'm glad you asked\" rather than shock or deflection. This establishes the parent as a safe harbor for information, ensuring ..."
+        }
+      },
+      {
+        "heading": "3. Progressive Disclosure",
+        "intro_text": "Information should be matched to developmental stages.\n- **Ages 4-7**: Concrete, simple, immediate relevance.\n- **Ages 8-12**: More detail, causes, consequences, and context.\nThe goal is to answer the *actual* question asked, not to dump adult-level anxiety or complexity on the child.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Information should be matched to developmental stages.\n- **Ages 4-7**: Concrete, simple, immediate relevance.\n- **Ages 8-12**: More detail, causes, consequences, and context.\nThe goal is to answer the..."
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "Establishing Yourself as an \"Askable Parent\"",
+        "context": "Create an environment where children feel safe asking anything.",
+        "steps": [
+          {
+            "bold_title": "Examine",
+            "description": "your own discomfort with topics (sex, death, etc.)."
+          },
+          {
+            "bold_title": "Respond",
+            "description": "positively: \"That's a great question.\""
+          },
+          {
+            "bold_title": "Clarify",
+            "description": "\"What makes you ask that?\" to understand the real concern."
+          },
+          {
+            "bold_title": "Answer",
+            "description": "immediately and honestly (or schedule a time: \"Let's talk after dinner\")."
+          },
+          {
+            "bold_title": "Admit",
+            "description": "if you don't know the answer."
+          },
+          {
+            "bold_title": "Follow up",
+            "description": "\"Remember when we talked about X? Do you have more questions?\""
+          }
+        ]
+      },
+      {
+        "title": "Delivering Age-Appropriate Information",
+        "context": "Provide information matched to developmental stage.",
+        "steps": []
+      },
+      {
+        "title": "The \"What-If\" Rehearsal Game",
+        "context": "Practice safety skills without fear.",
+        "steps": []
+      },
+      {
+        "title": "Talking About Death",
+        "context": "Process loss without creating confusion.",
+        "steps": []
+      },
+      {
+        "title": "Discussing Sexual Behavior (Privacy)",
+        "context": "Address exploration without shame.",
+        "steps": []
+      }
+    ]
+  }
+}

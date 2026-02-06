@@ -23,8 +23,8 @@ load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 
 # Configuration
 BASE_DIR = Path(__file__).resolve().parent.parent
-INPUT_DIR = BASE_DIR / "markdown_input"
-OUTPUT_DIR = BASE_DIR / "json_output"
+INPUT_DIR = BASE_DIR / "Book_Summaries"
+OUTPUT_DIR = BASE_DIR / "execution" / "json_output"
 
 # Use litellm syntax: "anthropic/claude-3-sonnet-20240229", "openai/gpt-4", "gemini/gemini-1.5-pro"
 # Defaults to Claude 3.5 Sonnet if not specified
@@ -156,7 +156,14 @@ def main():
     OUTPUT_DIR.mkdir(exist_ok=True, parents=True)
 
     # Get all markdown files
-    markdown_files = sorted([f for f in os.listdir(INPUT_DIR) if f.endswith('.md')])
+    all_files = sorted([f for f in os.listdir(INPUT_DIR) if f.endswith('.md')])
+
+    # Filter for COMM-001 through COMM-010
+    markdown_files = [f for f in all_files if any(f.startswith(f'COMM-00{i}-') for i in range(1, 10))]
+    markdown_files = [f for f in all_files if f.startswith('COMM-001-') or f.startswith('COMM-002-') or
+                     f.startswith('COMM-003-') or f.startswith('COMM-004-') or f.startswith('COMM-005-') or
+                     f.startswith('COMM-006-') or f.startswith('COMM-007-') or f.startswith('COMM-008-') or
+                     f.startswith('COMM-009-') or f.startswith('COMM-010-')]
     total = len(markdown_files)
 
     if total == 0:

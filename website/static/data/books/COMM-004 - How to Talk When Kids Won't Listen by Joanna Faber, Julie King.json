@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "How to Talk When Kids Won't Listen: Whining, Fighting, Meltdowns, Defiance, and Other Challenges of Childhood",
+    "subtitle": "A practical guide to parenting",
+    "authors": [
+      "Joanna Faber",
+      "Julie King"
+    ],
+    "tags": [
+      "parenting",
+      "child development",
+      "communication",
+      "conflict resolution",
+      "emotional intelligence",
+      "problem-solving"
+    ]
+  },
+  "hero": {
+    "badge": "COMM Core Read",
+    "insights_count": 3,
+    "actions_count": 5,
+    "read_time": "4 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-heart",
+    "text": "**Thesis**: Children become more cooperative, emotionally regulated, and capable of solving problems when adults acknowledge their feelings, engage them respectfully, and involve them in finding solutions—rather than using commands, threats, or punishment.\n\n**Unique Contribution**: This book translates abstract principles into highly specific tools for the modern age, extending the Faber/Mazlish \"How to Talk\" legacy to include digital dilemmas, younger children, and contemporary sensory/behavior"
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. From Behavior Management to Relationship Building",
+        "intro_text": "The goal shifts from controlling behavior to building a relationship where cooperation is a natural byproduct. When children feel understood (via acknowledged feelings) and respected (via autonomy), they naturally want to cooperate.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "The goal shifts from controlling behavior to building a relationship where cooperation is a natural byproduct. When children feel understood (via acknowledged feelings) and respected (via autonomy), t..."
+        }
+      },
+      {
+        "heading": "2. Fixing vs. Accepting Feelings",
+        "intro_text": "The paradox: Accepting that something is hard makes it easier to bear. Parents instinctively reassure or distract (\"You're fine\"), but the book shows that dismissed feelings intensify while accepted feelings dissipate.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "The paradox: Accepting that something is hard makes it easier to bear. Parents instinctively reassure or distract (\"You're fine\"), but the book shows that dismissed feelings intensify while accepted f..."
+        }
+      },
+      {
+        "heading": "3. Punishment vs. Natural Consequences",
+        "intro_text": "Punishment teaches resentment and avoidance. True responsibility comes from experiencing natural outcomes and making amends. The book distinguishes between \"saving\" a child (preventing learning) and \"punishing\" them (inflicting pain), guiding parents to the middle ground of support and accountabilit...",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Punishment teaches resentment and avoidance. True responsibility comes from experiencing natural outcomes and making amends. The book distinguishes between \"saving\" a child (preventing learning) and \"..."
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "Acknowledge Feelings to Defuse Conflict",
+        "context": "Transform distress into calm receptivity.",
+        "steps": [
+          {
+            "bold_title": "PAUSE",
+            "description": "your instinct to fix or minimize."
+          },
+          {
+            "bold_title": "NAME",
+            "description": "the emotion (\"That sounds frustrating\")."
+          },
+          {
+            "bold_title": "DESCRIBE",
+            "description": "the situation (\"You wanted the blue cup\")."
+          },
+          {
+            "bold_title": "LISTEN",
+            "description": "with simple sounds (\"Oh,\" \"Mmm\")."
+          },
+          {
+            "bold_title": "GIVE in Fantasy",
+            "description": "(\"I wish I could make it sunny for you\")."
+          },
+          {
+            "bold_title": "STOP",
+            "description": "before saying \"But...\""
+          },
+          {
+            "bold_title": "WAIT",
+            "description": "for the shift in tension."
+          }
+        ]
+      },
+      {
+        "title": "Engage Cooperation Without Commands",
+        "context": "Motivate cooperation by respecting autonomy.",
+        "steps": []
+      },
+      {
+        "title": "Problem-Solve Recurring Conflicts (Step-by-Step)",
+        "context": "Resolve persistent battles collaboratively.",
+        "steps": []
+      },
+      {
+        "title": "Descriptive Praise",
+        "context": "Build intrinsic motivation.",
+        "steps": []
+      },
+      {
+        "title": "Take Action Without Insult",
+        "context": "Protect limits when words fail.",
+        "steps": []
+      }
+    ]
+  }
+}

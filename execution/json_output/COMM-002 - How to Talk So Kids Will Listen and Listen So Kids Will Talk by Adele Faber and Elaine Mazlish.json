@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "title": "How to Talk So Kids Will Listen & Listen So Kids Will Talk",
+    "subtitle": "A practical guide to parenting",
+    "authors": [
+      "Adele Faber",
+      "Elaine Mazlish"
+    ],
+    "tags": [
+      "parenting",
+      "communication",
+      "child development",
+      "family relationships",
+      "emotional intelligence",
+      "respectful communication",
+      "problem-solving"
+    ]
+  },
+  "hero": {
+    "badge": "COMM Core Read",
+    "insights_count": 3,
+    "actions_count": 4,
+    "read_time": "5 min read"
+  },
+  "why_matters": {
+    "icon": "fa-solid fa-heart",
+    "text": "**Thesis**: Children's cooperation and emotional health depend fundamentally on adults' communication methods. When parents replace judgment, commands, and punishment with skills that acknowledge feelings, encourage autonomy, and invite problem-solving, they create relationships where children develop self-esteem, responsibility, and genuine cooperation.\n\n**Unique Contribution**: This work translates abstract psychological principles into concrete, repeatable communication techniques. Unlike the"
+  },
+  "tabs": {
+    "analysis": [
+      {
+        "heading": "1. Feelings Must Be Accepted Before Behavior Can Change",
+        "intro_text": "The fundamental shift is from denying feelings (\"You're fine\") to acknowledging them (\"You're really disappointed\"). Acknowledged feelings dissipate; denied feelings intensify. This emotional validation is the prerequisite for cooperation.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "The fundamental shift is from denying feelings (\"You're fine\") to acknowledging them (\"You're really disappointed\"). Acknowledged feelings dissipate; denied feelings intensify. This emotional validati..."
+        }
+      },
+      {
+        "heading": "2. Punishment Distracts from Learning",
+        "intro_text": "Punishment focuses the child on resentment toward the punisher rather than on the problem. Natural consequences and problem-solving focus attention on making amends and preventing recurrence, teaching internal responsibility rather than external avoidance.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Punishment focuses the child on resentment toward the punisher rather than on the problem. Natural consequences and problem-solving focus attention on making amends and preventing recurrence, teaching..."
+        }
+      },
+      {
+        "heading": "3. Descriptive Praise Builds Identity",
+        "intro_text": "Evaluative praise (\"You're so smart\") creates dependency on external validation. Descriptive praise (\"You figured out the puzzle by trying different pieces\") gives children language for their own strengths and builds authentic self-esteem.",
+        "insight_card": {
+          "title": "Key Insight",
+          "icon": "fa-solid fa-lightbulb",
+          "text": "Evaluative praise (\"You're so smart\") creates dependency on external validation. Descriptive praise (\"You figured out the puzzle by trying different pieces\") gives children language for their own stre..."
+        }
+      }
+    ],
+    "actions": [
+      {
+        "title": "Acknowledging Feelings to Defuse Emotional Intensity",
+        "context": "To help children feel understood so they can move from emotional overwhelm to problem-solving.",
+        "steps": [
+          {
+            "bold_title": "STOP",
+            "description": "your automatic response (no fixing/denying)."
+          },
+          {
+            "bold_title": "LISTEN",
+            "description": "with full attention (eye contact, body language)."
+          },
+          {
+            "bold_title": "ACKNOWLEDGE",
+            "description": "with simple sounds (\"Oh,\" \"Mmm,\" \"I see\")."
+          },
+          {
+            "bold_title": "NAME",
+            "description": "the feeling you observe (\"That sounds frustrating\")."
+          },
+          {
+            "bold_title": "GIVE",
+            "description": "wishes in fantasy (\"I wish I could make that happen for you!\")."
+          },
+          {
+            "bold_title": "WAIT",
+            "description": "for the shift (relaxation response)."
+          },
+          {
+            "bold_title": "RESIST",
+            "description": "the urge to teach/lecture immediately."
+          }
+        ]
+      },
+      {
+        "title": "Engaging Cooperation Without Power Struggles",
+        "context": "To get children to cooperate with necessary tasks while preserving relationship and building intrinsic motivation.",
+        "steps": [
+          {
+            "bold_title": "DESCRIBE",
+            "description": "what you see: \"The milk is out on the counter.\""
+          },
+          {
+            "bold_title": "GIVE",
+            "description": "information: \"Milk turns sour when it's not refrigerated.\""
+          },
+          {
+            "bold_title": "SAY",
+            "description": "it with one word: \"Milk!\""
+          },
+          {
+            "bold_title": "DESCRIBE",
+            "description": "your feelings: \"I feel frustrated when I have to repeat myself.\""
+          },
+          {
+            "bold_title": "WRITE",
+            "description": "a note: \"Please put me back! - The Milk.\""
+          },
+          {
+            "bold_title": "OFFER",
+            "description": "a choice: \"Do you want to put it away now or in 5 minutes?\""
+          },
+          {
+            "bold_title": "TAKE",
+            "description": "action: Remove the object or person if needed, calmly."
+          }
+        ]
+      },
+      {
+        "title": "Problem-Solving Together for Chronic Conflicts",
+        "context": "To resolve recurring conflicts by creating solutions both parent and child can accept.",
+        "steps": [
+          {
+            "bold_title": "SCHEDULE",
+            "description": "the conversation when calm."
+          },
+          {
+            "bold_title": "ACKNOWLEDGE",
+            "description": "child's feelings and needs first."
+          },
+          {
+            "bold_title": "STATE",
+            "description": "your feelings and needs briefly."
+          },
+          {
+            "bold_title": "INVITE",
+            "description": "brainstorming (\"Let's think of solutions\")."
+          },
+          {
+            "bold_title": "WRITE",
+            "description": "down every idea without judgment."
+          },
+          {
+            "bold_title": "REVIEW",
+            "description": "the list together and veto unacceptable ones."
+          },
+          {
+            "bold_title": "CHOOSE",
+            "description": "solution(s) to try."
+          },
+          {
+            "bold_title": "FOLLOW UP",
+            "description": "to see if it's working."
+          }
+        ]
+      },
+      {
+        "title": "Giving Descriptive Praise",
+        "context": "To build child's self-esteem and internal motivation.",
+        "steps": [
+          {
+            "bold_title": "OBSERVE",
+            "description": "specifically what child did."
+          },
+          {
+            "bold_title": "DESCRIBE",
+            "description": "only what you see (\"You put all the blocks away\")."
+          },
+          {
+            "bold_title": "DESCRIBE",
+            "description": "the effort/strategy (\"You kept trying until it fit\")."
+          },
+          {
+            "bold_title": "DESCRIBE",
+            "description": "your authentic feeling (\"I appreciate the help\")."
+          },
+          {
+            "bold_title": "STOP",
+            "description": "(let child draw their own conclusion \"I'm helpful\")."
+          },
+          {
+            "bold_title": "AVOID",
+            "description": "adding evaluation (\"Good boy/girl\")."
+          }
+        ]
+      }
+    ]
+  }
+}
